@@ -1,6 +1,5 @@
 # LibRML
-## Library Rights Machine-readable Language
 
-### Einleitung
+## Einleitung
 
-Rechte- und Lizenzenverwaltung in Bibiliotheken 
+LibRML ist eine Rechtebeschreibungssprache für Lizenzen und Verwendungsrechte von Ressourcen in Bibliotheken.
