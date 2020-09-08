@@ -1,21 +1,21 @@
 # LibRML
-## Library Rights Machine-readable Language
+## Nutzungsrechte und Lizenzen für Bibliotheken leicht gemacht
 
-Library Rights Machine-readable Language (kurz libRML) wird eine REL (Rights Expression Language) die spezifisch auf bibliothekarische Ansprüche zugeschnitten sein soll.
+Library Rights Machine-readable Language (kurz libRML) ist eine spezifisch auf bibliothekarische Ansprüche zugeschnitten REL ([Rights Expression Language](rel.markdown)).
 
-Diese soll einfacher werden als andere RELs aber komplex genug um alle in der e-Ressourcen Thematik möglichen Fälle von Nutzungsrechte und Einschränkungen zu beschreiben. Dabei soll es sowohl menschen- also auch maschinenlesbar bleiben.
+Einfach, verständlich aber komplex genug um alle in der e-Ressourcen Thematik möglichen Fälle von Nutzungsrechte und Einschränkungen zu beschreiben. Dabei soll es sowohl menschen- also auch maschinenlesbar bleiben.
 
 Was ist eine REL (Rights Expression Language)? 
 
 [REL](rel.markdown)
 
 
-libRML im Detail:
+Wie genau funktioniert die libRML?
 
-[detail](detail.markdown)
+[Detail](detail.markdown)
 
 
-Hier befindet sich eine Liste der Nutzungsmöglichkeiten und Einschränkungen:
+Was sind die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen?
 
 [Actions](actions.markdown)
 
@@ -32,8 +32,14 @@ Ein JSON Beispiel:
 [JSON](json.markdown)
 
 
+Ein XML Beispiel:
 
-Häufige Fragen (FAQ):
+[XML](xmlbeispiel.markdown)
+
+
+
+
+Häufig gestellte Fragen (FAQ):
 
 [FAQ](faq.markdown)
 

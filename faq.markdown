@@ -1,46 +1,55 @@
 # FAQ
 ## Häufig gestellte Fragen
 
-Was ist libRML?
 
-Wozu ist das gut?
+#### Wofür steht libRML?
 
-Für welche Art von Ressourcen ist die libRML gültig?
+"Library Rights Machine-readable Language".
 
-Kann ich mit der libRML auch Nutzungsrechte für analoge Ressourcen beschreiben?
+#### Wozu ist das gut?
 
-Wer kann/darf die libRML benutzen?
+Diese Sprache dient der Beschreibung von Nutzerrechten für eRessourcen in Bibliotheken.
 
-Welche Formate kann die libRML lesen?
+#### Für welche Art von Ressourcen ist die libRML gültig?
 
-Funktioniert libRML auch auf Ressourcen-Pakete oder nur auf einzelnen Ressourcen? 
+Alle Arten von eRessourcen die Bestandteil einer Bibliothek sein können (Zeitschriften, eBooks, Fotos, Musik...)
 
-Was wenn die Lizenz-/Nutzungsrechte nicht in den Metadaten, sondern in einem Anhang aufzufinden sind?
+#### Kann ich mit der libRML auch Nutzungsrechte für analoge Ressourcen beschreiben?
 
-Welche Lizenzen sind schon als Templates vorhanden?
+Wenn dazu gehörige Metadaten im System gespeichert sind und es klare Angaben zu Nutzungsrechten gibt, soll es auch für analoge Ressourcen möglich sein diese Rechte mit libRML zu beschreiben. 
 
-Was wenn die zutreffenden Einschränkungen noch nicht in der libRML vorgesehen sind?
+#### Wer kann/darf die libRML benutzen?
 
-Können Datum und Standort Einschränkungen auf unterschiedliche Nutzungsrechten unabhängig voneinander eingestellt werden?
+#### Welche Formate kann die libRML lesen?
 
-Können Einschränkungen mit einem Mal auf alle Nutzungsrechte eingestellt werden?
+#### Funktioniert libRML auch auf Ressourcen-Pakete oder nur auf einzelnen Ressourcen? 
 
-Kann man die in die libRML eingegebenen Daten später korrigieren? 
+#### Was wenn die Lizenz-/Nutzungsrechte nicht in den Metadaten, sondern in einem Anhang aufzufinden sind?
 
-Kann ich meinen Vorgang auf libRML speichern und später weiter bearbeiten? 
+#### Welche Lizenzen sind schon als Templates vorhanden?
 
-An wen kann ich mich wenden falls ich Fragen habe? Gibt es ein Feld dafür?
+#### Was wenn die zutreffenden Einschränkungen noch nicht in der libRML vorgesehen sind?
 
-Was wenn ich einen Fehler oder fehlende Nutzungsrechte/Einschränkungen bemerke?
+#### Können Datum und Standort Einschränkungen auf unterschiedliche Nutzungsrechten unabhängig voneinander eingestellt werden?
 
-Wie wird die libRML mit den restlichen Daten verknüpft?
+#### Können Einschränkungen mit einem Mal auf alle Nutzungsrechte eingestellt werden?
 
-Wie hilft die libRML dem Bibliotheken Nutzer?
+#### Kann man die in die libRML eingegebenen Daten später korrigieren? 
 
-Was bewirkt die libRML auf dem Katalog?
+#### Kann ich meinen Vorgang auf libRML speichern und später weiter bearbeiten? 
 
-Wie kann man die Nutzungsrechte einsehen, wenn sie erstmal gespeichert sind?
+#### An wen kann ich mich wenden falls ich Fragen habe? Gibt es ein Feld dafür?
 
-Wie kann ich diese rechte auf dem Katalog einsehen?
+#### Was wenn ich einen Fehler oder fehlende Nutzungsrechte/Einschränkungen bemerke?
 
-Was wenn 2 (oder mehr) gegensätzliche Bedingungen auftauchen?
+#### Wie wird die libRML mit den restlichen Daten verknüpft?
+
+#### Wie hilft die libRML dem Bibliotheken Nutzer?
+
+#### Was bewirkt die libRML auf dem Katalog?
+
+#### Wie kann man die Nutzungsrechte einsehen, wenn sie erstmal gespeichert sind?
+
+#### Wie kann ich diese rechte auf dem Katalog einsehen?
+
+#### Was wenn 2 (oder mehr) gegensätzliche Bedingungen auftauchen?
