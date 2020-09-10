@@ -22,6 +22,11 @@ Was sind die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen?
 [Constraints](constraints.markdown)
 
 
+Templates für häufig benutzte Lizenzen wurden bereits erstellt:
+
+[Templates](templates.markdown)
+
+
 Hier finden sie das Schema:
 
 [Schema](schema.markdown)
@@ -35,8 +40,6 @@ Ein JSON Beispiel:
 Ein XML Beispiel:
 
 [XML](xmlbeispiel.markdown)
-
-
 
 
 Häufig gestellte Fragen (FAQ):
