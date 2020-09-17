@@ -16,3 +16,27 @@ div.logo_box figure {
 div.logo_box img {
     margin-top: 0px;
 }
+
+div.wrapper {
+    margin: 0 auto;
+    max-width: 72rem;
+}
+
+div.aside {
+    height: 100%;
+    width: 8rem;
+    float: left;
+    position: sticky;
+    z-index: 1;
+    top: 5px;
+    position: sticky;
+}
+
+.aside ul {
+    padding-left: 0px;
+}
+
+.aside li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}

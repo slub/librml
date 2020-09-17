@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
       <script>
@@ -23,21 +22,48 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% include navi.markdown %}
+      <nav>
+        {% for entry in site.data.navi.toc %}
+          {% if entry.url == page.url %}
+            <a href="{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            {% if entry.subnav %}
+            {% assign subnav = entry.subnav %}
+            {% endif %}
+          {% else %}
+            <a href="{{ entry.url }}" class="btn">{{ entry.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
     </header>
+    <div id="wrapper" class="wrapper">
+      {% if subnav %}
+      <div id="aside" class="aside">
+        <h4>{{ page.title | default: "Meta Title"}}</h4>
+        <ul>
+          {% for entry in subnav %}
+            {% if entry.url == page.url %}
+              <li><a href="{{ entry.url }}" class="subnav_active">{{ entry.title }}</a></li>
+            {% else %}
+              <li><a href="{{ entry.url }}" class="subnav">{{ entry.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+      <main id="content" class="main-content" role="main">
+        {{ content }}
 
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <div class="logo_box">
-          <figure><img src="/assets/images/logo_slub.svg" alt="Logo Slub" width="150px"></figure>
-          <figure><img src="/assets/images/logo_efre.svg" alt="Logo EFRE" width="150px"></figure>  
-        </div>
-      </footer>
-    </main>
+        <footer class="site-footer">
+          {% if site.github.is_project_page %}
+            <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+          {% endif %}
+          <div class="logo_box">
+            <figure><img src="/assets/images/logo_slub.svg" alt="Logo Slub" width="150px"></figure>
+            <figure><img src="/assets/images/logo_efre.svg" alt="Logo EFRE" width="150px"></figure>  
+          </div>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>

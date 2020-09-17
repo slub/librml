@@ -1,3 +1,7 @@
+---
+title: LibRML
+sidebar: librml
+---
 # LibRML
 ## Nutzungsrechte und Lizenzen für Bibliotheken leicht gemacht
 
