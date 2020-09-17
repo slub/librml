@@ -1,21 +1,31 @@
 toc:
   - title: Home
-    url: /
+    path: /
+    url: index.hmtl
     subnav:
       - title: Langer Punkt
-        url: /bla.html
+        url: bla.html
 
       - title: Noch längerer Punkt
-        url: /blo.html
+        url: blo.html
 
-  - title: Page 1
-    url: /page1.html
+  - title: Schema
+    path: /schema/
+    url: schema.html
     subnav:
-        - title: Schema
-          url: /schema.html
+        - title: Actions
+          url: actions.html
 
-  - title: Page 2
-    url: /page2.html
+  - title: Templates
+    path: /templates/
+    url: templates.html
+    subnav:
+      - title: CC0
+        url: CC0.html
 
-  - title: Page 3
-    url: /page3.html
+  - title: Code/API
+    path: /api/
+    url: api.html
+    subnav:
+      - title: Python
+        url: python.html

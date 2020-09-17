@@ -23,15 +23,16 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <nav>
+      <!-- {{ page.url }} -->
         {% for entry in site.data.navi.toc %}
-          {% if entry.url == page.url %}
-            <a href="{{ entry.url }}" class="btn active">{{ entry.title }}</a>
-            {% if entry.subnav %}
-            {% assign subnav = entry.subnav %}
-            {% endif %}
+          {% if page.url != page.url %}
+            <a href="{{ entry.url }}" class="btn active">{{ entry.title }}</a>              
           {% else %}
             <a href="{{ entry.url }}" class="btn">{{ entry.title }}</a>
           {% endif %}
+            {% if entry.subnav %}
+            {% assign subnav = entry.subnav %}
+            {% endif %}
         {% endfor %}
       </nav>
     </header>
