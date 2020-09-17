@@ -1,22 +1,10 @@
-# FAQ
-## Häufig gestellte Fragen
+# Tech FAQ
+## Häufig gestellte Fragen zum teschnichen Hintergrund
 
 
-#### Wofür steht libRML?
-
-"Library Rights Machine-readable Language".
-
-#### Wozu ist das gut?
+#### Wozu dient die libRML?
 
 Diese Sprache dient der Beschreibung von Nutzungsrechten für eRessourcen in Bibliotheken.
-
-#### Für welche Art von Ressourcen ist die libRML gültig?
-
-Alle Arten von eRessourcen die Bestandteil einer Bibliothek sein können (Zeitschriften, eBooks, Fotos, Musik...)
-
-#### Kann ich mit der libRML auch Nutzungsrechte für analoge Ressourcen beschreiben?
-
-Wenn dazu gehörige Metadaten im System gespeichert sind und es klare Angaben zu Nutzungsrechten gibt, soll es auch für analoge Ressourcen möglich sein diese Rechte mit libRML zu beschreiben. 
 
 #### Wer kann/darf die libRML benutzen?
 
