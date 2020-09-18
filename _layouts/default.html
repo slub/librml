@@ -20,8 +20,8 @@
   </head>
   <body>
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <nav>
       {% assign parts = page.url | split: "/" %}
       <!-- {{ page.url }} -->
@@ -34,6 +34,7 @@
           {% elsif parts.size >= 3 and page.url contains entry.path and entry.path != "/" %}
             <a href="{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
+              {% assign subtitle = entry.title %}
               {% assign subnav = entry.subnav %}
             {% endif %}
           {% else %}
@@ -45,11 +46,11 @@
     <div id="wrapper" class="wrapper">
       {% if subnav %}
       <div id="aside" class="aside">
-        <h4>{{ page.title | default: "Meta Title"}}</h4>
+        <h4>{{ subtitle }}</h4>
         <ul>
           {% for entry in subnav %}
-            {% if entry.url == page.url %}
-              <li><a href="{{ entry.url }}" class="subnav_active">{{ entry.title }}</a></li>
+            {% if page.url contains entry.url %}
+              <li>{{ entry.title }}</li>
             {% else %}
               <li><a href="{{ entry.url }}" class="subnav">{{ entry.title }}</a></li>
             {% endif %}

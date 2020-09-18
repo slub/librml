@@ -3,11 +3,17 @@ toc:
     path: /
     url: index.html
     subnav:
-      - title: Langer Punkt
-        url: bla.html
+      - title: Allgemeine FAQ
+        url: allgfaq.html
 
-      - title: Noch längerer Punkt
-        url: blo.html
+      - title: Technische FAQ
+        url: techfaq.html
+      
+      - title: Detail
+        url: detail.html
+
+      - title: REL
+        url: rel.html
 
   - title: Schema
     path: /schema/
