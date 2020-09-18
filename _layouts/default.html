@@ -23,16 +23,22 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <nav>
+      {% assign parts = page.url | split: "/" %}
       <!-- {{ page.url }} -->
         {% for entry in site.data.navi.toc %}
-          {% if page.url != page.url %}
-            <a href="{{ entry.url }}" class="btn active">{{ entry.title }}</a>              
-          {% else %}
-            <a href="{{ entry.url }}" class="btn">{{ entry.title }}</a>
-          {% endif %}
+          {% if parts.size < 3 and entry.path == "/"  %}
+            <a href="{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
-            {% assign subnav = entry.subnav %}
+              {% assign subnav = entry.subnav %}
             {% endif %}
+          {% elsif parts.size >= 3 and page.url contains entry.url %}
+            <a href="{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            {% if entry.subnav %}
+              {% assign subnav = entry.subnav %}
+            {% endif %}
+          {% else %}
+            <a href="{{ entry.path}}{{ entry.url }}" class="btn">{{ entry.title }}</a>
+          {% endif %}
         {% endfor %}
       </nav>
     </header>

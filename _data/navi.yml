@@ -1,7 +1,7 @@
 toc:
   - title: Home
     path: /
-    url: index.hmtl
+    url: index.html
     subnav:
       - title: Langer Punkt
         url: bla.html
@@ -17,7 +17,7 @@ toc:
           url: actions.html
 
   - title: Templates
-    path: /templates/
+    path: /tmpl/
     url: templates.html
     subnav:
       - title: CC0
