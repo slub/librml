@@ -31,7 +31,7 @@
             {% if entry.subnav %}
               {% assign subnav = entry.subnav %}
             {% endif %}
-          {% elsif parts.size >= 3 and page.url contains entry.url %}
+          {% elsif parts.size >= 3 and page.url contains entry.path and entry.path != "/" %}
             <a href="{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
               {% assign subnav = entry.subnav %}
