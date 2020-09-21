@@ -18,42 +18,45 @@ Nach diesem „Header“, werden in der libRML die verschiedenen „Actions“ a
 Hier eine Liste der verschiedenen Actions:
 
 Display metadata / Anzeigen der Metadaten
-Das lediglich Anzeigen der Metadaten im Katalog, erfolgend nach einer Suche des Nutzers.
+(Das lediglich Anzeigen der Metadaten im Katalog, erfolgend nach einer Suche des Nutzers.)
+
 Read / „Lesen“ der Datei
-Das Öffnen und Lesen der Datei (Text, Musik, Video…).  
+(Das Öffnen und Lesen der Datei: Text, Musik, Video…)  
 
 Run / Ausführen bei z.B. Programmen
+
 Lend / Aus- oder Verleih
-Auf Einrichtungen bezogen.
+(Auf Einrichtungen bezogen.)
 
 Download / Herunterladen
-Das Herunterladen von der Datei auf einen Computer oder jede Art von Persönlichem Datenträger.
+(Das Herunterladen von der Datei auf einen Computer oder jede Art von Persönlichem Datenträger.)
 
 Print / Ausdrucken
-Jede Art von Drucken des Werkes.
+(Jede Art von Drucken des Werkes.)
+
 Reproduce / Vervielfältigen
-Die Private wie Öffentliche Vervielfältigung der Datei sei es im digitalen wie im analogen Sinne, zur Verbreitung oder nicht.
+(Die Private wie Öffentliche Vervielfältigung der Datei sei es im digitalen wie im analogen Sinne, zur Verbreitung oder nicht.)
 
 Modify / Bearbeiten
-Jede Art der Bearbeitung, Übersetzung, Umarbeitung oder Umordnung.
+(Jede Art der Bearbeitung, Übersetzung, Umarbeitung oder Umordnung.)
 
 Reuse / Wiederbenutzen
-Die Wiederbenutzung des ganzen Werkes oder Teilen des Werkes an sich oder in einem neuen Werk.
+(Die Wiederbenutzung des ganzen Werkes oder Teischelen des Werkes an sich oder in einem neuen Werk.)
 
 Distribute / (Ver)teilen
-Das „inoffizielle“ Weitergeben der Datei, wenn auch im Professionellem Raum.
+(Das „inoffizielle“ Weitergeben der Datei, wenn auch im Professionellem Raum.)
 
 Publish / Veröffentlichen oder vorführen
-Das „offizielle“ Veröffentlichen oder Vorführen der Datei im öffentlichen Sinne (z.B.: Verlag oder Öffentliche Vorlesung).
+(Das „offizielle“ Veröffentlichen oder Vorführen der Datei im öffentlichen Sinne, z.B.: Verlag oder Öffentliche Vorlesung.)
 
 Archive / Archivieren
-Auf Einrichtungen bezogen. Das Recht zur Langzeit Aufbewahrung.
+(Auf Einrichtungen bezogen. Das Recht zur Langzeit Aufbewahrung.)
 
 Index / Indexieren
-Auf Einrichtungen bezogen. Die Verschlagwortung und das Einfugen der Metadaten in einen Index oder eine Liste, sprich Katalog.
+(Auf Einrichtungen bezogen. Die Verschlagwortung und das Einfugen der Metadaten in einen Index oder eine Liste, sprich Katalog.)
 
 Move / Übertragen der Daten
-Auf Einrichtungen bezogen. Es geht hier um das Recht die Daten von einer Datenbank auf eine anderen zu übertragen, oder auch das inner-häusliche Speichern von Dateien die ursprünglich nur auf der Datenbank des Abgebers verfügbar sind.
+(Auf Einrichtungen bezogen. Es geht hier um das Recht die Daten von einer Datenbank auf eine anderen zu übertragen, oder auch das inner-häusliche Speichern von Dateien die ursprünglich nur auf der Datenbank des Abgebers verfügbar sind.)
 
 
 
@@ -71,21 +74,27 @@ age / Nur Nutzer ab einem gegebenen Alter (z.B. älter als 18)
 Hier geht generell nur darum eine Alterseinschränkung nach unten durchsetzen zu können, aus Gründen des Jugendschutzes, usw.
 
 location / Nur an gegebenen Orten
+
 geographic restrictions / Einschränkung auf ein Gebiet (z.B. Land)
 institutional restrictions / Einschränkung auf eine Einrichtung (z.B. SLUB)
+
 date/ Nur ab einem gewissen Zeitpunkt (Embargo)
 Diese Einschränkung kann theoretisch dann für alle Actions gleichzeitig oder auch einzeln eingetragen werden damit alle Embargo Fälle bedacht sind.
 
 duration / Nur für gewisse Zeit
 So gesehen das Gegenteil zum Embargo, also wenn die Action nach gewisser Zeit nicht mehr durchgeführt werden darf. Rein technisch, ist es genauso beschreibbar wie das Embargo, sprich generell oder einzeln.
+
 count /Nur eine beschränkte Anzahl an Ausführungszeiten oder Aus-/Verleihen
+
 concurrent / Nur eine beschränkte Anzahl an gleichzeitigen Aus-/Verleihen, Ausführungen oder Benutzungen
+
 watermark / Nur mit Wasserzeichen oder anderer Markierung
+
 commercialuse / Nur für eine gewisse Art der Nutzung
 commercial use / Kommerzielle Nutzung
 non commercial use / Nicht-kommerzielle Nutzung
 ... (Academical?) / Für akademische Zwecke
-Hier fragt sich noch wie diese Einschränkungen in der libRML abgebildet werden da sie lediglich Hinweise sein werden die an sich nicht hart durchsetzbar sind.
+(Hier fragt sich noch wie diese Einschränkungen in der libRML abgebildet werden da sie lediglich Hinweise sein werden die an sich nicht hart durchsetzbar sind.)
 
 
 
@@ -113,19 +122,33 @@ Dann erst werden eventuelle Einschränkungen beschrieben. Diese haben wieder Typ
 
 Zu den Einschränkungen gehören dann in manchen Fällen eine ganze Serie an Attributen. Diese Attribute sind von einer Einschränkung zur anderen relativ verschieden. Und selbst Einschränkungen die im Text ähnlich klingen könnten wie „von… bis…“ sind im gegebenen Kontext sehr verschieden.
 
+
 Daher hier noch eine Liste diese Attribute für Einschränkungen:
 
 Fromdate / Ab gegebenem Datum (Wird für Embargos und Zeiteinschränkungen benutzt)
+
 Todate / Bis gegebenem Datum (Wird für Zeiteinschränkungen benutzt)
+
 Maxresolution / Maximale Auflösung
+
 Maxbitrate / Maximale Größe
+
 Count / Anzahl (z.B. für die Anzahl an Ausleihen)
+
 Sessions / Sessions (z.B. im Falle einer Ressource die nicht gleichzeitig auf zwei Rechnern angesehen werden darf)
+
 Inside / Innerhalb (Wird für Geographische Einschränkungen oder Einschränkungen bezüglich der Einrichtung benutzt)
+
 Outside / Außerhalb (Wird für Geographische Einschränkungen oder Einschränkungen bezüglich der Einrichtung benutzt)
+
 Noncommercialuse / Nicht kommerzielle Nutzung
+
 Commercialuse / Kommerzielle Nutzung
+
 Watermarkvalue / Watermark, bzw. wo dieser Watermark zu finden ist
+
 Duration / Dauer
+
 Minage / Mindestalter (Wird für Jugendschutz und dergleichen benutzt)
+
 Es wurden bereits diverse Templates für allgemein bekannte Lizenzen wie zum Beispiel die Creative Commons Lizenzen erstellt die die Beschreibung der dazu gehörigen Nutzungsrechte vereinfachen werden. Die LibRML wurde auch so konzipiert das bereits in Metadaten bestehenden Rechtebeschreibungen, wie einfache Verlinkungen zu CC Beschreibungen aber auch komplexere Beschreibungen wie auch die Nutzung von ODRL, gelesen und ins LibRML übersetzt werden können.

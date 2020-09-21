@@ -28,6 +28,30 @@ toc:
     subnav:
       - title: CC0
         url: CC0.html
+      - title: CC BY 4.0
+        url: CCBY4.html
+      - title: CC BY-SA 4.0
+        url: CCBYSA4.html
+      - title: CC BY-ND 4.0
+        url: CCBYND4.html
+      - title: CC BY-NC 4.0
+        url: CCBYNC4.html
+      - title: CC BY-NC-SA 4.0
+        url: CCBYNCSA4.html
+      - title: CC BY-NC-ND 4.0
+        url: CCBYNCND4.html
+      - title: CC BY 3.0 DE
+        url: CCBY3DE.html
+      - title: CC BY-SA 3.0 DE
+        url: CCBYSA3DE.html
+      - title: CC BY-ND 3.0 DE
+        url: CCBYND3DE.html
+      - title: CC BY-NC 3.0 DE
+        url: CCBYNC3DE.html
+      - title: CC BY-NC-SA 3.0 DE
+        url: CCBYNCSA3DE.html
+      - title: CC BY-NC-ND 3.0 DE
+        url: CCBYNCND3DE.html
 
   - title: Code/API
     path: /api/
