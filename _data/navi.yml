@@ -21,6 +21,16 @@ toc:
     subnav:
         - title: Actions
           url: actions.html
+        - title: Constraints
+          url: constraints.html
+        - title: json
+          url: json.html
+        - title: Schema
+          url: schema.html
+        - title: XML Beispiel
+          url: xmlbeispiel.html
+        - title: XSD schema
+          url: xsdschema.html
 
   - title: Templates
     path: /tmpl/
