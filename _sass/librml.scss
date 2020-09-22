@@ -30,6 +30,9 @@ div.aside {
     z-index: 1;
     top: 5px;
     position: sticky;
+    border-right: solid 1px;
+    padding-right: 5px;
+    margin-top: 5px;
 }
 
 .aside ul {
@@ -39,4 +42,11 @@ div.aside {
 .aside li {
     list-style-type: none;
     margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.aside h4 {
+    text-align: right;
 }
