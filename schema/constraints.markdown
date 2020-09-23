@@ -1,27 +1,31 @@
 # Constraints
 ## Einschränkungen
 
-only (specific) parts 
+Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen die in der libRML beschrieben werden können. 
+Zur Vereinfachung des programierens sind diese in Englisch beschrieben.
 
-only with a specific ID (person based restrictions)
 
-only by users over a specific age 
+parts / Nur partiell
 
-only in specific places/spaces:
-geographic restrictions or institutional restrictions
+group / Nur bestimmte Personen mit bestimmten ID
 
-only from a specific moment on
+age / Nur Nutzer ab einem gegebenen Alter (z.B. älter als 18)
 
-only for a specific time
+location / Nur an gegebenen Orten 
+(geographic restrictions / Einschränkung auf ein Gebiet (z.B. Land)
+institutional restrictions / Einschränkung auf eine Einrichtung (z.B. SLUB))
 
-only a specific amount of simultanous runtimes
+date/ Nur ab einem gewissen Zeitpunkt (Embargo)
 
-only a specific amount of simultanous lendings 
+duration / Nur für gewisse Zeit
 
-only a restricted number of times
+count /Nur eine beschränkte Anzahl an Ausführungszeiten oder Aus-/Verleihen
 
-only with mention/name/mark/watermark...
+concurrent / Nur eine beschränkte Anzahl an gleichzeitigen Aus-/Verleihen, Ausführungen oder Benutzungen
 
-only for specific use (educationalm preservation, thesis...)
+watermark / Nur mit Wasserzeichen oder anderer Markierung
 
-yes or no for commercial use
+commercialuse / Nur für eine gewisse Art der Nutzung 
+(commercial use / Kommerzielle Nutzung
+non commercial use / Nicht-kommerzielle Nutzung
+... (Academical?) / Für akademische Zwecke)

@@ -1,6 +1,11 @@
 # Beispiel
 ## JSON
 
+
+Nehmen wir als Beispiel ein e-Journal das unter der Creative Common CC-BY-SA steht. 
+(Namensnennung und „Share Alike“, abgeleitete Werke müssen denselben Bedingungen unterliegen)
+
+
 {% highlight javascript %}
 {
   "id": "doi:10.1371/journal.pbio.0020447",

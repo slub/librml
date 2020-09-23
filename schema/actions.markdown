@@ -1,32 +1,34 @@
 # Actions
 ## Nutzungsrechte
 
-Display metadata
+Hier finden sie alle Nutzungsrechte (bzw. Nutzungsmöglichkeiten) die in der libRML beschrieben werden können. 
+Zur Vereinfachung des programierens sind diese in Englisch beschrieben. 
 
-Read
 
-Run
+Display metadata / Metadaten anzeigen
 
-Lend
+Read / Lesen
 
-Download
+Run / Ausführen (bei z.B. Programmen)
 
-Print
+Lend / Aus- und Verleihen
 
-Reproduce
+Download / Herunterladen
 
-Modify/transform/translate
+Print / Ausdrucken
 
-Re-use
+Reproduce / Vervielfältigen
 
-Distribute
+Modify/transform/translate / Bearbeiten oder Verändern (mit eingeschlossen das Übersätzen)
 
-Publish/Present/Share
+Reuse / Wiederbenutzen
 
-Archive
+Distribute / (Ver)teilen
 
-Index
+Publish / Veröffentlichen (oder in jeglicher Weise Öffentlich machen oder vorzeigen)
 
-Move (from one Database to another)
+Archive / Archivieren
 
-Data-/Text-Mining
+Index / Indexieren (oder Katalogisieren)
+
+Move (from one Database to another) / Verschieben oder von einer Datenbank zu einer anderen bewegen
