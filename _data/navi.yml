@@ -62,6 +62,16 @@ toc:
         url: CCBYNCSA3DE.html
       - title: CC BY-NC-ND 3.0 DE
         url: CCBYNCND3DE.html
+      - title: DL DE zero 2
+        url: DLDEzero2.html
+      - title: DL-DE zero 2.0
+        url: DLDEzero2.html
+      - title: DL-DE-BY 2.0
+        url: DLDEBY2.html
+      - title: DL-DE-BY 1.0
+        url: DLDEBY1.html
+      - title: DL-DE-BY-NC 1.0
+        url: DLDEBYNC1.html
 
   - title: Code/API
     path: /api/

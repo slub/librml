@@ -11,48 +11,35 @@ Einfach, verständlich aber komplex genug um alle in der e-Ressourcen Thematik m
 
 
 
-Was ist eine REL (Rights Expression Language)? 
 
-[REL](rel.markdown)
+Wie genau funktioniert die libRML? 
 
-
-Wie genau funktioniert die libRML?
-
-[Detail](detail.markdown)
+[Die libRML im Detail](detail.markdown)
 
 
-Was sind die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen?
+Was ist überhaupt eine REL? 
 
-[Actions](actions.markdown)
-
-[Constraints](constraints.markdown)
+[Rights Expression Language](rel.markdown)
 
 
-Templates für häufig benutzte Lizenzen wurden bereits erstellt:
+Was genau gibt bereits als für Templates? 
 
-[Templates](templates.markdown)
-
-
-Hier finden sie das Schema:
-
-[Schema](schema.markdown)
+[Templates für häufig benutzte Lizenzen](tmpl/templates.markdown)
 
 
-Ein JSON Beispiel: 
+Andere häufig gestellte Fragen für Nutzer (FAQ):
 
-[JSON](json.markdown)
-
-
-Ein XML Beispiel:
-
-[XML](xmlbeispiel.markdown)
-
-
-Häufig gestellte Fragen für Nutzer (FAQ):
-
-[FAQ](faq.markdown)
+[Zu den allgemeinen FAQ](allgfaq.markdown)
 
 
 Häufig gestellte Fragen zum teschnichen Hintergrund:
 
-[Tech FAQ][techfaq.markdown]
+[Zu den tech FAQ](techfaq.markdown)
+
+
+Auf der Schema-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen, das Schema, sowie Links zu JSON und XML Beispiele, und XSD.
+
+[Zu den Schemas](schema/schema.markdown)
+
+
+

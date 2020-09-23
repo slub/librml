@@ -1,5 +1,8 @@
 # XML Beispiel
 
+Wie bei dem JSON Beispiel ([hier](json.markdown)), nehmen wir auch für dieses XML Beispiel ein e-Journal das auf dem Creative Common CC-BY-SA templqte aufgebaut wird (Namensnennung und „Share Alike“, abgeleitete Werke müssen denselben Bedingungen unterliegen).
+Allerdings diesmal allen möglichen zusätlichen Einschränkungen, wie auch ein Embargo.
+
 {% highlight xml %}
 
 <?xml version="1.0" ?>
