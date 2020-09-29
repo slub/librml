@@ -6,6 +6,7 @@ Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf
 Ein Template mit dem aktuellen Stand besteht also aus 2 Dateien:
 
 librml-tmpl-CustomType2.jinja
+
 librml-tmpl-CustomType2.meta.json
 
 Es gibt einen Basisnamen "librml-tmpl-CustomType2" und jeweils die Endung "jinja" und "meta.json". Die Konstruktion ist (im Moment) wichtig, weil die Templates nur geladen werden wenn sie die Endung jinja haben und aus dem Dateinamen der Name der Metainfo-Datei erzeugt wird.
@@ -194,7 +195,7 @@ obj = LibRML.from_template(templateid='CC0-Embargo',
 
 
 
-Hier eine Liste der bereits erstellten Templates und ihrer Beschreibungen.
+Hier eine Liste der bereits erstellten Beispiele dank Templates und ihrer Beschreibungen.
 Diese Liste dient der Vereinfachung der Nachprüfung. Sie wird mit der Zeit wachsen. 
 
 
