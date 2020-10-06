@@ -1,7 +1,8 @@
 # Templates
+## Erstellung von Templates und Beispiele
 
 
-Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kommen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Meta-Informationen zu dem Template zu speichern.
+Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Meta-Informationen zu dem Template zu speichern.
 
 Ein Template mit dem aktuellen Stand besteht also aus 2 Dateien:
 
@@ -179,11 +180,11 @@ Und ein valides JSON:
 {% endhighlight %}
 
 
-Man sieht, es gibt nur 2 Variablen, aber diese jeweils viele Male. In den Metainformationen zum Template ist beschrieben, welchen Datentyp die Variablen haben und ggf. eine Datenquelle (zum Beispiel für anderweitig gepflegte Listen) und außerdem Info's die eine GUI braucht, um für die Variablen sinnvolle Elemente zu erzeugen. Also ein Datumwähler mit einem lesbaren Namen und einer Beschreibung.
+Man sieht, es gibt nur 2 Variablen, aber diese jeweils viele Male. In den Metainformationen zum Template ist beschrieben, welchen Datentyp die Variablen haben und ggf. eine Datenquelle (zum Beispiel für anderweitig gepflegte Listen) und außerdem Informationen die eine GUI braucht, um für die Variablen sinnvolle Elemente zu erzeugen. Also ein Datumwähler mit einem lesbaren Namen und einer Beschreibung.
 
-Mit Jinja sind ziemlich viele und coole Möglichkeiten gegeben, die gut dokumentiert sind: https://jinja.palletsprojects.com/en/2.11.x/templates/#
+Mit Jinja sind viele und gute Möglichkeiten gegeben, die ausreichend dokumentiert sind: https://jinja.palletsprojects.com/en/2.11.x/templates/#
 
-Der Programmcode zieht aus dem Template die Variablen und liest deren Metainfos aus der Zusatzdatei. Dies ist nur relevant, wenn man das in einer GUI verarbeitet. Im Programmcode kennt man die Variablen und übergibt sie:
+Der Programmcode zieht aus dem Template die Variablen und liest deren Metainformationen aus der Zusatzdatei. Dies ist nur relevant, wenn man das in einer GUI verarbeitet. Im Programmcode kennt man die Variablen und übergibt sie:
 
 {% highlight javascript %}
 obj = LibRML.from_template(templateid='CC0-Embargo',
