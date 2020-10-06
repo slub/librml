@@ -7,7 +7,7 @@ sidebar: librml
 
 Library Rights Machine-readable Language (kurz libRML) ist eine spezifisch auf bibliothekarische Ansprüche zugeschnitten REL ([Rights Expression Language](rel.markdown)).
 
-Einfach, verständlich aber komplex genug um alle in der e-Ressourcen Thematik möglichen Fälle von Nutzungsrechte und Einschränkungen zu beschreiben. Dabei soll es sowohl menschen- also auch maschinenlesbar bleiben.
+Einfach und verständlich für jeden Nutzer aber komplex genug um alle in der e-Ressourcen Thematik möglichen Fälle von Nutzungsrechten und Einschränkungen zu beschreiben. Dabei soll es sowohl menschen- also auch maschinenlesbar bleiben.
 
 
 
@@ -22,7 +22,7 @@ Was ist überhaupt eine REL?
 [Rights Expression Language](rel.markdown)
 
 
-Was genau gibt bereits als für Templates? 
+Was genau gibt es bereits als Beispiele? 
 
 [Templates für häufig benutzte Lizenzen](tmpl/templates.markdown)
 
@@ -37,7 +37,7 @@ Häufig gestellte Fragen zum teschnichen Hintergrund:
 [Zu den tech FAQ](techfaq.markdown)
 
 
-Auf der Schema-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen, das Schema, sowie Links zu JSON und XML Beispiele, und XSD.
+Hier, auf der Schema-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen, das Schema, sowie Links zu JSON und XML Beispiele, und XSD.
 
 [Zu den Schemas](schema/schema.markdown)
 
