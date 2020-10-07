@@ -9,7 +9,7 @@ Library Rights Machine-readable Language (kurz libRML) ist eine spezifisch auf b
 
 Einfach und verständlich für jeden Nutzer aber komplex genug um alle in der e-Ressourcen Thematik möglichen Fälle von Nutzungsrechten und Einschränkungen zu beschreiben. Dabei soll es sowohl menschen- also auch maschinenlesbar bleiben.
 
-
+<img src="{{site.baseurl}}/assets/images/librml1.png" alt="LibRML Teaser" class="center">
 
 
 Wie genau funktioniert die libRML? 

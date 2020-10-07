@@ -2,20 +2,17 @@ toc:
   - title: Home
     path: /
     url: index.html
-    subnav:
-      - title: Allgemeine FAQ
-        url: allgfaq.html
-
-      - title: Technische FAQ
-        url: techfaq.html
-      
+    subnav:      
       - title: Detail
         url: detail.html
-
       - title: REL
         url: rel.html
+      - title: Allgemeine FAQ
+        url: allgfaq.html
+      - title: Technische FAQ
+        url: techfaq.html
 
-  - title: Schema
+  - title: Konzept
     path: /schema/
     url: schema.html
     subnav:
@@ -41,9 +38,11 @@ toc:
       - title: Beispiele
         url: beispiele.html
 
-  - title: Code/API
+  - title: API
     path: /api/
     url: api.html
     subnav:
-      - title: Python
+      - title: API
+        url: api.html
+      - title: Python Package
         url: python.html
