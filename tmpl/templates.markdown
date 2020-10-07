@@ -16,8 +16,8 @@ Es gibt einen Basisnamen "librml-tmpl-CustomType2" und jeweils die Endung "jinja
 Der Inhalt ist ein valides Jinja2-Template:
 
 
-{% highlight jinja %}
-
+~~~ json
+{% raw %}
 {
   "template": "Group-Embargo",
   "actions": [
@@ -150,12 +150,12 @@ Der Inhalt ist ein valides Jinja2-Template:
     }
   ]
 }
-
-{% endhighlight %}
+{% endraw %}
+~~~
 
 Und ein valides JSON:
 
-{% highlight javascript %}
+~~~ json
 
 {
   "name": "Embargo und Nutzergruppen",
@@ -177,9 +177,7 @@ Und ein valides JSON:
     }
   ]
 }
-
-{% endhighlight %}
-
+~~~
 
 Man sieht, es gibt nur 2 Variablen, aber diese jeweils viele Male. In den Metainformationen zum Template ist beschrieben, welchen Datentyp die Variablen haben und ggf. eine Datenquelle (zum Beispiel für anderweitig gepflegte Listen) und außerdem Informationen die eine GUI braucht, um für die Variablen sinnvolle Elemente zu erzeugen. Also ein Datumwähler mit einem lesbaren Namen und einer Beschreibung.
 
@@ -187,13 +185,10 @@ Mit Jinja sind viele und gute Möglichkeiten gegeben, die ausreichend dokumentie
 
 Der Programmcode zieht aus dem Template die Variablen und liest deren Metainformationen aus der Zusatzdatei. Dies ist nur relevant, wenn man das in einer GUI verarbeitet. Im Programmcode kennt man die Variablen und übergibt sie:
 
-{% highlight javascript %}
+~~~ python
 obj = LibRML.from_template(templateid='CC0-Embargo',
                            itemid='blafasel-id',
                            tenant='slubdd',
                            embargodate=date.fromisoformat('2021-01-01'),
                            groups=['group1', 'group2'])
-{% endhighlight %}
-
-
-
+~~~
