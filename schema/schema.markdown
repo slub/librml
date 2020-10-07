@@ -1,8 +1,9 @@
-# schema
+# Konzept
 
-Ein konkretes Schema gibt es der Zeit leider noch nicht aber es wird sobald wie möglich hinzugefügt werden. 
 
 Gerne finden sie hier diverse Details zur libRML, sowie eine detailliertere Erklärung zum Aufbau einer libRML Datei.
+
+Ein konkretes Schema gibt es der Zeit leider noch nicht aber es wird sobald wie möglich hinzugefügt werden. 
 
 ### Links : 
 
