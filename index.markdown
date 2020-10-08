@@ -14,32 +14,32 @@ Einfach und verständlich für jeden Nutzer aber komplex genug um alle in der e-
 
 Wie genau funktioniert die libRML? 
 
-[Die libRML im Detail](detail.markdown)
+- [Die libRML im Detail](detail.markdown)
 
 
 Was ist überhaupt eine REL? 
 
-[Rights Expression Language](rel.markdown)
+- [Rights Expression Language](rel.markdown)
 
 
 Was genau gibt es bereits als Beispiele? 
 
-[Templates für häufig benutzte Lizenzen](tmpl/templates.markdown)
+- [Templates für häufig benutzte Lizenzen](tmpl/templates.markdown)
 
 
 Andere häufig gestellte Fragen für Nutzer (FAQ):
 
-[Zu den allgemeinen FAQ](allgfaq.markdown)
+- [Zu den allgemeinen FAQ](allgfaq.markdown)
 
 
-Häufig gestellte Fragen zum teschnichen Hintergrund:
+Häufig gestellte Fragen zum technischen Hintergrund:
 
-[Zu den tech FAQ](techfaq.markdown)
+- [Zu den tech FAQ](techfaq.markdown)
 
 
 Hier, auf der Konzept-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen sowie Links zu JSON und XML Beispiele, und XSD.
 
-[Zu dem Konzept](schema/konzept.markdown)
+- [Zu dem Konzept](schema/konzept.markdown)
 
 
 

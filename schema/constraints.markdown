@@ -5,27 +5,27 @@ Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen die in 
 Zur Vereinfachung des programierens sind diese in Englisch beschrieben.
 
 
-parts / Nur partiell
+- parts / Nur partiell
 
-group / Nur bestimmte Personen mit bestimmten ID
+- group / Nur bestimmte Personen mit bestimmten ID
 
-age / Nur Nutzer ab einem gegebenen Alter (z.B. älter als 18)
+- age / Nur Nutzer ab einem gegebenen Alter (z.B. älter als 18)
 
-location / Nur an gegebenen Orten 
+- location / Nur an gegebenen Orten 
 (geographic restrictions / Einschränkung auf ein Gebiet (z.B. Land)
 institutional restrictions / Einschränkung auf eine Einrichtung (z.B. SLUB))
 
-date/ Nur ab einem gewissen Zeitpunkt (Embargo)
+- date/ Nur ab einem gewissen Zeitpunkt (Embargo)
 
-duration / Nur für gewisse Zeit
+- duration / Nur für gewisse Zeit
 
-count /Nur eine beschränkte Anzahl an Ausführungszeiten oder Aus-/Verleihen
+- count /Nur eine beschränkte Anzahl an Ausführungszeiten oder Aus-/Verleihen
 
-concurrent / Nur eine beschränkte Anzahl an gleichzeitigen Aus-/Verleihen, Ausführungen oder Benutzungen
+- concurrent / Nur eine beschränkte Anzahl an gleichzeitigen Aus-/Verleihen, Ausführungen oder Benutzungen
 
-watermark / Nur mit Wasserzeichen oder anderer Markierung
+- watermark / Nur mit Wasserzeichen oder anderer Markierung
 
-commercialuse / Nur für eine gewisse Art der Nutzung 
-(commercial use / Kommerzielle Nutzung
-non commercial use / Nicht-kommerzielle Nutzung
-... (Academical?) / Für akademische Zwecke)
+- commercialuse / Nur für eine gewisse Art der Nutzung 
+    - commercial use / Kommerzielle Nutzung
+    - non commercial use / Nicht-kommerzielle Nutzung
+    - ... z.B. Academical / Für akademische Zwecke

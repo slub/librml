@@ -3,26 +3,26 @@
 
 Gerne finden sie hier diverse Details zur libRML, sowie eine detailliertere Erklärung zum Aufbau einer libRML Datei.
 
-Ein konkretes Schema gibt es der Zeit leider noch nicht aber es wird sobald wie möglich hinzugefügt werden. 
+Ein konkretes Schema gibt es derzeit leider noch nicht aber es wird sobald wie möglich hinzugefügt werden. 
 
 ### Links : 
 
 Nutzungsrechte und Einschränkungen:
 
-[Actions](actions.markdown) (Nutzungsrechte)
+- [Actions](actions.markdown) (Nutzungsrechte)
 
-[Constraints](constraints.markdown) (Einschränkungen)
+- [Constraints](constraints.markdown) (Einschränkungen)
 
-[Attributes](attributes.markdown) (Eigenschaften zu den Einschränkungen)
+- [Attributes](attributes.markdown) (Eigenschaften zu den Einschränkungen)
 
 
 Beispiele: 
 
-[JSON](json.markdown)
+- [JSON](json.markdown)
 
-[XML](xmlbeispiel.markdown)
+- [XML](xmlbeispiel.markdown)
 
-[XSD](xsdschema.markdown)
+- [XSD](xsdschema.markdown)
 
 
 In der Version 0.2 der LibRML an der wir gerade arbeiten werden die Nutzungsrechte nach Actions organisiert.
