@@ -59,8 +59,25 @@ div.aside {
 
 .page-header {
     padding: 1rem 6rem;
+    background-image: none;
+    background-color: #cc0000;
 }
 
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color: #00afc8;
+}
+
+a {
+    color: #078078;
+}
+
+a:hover {
+    color: #900900;
+}
+
+body {
+    color: #000000;
+}
 
 .main-content td {
     font-size: 0.8rem;
