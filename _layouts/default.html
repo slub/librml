@@ -28,18 +28,18 @@
       <!-- {{ page.url }} -->
         {% for entry in site.data.navi.toc %}
           {% if parts.size < 3 and entry.path == "/"  %}
-            <a href="{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
               {% assign subnav = entry.subnav %}
             {% endif %}
           {% elsif parts.size >= 3 and page.url contains entry.path and entry.path != "/" %}
-            <a href="{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
               {% assign subtitle = entry.title %}
               {% assign subnav = entry.subnav %}
             {% endif %}
           {% else %}
-            <a href="{{ entry.path}}{{ entry.url }}" class="btn">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn">{{ entry.title }}</a>
           {% endif %}
         {% endfor %}
       </nav>
@@ -53,7 +53,7 @@
             {% if page.url contains entry.url %}
               <li>{{ entry.title }}</li>
             {% else %}
-              <li><a href="{{ entry.url }}" class="subnav">{{ entry.title }}</a></li>
+              <li><a href="{{ site.baseurl }}{{ entry.url }}" class="subnav">{{ entry.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
@@ -68,8 +68,8 @@
             <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
           {% endif %}
           <div class="logo_box">
-            <figure><img src="/assets/images/logo_slub.jpg" alt="Logo Slub" width="150px"></figure>
-            <figure><img src="/assets/images/logo_efre.svg" alt="Logo EFRE" width="150px"></figure>  
+            <figure><img src="{{ site.baseurl }}//assets/images/logo_slub.jpg" alt="Logo Slub" width="150px"></figure>
+            <figure><img src="{{ site.baseurl }}//assets/images/logo_efre.svg" alt="Logo EFRE" width="150px"></figure>  
           </div>
         </footer>
       </main>
