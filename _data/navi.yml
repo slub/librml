@@ -1,0 +1,50 @@
+toc:
+  - title: Home
+    path: /
+    url: index.html
+    subnav:      
+      - title: Detail
+        url: detail.html
+      - title: REL
+        url: rel.html
+      - title: Allgemeine FAQ
+        url: allgfaq.html
+      - title: Technische FAQ
+        url: techfaq.html
+
+  - title: Konzept
+    path: /schema/
+    url: konzept.html
+    subnav:
+        - title: Konzept
+          url: konzept.html
+        - title: Actions
+          url: actions.html
+        - title: Constraints
+          url: constraints.html
+        - title: Attributes
+          url: attributes.html  
+        - title: json
+          url: json.html
+        - title: XML Beispiel
+          url: xmlbeispiel.html
+        - title: XSD schema
+          url: xsdschema.html
+
+  - title: Templates
+    path: /tmpl/
+    url: templates.html
+    subnav:
+      - title: Templates
+        url: templates.html
+      - title: Beispiele
+        url: beispiele.html
+
+  - title: API
+    path: /api/
+    url: api.html
+    subnav:
+      - title: API
+        url: api.html
+      - title: Python Package
+        url: python.html

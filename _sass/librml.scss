@@ -1,0 +1,88 @@
+.btn.active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+div.logo_box {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+div.logo_box figure {
+    margin-top: 0px;
+    float: left;
+}
+
+div.logo_box img {
+    margin-top: 0px;
+}
+
+div.wrapper {
+    margin: 0 auto;
+    max-width: 72rem;
+}
+
+div.aside {
+    height: 100%;
+    width: 8rem;
+    float: left;
+    position: sticky;
+    z-index: 1;
+    top: 5px;
+    position: sticky;
+    border-right: solid 1px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.aside ul {
+    padding-left: 0px;
+}
+
+.aside li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.aside h4 {
+    text-align: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+    padding: 1rem 6rem;
+    background-image: none;
+    background-color: #cc0000;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color: #00afc8;
+}
+
+a {
+    color: #078078;
+}
+
+a:hover {
+    color: #900900;
+}
+
+body {
+    color: #000000;
+}
+
+.main-content td {
+    font-size: 0.8rem;
+}
+
+.main-content th {
+    font-size: 0.9rem;
+}
