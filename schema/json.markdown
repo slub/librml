@@ -74,7 +74,7 @@ Nehmen wir als Beispiel ein e-Journal das unter der Creative Common CC-BY-SA ste
           "groups": [
             "student",
             "employee",
-            "kecksesser"
+            "keksesser"
           ]
         },
         {

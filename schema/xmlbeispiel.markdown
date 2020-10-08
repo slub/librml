@@ -47,7 +47,7 @@ Allerdings diesmal allen möglichen zusätzlichen Einschränkungen, wie auch ein
                 <part>datei2.jpg</part>
                 <part>datei3.jpg</part>
             </restriction>
-            <restriction type="watermark" watermarkvalue="Thoms war da!"/>
+            <restriction type="watermark" watermarkvalue="Keks Watermark"/>
             <restriction type="duration" duration="432000"/>
         </action>
     </item>
