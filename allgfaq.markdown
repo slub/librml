@@ -36,11 +36,11 @@
 
 #### Welche Lizenzen sind schon als Templates vorhanden?
 
-- Creative Commons und andere Datenlizenzen für Deutschland (DL-DE)
+- Creative Commons und andere Datenlizenzen für Deutschland (Siehe [Beispiele](templates/beispiele.markdown)) 
 
 #### Was wenn die zutreffenden Einschränkungen noch nicht in der libRML vorgesehen sind?
 
-- Es besteht die Möglichkeit Änderungen und Zufügungen zu beantragen.
+- Es besteht die Möglichkeit Änderungen und Ergänzungen zu beantragen.
 
 #### Können Datum und Standort Einschränkungen auf unterschiedliche Nutzungsrechten unabhängig voneinander eingestellt werden?
 
@@ -60,11 +60,11 @@
 
 #### An wen kann ich mich wenden, falls ich Fragen habe? Gibt es ein Feld dafür?
 
-- Es wird ein Feld für Fragen und Korrektureanträge vorgesehen.
+- Es wird ein Feld für Fragen und Korrekturanträge vorgesehen.
 
 #### Was wenn ich einen Fehler oder fehlende Nutzungsrechte/Einschränkungen bemerke?
 
-- Es wird ein Feld für Fragen und Korrektureanträge vorgesehen.
+- Es wird ein Feld für Fragen und Korrekturanträge vorgesehen.
 
 #### Wie wird die libRML mit den restlichen Daten verknüpft?
 

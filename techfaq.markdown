@@ -1,6 +1,6 @@
 # Tech FAQ
-## Häufig gestellte Fragen zum teschnichen Hintergrund
+## Häufig gestellte Fragen zum technischen Hintergrund
 
 
 
-Hier gerne eventuelle technischere Fragen zum Thema libRML kommentieren, um diese Seite zu füttern
+Im Aufbau. 

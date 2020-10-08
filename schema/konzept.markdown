@@ -5,7 +5,6 @@ Gerne finden sie hier diverse Details zur libRML, sowie eine detailliertere Erkl
 
 Ein konkretes Schema gibt es derzeit leider noch nicht aber es wird sobald wie möglich hinzugefügt werden. 
 
-### Links: 
 
 Nutzungsrechte und Einschränkungen:
 
@@ -28,9 +27,9 @@ Beispiele:
 In der Version 0.2 der LibRML an der wir gerade arbeiten werden die Nutzungsrechte nach Actions organisiert.
 
 
-Zuerst bekommt die beschriebene eRessource „Attributes“ (Eigenschaften). Damit wird diese Ressource dank einer ID identifiziert und es kann definiert werden von welcher Einrichtung sie verwaltet wird (tenant), der Name der eventuell benutzten „Template“ und die URL auf der sich die Richtlinien der dazugehörigen Lizenz befinden (usageguide). Dann befinden sich in den Attributen noch zwei eventuelle generelle Einschränkungen: die Namensnennung (mention) und der Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen (sharealike).
+Zuerst werden für die beschriebene eRessource „Attributes“ (Eigenschaften) vergeben. Damit wird diese Ressource dank einer ID identifiziert und es kann definiert werden von welcher Einrichtung sie verwaltet wird (tenant), der Name der eventuell benutzten „Template“ und die URL auf der sich die Richtlinien der dazugehörigen Lizenz befinden (usageguide). Dann befinden sich in den Attributen noch zwei eventuelle generelle Einschränkungen: die Namensnennung (mention) und der Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen (sharealike).
 
-Danach werden die jeweiligen Actions mit ihren Constraints (Einschränkungen) beschrieben. Actions haben wiederum auch Attributen. Es wird erst der Typ benannt, dann die Genehmigung (hier „Permission“) eingeschaltet (also auf „true“ geschaltet). Zur Erinnerung, es werden in der LibRML keine Genehmigungen schriftlich ausgeschaltet (also auf „False“) da jene Actions die nicht genehmigt sind, weggelassen werden.
+Danach werden die jeweiligen Actions mit ihren Constraints (Einschränkungen) beschrieben. Actions haben wiederum auch Attribute. Es wird erst der Typ benannt, dann die Genehmigung (hier „Permission“) eingeschaltet (also auf „true“ geschaltet). Zur Erinnerung, es werden in der LibRML keine Genehmigungen explizit ausgeschaltet (also auf „false“) da jene Actions die nicht genehmigt sind, weggelassen werden.
 
 Dann werden eventuelle Einschränkungen beschrieben. Diese haben wieder Typ und True/False Schalter und wieder wird das „False“ nicht explizit benutzt, sondern die Einschränkung weggelassen, wenn diese nicht benutzt wird.
 

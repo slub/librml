@@ -5,7 +5,7 @@ sidebar: librml
 # LibRML
 ## Nutzungsrechte und Lizenzen für Bibliotheken leicht gemacht
 
-Library Rights Machine-readable Language (kurz libRML) ist eine spezifisch auf bibliothekarische Ansprüche zugeschnitten REL ([Rights Expression Language](rel.markdown)).
+Library Rights Machine-readable Language (kurz libRML) ist eine spezifisch auf bibliothekarische Ansprüche zugeschnittene REL ([Rights Expression Language](rel.markdown)).
 
 Einfach und verständlich für jeden Nutzer aber komplex genug um alle in der e-Ressourcen Thematik möglichen Fälle von Nutzungsrechten und Einschränkungen zu beschreiben. Dabei soll es sowohl menschen- also auch maschinenlesbar bleiben.
 
