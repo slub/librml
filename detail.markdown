@@ -1,18 +1,18 @@
 # libRML
 ## Im Detail
 
-LibRML (Library Rights Machine-readable Language) ist eine **[Rights Expression Language](rel.markdown)**, also eine Sprache zur Formulierung von Rechten, hier im besonderen zur Formulierung von Nutzungsrechten im bibliothekarischen Bereich. 
+LibRML (Library Rights Machine-readable Language) ist eine **[Rights Expression Language](rel.markdown)**, also eine Sprache zur Formulierung von Rechten, hier im Besonderen zur Formulierung von Nutzungsrechten im bibliothekarischen Bereich. 
 
 Nutzungsrechte sollen in Zukumpft Maschinen-interpretierbar und durchsetzbar sein aber trotzdem für den Menschen lesbar bleiben. Auch im Katalog, soll der Nutzer letztendlich erfahren können was er mit der gesuchten Ressource machen darf oder nicht. 
 
 Dies ist die Aufgabe der libRML. 
 
-Was bedeutet jedoch "durchsetzbar"? Es bedeutet dass jede Einschränkung die eine von Maschinen verhinderbare Nutzung (hier Action) betrifft auch so durchgesetzt wird. 
+Was bedeutet jedoch "durchsetzbar"? Es bedeutet, dass jede Einschränkung die eine von Maschinen verhinderbare Nutzung (hier Action) betrifft auch so durchgesetzt wird. 
 
 Beispiele wären: ein Embargo, ein Limit in der Auflösung eines Bildes, ausschließliche Nutzung auf einem Rechner oder in einer Einrichtung, Zugangsverweigerung unter einem gegebenen Alter des Nutzers, usw. 
 
 
-Konkret funkzioniert es so:
+Konkret funktioniert es so:
 
 Zur Verknüpfung der libRML mit dem bearbeiteten Objekt, wird eine ID verwendet. Der folgen mehrere Grundinformationen wie der Inhaber der jeweiligen Rechte und Lizenzen sowie wichtige Haupteinschränkungen bezüglich der Namensnennung (Urheberrecht) oder weiter Verteilung unter gleichen Bedingungen und des Weiteren Benennung des Rechte/Lizenzen Typs und eventueller URL zur textuellen Beschreibung der gegebenen Nutzungsrechte.
 

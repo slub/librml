@@ -1,8 +1,8 @@
 # Constraints
 ## Einschränkungen
 
-Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen die in der libRML beschrieben werden können. 
-Zur Vereinfachung des programierens sind diese in Englisch beschrieben.
+Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen, die in der libRML beschrieben werden können. 
+Zur Vereinfachung des Programmierens sind diese in Englisch beschrieben.
 
 
 - parts / Nur partiell

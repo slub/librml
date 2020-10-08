@@ -5,7 +5,7 @@ Diese Liste dient der Vereinfachung der Nachprüfung. Sie wird mit der Zeit wach
 
 | Name / Link                           | Beschreibung                                                                                               | Typ              |
 | :-----                                | :----                                                                                                      |:---:             |
-| [CC0](CC0.markdown)                   | Creative Commons Kein Urheberrecht / Public Domain                                                         | Creative Commons |
+| [CC0](CC0.markdown)                   | Creative Commons - Kein Urheberrecht / Public Domain                                                         | Creative Commons |
 | [CC BY 4.0](CCBY4.markdown)           | Creative Commons mit Namensnennung                                                                         | Creative Commons |
 | [CC BY-SA 4.0](CCBYSA4.markdown)      | Creative Commons mit Namensnennung und „Share Alike“ (Abgeleitete Werke müssen denselben Bedingungen unterliegen) | Creative Commons |
 | [CC BY-ND 4.0](CCBYND4.markdown)      | Creative Commons mit Namensnennung und keine Veränderungen/Ableitungen                                     | Creative Commons |

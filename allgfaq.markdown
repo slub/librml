@@ -16,7 +16,7 @@
 
 #### Kann ich mit der libRML auch Nutzungsrechte für analoge Ressourcen beschreiben?
 
-- Wenn dazu gehörige Metadaten im System gespeichert sind und es klare Angaben zu Nutzungsrechten gibt, soll es auch für analoge Ressourcen möglich sein diese Rechte mit libRML zu beschreiben. 
+- Wenn dazugehörige Metadaten im System gespeichert sind und es klare Angaben zu Nutzungsrechten gibt, soll es auch für analoge Ressourcen möglich sein diese Rechte mit libRML zu beschreiben. 
 
 #### Wer kann/darf die libRML benutzen?
 
@@ -52,13 +52,13 @@
 
 #### Kann man die in die libRML eingegebenen Daten später korrigieren? 
 
-- Ja. Auf jede libRML datei kann immer wieder zugegriffen werden.
+- Ja. Auf jede libRML Datei kann immer wieder zugegriffen werden.
 
 #### Kann ich meinen Vorgang auf libRML speichern und später weiter bearbeiten? 
 
 - Ja. Soweit dieser gespeichert wird und mit einer ID verknüpft, ist das durchaus möglich.
 
-#### An wen kann ich mich wenden falls ich Fragen habe? Gibt es ein Feld dafür?
+#### An wen kann ich mich wenden, falls ich Fragen habe? Gibt es ein Feld dafür?
 
 - Es wird ein Feld für Fragen und Korrektureanträge vorgesehen.
 
@@ -70,9 +70,9 @@
 
 - Durch eine ID. Es ist wichtig das diese für alle Aspekte der Ressource dieselbe ist und vor allem das sie nur für diese Ressource, bzw. dieses Ressourcen-Paket benutzt wird.
 
-#### Wie hilft die libRML dem Bibliotheken Nutzer?
+#### Wie hilft die libRML dem Bibliotheken-Nutzer?
 
-- Durch das Einsetzen einer Menschen- und Machinenlesbaren Sprache vereinfacht die libRML das anzeigen von Nutzungsrechten im Katalog. So kann der Nutzer deutlich über seine Rechte aufgeklärt werden und weiß somit was er mit den gewünschten Ressourcen tun darf oder nicht.
+- Durch das Einsetzen einer Menschen- und Maschinenlesbaren Sprache vereinfacht die libRML das Anzeigen von Nutzungsrechten im Katalog. So kann der Nutzer deutlich über seine Rechte aufgeklärt werden und weiß somit was er mit den gewünschten Ressourcen tun darf oder nicht.
 
 #### Was bewirkt die libRML auf dem Katalog?
 
@@ -84,8 +84,8 @@
 
 #### Wie kann ich diese rechte auf dem Katalog einsehen?
 
-- In der Theorie wird en ausreichen nach einer Ressource im Katalog zu suchen und besagte Ressource anzuklicken. Dort sollen dann Nutzungsrechte genau so wie die anderen Metadaten auffindbar sein. (Dies ist noch in Arbeit)
+- In der Theorie wird es ausreichen nach einer Ressource im Katalog zu suchen und besagte Ressource anzuklicken. Dort sollen dann Nutzungsrechte genau so wie die anderen Metadaten auffindbar sein. (Dies ist noch in Arbeit)
 
 #### Was wenn 2 (oder mehr) gegensätzliche Bedingungen auftauchen?
 
-- Die libRML dient nicht dazu Rechte-konflikte zuklären. Falls solche auftreten muss der Fall geklärt werden bevor die Nutzungsrechte in die libRML eingetragen werden.
+- Die libRML dient nicht dazu Rechte-Konflikte zu klären. Falls solche auftreten muss der Fall geklärt werden bevor die Nutzungsrechte in die libRML eingetragen werden.

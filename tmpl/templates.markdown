@@ -3,7 +3,7 @@
 
 *[Hier](beispiele.markdown)* eine Liste der bereits erstellten Beispiele dank Templates und ihrer Beschreibungen.
 
-Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Meta-Informationen zu dem Template zu speichern.
+Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Metainformationen zu dem Template zu speichern.
 
 Ein Template mit dem aktuellen Stand besteht also aus 2 Dateien:
 
@@ -11,7 +11,7 @@ librml-tmpl-CustomType2.jinja
 
 librml-tmpl-CustomType2.meta.json
 
-Es gibt einen Basisnamen "librml-tmpl-CustomType2" und jeweils die Endung "jinja" und "meta.json". Die Konstruktion ist (im Moment) wichtig, weil die Templates nur geladen werden wenn sie die Endung jinja haben und aus dem Dateinamen der Name der Metainfo-Datei erzeugt wird.
+Es gibt einen Basisnamen "librml-tmpl-CustomType2" und jeweils die Endung "jinja" und "meta.json". Die Konstruktion ist (im Moment) wichtig, weil die Templates nur geladen werden, wenn sie die Endung jinja haben und aus dem Dateinamen der Name der Metainformation-Datei erzeugt wird.
 
 Der Inhalt ist ein valides Jinja2-Template:
 

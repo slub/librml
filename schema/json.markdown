@@ -126,7 +126,7 @@ Nehmen wir als Beispiel ein e-Journal das unter der Creative Common CC-BY-SA ste
         },
         {
           "type": "watermark",
-          "watermarkvalue": "Thoms war da!"
+          "watermarkvalue": "Keks Watermark"
         },
         {
           "type": "duration",

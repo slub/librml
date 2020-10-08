@@ -11,6 +11,6 @@ Sie enthält üblicherweise "Permissions" (Erlaubnisse) und "Restrictions" (Eins
 
 Bekannte Beispiele sind die ODRL (Open Digital Rights Language), die im MPEG-21 mit-inbegriffene REL die für die MPEG (Moving Pictures Experts Group) agiert und die ccREL für Open Source.
 
-METSRights könnte hier auch noch genannt werden aber es handelt sich da eher um eine Erweiterung des METS Standarts.
+METSRights könnte hier auch noch genannt werden aber es handelt sich da eher um eine Erweiterung des METS Standards.
 
 RELs sind also allgemein schon vorhanden, jedoch wollen wir uns mit der libRML auf die Bibliotheksumgebung konzentrieren. Es geht darum eine klare, einfache und durchsetzbare Sprache für alle in Bibliotheken vorhandenen Lizenzen zu erschaffen.

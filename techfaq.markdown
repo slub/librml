@@ -2,4 +2,5 @@
 ## Häufig gestellte Fragen zum teschnichen Hintergrund
 
 
-Hier gerne eventuelle Technischere Fragen zum Thema libRML kommentieren um diese Seite zu füttern
+
+Hier gerne eventuelle technischere Fragen zum Thema libRML kommentieren, um diese Seite zu füttern

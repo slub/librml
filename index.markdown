@@ -34,7 +34,7 @@ Andere häufig gestellte Fragen für Nutzer (FAQ):
 
 Häufig gestellte Fragen zum technischen Hintergrund:
 
-- [Zu den tech FAQ](techfaq.markdown)
+- [Zu den techn. FAQ](techfaq.markdown)
 
 
 Hier, auf der Konzept-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen sowie Links zu JSON und XML Beispiele, und XSD.
