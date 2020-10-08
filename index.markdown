@@ -37,9 +37,9 @@ Häufig gestellte Fragen zum teschnichen Hintergrund:
 [Zu den tech FAQ](techfaq.markdown)
 
 
-Hier, auf der Schema-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen, das Schema, sowie Links zu JSON und XML Beispiele, und XSD.
+Hier, auf der Konzept-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen sowie Links zu JSON und XML Beispiele, und XSD.
 
-[Zu den Schemas](schema/schema.markdown)
+[Zu dem Konzept](schema/konzept.markdown)
 
 
 

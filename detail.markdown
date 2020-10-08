@@ -37,4 +37,4 @@ Des Weiteren wird die libRML so gebaut das sie in bereits existierenden Metadate
 
 Sogenannte "Grauzonen" wie Unklarheiten bei den Rechtslagen oder Ungewissheit bezüglich des Urheberrechts können (noch) nicht von Maschinen geklärt werden. Die libRML wird allerdings als Werkzeug dienen können für allerlei geklärte Nutzungsrechte in unterschiedlichen Abteilungen der Bibliothek, sei es für Zeitschriften, eBooks oder Fotos. 
 
-Wer sich näher mit dem Thema befassen möchte kann sich gerne [hier](schema/schema.markdown) Schemas, Beispiele und andere Details anschauen oder gar [hier](api/api.markdown) mit python code und API beschäftigen. 
+Wer sich näher mit dem Thema befassen möchte kann sich gerne [hier](schema/konzept.markdown) das Konzept, Beispiele und andere Details anschauen oder gar [hier](api/api.markdown) mit python code und API beschäftigen. 

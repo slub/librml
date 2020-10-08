@@ -14,7 +14,7 @@ toc:
 
   - title: Konzept
     path: /schema/
-    url: schema.html
+    url: konzept.html
     subnav:
         - title: Actions
           url: actions.html
@@ -24,8 +24,8 @@ toc:
           url: attributes.html  
         - title: json
           url: json.html
-        - title: Schema
-          url: schema.html
+        - title: Konzept
+          url: konzept.html
         - title: XML Beispiel
           url: xmlbeispiel.html
         - title: XSD schema
