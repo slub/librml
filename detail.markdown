@@ -3,7 +3,7 @@
 
 LibRML (Library Rights Machine-readable Language) ist eine **[Rights Expression Language](rel.markdown)**, also eine Sprache zur Formulierung von Rechten, hier im Besonderen zur Formulierung von Nutzungsrechten im bibliothekarischen Bereich. 
 
-Nutzungsrechte sollen in Zukunpft Maschinen-interpretierbar und durchsetzbar sein aber trotzdem für den Menschen lesbar bleiben. Auch im Katalog, soll der Nutzer letztendlich erfahren können was er mit der gesuchten Ressource machen darf oder nicht. 
+Nutzungsrechte sollen in Zukunpft Maschinen-interpretierbar und durchsetzbar sein aber trotzdem für den Menschen lesbar bleiben. Auch im Katalog soll der Nutzer letztendlich erfahren können was er mit der gesuchten Ressource machen darf oder nicht. 
 
 Dies ist die Aufgabe der libRML. 
 
@@ -31,10 +31,10 @@ Allgemein gilt dazu noch die Regel „Was nicht in der LibRML steht, ist untersa
 Für alle betroffenen Actions sollen auch Embargos vorgesehen werden können. Somit können einzelne Nutzungsarten bei Beschreibung nach vorgegebenen Rechten erst ab gegebenem Datum automatisch freigeschaltet werden. 
 
 
-Für allgemein bekannte und häufig benutze Lizenzen wie zum Beispiel Creative Commons, wurden Templates hergestellt die die Beschreibung der dazu gehörigen Nutzungsrechte vereinfachen werden. Weiteres zu den Templates sowie Beispiele dazu finden sie **[hier](tmpl/templates.markdown)**.
+Für allgemein bekannte und häufig benutze Lizenzen wie zum Beispiel Creative Commons, wurden Templates hergestellt, die die Beschreibung der dazugehörigen Nutzungsrechte vereinfachen werden. Weiteres zu den Templates sowie Beispiele dazu finden sie **[hier](tmpl/templates.markdown)**.
 
 Damit soll die automatische Konvertierung bestehender Lizenzinformationen unterstützt werden. Manuelle Anpassungen an bestehenden Metadaten-Paketen können auf diese Art und Weise auf ein Minimum reduziert werden.
 
-Sogenannte "Grauzonen" wie Unklarheiten in der Rechteklärung oder Ungewissheit bezüglich des Urheberrechts können (noch) nicht von Maschinen geklärt werden. libRML kann aber dazu verwendet werden die intelektuell getroffenen Entscheidungen abzubilden. 
+Sogenannte "Grauzonen" wie Unklarheiten in der Rechteklärung oder Ungewissheit bezüglich des Urheberrechts können (noch) nicht von Maschinen geklärt werden. libRML kann aber dazu verwendet werden die intellektuell getroffenen Entscheidungen abzubilden. 
 
-Wer sich näher mit dem Thema befassen möchte kann sich gerne **[hier](schema/konzept.markdown)** das Konzept, Beispiele und andere Details anschauen oder gar **[hier](api/api.markdown)** mit python code und API beschäftigen. 
+Wer sich näher mit dem Thema befassen möchte, kann sich gerne **[hier](schema/konzept.markdown)** das Konzept, Beispiele und andere Details anschauen oder gar **[hier](api/api.markdown)** mit python code und API beschäftigen. 
