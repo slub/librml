@@ -36,7 +36,7 @@
 
 #### Welche Lizenzen sind schon als Templates vorhanden?
 
-- Creative Commons und andere Datenlizenzen für Deutschland (Siehe [Beispiele](templates/beispiele.markdown)) 
+- Creative Commons und andere Datenlizenzen für Deutschland (Siehe [Beispiele](tmpl/beispiele.markdown)) 
 
 #### Was wenn die zutreffenden Einschränkungen noch nicht in der libRML vorgesehen sind?
 
