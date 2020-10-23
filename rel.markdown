@@ -14,3 +14,6 @@ Bekannte Beispiele sind die ODRL (Open Digital Rights Language), die im MPEG-21 
 METSRights könnte hier auch noch genannt werden aber es handelt sich da eher um eine Erweiterung des METS Standards.
 
 RELs sind also allgemein schon vorhanden, jedoch wollen wir uns mit der libRML auf die Bibliotheksumgebung konzentrieren. Es geht darum eine klare, einfache und durchsetzbare Sprache für alle in Bibliotheken vorhandenen Lizenzen zu erschaffen.
+
+Weitere Informationen und Überlegungen zum Thema RELs finden sie in der Master Arbeit von André Hohmann:
+**[Rights Expression Languages in Libraries: Development of an Application Profile](http://hb.diva-portal.org/smash/record.jsf?pid=diva2%3A970467&dswid=-8153)**
