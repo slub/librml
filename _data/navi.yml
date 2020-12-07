@@ -2,7 +2,9 @@ toc:
   - title: Home
     path: /
     url: index.html
-    subnav:      
+    subnav:
+      - title: Übersicht
+        url: index.html  
       - title: Detail
         url: detail.html
       - title: REL
