@@ -5,7 +5,7 @@ toc:
     subnav:
       - title: Übersicht
         url: index.html  
-      - title: Detail
+      - title: LibRML im Detail
         url: detail.html
       - title: REL
         url: rel.html
@@ -26,11 +26,11 @@ toc:
           url: constraints.html
         - title: Attributes
           url: attributes.html  
-        - title: json
+        - title: JSON Beispiel
           url: json.html
         - title: XML Beispiel
           url: xmlbeispiel.html
-        - title: XSD schema
+        - title: XSD
           url: xsdschema.html
 
   - title: Templates

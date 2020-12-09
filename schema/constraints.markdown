@@ -1,7 +1,7 @@
 # Constraints
 ## Einschränkungen
 
-Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen, die in der libRML beschrieben werden können. 
+Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen, die in der LibRML beschrieben werden können. 
 Zur Vereinfachung des Programmierens sind diese in Englisch beschrieben.
 
 

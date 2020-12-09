@@ -1,7 +1,7 @@
 # Attributes
 ## Eigenschaften der verschiedenen Einschränkungen
 
-Hier finden sie alle Attributes (sogenannte Eigenschaften) die, die in der libRML beschrieben Einschränkungen beeinflussen können. 
+Hier finden sie alle Attributes (sogenannte Eigenschaften) die, die in der LibRML beschrieben Einschränkungen beeinflussen können. 
 
 Zur Vereinfachung des programierens sind diese in Englisch beschrieben. 
 

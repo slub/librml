@@ -1,4 +1,4 @@
-# XSD Schema
+# XSD
 
 {% highlight xml %}
 

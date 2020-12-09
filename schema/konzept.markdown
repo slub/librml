@@ -1,7 +1,7 @@
 # Konzept
 
 
-Gerne finden sie hier diverse Details zur libRML, sowie eine detailliertere Erklärung zum Aufbau einer libRML Datei.
+Gerne finden sie hier diverse Details zur LibRML, sowie eine detailliertere Erklärung zum Aufbau einer LibRML Datei.
 
 Ein konkretes Schema gibt es derzeit leider noch nicht aber es wird sobald wie möglich hinzugefügt werden. 
 

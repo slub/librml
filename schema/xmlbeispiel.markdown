@@ -7,7 +7,7 @@ Allerdings diesmal allen möglichen zusätzlichen Einschränkungen, wie auch ein
 
 <?xml version="1.0" ?>
 <libRML version="0.2">
-    <!-- This XML is created using the libRML Python code -->
+    <!-- This XML is created using the LibRML Python code -->
     <item id="doi:10.1371/journal.pbio.0020447" tenant="http://www.slub-dresden.de" mention="true" sharealike="true" usageguide="https://nutzungshinweis.slub-dresden.de/il-ma/1.0/" template="CCBYSA-V1">
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>

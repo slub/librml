@@ -1,11 +1,11 @@
-# libRML
+# LibRML
 ## Im Detail
 
 LibRML (Library Rights Machine-readable Language) ist eine **[Rights Expression Language](rel.markdown)**, also eine Sprache zur Formulierung von Rechten, hier im Besonderen zur Formulierung von Nutzungsrechten im bibliothekarischen Bereich. 
 
 Nutzungsrechte sollen in Zukunpft Maschinen-interpretierbar und durchsetzbar sein aber trotzdem für den Menschen lesbar bleiben. Auch im Katalog soll der Nutzer letztendlich erfahren können was er mit der gesuchten Ressource machen darf oder nicht. 
 
-Dies ist die Aufgabe der libRML. 
+Dies ist die Aufgabe der LibRML. 
 
 Was bedeutet jedoch "durchsetzbar"? Es bedeutet, dass jede Einschränkung die eine von Maschinen verhinderbare Nutzung (hier Action) betrifft auch so durchgesetzt wird. 
 
@@ -14,17 +14,17 @@ Beispiele wären: ein Embargo, ein Limit in der Auflösung eines Bildes, ausschl
 
 Konkret funktioniert es so:
 
-Zur Verknüpfung der libRML mit dem bearbeiteten Objekt, wird eine ID verwendet. Der folgen mehrere Grundinformationen wie der Inhaber der jeweiligen Rechte und Lizenzen sowie wichtige Haupteinschränkungen bezüglich der Namensnennung (Urheberrecht) oder weiter Verteilung unter gleichen Bedingungen und des Weiteren Benennung des Rechte/Lizenzen Typs und eventueller URL zur textuellen Beschreibung der gegebenen Nutzungsrechte.
+Zur Verknüpfung der LibRML mit dem bearbeiteten Objekt, wird eine ID verwendet. Der folgen mehrere Grundinformationen wie der Inhaber der jeweiligen Rechte und Lizenzen sowie wichtige Haupteinschränkungen bezüglich der Namensnennung (Urheberrecht) oder weiter Verteilung unter gleichen Bedingungen und des Weiteren Benennung des Rechte/Lizenzen Typs und eventueller URL zur textuellen Beschreibung der gegebenen Nutzungsrechte.
 
 
-Nach diesem „Header“ werden in der libRML die verschiedenen „Actions“, also die möglichen Arten der Nutzung, beschrieben mit ggf. ihren verschiedenen Einschränkungen.
+Nach diesem „Header“ werden in der LibRML die verschiedenen „Actions“, also die möglichen Arten der Nutzung, beschrieben mit ggf. ihren verschiedenen Einschränkungen.
 
 Hier eine Liste der verschiedenen Actions: **[Actions](schema/actions.markdown)** (Nutzungsrechte)
 
-Praktisch jede dieser Actions kann einer oder mehreren Einschränkungen unterliegen. Hier eine Liste der in der libRML vorgesehenen Einschränkungen (oder im Englischen „Constraints“): **[Constraints](schema/constraints.markdown)**
+Praktisch jede dieser Actions kann einer oder mehreren Einschränkungen unterliegen. Hier eine Liste der in der LibRML vorgesehenen Einschränkungen (oder im Englischen „Constraints“): **[Constraints](schema/constraints.markdown)**
 
 
-Nicht jede dieser Einschränkungen kann für jede Art der Nutzung verwendet werden da gewisse Kombinationen keinen Sinn ergeben würden. Daher sind in der libRML für jede „Action“ die möglichen (und nur jene) „Constraints“ schon vorgesehen.
+Nicht jede dieser Einschränkungen kann für jede Art der Nutzung verwendet werden da gewisse Kombinationen keinen Sinn ergeben würden. Daher sind in der LibRML für jede „Action“ die möglichen (und nur jene) „Constraints“ schon vorgesehen.
 
 Allgemein gilt dazu noch die Regel „Was nicht in der LibRML steht, ist untersagt“. In anderen Worten, nur Nutzungen die explizit bei der Beschreibung vorgesehen werden sind erlaubt und Nutzungen die nicht beschrieben werden dürfen nicht vom Nutzer oder der Bibliothek ausgeführt werden. Befindet sich zum Beispiel keine „print“ Action in der Rechtebeschreibung darf das Dokument auch nicht gedruckt werden.
 
@@ -35,6 +35,6 @@ Für allgemein bekannte und häufig benutze Lizenzen wie zum Beispiel Creative C
 
 Damit soll die automatische Konvertierung bestehender Lizenzinformationen unterstützt werden. Manuelle Anpassungen an bestehenden Metadaten-Paketen können auf diese Art und Weise auf ein Minimum reduziert werden.
 
-Sogenannte "Grauzonen" wie Unklarheiten in der Rechteklärung oder Ungewissheit bezüglich des Urheberrechts können (noch) nicht von Maschinen geklärt werden. libRML kann aber dazu verwendet werden die intellektuell getroffenen Entscheidungen abzubilden. 
+Sogenannte "Grauzonen" wie Unklarheiten in der Rechteklärung oder Ungewissheit bezüglich des Urheberrechts können (noch) nicht von Maschinen geklärt werden. LibRML kann aber dazu verwendet werden die intellektuell getroffenen Entscheidungen abzubilden. 
 
 Wer sich näher mit dem Thema befassen möchte, kann sich gerne **[hier](schema/konzept.markdown)** das Konzept, Beispiele und andere Details anschauen oder gar **[hier](api/api.markdown)** mit python code und API beschäftigen. 
