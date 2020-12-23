@@ -39,12 +39,15 @@ Dann werden eventuelle Einschränkungen beschrieben. Diese haben wieder Typ und 
 
 Zu den Einschränkungen gehören dann in manchen Fällen eine ganze Serie an Attributen. Diese Attribute sind von einer Einschränkung zur anderen relativ verschieden. Und selbst Einschränkungen, die im Text ähnlich klingen könnten wie „von… bis…“ sind im gegebenen Kontext sehr verschieden.
 
-Daher [hier](attributes.markdown) noch eine Liste diese Attribute für Einschränkungen.
+Daher [**hier**](attributes.markdown) noch eine Liste diese Attribute für Einschränkungen.
 
 
 
-Hier finden sie Beispiele: 
+Hier finden sie Beispiele für Vorlagen: 
 
-- [JSON](json.markdown)
-- [XML](xmlbeispiel.markdown)
-- [XSD](xsdschema.markdown)
+- [**Vorlagen**](/tmpl/beispiele.html)
+
+Und andere Beispiele: 
+- [**JSON**](json.markdown)
+- [**XML**](xmlbeispiel.markdown)
+- [**XSD**](xsdschema.markdown)

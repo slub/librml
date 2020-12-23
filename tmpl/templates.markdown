@@ -1,15 +1,18 @@
 # Templates
 ## Erstellung von Templates und Beispiele
 
-**[Hier](beispiele.markdown)** eine Liste der bereits erstellten Beispiele dank Templates und ihrer Beschreibungen.
+Templates werden benutzt um Eingabe-Vorlagen zu erstellen die zur Vereinfachung der Erfassung von Nutzungsrechten im LibRML-Format dienen. Diese **Vorlagen** können so in einem Eingabeassistenten ausgewählt werden und die Erfassung von einzelnen **Actions** und **Constraints** erübrigt sich. Eventuell könnten danach einzelne Beschränkungen ausgebessert oder hinzugefügt werden aber das Grundgerüsst der Nutzungsrechte steht bereits in der LibRML was die Eingabearbeit optimiert.   
+
+**[Hier](beispiele.markdown)** eine Liste der bereits erstellten Beispiele von Vorlagen und ihrer Beschreibungen.
+
+#### Zu den dafür gebauten Templates:  
 
 Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Metainformationen zu dem Template zu speichern.
 
 Ein Template mit dem aktuellen Stand besteht also aus 2 Dateien:
 
-librml-tmpl-CustomType2.jinja
-
-librml-tmpl-CustomType2.meta.json
+- librml-tmpl-CustomType2.jinja
+- librml-tmpl-CustomType2.meta.json
 
 Es gibt einen Basisnamen "librml-tmpl-CustomType2" und jeweils die Endung "jinja" und "meta.json". Die Konstruktion ist (im Moment) wichtig, weil die Templates nur geladen werden, wenn sie die Endung jinja haben und aus dem Dateinamen der Name der Metainformation-Datei erzeugt wird.
 

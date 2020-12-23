@@ -1,7 +1,11 @@
-# Beispiele
+# Eingabe Vorlagen
+## Beispiele
 
+Eingabevorlagen wie diese sollen das Erstellen von LibRML Dateien vereinfachen. 
+In einem Eingabeassistenten ausgewählt, setzt so eine Vorlage verschiedene Nutzungsrechten (**Actions**) und Einschränkungen (**Constraints**) bereits in der LibRML Datei fest (diese können allerdings im nachhinein bearbeitet werden) und erleichtern so die ein Eingabe. 
+Eventuell können diese auch einfach nur als Modell dienen und noch andere Einschränkungen hinzugefügt werden (zum Beispiel ein Embargo). 
 
-Diese Liste dient der Vereinfachung der Nachprüfung. Sie wird mit der Zeit wachsen. 
+Diese Liste dient im Moment der Projekt-internen Nachprüfung.  
 
 | Name / Link                           | Beschreibung                                                                                               | Typ              |
 | :-----                                | :----                                                                                                      |:---:             |
