@@ -3,7 +3,6 @@
 
 Hier finden sie alle Attributes (sogenannte Eigenschaften) die, die in der LibRML beschrieben Einschränkungen beeinflussen können. 
 
-Zur Vereinfachung des programierens sind diese in Englisch beschrieben. 
 
 - Fromdate / Ab gegebenem Datum (Wird für Embargos und Zeiteinschränkungen benutzt)
 

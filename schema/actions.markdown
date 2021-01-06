@@ -2,7 +2,6 @@
 ## Nutzungsrechte
 
 Hier finden sie alle Nutzungsrechte (bzw. Nutzungsmöglichkeiten) die in der LibRML beschrieben werden können. 
-Zur Vereinfachung des Programmierens sind diese in Englisch beschrieben. 
 
 
 - Display metadata / Anzeigen der Metadaten
