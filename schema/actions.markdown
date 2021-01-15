@@ -6,55 +6,55 @@ Hier finden sie alle Nutzungsrechte (bzw. Nutzungsmöglichkeiten) die in der Lib
 
 - Display metadata 
     - Anzeigen der Metadaten
-    > (Das lediglich Anzeigen der Metadaten im Katalog, erfolgend nach einer Suche des Nutzers.)
+    > Das lediglich Anzeigen der Metadaten im Katalog, erfolgend nach einer Suche des Nutzers.
 
 - Read 
     - „Lesen“ der Datei
-    > (Das Öffnen und Lesen der Datei: Text, Musik, Video…)  
+    > Das Öffnen und Lesen der Datei: Text, Musik, Video…
 
 - Run 
     - Ausführen bei z. B. Programmen
 
 - Lend 
     - Aus- oder Verleih
-    > (Auf Einrichtungen bezogen.)
+    > Auf Einrichtungen bezogen.
 
 - Download 
     - Herunterladen
-    > (Das Herunterladen von der Datei auf einen Computer oder jede Art von persönlichem Datenträger.)
+    > Das Herunterladen von der Datei auf einen Computer oder jede Art von persönlichem Datenträger.
 
 - Print 
     - Ausdrucken
-    > (Jede Art von Drucken des Werkes.)
+    > Jede Art von Drucken des Werkes.
 
 - Reproduce 
     - Vervielfältigen
-    > (Die Private wie öffentliche Vervielfältigung der Datei sei es im digitalen wie im analogen Sinne, zur Verbreitung oder nicht.)
+    > Die Private wie öffentliche Vervielfältigung der Datei sei es im digitalen wie im analogen Sinne, zur Verbreitung oder nicht.
 
 - Modify 
     - Bearbeiten
-    > (Jede Art der Bearbeitung, Übersetzung, Umarbeitung oder Umordnung.)
+    > Jede Art der Bearbeitung, Übersetzung, Umarbeitung oder Umordnung.
 
 - Reuse 
     - Wiederbenutzen
-    > (Die Wiederbenutzung des ganzen Werkes oder Teischelen des Werkes an sich oder in einem neuen Werk.)
+    > Die Wiederbenutzung des ganzen Werkes oder Teischelen des Werkes an sich oder in einem neuen Werk.
 
 - Distribute 
     - (Ver)teilen
-    > (Das „inoffizielle“ Weitergeben der Datei, wenn auch im professionellem Raum.)
+    > Das „inoffizielle“ Weitergeben der Datei, wenn auch im professionellem Raum.
 
 - Publish 
     - Veröffentlichen oder vorführen
-    > (Das „offizielle“ Veröffentlichen oder Vorführen der Datei im öffentlichen Sinne, z. B.: Verlag oder öffentliche Vorlesung.)
+    > Das „offizielle“ Veröffentlichen oder Vorführen der Datei im öffentlichen Sinne, z. B.: Verlag oder öffentliche Vorlesung.
 
 - Archive 
     - Archivieren
-    > (Auf Einrichtungen bezogen. Das Recht zur Langzeit Aufbewahrung.)
+    > Auf Einrichtungen bezogen. Das Recht zur Langzeit Aufbewahrung.
 
 - Index 
     - Indexieren
-    > (Auf Einrichtungen bezogen. Die Verschlagwortung und das Einfugen der Metadaten in einen Index oder eine Liste, sprich Katalog.)
+    > Auf Einrichtungen bezogen. Die Verschlagwortung und das Einfugen der Metadaten in einen Index oder eine Liste, sprich Katalog.
 
 - Move 
     - Übertragen der Daten
-    > (Auf Einrichtungen bezogen. Es geht hier, um das Recht die Daten von einer Datenbank auf eine anderen zu übertragen, oder auch das innerhäusliche Speichern von Dateien die ursprünglich nur auf der Datenbank des Abgebers verfügbar sind.)
+    > Auf Einrichtungen bezogen. Es geht hier, um das Recht die Daten von einer Datenbank auf eine anderen zu übertragen, oder auch das innerhäusliche Speichern von Dateien die ursprünglich nur auf der Datenbank des Abgebers verfügbar sind.
