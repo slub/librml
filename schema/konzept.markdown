@@ -45,7 +45,7 @@ Daher [**hier**](attributes.markdown) noch eine Liste diese Attribute für Einsc
 
 Hier finden sie Beispiele für Vorlagen: 
 
-- [**Vorlagen**](/tmpl/beispiele.html)
+- [**Vorlagen**](../tmpl/beispiele.markdown)
 
 Und andere Beispiele: 
 - [**JSON**](json.markdown)
