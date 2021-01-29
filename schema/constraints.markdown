@@ -37,4 +37,5 @@ Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen, die in
     - Nur für eine gewisse Art der Nutzung 
         - commercial use / Kommerzielle Nutzung
         - non commercial use / Nicht-kommerzielle Nutzung
-        - ... z.B. Academical / Für akademische Zwecke
+        - [Gegebenenfalls ist auch eine Erweiterung möglich. Freitext-Eingaben sind jedoch nicht möglich.]
+            - z.B. Academical (für akademische Zwecke)

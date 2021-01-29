@@ -1,14 +1,13 @@
 # XML Beispiel
 
-Wie bei dem JSON Beispiel ([hier](json.markdown)), nehmen wir auch für dieses XML Beispiel ein e-Journal das auf dem Creative Common CC-BY-SA Template aufgebaut wird (Namensnennung und „Share Alike“, abgeleitete Werke müssen denselben Bedingungen unterliegen).
-Allerdings diesmal allen möglichen zusätzlichen Einschränkungen, wie auch ein Embargo.
+Nehmen wir auch für dieses XML Beispiel ein e-Journal mit allerlei Einschränkungen, wie auch ein Embargo.
 
 {% highlight xml %}
 
 <?xml version="1.0" ?>
-<libRML version="0.2">
+<libRML version="0.3">
     <!-- This XML is created using the LibRML Python code -->
-    <item id="doi:10.1371/journal.pbio.0020447" tenant="http://www.slub-dresden.de" mention="true" sharealike="true" usageguide="https://nutzungshinweis.slub-dresden.de/il-ma/1.0/" template="CCBYSA-V1">
+    <item id="doi:10.1371/journal.pbio.0020447" tenant="http://www.slub-dresden.de" mention="true" sharealike="true" copyright="true">
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>
         <action type="read" permission="true">

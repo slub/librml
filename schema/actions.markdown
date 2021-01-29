@@ -37,7 +37,7 @@ Hier finden sie alle Nutzungsrechte (bzw. Nutzungsmöglichkeiten) die in der Lib
 
 - reuse 
     - Wiederbenutzen
-    > Die Wiederbenutzung des ganzen Werkes oder Teischelen des Werkes an sich oder in einem neuen Werk.
+    > Die Wiederbenutzung des ganzen Werkes oder Teilen des Werkes an sich oder in einem neuen Werk.
 
 - distribute 
     - (Ver)teilen

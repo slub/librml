@@ -36,7 +36,7 @@ Hier finden sie alle Attributes (sogenannte Eigenschaften) die, die in der LibRM
     - Außerhalb (Wird für Geographische Einschränkungen oder Einschränkungen bezüglich der Einrichtung benutzt)
     - Angabe: "out"
 
-    > Im falle der Einschränkung bezüglich einer Einrichtung kann diese z.B. über das Subnet (Eine Gruppierung von IP Adressen die einem Teil des Netzwerks angehören) geschehen wofur das *Restriction Type* **Subnet** benutzt werden kann. 
+    > Im falle der Einschränkung bezüglich einer Einrichtung kann diese z.B. über das Subnet (Eine Gruppierung von IP Adressen die einem Teil des Netzwerks angehören) geschehen wofür das *Restriction Type* **Subnet** benutzt werden kann. 
 
 
 - Noncommercialuse 
@@ -58,3 +58,34 @@ Hier finden sie alle Attributes (sogenannte Eigenschaften) die, die in der LibRM
 - Minage 
     - Mindestalter (Wird für Jugendschutz und dergleichen benutzt)
     - Angabe als Zahl - Integer
+
+
+### Anwendung
+
+**JSON**
+
+Einschränkungen werden in LibRML in das jeweilige Element mit dem zugehörigen Attribut eingetragen.
+
+{% highlight javascript %}
+"restrictions": [
+
+  {
+
+    "type": "date",
+
+    "fromdate": "2025-02-11"
+
+  },
+
+{% endhighlight %}
+
+
+
+
+**XML**
+
+Einschränkungen werden in LibRML in dem Element restrictions in das jeweilige Attribut mit dem zugehörigen Wert eingetragen.
+
+{% highlight xml %}
+<restriction type="date" fromdate="2025-02-11"/>
+{% endhighlight %}
