@@ -21,7 +21,7 @@ So funktioniert es:
 
 #### Header 
 
-Zur Verknüpfung der LibRML mit dem bearbeiteten Objekt, wird eine ID verwendet. Der folgen mehrere Grundinformationen wie der Inhaber der jeweiligen Rechte und Lizenzen sowie wichtige Haupteinschränkungen bezüglich der Namensnennung (Urheberrecht) oder weiter Verteilung unter gleichen Bedingungen und des Weiteren Benennung des Rechte/Lizenzen Typs und eventueller URL zur textuellen Beschreibung der gegebenen Nutzungsrechte.
+Zur Verknüpfung der LibRML mit dem bearbeiteten Objekt, wird eine ID verwendet. Der folgen mehrere Grundinformationen wie eventuelle andere IDs falls das Objekt mehrmals im Katalog vorkommt oder unterschiedlichen Verträgen unterliegt, der Inhaber der jeweiligen Rechte und Lizenzen sowie wichtige Haupteinschränkungen bezüglich der Namensnennung, Urheberrecht oder weiter Verteilung unter gleichen Bedingungen und des Weiteren Benennung des Rechte/Lizenzen Typs und eventueller URL zur textuellen Beschreibung der gegebenen Nutzungsrechte.
 
 
 #### Actions

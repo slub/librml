@@ -4,60 +4,64 @@
 Hier finden sie alle Attributes (sogenannte Eigenschaften) die, die in der LibRML beschrieben Einschränkungen beeinflussen können. 
 
 
-- Fromdate
+- fromdate
     - Ab gegebenem Datum
     - Angabe nach ISO-Standard (YYYY-MM-DD) 
 
-- Todate 
+- todate 
     - Bis gegebenem Datum 
     - Angabe nach ISO-Standard (YYYY-MM-DD)
 
-- Maxresolution 
+- maxresolution 
     - Maximale Auflösung
     - Angabe in DPI
 
-- Maxbitrate
+- maxbitrate
     - Maximale Größe
     - Angabe in Bit
 
-- Count 
+- count 
     - Anzahl (z.B. für die Anzahl an Ausleihen)
     - Angabe als Zahl - Integer
 
-- Sessions 
+- sessions 
     - z.B. im Falle einer Ressource die nicht gleichzeitig auf zwei Rechnern angesehen werden darf
     - Angabe als Zahl - Integer
 
-- Inside 
+- inside 
     - Innerhalb (Wird für Geographische Einschränkungen oder Einschränkungen bezüglich der Einrichtung benutzt)
     - Angabe: "in"
 
-- Outside 
+- outside 
     - Außerhalb (Wird für Geographische Einschränkungen oder Einschränkungen bezüglich der Einrichtung benutzt)
     - Angabe: "out"
 
     > Im falle der Einschränkung bezüglich einer Einrichtung kann diese z.B. über das Subnet (Eine Gruppierung von IP Adressen die einem Teil des Netzwerks angehören) geschehen wofür das *Restriction Type* **Subnet** benutzt werden kann. 
 
 
-- Noncommercialuse 
+- noncommercialuse 
     - Nicht kommerzielle Nutzung
     - Angabe: "true"/"false"
 
-- Commercialuse
+- commercialuse
     - Kommerzielle Nutzung
     - Angabe: "true"/"false"
 
-- Watermarkvalue 
+- watermarkvalue 
     - Bezeichnung des Wasserzeichens
     - Das *Watermark* muss an einem spezifischen Ort hinterlegt sein der hier verlinkt ist
 
-- Duration 
+- duration 
     - Dauer
     - Angabe in non-negative Integer (Sekunden)
 
-- Minage 
+- minage 
     - Mindestalter (Wird für Jugendschutz und dergleichen benutzt)
     - Angabe als Zahl - Integer
+
+- required
+    - "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt)
+    - Angabe: "true"/"false"
 
 
 ### Anwendung
