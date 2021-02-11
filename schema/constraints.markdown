@@ -41,3 +41,34 @@ Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen, die in
             - z.B. Academical (für akademische Zwecke)
 - agreement
     - Nur mit speziellen externen Vertrag
+
+
+### Anwendung
+
+**JSON**
+
+Einschränkungen werden in LibRML in das jeweilige Element mit dem zugehörigen Attribut eingetragen.
+
+{% highlight javascript %}
+"restrictions": [
+
+  {
+
+    "type": "date",
+
+    "fromdate": "2025-02-11"
+
+  },
+
+{% endhighlight %}
+
+
+
+
+**XML**
+
+Einschränkungen werden in LibRML in dem Element restrictions in das jeweilige Attribut mit dem zugehörigen Wert eingetragen.
+
+{% highlight xml %}
+<restriction type="date" fromdate="2025-02-11"/>
+{% endhighlight %}
