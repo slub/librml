@@ -1,60 +1,40 @@
 # Actions
 ## Nutzungsrechte
 
-Hier finden sie alle Nutzungsrechte (bzw. Nutzungsmöglichkeiten) die in der LibRML beschrieben werden können. 
+Actions beschreiben die Nutzungsmöglichkeiten einer Ressource. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen (Siehe Konzept).
+
+{% highlight javascript %}
+{
+  "id": "ID-NAME",
+  "actions": [{
+    "type": "ACTION-NAME",
+    "permission": true
+  }]
+}
+{% endhighlight %}
 
 
-- display metadata 
-    - Anzeigen der Metadaten
-    > Das lediglich Anzeigen der Metadaten im Katalog, erfolgend nach einer Suche des Nutzers.
+Um eine Nutzungsmöglichkeit zu gewähren, muss die entsprechende Aktion in der LibRML-Beschreibung aufgeführt werden. Jede Aktion wird dafür mit dem zugehörigen `type` eingeleitet, der die Art der Nutzung beschreibt. Mit `"permission": true"`{:.highlight .json} wird sie explizit als erlaubt gekennzeichnet.
 
-- read 
-    - „Lesen“ der Datei
-    > Das Öffnen und Lesen der Datei: Text, Musik, Video…
 
-- run 
-    - Ausführen bei z. B. Programmen
+Alle Actions können zusätzlich durch Einschränkungen (siehe Constraints) und Attributen (siehe Attributes) feiner spezifiziert werden.
 
-- lend 
-    - Aus- oder Verleih
-    > Auf Einrichtungen bezogen.
 
-- download 
-    - Herunterladen
-    > Das Herunterladen von der Datei auf einen Computer oder jede Art von persönlichem Datenträger.
+In der LibRML stehen folgende Actions zur Beschreibung der Ressourcen zur Verfügung.
 
-- print 
-    - Ausdrucken
-    > Jede Art von Drucken des Werkes.
-
-- reproduce 
-    - Vervielfältigen
-    > Die Private wie öffentliche Vervielfältigung der Datei sei es im digitalen wie im analogen Sinne, zur Verbreitung oder nicht.
-
-- modify 
-    - Bearbeiten
-    > Jede Art der Bearbeitung, Übersetzung, Umarbeitung oder Umordnung.
-
-- reuse 
-    - Wiederbenutzen
-    > Die Wiederbenutzung des ganzen Werkes oder Teilen des Werkes an sich oder in einem neuen Werk.
-
-- distribute 
-    - (Ver)teilen
-    > Das „inoffizielle“ Weitergeben der Datei, wenn auch im professionellem Raum.
-
-- publish 
-    - Veröffentlichen oder vorführen
-    > Das „offizielle“ Veröffentlichen oder Vorführen der Datei im öffentlichen Sinne, z. B.: Verlag oder öffentliche Vorlesung.
-
-- archive 
-    - Archivieren
-    > Auf Einrichtungen bezogen. Das Recht zur Langzeit Aufbewahrung.
-
-- index 
-    - Indexieren
-    > Auf Einrichtungen bezogen. Die Verschlagwortung und das Einfugen der Metadaten in einen Index oder eine Liste, sprich Katalog.
-
-- move 
-    - Übertragen der Daten
-    > Auf Einrichtungen bezogen. Es geht hier, um das Recht die Daten von einer Datenbank auf eine anderen zu übertragen, oder auch das innerhäusliche Speichern von Dateien die ursprünglich nur auf der Datenbank des Abgebers verfügbar sind.
+| Action-Name | Übersetzung | Beschreibung | Beispiel |
+| :-------------:| :----------: | :-----------: |:-----------: |
+| **displaymetadata** | Anzeigen der Metadaten | Erlaubt ausschließlich die Anzeige der Metadaten im Katalog. |  |
+| **read** | „Lesen“ der Datei | Erlaubt das Öffnen und Lesen der Ressource. |  |
+| **run** |  Ausführen bei z. B. Programmen | Erlaubt das Ausführen der Ressource, wie zum Beispiel einem Programm. |   |
+| **lend** | Verleih | Erlaubt den Verleih der Ressource.<br/><br/>Auf Einrichtungen bezogen.  |   |
+| **download** | Herunterladen | Erlaubt das Herunterladen einer Datei auf einen Computer oder auf jeglichen anderen Datenträger. |   |
+| **print** | Ausdrucken | Erlaubt das Ausdrucken des Werkes. |   |
+| **reproduce** | Vervielfältigen | Erlaubt die private und öffentliche Vervielfältigung der Ressource, unabhängig davon, ob sie verbreitet wird oder nicht. |   |
+| **modify** | Bearbeiten | Erlaubt jede Art der Bearbeitung, Übersetzung, Umarbeitung. |   |
+| **reuse** | Wiederbenutzen | Erlaubt die Wiederverwendung des ganzen Werkes oder Teile des Werkes |  |
+| **distribute** | (Ver)teilen | Erlaubt das nicht-öffentliche Verbreiten der Ressource, wie zum Beispiel durch die Weitergabe der Ressource im Bekanntenkreis. |   |
+| **publish** | Veröffentlichen oder vorführen |  Erlaubt das öffentliche Verbreiten oder Vorführen der Ressource, wie zum Beispiel durch eine Verlagsveröffentlichung oder eine öffentliche Vorlesung. |   |
+| **archive** | Archivieren | Erlaubt die Speicherung der Ressource zum Zweck der Archivierung.<br/><br/>Auf Einrichtungen bezogen.  |   |
+| **index** | Indexieren | Erlaubt die Erzeugung und/oder das Einfügen von Metadaten in einen Index, zum Beispiel für einen Katalog.<br/><br/>Auf Einrichtungen bezogen.  |   |
+| **move** | Übertragen der Daten | Erlaubt die Übertragung der Ressource zwischen Datenbanken, oder das interne Speichern einer Ressource, die in einer externen Datenbank des Anbieters verfügbar ist.<br/><br/>Auf Einrichtungen bezogen.  |   |
