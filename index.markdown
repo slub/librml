@@ -42,7 +42,7 @@ Häufig gestellte Fragen zum technischen Hintergrund:
 
 Hier, auf der Konzept-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen sowie Links zu JSON und XML Beispiele, und XSD.
 
-- [Zu dem Konzept](schema/konzept.markdown)
+- [Zu dem Konzept](schema/concept.markdown)
 
 
 

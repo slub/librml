@@ -48,4 +48,4 @@ Sogenannte "Grauzonen" wie Unklarheiten in der Rechteklärung oder Ungewissheit 
 
 #### Weitere Informationen
 
-Wer sich näher mit dem Thema befassen möchte, kann sich gerne **[hier](schema/konzept.markdown)** das Konzept, Beispiele und andere Details anschauen oder gar **[hier](api/api.markdown)** mit python code und API beschäftigen. 
+Wer sich näher mit dem Thema befassen möchte, kann sich gerne **[hier](schema/concept.markdown)** das Konzept, Beispiele und andere Details anschauen oder gar **[hier](api/api.markdown)** mit python code und API beschäftigen. 
