@@ -1,41 +1,94 @@
 # Konzept
-
-
-Gerne finden sie hier diverse Details zur LibRML, sowie eine detailliertere Beschreibung zum Aufbau einer LibRML Datei. 
-
+## Aufbau
 Eine LibRML Datei besteht aus:
 
-- [**Header**](header.markdown) (Allgemeine Informationen)
+- Allgemeinen Informationen ([**Header**](header.markdown))
 
-- [**Actions**](actions.markdown) (Nutzungsrechte)
+- Nutzungsrechten ([**Actions**](actions.markdown))
 
-- [**Constraints**](constraints.markdown) (Einschränkungen)
+  - Einschränkungen ([**Constraints**](constraints.markdown))
 
-- [**Attributes**](attributes.markdown) (Eigenschaften zu den Einschränkungen)
+  - Eigenschaften ([**Attributes**](attributes.markdown))
 
+----
 
-In der Version 0.3 der LibRML an der wir gerade arbeiten werden die Nutzungsrechte nach Actions organisiert.
+Zunächst werden im [**Header**](header.markdown) allgemeine Informationen zur Beschreibung der e-Ressource vergeben.
 
+Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.markdown) beschrieben. Diese Aktionen werden durch [**Einschränkungen**](constraints.markdown) und [**Eigenschaften**](attributes.markdown) ergänzt. In LibRML wird nur die **erlaubte Nutzung** beschrieben. Aktionen die **nicht** in der LibRML-Beschreibung der e-Ressource vorkommen gelten implizit als **verboten** und können weggelassen werden.
 
-Zuerst werden im **Header** für die beschriebene eRessource **„Attributes“** (Eigenschaften) vergeben. (Nicht zu verwechseln mit den ["**Attributes**"](attributes.markdown) die zur Beschreibung von Eigenschaften der verschiedenen Einschränkungen benutzt werden)
+----
 
-Nach diesem **Header** werden die jeweiligen **Actions** beschrieben. Diese werden durch **Constraints** und **Attributes** ergänzt. Es wird erst der Typ benannt, dann die Genehmigung (hier „Permission“) eingeschaltet (also auf „true“ geschaltet). Zur Erinnerung, es werden in der LibRML keine Genehmigungen explizit ausgeschaltet (also auf „false“) da jene Actions die nicht genehmigt sind, weggelassen werden.
+## Beispiel
 
-Dann werden eventuelle Einschränkungen beschrieben. Diese haben wieder Typ und True/False Schalter und wieder wird das „False“ nicht explizit benutzt, sondern die Einschränkung weggelassen, wenn diese nicht benutzt wird.
+Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und dem öffentlicher Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken.
 
-Zu den Einschränkungen gehören dann in manchen Fällen eine ganze Serie an Attributen. Diese Attribute sind von einer Einschränkung zur anderen relativ verschieden. Und selbst Einschränkungen, die im Text ähnlich klingen könnten wie „von… bis…“ sind im gegebenen Kontext sehr verschieden.
+{% highlight javascript %}
 
-Daher [**hier**](attributes.markdown) noch eine Liste dieser Attributes für Einschränkungen.
+{
+  "id": "DE-611-HS-3665348",
+  "tenant": "https://www.slub-dresden.de",
+  "copyright": true,
+  "actions": [
+	{
+	  "type": "displaymetadata",
+	  "permission": true
+	},
+	{
+	  "type": "index",
+	  "permission": true
+	},
+	{
+	  "type": "read",
+	  "permission": true,
+	},
+	{
+	  "type": "distribute",
+	  "permission": true,
+	  "restrictions": [
+		{
+		  "type": "commercialuse",
+		  "noncommercialuse": true
+		},
+	  ]
+	},
+	{
+	  "type": "archive",
+	  "permission": true,
+	},
+	{
+	  "type": "move",
+	  "permission": true,
+	  "restrictions": [
+		{
+		  "type": "commercialuse",
+		  "noncommercialuse": true
+		},
+	  ]
+	},
+  ]
+}
 
-Hier finden sie Beispiele für Vorlagen: 
+{% endhighlight %}
 
-- [**Vorlagen**](../tmpl/beispiele.markdown)
+----
 
-Und andere Beispiele: 
+### Vorlagen
+
+Häufig kommt es vor, dass e-Ressourcen fest definierten Lizenzen unterliegen aus der sich die Nutzung ableiten lässt (z.B. Public Domain oder CC-Lizenzen). Für solche Fälle stehen fertige [**Vorlagen**](../tmpl/beispiele.markdown) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
+
+----
+
+Ausführlichere Informationen zu den Bestandteilen einer LibRML-Beschreibung finden Sie auf den folgenden Seiten:
+
+- [**Header**](header.markdown)
+- [**Aktionen**](actions.markdown)
+- [**Einschränkungen**](constraints.markdown)
+- [**Eigenschaften**](attributes.markdown)
+
+Beispiele:
 - [**JSON**](json.markdown)
 - [**XML**](xmlbeispiel.markdown)
 
-Eine XSD gibt es im Moment nur als Entwurf zur Version 0.2: 
-*(Dieser Entwurf würd andauerd verändert. Daher wird erst zur Version 1.0 ein Update hier veröffentlicht)*
+Häufig vorkommende Lizenzen in LibRML
+- [**Vorlagen**](../tmpl/beispiele.markdown)
 
-- [**XSD**](xsdschema.markdown)
