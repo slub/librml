@@ -5,44 +5,32 @@ sidebar: librml
 # LibRML
 ## Nutzungsrechte und Lizenzen für Bibliotheken leicht gemacht
 
-Zu jeder Ressource gehören Nutzungsrechte und Lizenzen. Diese in den Metadaten zu Beschreiben und durchzusetzen ist allerdings oft schwierig. Oft wird da zum Freitextfeld gegriffen oder zum Anhang oder Link. Der Bedarf an Automatisierung und standardisierten Beschreibung ist groß aber leider sind die bis jetzt bekannte Standards entweder zu komplex oder nicht vollendet.
-Deswegen wird die LibRML entwickelt.
+### Status Quo
 
-Library Rights Machine-readable Language (kurz LibRML) ist eine spezifisch auf bibliothekarische Ansprüche zugeschnittene REL ([Rights Expression Language](rel.markdown)).
+Jede e-Ressource ist mit Nutzungsrechten und Lizenzen verbunden. Diese Informationen befinden sich zum Großteil in Vertragsdokumenten, E-Mails oder ausführlichen  Lizenztexten. In den Metadaten der e-Ressourcen werden diese Informationen häufig in Freitextfelder übertragen. Im Fall von standardisierten Lizenzen (CC-Lizenzen, Public Domain) befindet sich oft nur der Link zum eigentlichen Lizenztext am digitalen Objekt.
 
-Einfach und verständlich für jeden Nutzer aber komplex genug um alle in der e-Ressourcen Thematik möglichen Fälle von Nutzungsrechten und Einschränkungen zu beschreiben. Dabei soll es sowohl menschen- also auch maschinenlesbar bleiben.
+Dieser Umstand führt dazu, dass die maschinelle Auswertung der Nutzung eines digitalen Objekts nicht möglich ist. Freitextfelder können eine nahezu beliebige Fülle an Informationen enthalten, die sich in Reihenfolge und Schreibweise zwischen ähnlich lizenzierten Objekten unterscheiden kann. Die maschinelle Verarbeitung ist ohne Vereinheitlichung und eineindeutige Informationen nicht gegeben.
+
+Standards für digitale Rechteverwaltung (ODRL, MPEG21, PREMIS) existieren bereits. Sie konnten sich aber in der bibliothekarischen Praxis bisher nicht bewähren. Ansätze aus der Wirtschaft sind oft sehr komplex und zu feingranular strukturiert. Studienprojekte die einfachere Ansätze verfolgen sind hingegen nicht ausgereift und decken nur triviale Szenarien ab.
+
+Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existert kein Standard der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
+
+### LibRML
+
+Aus diesem Grund wurde die **Library Rights Machine-readable Language** (kurz **LibRML**) entwickelt. Als [Beschreibungssprache](rel.markdown)für den bibliothekarischen Sektor wird eine Brücke zwischen Komplexität und Verständlichkeit geschaffen. LibRML ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken.
 
 <img src="{{site.baseurl}}/assets/images/librml1.png" alt="LibRML Teaser" class="center">
 
+Rechteauszeichnung mit LibRML sind durch maschinelle Unterstützung einfach zu generieren und weiterzuverarbeiten und eröffnen so zahlreiche neue Möglichkeiten in der Automatisierung bibliothekarischer Workflows.
 
-Wie genau funktioniert die LibRML? 
-
-- [Die LibRML im Detail](detail.markdown)
-
-
-Was ist überhaupt eine REL? 
+Mehr Informationen befinden [zum Konzept] von LibRML enthält geplante Nutzungsmöglichkeiten und Einschränkungen sowie JSON und XML Beispiele:
 
 - [Rights Expression Language](rel.markdown)
+- [Konzept hinter LibRML](schema/concept.markdown)
+- [Die LibRML im Detail](detail.markdown)
+- [Vorlagen für häufig verwendete Lizenzen](tmpl/templates.markdown)
 
+## FAQ
 
-Was genau gibt es bereits als Beispiele? 
-
-- [Templates für häufig benutzte Lizenzen](tmpl/templates.markdown)
-
-
-Andere häufig gestellte Fragen für Nutzer (FAQ):
-
-- [Zu den allgemeinen FAQ](allgfaq.markdown)
-
-
-Häufig gestellte Fragen zum technischen Hintergrund:
-
-- [Zu den techn. FAQ](techfaq.markdown)
-
-
-Hier, auf der Konzept-Seite finden sie die bereits eingeplanten Nutzungsmöglichkeiten und Einschränkungen sowie Links zu JSON und XML Beispiele, und XSD.
-
-- [Zu dem Konzept](schema/concept.markdown)
-
-
-
+- [Häufig gestellte Fragen für Nutzer (FAQ)](allgfaq.markdown)
+- [Häufig gestellte Fragen zum technischen Hintergrund](techfaq.markdown)
