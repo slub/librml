@@ -4,7 +4,7 @@ toc:
     url: index.html
     subnav:
       - title: Übersicht
-        url: index.html  
+        url: index.html
       - title: LibRML im Detail
         url: detail.html
       - title: REL
@@ -16,10 +16,10 @@ toc:
 
   - title: Konzept
     path: /schema/
-    url: konzept.html
+    url: concept.html
     subnav:
         - title: Konzept
-          url: konzept.html
+          url: concept.html
         - title: Header
           url: header.html
         - title: Actions
@@ -27,7 +27,7 @@ toc:
         - title: Constraints
           url: constraints.html
         - title: Attributes
-          url: attributes.html  
+          url: attributes.html
         - title: JSON Beispiel
           url: json.html
         - title: XML Beispiel
