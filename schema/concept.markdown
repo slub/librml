@@ -20,7 +20,7 @@ Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.m
 
 ## Beispiel
 
-Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und dem öffentlicher Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken.
+Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und dem öffentlicher Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
 
 {% highlight javascript %}
 
@@ -89,6 +89,12 @@ Beispiele:
 - [**JSON**](json.markdown)
 - [**XML**](xmlbeispiel.markdown)
 
+Validierung:
+
+Eine XSD gibt es im Moment nur als Entwurf in Version 0.2:
+*(Dieser Entwurf wird kontinuierlich verändert. Eine finale Version wird erst mit Version 1.0 veröffentlicht.)*
+- [**XSD**](xsdschema.markdown)
+
+
 Häufig vorkommende Lizenzen in LibRML
 - [**Vorlagen**](../tmpl/beispiele.markdown)
-

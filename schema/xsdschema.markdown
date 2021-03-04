@@ -1,5 +1,7 @@
 # XSD
 
+*(Dieser Entwurf wird kontinuierlich verändert. Eine finale Version wird erst mit Version 1.0 veröffentlicht.)*
+
 {% highlight xml %}
 
 
@@ -7,7 +9,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
            elementFormDefault="qualified">
     <xs:element name="libRML" type="libRMLType"/>
- 
+
     <!-- libRMLType - Container for all -->
     <xs:complexType name="libRMLType">
         <!-- Contains only 1 subelement and a string 'version' -->
@@ -16,7 +18,7 @@
         </xs:sequence>
         <xs:attribute type="xs:string" name="version"/>
     </xs:complexType>
- 
+
     <!-- itemType - has many actions and some attributes -->
     <xs:complexType name="ItemType">
         <xs:sequence minOccurs="1" maxOccurs="unbounded">
@@ -29,7 +31,7 @@
         <xs:attribute type="xs:boolean" name="mention"/>
         <xs:attribute type="xs:boolean" name="sharealike"/>
     </xs:complexType>
- 
+
     <!-- ActionType - has many restrictions and some attributes -->
     <xs:complexType name="ActionType">
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
@@ -57,7 +59,7 @@
         </xs:attribute>
         <xs:attribute type="xs:boolean" name="permission"/>
     </xs:complexType>
- 
+
     <!-- RestrictionType - all-in-one-mess -->
     <xs:complexType name="RestrictionType" mixed="true">
         <xs:sequence>

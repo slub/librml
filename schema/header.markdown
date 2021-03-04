@@ -1,7 +1,7 @@
 # Header
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** befinden sich Informationen zur eindeutigen Identifikation der zu beschreibenden e-Ressource. Ohne eindeutige **id** kann die Rechtebeschreibung nicht mit der konkreten e-Ressource verknüpft werden. Da es vorkommen kann, dass Institutionen die gleiche e-Ressource unterschiedlich lizenziert haben, wird die Einrichtung als `tenant` angegeben um den nötigen Kontext herzustellen. Analog kann es verschiedene Identifier zur gleichen e-Ressourcen geben, die als verwandte IDs als `relatedids` abgelegt werden können.
+Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu beschreibenden digitalen Objekts. Ohne eindeutige **id** kann die Rechtebeschreibung nicht mit dem konkreten Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen die gleiche Ressource unterschiedlich lizenziert haben, wird die Einrichtung als `tenant` angegeben um den nötigen Kontext herzustellen. Analog kann es verschiedene Identifier zur gleichen e-Ressourcen geben, die als verwandte IDs als `relatedids` abgelegt werden können.
 
 
 
