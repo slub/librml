@@ -11,9 +11,9 @@ Jede e-Ressource ist mit Nutzungsrechten und Lizenzen verbunden. Diese Informati
 
 Dieser Umstand führt dazu, dass die maschinelle Auswertung der Nutzung eines digitalen Objekts nicht möglich ist. Freitextfelder können eine nahezu beliebige Fülle an Informationen enthalten, die sich in Reihenfolge und Schreibweise zwischen ähnlich lizenzierten Objekten unterscheiden kann. Die maschinelle Verarbeitung ist ohne Vereinheitlichung und eineindeutige Informationen nicht gegeben.
 
-Standards für digitale Rechteverwaltung (ODRL, MPEG21, PREMIS) existieren bereits. Sie konnten sich aber in der bibliothekarischen Praxis bisher nicht bewähren. Ansätze aus der Wirtschaft sind oft sehr komplex und zu feingranular strukturiert. Studienprojekte die einfachere Ansätze verfolgen sind hingegen nicht ausgereift und decken nur triviale Szenarien ab.
+Standards für digitale Rechteverwaltung (ODRL, MPEG21, PREMIS) existieren bereits. Sie konnten sich aber in der bibliothekarischen Praxis bisher nicht bewähren. Ansätze aus der Wirtschaft sind oft sehr komplex und zu fein granular strukturiert. Studienprojekte die einfachere Ansätze verfolgen sind hingegen nicht ausgereift und decken nur triviale Szenarien ab.
 
-Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existert kein Standard der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
+Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existiert kein Standard der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
 
 ### LibRML
 
