@@ -5,10 +5,10 @@ toc:
     subnav:
       - title: Übersicht
         url: index.html
-      - title: LibRML im Detail
-        url: detail.html
-      - title: REL
+      - title: Rights Expression Language
         url: rel.html
+      - title: LibRML Konzept
+        url: concept.html
       - title: Allgemeine FAQ
         url: allgfaq.html
       - title: Technische FAQ

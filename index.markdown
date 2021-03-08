@@ -27,7 +27,6 @@ Mehr Informationen befinden [zum Konzept] von LibRML enthält geplante Nutzungsm
 
 - [Rights Expression Language](rel.markdown)
 - [Konzept hinter LibRML](schema/concept.markdown)
-- [Die LibRML im Detail](detail.markdown)
 - [Vorlagen für häufig verwendete Lizenzen](tmpl/templates.markdown)
 
 ## FAQ
