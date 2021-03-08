@@ -35,7 +35,7 @@ toc:
         - title: XSD
           url: xsdschema.html
 
-  - title: Templates
+  - title: Vorlagen
     path: /tmpl/
     url: templates.html
     subnav:
