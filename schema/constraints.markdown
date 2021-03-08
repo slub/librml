@@ -32,7 +32,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 | parts | Teile | Einschränkung der Action auf bestimmte Teile der Ressource. | |
 | group | Nutzergruppe | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | |
 | age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | |
-| location | Ort | Geographisch (ein bestimmtes Gebiet z.B. Deutschland)<br/><br/>Insitutionell (eine bestimmte Einrichtung z.B. SLUB Dresden) | |
+| location | Ort | Geographisch (ein bestimmtes Gebiet z.B. Deutschland)<br/><br/>Institutionell (eine bestimmte Einrichtung z.B. SLUB Dresden) | |
 | date | Zeitpunkt | Einschränkung der Action ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | |
 | duration | Dauer | Einschränkung der Action auf eine bestimmte Zeitdauer. | |
 | count | Anzahl | Einschränkung der Action auf eine bestimmte Anzahl an Ausführungen, Benutzungen, ... | |
