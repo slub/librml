@@ -8,7 +8,7 @@ toc:
       - title: Rights Expression Language
         url: rel.html
       - title: LibRML Konzept
-        url: concept.html
+        url: schema/concept.html
       - title: Allgemeine FAQ
         url: allgfaq.html
       - title: Technische FAQ
