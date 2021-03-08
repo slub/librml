@@ -6,11 +6,11 @@ sidebar: librml
 
 ## Status Quo
 
-Jede e-Ressource ist mit Nutzungsrechten und Lizenzen verbunden. Diese Informationen befinden sich zum Großteil in Vertragsdokumenten, E-Mails oder ausführlichen  Lizenztexten. In den Metadaten der e-Ressourcen werden diese Informationen häufig in Freitextfelder übertragen. Im Fall von standardisierten Lizenzen (CC-Lizenzen, Public Domain) befindet sich oft nur der Link zum eigentlichen Lizenztext am digitalen Objekt.
+Jede e-Ressource ist mit Nutzungsrechten und Lizenzen verbunden. Diese Informationen befinden sich zum Großteil in Vertragsdokumenten, E-Mails oder ausführlichen  Lizenztexten. In den Metadaten der e-Ressourcen werden diese Informationen häufig in Freitextfelder übertragen. Im Fall von standardisierten Lizenzen ([CC-Lizenzen](https://de.wikipedia.org/wiki/Creative_Commons#Lizenzen), [Public Domain](https://de.wikipedia.org/wiki/Gemeinfreiheit#Public_Domain)) befindet sich oft nur der Link zum eigentlichen Lizenztext am digitalen Objekt.
 
 Dieser Umstand führt dazu, dass die maschinelle Auswertung der Nutzung eines digitalen Objekts nicht möglich ist. Freitextfelder können eine nahezu beliebige Fülle an Informationen enthalten, die sich in Reihenfolge und Schreibweise zwischen ähnlich lizenzierten Objekten unterscheiden kann. Die maschinelle Verarbeitung ist ohne Vereinheitlichung und eineindeutige Informationen nicht gegeben.
 
-Standards für digitale Rechteverwaltung (ODRL, MPEG21, PREMIS) existieren bereits. Sie konnten sich aber in der bibliothekarischen Praxis bisher nicht bewähren. Ansätze aus der Wirtschaft sind oft sehr komplex und zu fein granular strukturiert. Studienprojekte die einfachere Ansätze verfolgen sind hingegen nicht ausgereift und decken nur triviale Szenarien ab.
+Standards für digitale Rechteverwaltung ([ODRL](https://en.wikipedia.org/wiki/ODRL), [MPEG21](https://de.wikipedia.org/wiki/MPEG-21), [PREMIS](https://de.wikipedia.org/wiki/Preservation_Metadata:_Implementation_Strategies) existieren bereits. Sie konnten sich aber in der bibliothekarischen Praxis bisher nicht bewähren. Ansätze aus der Wirtschaft sind oft sehr komplex und zu fein granular strukturiert. Studienprojekte die einfachere Ansätze verfolgen sind hingegen nicht ausgereift und decken nur triviale Szenarien ab.
 
 Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existiert kein Standard der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
 
