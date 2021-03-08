@@ -1,31 +1,37 @@
 # Header
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** befinden sich wichtige Informationen zum Objekt die unter anderem der Verknüpfung mit besagtem Objekt aber auch mit eventuellen anderen Versionen desselben dienen, sowie mit der Einrichtung die diese Ressourcen verwalten und eventuelle Richtlinien und Lizenzen.
-
-Des Weiteren werden auch hier allgemeine Einschränkungen beschrieben die für alle Nutzungsrechte bezüglich dieses Objekts gelten.
-
-Die wichtigste Information in diesem **Header** die auf keinem Fall fehlen darf ist dabei die **id**. Ohne Identifizierung kann die LibRML nicht mit dem Objekt verknüpft werden.
-
-Die Felder **relatedids** (wenn zutreffend) und **tenant** sollten ebenfalls ausgefüllt werden. Zum einen um eventuelle Fehler zu vermeiden und Klarheit zu schaffen, falls es andere Vorkommnisse desselben Objekts gibt, zum anderen um Klar zu stellen, wer für die Verwaltung zuständig ist.
-Alle anderen Felder sind Fakultativ. Jedoch sollten sie ausgefüllt werden, wenn zutreffend.
+Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu beschreibenden digitalen Objekts. Ohne eindeutige **id** kann die Rechtebeschreibung nicht mit dem konkreten Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen die gleiche Ressource unterschiedlich lizenziert haben, wird die Einrichtung als `tenant` angegeben um den nötigen Kontext herzustellen. Analog kann es verschiedene Identifier zur gleichen e-Ressourcen geben, die als verwandte IDs als `relatedids` abgelegt werden können.
 
 
-- **id**: ID zur Identifizierung der Ressource
-- **relatedids**: Andere IDs im Falle einer Ressource mit mehreren IDs (mehr als einmal im Katalog vorhanden) und/oder mehreren Verträgen (unter unterschiedlichen Lizenzen)
-- **tenant**: Einrichtung, die die Ressource verwaltet
-- **template**: Name des eventuell benutzten Templates (wird automatisch beim aussuchen einer Vorlage ausgefüllt)
-- **usageguide**: URL auf der sich die Richtlinien der dazugehörigen Lizenz befinden 
 
-Zudem können in den Attributen noch zwei generelle Einschränkungen definiert werden:
+| Feld | Beschreibung | Wert |
+| :---:| :----------: | :--: |
+|**id**| ID zur Identifizierung der Ressource | String |
+|**relatedids**| Verwandte IDs im Falle einer Ressource mit mehreren IDs (mehr als einmal im Katalog vorhanden) und/oder mehreren Verträgen (unter unterschiedlichen Lizenzen) | \[String\] |
+|**tenant**| Einrichtung, die die Ressource verwaltet | URI |
 
-- **mention**: die Namensnennung
-- **sharealike**: Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen
-- **copyright**: das Bestehen oder nicht eines Urheberrechtschutzes
+Zudem können generelle Einschränkungen der e-Ressournce definiert werden:
 
-### Ein Beispiel
+| Feld | Beschreibung | Wert |
+| :---:| :----------: | :--: |
+|**mention**| Ist eine Namensnennung notwendig | true/false|
+|**sharealike**| Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen | true/false|
+|**copyright**| Urheberrechtsschutz vorhanden | true/false|
 
-Ein Objekt mit zwei anderen IDs, von der SLUB verwaltet mit Namensnennung, Wiederbenutzung und Weiterverbreitung unter denselben Einschränkungen wie das Original und Urheberrechtsgeschützt.
+
+Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beispiele.markdown) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer einer [Vorlage](../tmpl/beispiele.markdown) ist der Wert in der Regel vorausgefüllt.
+
+| Feld | Beschreibung | Wert |
+| :---:| :----------: | :--: |
+|**template**| Name des eventuell benutzten Templates | true/false|
+|**usageguide**| URL auf der sich die Richtlinien der dazugehörigen Lizenz befinden | true/false|
+
+----
+
+### Beispiel
+
+Eine urheberrechtsgeschützt e-Ressource mit zwei verwandten IDs, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung, Weiternutzung und Verbreitung unter denselben Einschränkungen wie das Original.
 
 **JSON**
 
@@ -50,4 +56,5 @@ Ein Objekt mit zwei anderen IDs, von der SLUB verwaltet mit Namensnennung, Wiede
   <item id="id-123456" tenant="http://slub-dresden.de" mention="true" sharealike="true" copyright="true">
     <relatedid id="A-id-123456"/>
     <relatedid id="B-id-123456"/>
+  </item>
 {% endhighlight %}

@@ -2,7 +2,7 @@
 ## JSON
 
 
-Nehmen wir als Beispiel eine e-Ressource die Urheberrecht geschützt ist aber für die die SLUB rechte zur Digitalisierung (inkl. dauerhafter Speicherung, Ablage in Datenbanken und öffentlicher Zugänglichmachung im Internet), mit Ausnahme der Nutzung zu kommerziellen Zwecken bekommen hat. 
+Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und dem öffentlicher Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
 
 {% highlight javascript %}
 

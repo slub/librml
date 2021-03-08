@@ -1,74 +1,42 @@
 # Constraints
 ## Einschränkungen
 
-Hier finden sie alle für die Nutzungsrechte möglichen Einschränkungen, die in der LibRML beschrieben werden können. 
+Eingeschränkte Nutzungsmöglichkeiten werden in der LibRML an den konkreten `Actions` festgelegt. Die Einschränkungen (`Constraints`) gelten explizit nur für die Aktion an der sie hinterlegt sind, um die maschinelle Auswertbarkeit zu gewährleisten. Einschränkungen die sich auf mehrere Aktionen auswirken, müssen entsprechend wiederholt werden. Für die vereinfachte Bearbeitung können systematische Einschränkungen einmalig definiert und wiederverwendet werden (siehe Templates).
 
-
-- parts 
-    - Nur partiell (bestimmte Teile)
-
-- group 
-    - Nur bestimmte Personen mit bestimmten ID
-
-- age 
-    - Nur Nutzer ab einem gegebenen Alter (z.B. älter als 18)
-
-- location 
-    - Nur an gegebenen Orten 
-        - (geographic restrictions / Einschränkung auf ein Gebiet (z.B. Land)
-        - institutional restrictions / Einschränkung auf eine Einrichtung (z.B. SLUB))
-
-- date
-    - Nur ab einem gewissen Zeitpunkt (Embargo)
-
-- duration
-    - Nur für gewisse Zeit
-
-- count 
-    - Nur eine beschränkte Anzahl an Ausführungszeiten oder Aus-/Verleihen
-
-- concurrent 
-    - Nur eine beschränkte Anzahl an gleichzeitigen Aus-/Verleihen, Ausführungen oder Benutzungen
-
-- watermark 
-    - Nur mit Wasserzeichen oder anderer Markierung
-
-- commercialuse 
-    - Nur für eine gewisse Art der Nutzung 
-        - commercial use / Kommerzielle Nutzung
-        - non commercial use / Nicht-kommerzielle Nutzung
-        - [Gegebenenfalls ist auch eine Erweiterung möglich. Freitext-Eingaben sind jedoch nicht möglich.]
-            - z.B. Academical (für akademische Zwecke)
-- agreement
-    - Nur mit speziellen externen Vertrag
-
-
-### Anwendung
+Einige `Constraints` werden durch `Attribute` (Siehe Attribute) näher spezifiziert.
 
 **JSON**
 
-Einschränkungen werden in LibRML in das jeweilige Element mit dem zugehörigen Attribut eingetragen.
-
 {% highlight javascript %}
-"restrictions": [
-
-  {
-
-    "type": "date",
-
-    "fromdate": "2025-02-11"
-
-  },
-
+"actions": [{
+    "type": "ACTION-NAME",
+    "permission": true,
+    "restrictions": [{
+        "type": "CONSTRAINT-NAME",
+        "ATTRIBUTE": "X"
+     }]
+}]
 {% endhighlight %}
-
-
-
 
 **XML**
-
-Einschränkungen werden in LibRML in dem Element restrictions in das jeweilige Attribut mit dem zugehörigen Wert eingetragen.
-
 {% highlight xml %}
-<restriction type="date" fromdate="2025-02-11"/>
+<action type="ACTION-NAME" permission="true">
+  <restriction type="CONSTRAINT-NAME" ATTRIBUTE="X"/>
+</action>
 {% endhighlight %}
+
+In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur Verfügung.
+
+| Constraint-Name | Übersetzung | Beschreibung | Beispiel |
+| :--------------:| :---------: | :----------: |:-------: |
+| parts | Teile | Einschränkung der Action auf bestimmte Teile der Ressource. | |
+| group | Nutzergruppe | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | |
+| age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | |
+| location | Ort | Geographisch (ein bestimmtes Gebiet z.B. Deutschland)<br/><br/>Institutionell (eine bestimmte Einrichtung z.B. SLUB Dresden) | |
+| date | Zeitpunkt | Einschränkung der Action ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | |
+| duration | Dauer | Einschränkung der Action auf eine bestimmte Zeitdauer. | |
+| count | Anzahl | Einschränkung der Action auf eine bestimmte Anzahl an Ausführungen, Benutzungen, ... | |
+| concurrent | Gleichzeitig | Einschränkung der Action auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, ... | |
+| watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung der Ressource mit einem Wasserzeichen oder einer anderer Markierung. | |
+| commercialuse | Kommerzielle Nutzung | `commercial use` (Kommerzielle Nutzung)<br/><br/>`non commercial use` (Nicht-kommerzielle Nutzung)<br/><br/>Eine zukünftige Erweiterung ist möglich, wie zum Beispiel um den Wert `academical` für akademische Zwecke. Freitext-Eingaben werden jedoch nicht angeboten. | |
+| agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | |

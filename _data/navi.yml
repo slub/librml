@@ -4,11 +4,11 @@ toc:
     url: index.html
     subnav:
       - title: Übersicht
-        url: index.html  
-      - title: LibRML im Detail
-        url: detail.html
-      - title: REL
+        url: index.html
+      - title: Rights Expression Language
         url: rel.html
+      - title: LibRML Konzept
+        url: schema/concept.html
       - title: Allgemeine FAQ
         url: allgfaq.html
       - title: Technische FAQ
@@ -16,10 +16,10 @@ toc:
 
   - title: Konzept
     path: /schema/
-    url: konzept.html
+    url: concept.html
     subnav:
         - title: Konzept
-          url: konzept.html
+          url: concept.html
         - title: Header
           url: header.html
         - title: Actions
@@ -27,7 +27,7 @@ toc:
         - title: Constraints
           url: constraints.html
         - title: Attributes
-          url: attributes.html  
+          url: attributes.html
         - title: JSON Beispiel
           url: json.html
         - title: XML Beispiel
@@ -35,7 +35,7 @@ toc:
         - title: XSD
           url: xsdschema.html
 
-  - title: Templates
+  - title: Vorlagen
     path: /tmpl/
     url: templates.html
     subnav:

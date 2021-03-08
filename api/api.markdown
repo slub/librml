@@ -4,7 +4,7 @@ Im Rahmen des Projektes ist geplant, eine API zu entwickeln die LibRML-Objekte e
 
 Die API wird zudem Methoden enthalten, die eine **Auswertung** der in der LibRML festgehaltenen Regeln durchführt und für ein gegebenes Objekt und einen gegebenen Kontext eine Aussage über eine Aktion treffen wird die als Ergebnis *true* der *false* liefert. Diese Methoden erlauben eine Abfrage in der Art:
 
-> Kann das Objekt mit der ID: _123_ zum Zeitpunkt: _jetzt_ angezeigt werden, wenn der Fragende der Gruppe: _Stuff_ angehört und sich im _Campus_ befindet.
+> Kann das Objekt mit der ID: _123_ zum Zeitpunkt: _jetzt_ angezeigt werden, wenn der Fragende der Gruppe: _Staff_ angehört und sich im _Campus_ befindet.
 >
 >> TRUE
 
