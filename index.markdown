@@ -2,10 +2,9 @@
 title: LibRML
 sidebar: librml
 ---
-# LibRML
-## Nutzungsrechte und Lizenzen für Bibliotheken leicht gemacht
+# Nutzungsrechte und Lizenzen für Bibliotheken leicht gemacht
 
-### Status Quo
+## Status Quo
 
 Jede e-Ressource ist mit Nutzungsrechten und Lizenzen verbunden. Diese Informationen befinden sich zum Großteil in Vertragsdokumenten, E-Mails oder ausführlichen  Lizenztexten. In den Metadaten der e-Ressourcen werden diese Informationen häufig in Freitextfelder übertragen. Im Fall von standardisierten Lizenzen (CC-Lizenzen, Public Domain) befindet sich oft nur der Link zum eigentlichen Lizenztext am digitalen Objekt.
 
@@ -15,7 +14,7 @@ Standards für digitale Rechteverwaltung (ODRL, MPEG21, PREMIS) existieren berei
 
 Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existiert kein Standard der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
 
-### LibRML
+## LibRML
 
 Aus diesem Grund wurde die **Library Rights Machine-readable Language** (kurz **LibRML**) entwickelt. Als [Beschreibungssprache](rel.markdown)für den bibliothekarischen Sektor wird eine Brücke zwischen Komplexität und Verständlichkeit geschaffen. LibRML ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken.
 
@@ -29,7 +28,7 @@ Mehr Informationen befinden [zum Konzept] von LibRML enthält geplante Nutzungsm
 - [Konzept hinter LibRML](schema/concept.markdown)
 - [Vorlagen für häufig verwendete Lizenzen](tmpl/templates.markdown)
 
-## FAQ
+# FAQ
 
 - [Häufig gestellte Fragen für Nutzer (FAQ)](allgfaq.markdown)
 - [Häufig gestellte Fragen zum technischen Hintergrund](techfaq.markdown)
