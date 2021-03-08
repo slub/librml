@@ -1,91 +1,74 @@
 # FAQ
 ## Häufig gestellte Fragen
 
-
 #### Wofür steht LibRML?
 
-- "Library Rights Machine-readable Language".
+**Lib**rary **R**ights **M**achine-readable **L**anguage.
 
-#### Wozu ist das gut?
+#### Wozu braucht man diese Beschreibungssprache?
 
-- Diese Sprache dient der Beschreibung von Nutzungsrechten für eRessourcen in Bibliotheken.
+Diese Sprache dient der Beschreibung von Nutzungsrechten für e-Ressourcen in Bibliotheken.
 
 #### Für welche Art von Ressourcen ist die LibRML gültig?
 
-- Alle Arten von eRessourcen die Bestandteil einer Bibliothek sein können (Zeitschriften, eBooks, Fotos, Musik...)
+Alle Arten von e-Ressourcen einer typischen Bibliothek (Zeitschriften, eBooks, Fotos, Musik...).
 
 #### Kann ich mit der LibRML auch Nutzungsrechte für analoge Ressourcen beschreiben?
 
-- Wenn dazugehörige Metadaten im System gespeichert sind und es klare Angaben zu Nutzungsrechten gibt, soll es auch für analoge Ressourcen möglich sein diese Rechte mit LibRML zu beschreiben. 
+Wenn Metadaten zu den analogen Medien in den technischen Systemen der Bibliothek hinterlegt sind und es klare Angaben zu Nutzungsrechten gibt, lassen sich auch analoge Ressourcen mit LibRML zu beschreiben.
 
 #### Wer kann/darf die LibRML benutzen?
 
-- Bibliothekaren, Verlagsmitarbeiter, im Prinzip all jene die mit der Verknüpfung von Rechteinformationen und Metadaten arbeiten.
+Jeder der mit der Verknüpfung von Rechteinformationen und Metadaten arbeiten z.B. (System-)Bibliothekare, Verlage, Datenmanager und viele weitere.
 
-#### Welche Formate kann die LibRML lesen?
+#### Funktioniert LibRML auch für komplette Ressourcen-Pakete?
 
-- Wir arbeiten daran alle in Bibliotheken benutze Metadatenformate für die LibRML lesbar zu machen. 
+Solange ein Paket mit einer eindeutigen ID für alle inbegriffenen Ressourcen verknüpfbar ist, kann LibRML auch für Pakete benutzt werden.
 
-#### Funktioniert LibRML auch auf Ressourcen-Pakete oder nur auf einzelnen Ressourcen? 
+#### Wie gehe ich damit um, wenn die Lizenz-/Nutzungsrechte nicht in den Metadaten, sondern anderweitig zu finden sind?
 
-- Solange eine diese Pakete mit einer generellen ID für alle inbegriffenen Ressourcen verknüpft ist kann die LibRML auch für solche Pakete benutzt werden.
+Wenn keine einedeutige Lizenz aus den Metadaten abzuleiten ist (CC-BY, Public Domain, …) dann muss eine LibRML Beschreibung (mit maschineller Unterstützung) erstellt werden.
 
-#### Was wenn die Lizenz-/Nutzungsrechte nicht in den Metadaten, sondern in einem Anhang aufzufinden sind?
+#### Welche Lizenzen sind schon als Vorlagen vorhanden?
 
-- Dann müssen diese manuell in eine LibRML eingetragen werden.
-
-#### Welche Lizenzen sind schon als Templates vorhanden?
-
-- Creative Commons und andere Datenlizenzen für Deutschland (Siehe [Beispiele](tmpl/beispiele.markdown)) 
+Creative Commons und andere Datenlizenzen für Deutschland (Siehe [Beispiele](tmpl/beispiele.markdown))
 
 #### Was wenn die zutreffenden Einschränkungen noch nicht in der LibRML vorgesehen sind?
 
-- Es besteht die Möglichkeit Änderungen und Ergänzungen zu beantragen.
+Besteht die Anforderung weitere [Aktionen](schema/actions.markdown) oder [Attribute](schema/attributes.markdown) zu ergänzen stehen wir gern zum Austausch bereit.
 
-#### Können Datum und Standort Einschränkungen auf unterschiedliche Nutzungsrechten unabhängig voneinander eingestellt werden?
+#### Können verschiedene Einschränkungen je nach Nutzungsszenario beschrieben werden?
 
-- Ja. Dies muss dann allerdings auch einzeln hinzugefügt werden.
+Ja. Diese müssen dann an den entsprechenden [Aktionen](schema/actions.markdown) hinterlegt werden.
 
-#### Können Einschränkungen mit einem Mal auf alle Nutzungsrechte eingestellt werden?
+#### Können Einschränkungen global auf alle Nutzungsszenarien eingestellt werden?
 
-- Nur diese Einschränkungen können so eingestellt werden das sie für alle Nutzungsrechte gelten: Datum (Embargo), Namensnennung, Share Alike (Abgeleitete Werke müssen denselben Bedingungen unterliegen).
+Datum (Embargo), Namensnennung, Share Alike (Abgeleitete Werke müssen denselben Bedingungen unterliegen) können global für die e-Ressource als Einschränkung definiert werden.
 
-#### Kann man die in die LibRML eingegebenen Daten später korrigieren? 
+#### Kann man die in die LibRML eingegebenen Daten später korrigieren?
 
-- Ja. Auf jede LibRML Datei kann immer wieder zugegriffen werden.
-
-#### Kann ich meinen Vorgang auf LibRML speichern und später weiter bearbeiten? 
-
-- Ja. Soweit dieser gespeichert wird und mit einer ID verknüpft, ist das durchaus möglich.
+Ja, analog zu Metadaten können auch die Rechteauszeichnungen durch libRML korrigiert werden.
 
 #### An wen kann ich mich wenden, falls ich Fragen habe? Gibt es ein Feld dafür?
 
-- Es wird ein Feld für Fragen und Korrekturanträge vorgesehen.
-
-#### Was wenn ich einen Fehler oder fehlende Nutzungsrechte/Einschränkungen bemerke?
-
-- Es wird ein Feld für Fragen und Korrekturanträge vorgesehen.
+Schreiben sie uns eine eMail an <SCRIPT LANGUAGE="JavaScript">user = 'librml';site = 'slub-dresden.de';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT> oder nutzen Sie das <a target="_blank" href="https://github.com/slub/librml/issues">Github-Issue-System</a> um an der Diskussion teilzunehmen.
 
 #### Wie wird die LibRML mit den restlichen Daten verknüpft?
 
-- Durch eine ID. Es ist wichtig das diese für alle Aspekte der Ressource dieselbe ist und vor allem das sie nur für diese Ressource, bzw. dieses Ressourcen-Paket benutzt wird.
+Durch eine eindeutige ID, lassen sich die Rechteinformationen mit den Metadaten der Ressource oder dem Paket maschinell verknüpfen.
 
 #### Wie hilft die LibRML dem Bibliotheken-Nutzer?
 
-- Durch das Einsetzen einer Menschen- und Maschinenlesbaren Sprache vereinfacht die LibRML das Anzeigen von Nutzungsrechten im Katalog. So kann der Nutzer deutlich über seine Rechte aufgeklärt werden und weiß somit was er mit den gewünschten Ressourcen tun darf oder nicht.
+Durch das Einsetzen einer Menschen- und Maschinenlesbaren Sprache vereinfacht die LibRML das Anzeigen von Nutzungsrechten im Katalog. So kann der Nutzer deutlich über seine Rechte aufgeklärt werden und weiß somit was er mit den gewünschten Ressourcen tun darf oder nicht.
 
-#### Was bewirkt die LibRML auf dem Katalog?
+#### Welchen Vorteil hat die LibRML auf den Bibliothekskatalog?
 
-- Eine bessere Repräsentation der Nutzungsrechte und klare Linien für die Benutzung der Ressourcen für Mitarbeiter wie für Nutzer.
+Eine bessere Repräsentation der Nutzungsrechte und klare Linien für die Benutzung der Ressourcen für Nutzer und Bibliothekare.
 
 #### Wie kann man die Nutzungsrechte einsehen, wenn sie erstmal gespeichert sind?
 
-- Die Nutzungsrechte werden im Katalog im Anhang zur Ressource angezeigt. Wer auf die LibRML zugreifen möchte braucht dazu Zugriffsrecht und die der Ressource entsprechende ID.
-
-#### Wie kann ich diese rechte auf dem Katalog einsehen?
-
-- In der Theorie wird es ausreichen nach einer Ressource im Katalog zu suchen und besagte Ressource anzuklicken. Dort sollen dann Nutzungsrechte genau so wie die anderen Metadaten auffindbar sein. (Dies ist noch in Arbeit)
+Die Nutzungsrechte können im Bibliothekskatalog neben den bibliothekarischen Metadaten zur Ressource angezeigt.
 
 #### Was wenn 2 (oder mehr) gegensätzliche Bedingungen auftauchen?
 
-- Die LibRML dient nicht dazu Rechte-Konflikte zu klären. Falls solche auftreten muss der Fall geklärt werden bevor die Nutzungsrechte in die LibRML eingetragen werden.
+Komplexere Rechtesituationen müssen intellektuell gelöst werden. LibRML ist nur in der Lage die von Menschen getroffenen Entscheidungen in maschinen- und menschenlesbarer Form abzubilden und durchsetzbar zu machen.
