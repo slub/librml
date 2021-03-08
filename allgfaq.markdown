@@ -51,7 +51,7 @@ Ja, analog zu Metadaten können auch die Rechteauszeichnungen durch libRML korri
 
 #### An wen kann ich mich wenden, falls ich Fragen habe? Gibt es ein Feld dafür?
 
-Schreiben sie uns eine eMail an <SCRIPT LANGUAGE="JavaScript">user = 'librml';site = 'slub-dresden.de';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT> oder nutzen Sie das <a target="_blank" href="https://github.com/slub/librml/issues">Github-Issue-System</a> um an der Diskussion teilzunehmen.
+Schreiben sie uns eine <a target="_blank" href="mailto:librml@slub-dresden.de">Email </a> oder nutzen Sie das <a target="_blank" href="https://github.com/slub/librml/issues">Github-Issue-System</a> um an der Diskussion teilzunehmen.
 
 #### Wie wird die LibRML mit den restlichen Daten verknüpft?
 
