@@ -1,7 +1,7 @@
 # Actions
 ## Nutzungsrechte
 
-Actions beschreiben die Nutzungsmöglichkeiten einer Ressource. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen (Siehe Konzept).
+Actions beschreiben die Nutzungsmöglichkeiten einer Ressource. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen [(Siehe Konzept)](concept.markdown).
 
 {% highlight javascript %}
 {
@@ -17,7 +17,7 @@ Actions beschreiben die Nutzungsmöglichkeiten einer Ressource. Alle Nutzungsmö
 Um eine Nutzungsmöglichkeit zu gewähren, muss die entsprechende Aktion in der LibRML-Beschreibung aufgeführt werden. Jede Aktion wird dafür mit dem zugehörigen `type` eingeleitet, der die Art der Nutzung beschreibt. Mit `"permission": true"`{:.highlight .json} wird sie explizit als erlaubt gekennzeichnet.
 
 
-Alle Actions können zusätzlich durch Einschränkungen (siehe Constraints) und Attributen (siehe Attributes) feiner spezifiziert werden.
+Alle Actions können zusätzlich durch Einschränkungen [(siehe Constraints)](constraints.markdown) und Attributen [(siehe Attributes)](attributes.markdown) feiner spezifiziert werden.
 
 
 In der LibRML stehen folgende Actions zur Beschreibung der Ressourcen zur Verfügung.

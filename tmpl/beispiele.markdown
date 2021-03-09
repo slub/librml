@@ -1,7 +1,7 @@
 # Beispiele
 
 Eingabevorlagen wie diese sollen das Erstellen von LibRML Dateien vereinfachen.
-In einem Eingabeassistenten ausgewählt, setzt so eine Vorlage verschiedene Nutzungsrechten (**Actions**) und Einschränkungen (**Constraints**) bereits in der LibRML Datei fest (diese können allerdings im nachhinein bearbeitet werden) und erleichtern so die ein Eingabe.
+In einem Eingabeassistenten ausgewählt, setzt so eine Vorlage verschiedene Nutzungsrechten [(**Actions**)](../schema/actions.markdown) und Einschränkungen [(**Constraints**)](../schema/constraints.markdown) bereits in der LibRML Datei fest (diese können allerdings im Nachhinein bearbeitet werden) und erleichtern so die ein Eingabe.
 Eventuell können diese auch einfach nur als Modell dienen und noch andere Einschränkungen hinzugefügt werden (zum Beispiel ein Embargo).
 
 Diese Liste dient im Moment der Projekt-internen Nachprüfung.

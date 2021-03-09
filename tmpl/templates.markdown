@@ -1,12 +1,12 @@
 # Erstellung von Templates und Beispiele
 
-Templates werden benutzt um Eingabe-Vorlagen zu erstellen die zur Vereinfachung der Erfassung von Nutzungsrechten im LibRML-Format dienen. Diese **Vorlagen** können so in einem Eingabeassistenten ausgewählt werden und die Erfassung von einzelnen **Actions** und **Constraints** erübrigt sich. Eventuell könnten danach einzelne Beschränkungen ausgebessert oder hinzugefügt werden aber das Grundgerüsst der Nutzungsrechte steht bereits in der LibRML was die Eingabearbeit optimiert.
+Templates werden benutzt um Eingabe-Vorlagen zu erstellen die zur Vereinfachung der Erfassung von Nutzungsrechten im LibRML-Format dienen. Diese **Vorlagen** können so in einem Eingabeassistenten (in Arbeit) ausgewählt werden und die Erfassung von einzelnen [**Actions**](../schema/actions.markdown) und [**Constraints**](../schema/constraints.markdown) erübrigt sich. Eventuell könnten danach einzelne Beschränkungen ausgebessert oder hinzugefügt werden aber das Grundgerüst der Nutzungsrechte steht bereits in der LibRML was die Eingabearbeit optimiert.
 
-**[Hier](beispiele.markdown)** eine Liste der bereits erstellten Beispiele von Vorlagen und ihrer Beschreibungen.
+**[Hier eine Liste der bereits erstellten Beispiele von Vorlagen](beispiele.markdown)** und ihrer Beschreibungen.
 
 ## Zu den dafür gebauten Templates:
 
-Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Metainformationen zu dem Template zu speichern.
+Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Meta-Informationen zu dem Template zu speichern.
 
 Ein Template mit dem aktuellen Stand besteht also aus 2 Dateien:
 
@@ -181,7 +181,7 @@ Und ein valides JSON:
 }
 ~~~
 
-Man sieht, es gibt nur 2 Variablen, aber diese jeweils viele Male. In den Metainformationen zum Template ist beschrieben, welchen Datentyp die Variablen haben und ggf. eine Datenquelle (zum Beispiel für anderweitig gepflegte Listen) und außerdem Informationen die eine GUI braucht, um für die Variablen sinnvolle Elemente zu erzeugen. Also ein Datumwähler mit einem lesbaren Namen und einer Beschreibung.
+Man sieht, es gibt nur 2 Variablen, aber diese jeweils viele Male. In den Meta-Informationen zum Template ist beschrieben, welchen Datentyp die Variablen haben und ggf. eine Datenquelle (zum Beispiel für anderweitig gepflegte Listen) und außerdem Informationen die eine GUI braucht, um für die Variablen sinnvolle Elemente zu erzeugen. Also ein Datumswähler mit einem lesbaren Namen und einer Beschreibung.
 
 Mit Jinja sind viele und gute Möglichkeiten gegeben, die ausreichend dokumentiert sind: https://jinja.palletsprojects.com/en/2.11.x/templates/#
 
