@@ -1,6 +1,9 @@
 # Authentification
 ## 2. Zugang nur nach Authentifizierung
 
+| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| :-------: | :---------: | :---------: |
+| displaymetadata<br/><br/>index<br/><br/>archive | Authentifizierung | read<br/><br/>download<br/><br/>print |
 
 {% highlight javascript %}
 

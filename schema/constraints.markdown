@@ -39,4 +39,5 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 | concurrent | Gleichzeitig | Einschränkung der Action auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, ... | |
 | watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung der Ressource mit einem Wasserzeichen oder einer anderer Markierung. | |
 | commercialuse | Kommerzielle Nutzung | `commercial use` (Kommerzielle Nutzung)<br/><br/>`non commercial use` (Nicht-kommerzielle Nutzung)<br/><br/>Eine zukünftige Erweiterung ist möglich, wie zum Beispiel um den Wert `academical` für akademische Zwecke. Freitext-Eingaben werden jedoch nicht angeboten. | |
+| quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | |
 | agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | |

@@ -1,6 +1,10 @@
 # Location
 ## 4. Zugang nur innerhalb einer Einrichtung/eines Campus/eines IP-Adressbereichs
 
+| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| :-------: | :---------: | :---------: |
+| displaymetadata<br/><br/>index<br/><br/>archive | Einrichtung | read<br/><br/>download<br/><br/>print |
+
 {% highlight javascript %}
 
 {

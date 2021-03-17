@@ -1,6 +1,10 @@
 # Read only
 ## 5. Zugang nur zur Ansicht, aber keine Speicherungs-/Druckmöglichkeit
 
+| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| :-------: | :---------: | :---------: |
+| displaymetadata<br/><br/>index<br/><br/>archive<br/><br/>read | Keine | Keine |
+
 {% highlight javascript %}
 
 {

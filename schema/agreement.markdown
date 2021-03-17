@@ -1,6 +1,10 @@
 # Agreement
 ## 3. Zugang nur nach Abschluss eines Nutzungsvertrags
 
+| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| :-------: | :---------: | :---------: |
+| displaymetadata<br/><br/>index<br/><br/>archive | Nutzungsvertrag | read<br/><br/>download<br/><br/>print<br/><br/>reproduce<br/><br/>modify<br/><br/>reuse<br/><br/>distribute<br/><br/>publish<br/><br/>move |
+
 {% highlight javascript %}
 
 {

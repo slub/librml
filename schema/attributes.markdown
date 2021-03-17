@@ -30,9 +30,9 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 |inside| Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution.<br/><br/>  | in <br/><br/>**Einheit**: — |
 |subnet| Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP, IP-Bereiche |
 |outside| Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution. | out <br/><br/>**Einheit**: —|
-|noncommercialuse| Definition, ob eine nicht-kommerziellen Nutzung erlaubt ist. | true/false|
 |commercialuse| Definition, ob eine kommerzielle Nutzung erlaubt ist. | true/false |
 |watermarkvalue| Definition des Wasserzeichens. Das Wasserzeichen muss an einem spezifischen Ort hinterlegt sein der hier verlinkt ist.| URI <br/><br/>|
 |duration| Definition der Dauer eines Constraints. | non-negative Integer <br/><br/>**Einheit**: Sekunden |
 |minage| Definition des Mindestalters für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer <br/><br/>**Einheit**: Jahre|
+|maxage| Definition des Maximalalters für eine Action. Zum Beispiel in Einrichtungen genutzt die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer <br/><br/>**Einheit**: Jahre|
 |required| "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false|

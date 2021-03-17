@@ -1,6 +1,10 @@
 # Limited concurrent uses 
 ## 6. Beschränkung auf eine bestimmte Menge gleichzeitiger Zugänge
 
+| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| :-------: | :---------: | :---------: |
+| displaymetadata<br/><br/>index<br/><br/>archive | Limitierte gleichzeitige Zugänge | read<br/><br/>download<br/><br/>print |
+
 {% highlight javascript %}
 
 {
