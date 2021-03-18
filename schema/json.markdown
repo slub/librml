@@ -58,7 +58,7 @@ Zur besseren Verständigung und damit jeder sich jeder vorstellen kann wie eine 
 
 
 | Beispiel Benennung | Link zum JSON |
-| :--------: | :---------: |
+| :-------- | :--------- |
 | **Zugang nur zu Metadaten** | [Metadata only](metadataonly.markdown) |
 | **Zugang nur nach Authentifizierung** | [Authentification](authentification.markdown) |
 | **Zugang nur nach Abschluss eines Nutzungsvertrags** | [Agreement](agreement.markdown) |

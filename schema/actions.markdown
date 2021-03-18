@@ -23,7 +23,7 @@ Alle Actions können zusätzlich durch Einschränkungen [(siehe Constraints)](co
 In der LibRML stehen folgende Actions zur Beschreibung der Ressourcen zur Verfügung.
 
 | Action-Name | Übersetzung | Beschreibung |
-| :----------:| :---------: | :-----------:|
+| :---------- | :--------- | :----------- |
 | **displaymetadata** | Anzeigen der Metadaten | Erlaubt ausschließlich die Anzeige der Metadaten im Katalog. |
 | **read** | „Lesen“ der Datei | Erlaubt das Öffnen und Lesen der Ressource. |
 | **run** |  Ausführen | Erlaubt das Ausführen der Ressource z.B. einer Anwendung |

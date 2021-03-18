@@ -28,7 +28,7 @@ Einige `Constraints` werden durch `Attribute` [(Siehe Attribute)](attributes.mar
 In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur Verfügung.
 
 | Constraint-Name | Übersetzung | Beschreibung | Beispiel |
-| :--------------:| :---------: | :----------: |:-------: |
+| :-------------- | :--------- | :---------- |:------- |
 | parts | Teile | Einschränkung der Action auf bestimmte Teile der Ressource. | |
 | group | Nutzergruppe | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | |
 | age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | |
