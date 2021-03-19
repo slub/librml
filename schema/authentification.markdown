@@ -5,6 +5,7 @@
 | :-------: | :---------: | :---------: |
 | displaymetadata<br/><br/>index<br/><br/>archive | Authentifizierung | read<br/><br/>download<br/><br/>print |
 
+**JSON**
 {% highlight javascript %}
 
 {
@@ -64,4 +65,25 @@
 }
 
 
+{% endhighlight %}
+
+**XML**
+{% highlight xml %}
+<?xml version='1.0' encoding='ASCII'?>
+<libRML version="0.3">
+  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="Authentification">
+    <action type="displaymetadata" permission="true"/>
+    <action type="index" permission="true"/>
+    <action type="read" permission="true">
+      <restriction type="group" groups="registered"/>
+    </action>
+    <action type="download" permission="true">
+      <restriction type="group" groups="registered"/>
+    </action>
+    <action type="print" permission="true">
+      <restriction type="group" groups="registered"/>
+    </action>
+    <action type="archive" permission="true"/>    
+  </item>
+</libRML>
 {% endhighlight %}

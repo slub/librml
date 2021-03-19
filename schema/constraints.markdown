@@ -62,8 +62,8 @@ Beispiele:
     {
       "type": "group",
       "groups": [
-        "users",
-        "employees",
+        "registered",
+        "employee",
       ]
     },
 
