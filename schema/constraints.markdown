@@ -41,3 +41,118 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 | commercialuse | Kommerzielle Nutzung | `commercial use` (Kommerzielle Nutzung)<br/><br/>`non commercial use` (Nicht-kommerzielle Nutzung)<br/><br/>Eine zukünftige Erweiterung ist möglich, wie zum Beispiel um den Wert `academical` für akademische Zwecke. Freitext-Eingaben werden jedoch nicht angeboten. | |
 | quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | |
 | agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | |
+
+
+
+Beispiele: 
+
+1
+  "type": "download",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "parts",
+      "parts": "1"
+    },
+
+2
+  "type": "print",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "group",
+      "groups": [
+        "users",
+        "employees",
+      ]
+    },
+
+3
+  "type": "read",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "age",
+      "age": "18"
+    },
+
+4
+  "type": "download",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "location",
+      "subnet": "192.168.0.0/16"
+    },
+
+5
+  "type": "distribute",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "date",
+      "fromdate": "2035-01-01"
+    },
+
+6 
+  "type": "run",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "duration",
+      "duration": 86400
+    },
+
+7
+  "type": "print",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "count",
+      "count": 10
+    },
+
+8
+  "type": "lend",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "concurrent",
+      "sessions": 4
+    },
+
+9
+  "type": "distribute",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "watermark",
+      "watermarkvalue": "https://domain/watermark.png"
+    },
+
+10
+  "type": "publish",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "commercialuse",
+      "commercialuse": false
+    },    
+
+11
+  "type": "print",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "quality",
+      "maxresolution": 300
+    },   
+
+12
+  "type": "read",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "agreement",
+      "required": true
+    },       

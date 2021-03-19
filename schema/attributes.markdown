@@ -28,14 +28,14 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 |count| Anzahl der erlaubten Action z.B. die Anzahl der erlaubten Ausleihen | non-negative Integer<br/><br/>**Einheit**: — |
 |sessions| Anzahl der erlaubten parallelen Zugriffe auf eine Ressource |  non-negative Integer<br/><br/>**Einheit**: — |
 |inside| Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution.<br/><br/>  | in <br/><br/>**Einheit**: — |
-|subnet| Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP, IP-Bereiche |
+|subnet| Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP, IP-Bereiche<br/><br/>**Format**: — |
 |outside| Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution. | out <br/><br/>**Einheit**: —|
-|commercialuse| Definition, ob eine kommerzielle Nutzung erlaubt ist. | true/false |
+|commercialuse| Definition, ob eine kommerzielle Nutzung erlaubt ist. | true/false<br/><br/>**Format**: — |
 |watermarkvalue| Definition des Wasserzeichens. Das Wasserzeichen muss an einem spezifischen Ort hinterlegt sein der hier verlinkt ist.| URI <br/><br/>|
 |duration| Definition der Dauer eines Constraints. | non-negative Integer <br/><br/>**Einheit**: Sekunden |
 |minage| Definition des Mindestalters für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer <br/><br/>**Einheit**: Jahre|
 |maxage| Definition des Maximalalters für eine Action. Zum Beispiel in Einrichtungen genutzt die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer <br/><br/>**Einheit**: Jahre|
-|required| "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false|
+|required| "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false<br/><br/>**Format**: — |
 
 
 ## Zusammenhänge mit den verschiedenen Einschränkungen
