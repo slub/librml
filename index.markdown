@@ -22,10 +22,11 @@ Aus diesem Grund wurde die **Library Rights Machine-readable Language** (kurz **
 
 Rechteauszeichnung mit LibRML sind durch maschinelle Unterstützung einfach zu generieren und weiterzuverarbeiten und eröffnen so zahlreiche neue Möglichkeiten in der Automatisierung bibliothekarischer Workflows.
 
-Mehr Informationen befinden [zum Konzept] von LibRML enthält geplante Nutzungsmöglichkeiten und Einschränkungen sowie JSON und XML Beispiele:
+Mehr zum Aufbau, zu geplante Nutzungsmöglichkeiten und Einschränkungen sowie JSON und XML Beispiele befinden sich auf der [LibRML Konzept](schema/concept.markdown) Seite. 
+
+Weitere Informationen erhalten sie hier:
 
 - [Rights Expression Language](rel.markdown)
-- [Konzept hinter LibRML](schema/concept.markdown)
 - [Vorlagen für häufig verwendete Lizenzen](tmpl/templates.markdown)
 
 # FAQ
