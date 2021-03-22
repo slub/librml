@@ -35,11 +35,11 @@ Creative Commons und andere Datenlizenzen für Deutschland (Siehe [Beispiele](tm
 
 #### Was wenn die zutreffenden Einschränkungen noch nicht in der LibRML vorgesehen sind?
 
-Besteht die Anforderung weitere [Aktionen](schema/actions.markdown), [Attribute](schema/attributes.markdown) oder [Einschränkungen](schema/constraints.markdown) zu ergänzen stehen wir gern zum Austausch bereit.
+Besteht die Anforderung weitere [Actions](schema/actions.markdown), [Attributes](schema/attributes.markdown) oder [Constraints](schema/constraints.markdown) zu ergänzen stehen wir gern zum Austausch bereit.
 
 #### Können verschiedene Einschränkungen je nach Nutzungsszenario beschrieben werden?
 
-Ja. Diese müssen dann an den entsprechenden [Aktionen](schema/actions.markdown) hinterlegt werden.
+Ja. Diese müssen dann an dem entsprechenden [Nutzungsrecht](schema/actions.markdown) hinterlegt werden.
 
 #### Können Einschränkungen global auf alle Nutzungsszenarien eingestellt werden?
 
