@@ -2,11 +2,6 @@ toc:
   - title: Home
     path: /
     url: index.html
-    subnav:
-      - title: Übersicht
-        url: index.html
-      - title: Rights Expression Language
-        url: rel.html
   - title: Konzept
     path: /schema/
     url: concept.html
