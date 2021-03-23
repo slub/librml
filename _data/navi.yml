@@ -7,13 +7,6 @@ toc:
         url: index.html
       - title: Rights Expression Language
         url: rel.html
-      - title: LibRML Konzept
-        url: schema/concept.html
-      - title: Allgemeine FAQ
-        url: allgfaq.html
-      - title: Technische FAQ
-        url: techfaq.html
-
   - title: Konzept
     path: /schema/
     url: concept.html
