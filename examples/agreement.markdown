@@ -1,5 +1,4 @@
-# Agreement
-## 3. Zugang nur nach Abschluss eines Nutzungsvertrags
+# Zugang nur nach Abschluss eines Nutzungsvertrags
 
 | Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
 | :-------: | :---------: | :---------: |
@@ -11,7 +10,7 @@
 {
   "id": "doi:10.1371/journal.pbio.0020447",
   "tenant": "http://www.slub-dresden.de",
-  "template": "Only Metadata Access",
+  "template": "Agreement",
     "actions": [
     {
       "type": "displaymetadata",
@@ -20,7 +19,11 @@
     {
       "type": "index",
       "permission": true
-    }, 
+    },
+    {
+      "type": "archive",
+      "permission": true
+    },
     {
       "type": "read",
       "permission": true,
@@ -121,9 +124,10 @@
 {% highlight xml %}
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
-  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="Authentification">
+  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="Agreement">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
+    <action type="archive" permission="true"/>
     <action type="read" permission="true">
       <restriction type="agreement" required="true"/>
     </action>
@@ -135,7 +139,7 @@
     </action>
     <action type="reproduce" permission="true">
       <restriction type="agreement" required="true"/>
-    </action> 
+    </action>
     <action type="modify" permission="true">
       <restriction type="agreement" required="true"/>
     </action>
@@ -150,7 +154,7 @@
     </action>
     <action type="move" permission="true">
       <restriction type="agreement" required="true"/>
-    </action>    
+    </action>
   </item>
 </libRML>
 {% endhighlight %}

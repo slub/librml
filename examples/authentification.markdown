@@ -1,10 +1,8 @@
-# Limited concurrent uses 
-## 6. Beschränkung auf eine bestimmte Menge gleichzeitiger Zugänge
+# Zugang nur nach Authentifizierung
 
 | Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
 | :-------: | :---------: | :---------: |
-| displaymetadata<br/><br/>index<br/><br/>archive | Limitierte gleichzeitige Zugänge | read<br/><br/>download<br/><br/>print |
-
+| displaymetadata<br/><br/>index<br/><br/>archive | Authentifizierung | read<br/><br/>download<br/><br/>print |
 
 **JSON**
 {% highlight javascript %}
@@ -12,7 +10,7 @@
 {
   "id": "doi:10.1371/journal.pbio.0020447",
   "tenant": "http://www.slub-dresden.de",
-  "template": "TermsOfUse",
+  "template": "Authentification",
   "actions": [
     {
       "type": "displaymetadata",
@@ -23,12 +21,18 @@
       "permission": true
     },
     {
+      "type": "archive",
+      "permission": true
+    },
+    {
       "type": "read",
       "permission": true,
       "restrictions": [
         {
-          "type": "concurrent",
-          "sessions": 5
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
         }
       ]
     },
@@ -37,8 +41,10 @@
       "permission": true,
       "restrictions": [
         {
-          "type": "concurrent",
-          "sessions": 5
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
         }
       ]
     },
@@ -47,13 +53,16 @@
       "permission": true,
       "restrictions": [
         {
-          "type": "concurrent",
-          "sessions": 5
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
         }
       ]
     }
   ]
 }
+
 
 {% endhighlight %}
 
@@ -64,15 +73,17 @@
   <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="Authentification">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
+    <action type="archive" permission="true"/>
     <action type="read" permission="true">
-      <restriction type="concurrent" sessions="5"/>
+      <restriction type="group" groups="registered"/>
     </action>
     <action type="download" permission="true">
-      <restriction type="concurrent" sessions="5"/>
+      <restriction type="group" groups="registered"/>
     </action>
     <action type="print" permission="true">
-      <restriction type="concurrent" sessions="5"/>
-    </action>   
+      <restriction type="group" groups="registered"/>
+    </action>
+
   </item>
 </libRML>
 {% endhighlight %}

@@ -1,7 +1,6 @@
 # Beispiel
 ## JSON
 
-
 Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und dem öffentlicher Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
 
 {% highlight javascript %}
@@ -52,16 +51,22 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 
 {% endhighlight %}
 
-### Weitere Beispiele
+**XML**
+{% highlight xml %}
+<?xml version="1.0" ?>
+<libRML version="0.3">
+    <item id="DE-611-HS-3665348" tenant="http://www.slub-dresden.de" copyright="true">
+        <action type="displaymetadata" permission="true"/>
+        <action type="index" permission="true"/>
+        <action type="read" permission="true"/>
+        <action type="distribute" permission="true">
+            <restriction type="commercialuse" noncommercialuse="true"/>
+        </action>
+        <action type="archive" permission="true"/>
+        <action type="move" permission="true">
+            <restriction type="commercialuse" noncommercialuse="true"/>
+        </action>
+    </item>
+</libRML>
 
-Zur besseren Verständigung und damit jeder sich jeder vorstellen kann wie eine LibRML in unterschiedlien Situationen aussehen soll, finden sie hier eine Liste von Beispiele die uns von André Hohmann vorgeschlagen wurden. 
-
-
-| Beispiel Benennung | Link zum JSON |
-| :-------- | :--------- |
-| **Zugang nur zu Metadaten** | [Metadata only](metadataonly.markdown) |
-| **Zugang nur nach Authentifizierung** | [Authentification](authentification.markdown) |
-| **Zugang nur nach Abschluss eines Nutzungsvertrags** | [Agreement](agreement.markdown) |
-| **Zugang nur innerhalb einer Einrichtung/eines IP-Adressbereichs** | [location](location.markdown) |
-| **Zugang nur zur Ansicht, aber keine Speicherungs-/Druckmöglichkeit** | [Read only](readonly.markdown) |
-| **Beschränkung auf eine bestimmte Menge gleichzeitiger Zugänge** | [Limited concurrent uses](concurrent.markdown) |
+{% endhighlight %}

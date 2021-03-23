@@ -28,13 +28,26 @@ toc:
           url: constraints.html
         - title: Attributes
           url: attributes.html
-        - title: JSON Beispiel
-          url: json.html
         - title: XML Beispiel
           url: xmlbeispiel.html
         - title: XSD
           url: xsdschema.html
-
+  - title: Beispiele
+    path: /examples/
+    url: examples.html
+    subnav:
+      - title: Reine Metadatenanzeige
+        url: metadataonly.html
+      - title: Authentifizierung nötig
+        url: authentification.html
+      - title: Abschluss eines Nutzungsvertrags
+        url: agreement.html
+      - title: IP-Adressbereichs
+        url: location.html
+      - title: Ansicht, aber keine Speicherungs-/Druckmöglichkeit
+        url: readonly.html
+      - title: Beschränkung gleichzeitiger Zugriff
+        url: concurrent.html
   - title: Vorlagen
     path: /tmpl/
     url: templates.html
@@ -43,7 +56,6 @@ toc:
         url: templates.html
       - title: Beispiele
         url: beispiele.html
-
   - title: API
     path: /api/
     url: api.html
@@ -52,3 +64,11 @@ toc:
         url: api.html
       - title: Python Package
         url: python.html
+  - title: FAQ
+    path: /faq/
+    url: faq.html
+    subnav:
+      - title: Für Anwender
+        url: allgfaq.html
+      - title: Für Techniker
+        url: techfaq.html
