@@ -48,6 +48,8 @@ toc:
         url: readonly.html
       - title: Beschränkung gleichzeitiger Zugriff
         url: concurrent.html
+      - title: Nicht-kommerzielle Nutzung
+        url: digitization.html
   - title: Vorlagen
     path: /tmpl/
     url: templates.html

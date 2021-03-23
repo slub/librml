@@ -11,3 +11,4 @@ Zur besseren Verständigung und damit jeder sich jeder vorstellen kann wie eine 
 | **Einrichtung auf IP-Adressbereich** | [Location](location.html) |
 | **Ansicht, aber keine Speicherungs-/Druckmöglichkeit** | [Read only](readonly.html) |
 | **Beschränkung gleichzeitiger Zugriff** | [Limited concurrent use](concurrent.html) |
+| **Digitalisierte Ressource zur Präsentation und nicht-kommerziellen Nutzung** | [Digitization](digitization.html) |
