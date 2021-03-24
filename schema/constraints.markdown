@@ -29,24 +29,25 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 | Constraint-Name | Übersetzung | Beschreibung | Beispiel |
 | :-------------- | :--------- | :---------- |:------- |
-| parts | Teile | Einschränkung der Action auf bestimmte Teile der Ressource. | |
-| group | Nutzergruppe | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | |
-| age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | |
-| location | Ort | Geographisch (ein bestimmtes Gebiet z.B. Deutschland)<br/><br/>Institutionell (eine bestimmte Einrichtung z.B. SLUB Dresden) | |
-| date | Zeitpunkt | Einschränkung der Action ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | |
-| duration | Dauer | Einschränkung der Action auf eine bestimmte Zeitdauer. | |
-| count | Anzahl | Einschränkung der Action auf eine bestimmte Anzahl an Ausführungen, Benutzungen, ... | |
-| concurrent | Gleichzeitig | Einschränkung der Action auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, ... | |
-| watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung der Ressource mit einem Wasserzeichen oder einer anderer Markierung. | |
-| commercialuse | Kommerzielle Nutzung | `commercial use` (Kommerzielle Nutzung)<br/><br/>`non commercial use` (Nicht-kommerzielle Nutzung)<br/><br/>Eine zukünftige Erweiterung ist möglich, wie zum Beispiel um den Wert `academical` für akademische Zwecke. Freitext-Eingaben werden jedoch nicht angeboten. | |
-| quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | |
-| agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | |
+| parts | Teile | Einschränkung der Action auf bestimmte Teile der Ressource. | [→&nbsp;Parts](#parts) |
+| group | Nutzergruppe | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group)|
+| age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | [→&nbsp;Age](#age) |
+| location | Ort | Geographisch (ein bestimmtes Gebiet z.B. Deutschland)<br/><br/>Institutionell (eine bestimmte Einrichtung z.B. SLUB Dresden) | [→&nbsp;Location](#location)|
+| date | Zeitpunkt | Einschränkung der Action ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | [→&nbsp;Date](#date)|
+| duration | Dauer | Einschränkung der Action auf eine bestimmte Zeitdauer. | [→&nbsp;Duration](#duration) |
+| count | Anzahl | Einschränkung der Action auf eine bestimmte Anzahl an Ausführungen, Benutzungen, ... | [→&nbsp;Count](#count)|
+| concurrent | Gleichzeitig | Einschränkung der Action auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, ... | [→&nbsp;Concurrent](#concurrent) |
+| watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung der Ressource mit einem Wasserzeichen oder einer anderer Markierung. | [→&nbsp;Watermark](#watermark)|
+| commercialuse | Kommerzielle Nutzung | `commercial use` (Kommerzielle Nutzung)<br/><br/>`non commercial use` (Nicht-kommerzielle Nutzung)<br/><br/>Eine zukünftige Erweiterung ist möglich, wie zum Beispiel um den Wert `academical` für akademische Zwecke. Freitext-Eingaben werden jedoch nicht angeboten. | [→&nbsp;Commercialuse](#commercialuse)|
+| quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | [→&nbsp;Quality](#quality)|
+| agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | [→&nbsp;Agreement](#agreement)|
 
 
+## Beispiele
 
-Beispiele: 
+### Parts
 
-1
+{% highlight javascript %}
   "type": "download",
   "permission": true,
   "restrictions": [
@@ -54,8 +55,11 @@ Beispiele:
       "type": "parts",
       "parts": "1"
     },
+{% endhighlight %}
 
-2
+### Group
+
+{% highlight javascript %}
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -66,8 +70,10 @@ Beispiele:
         "employee",
       ]
     },
+{% endhighlight %}
 
-3
+### Age
+{% highlight javascript %}
   "type": "read",
   "permission": true,
   "restrictions": [
@@ -75,8 +81,11 @@ Beispiele:
       "type": "age",
       "age": "18"
     },
+{% endhighlight %}
 
-4
+### Location
+
+{% highlight javascript %}
   "type": "download",
   "permission": true,
   "restrictions": [
@@ -84,8 +93,11 @@ Beispiele:
       "type": "location",
       "subnet": "192.168.0.0/16"
     },
+{% endhighlight %}
 
-5
+### Date
+
+{% highlight javascript %}
   "type": "distribute",
   "permission": true,
   "restrictions": [
@@ -93,8 +105,11 @@ Beispiele:
       "type": "date",
       "fromdate": "2035-01-01"
     },
+{% endhighlight %}
 
-6 
+### Duration
+
+{% highlight javascript %}
   "type": "run",
   "permission": true,
   "restrictions": [
@@ -102,8 +117,11 @@ Beispiele:
       "type": "duration",
       "duration": 86400
     },
+{% endhighlight %}
 
-7
+### Count
+
+{% highlight javascript %}
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -111,8 +129,11 @@ Beispiele:
       "type": "count",
       "count": 10
     },
+{% endhighlight %}
 
-8
+### Concurrent
+
+{% highlight javascript %}
   "type": "lend",
   "permission": true,
   "restrictions": [
@@ -120,8 +141,11 @@ Beispiele:
       "type": "concurrent",
       "sessions": 4
     },
+{% endhighlight %}
 
-9
+### Watermark
+
+{% highlight javascript %}
   "type": "distribute",
   "permission": true,
   "restrictions": [
@@ -129,30 +153,40 @@ Beispiele:
       "type": "watermark",
       "watermarkvalue": "https://domain/watermark.png"
     },
+{% endhighlight %}
 
-10
+### Commercialuse
+
+{% highlight javascript %}
   "type": "publish",
   "permission": true,
   "restrictions": [
     {
       "type": "commercialuse",
       "commercialuse": false
-    },    
+    },
+{% endhighlight %}
 
-11
+### Quality
+
+{% highlight javascript %}
   "type": "print",
   "permission": true,
   "restrictions": [
     {
       "type": "quality",
       "maxresolution": 300
-    },   
+    },
+{% endhighlight %}
 
-12
+### Agreement
+
+{% highlight javascript %}
   "type": "read",
   "permission": true,
   "restrictions": [
     {
       "type": "agreement",
       "required": true
-    },       
+    },
+{% endhighlight %}
