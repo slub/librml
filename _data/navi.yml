@@ -42,10 +42,44 @@ toc:
     path: /tmpl/
     url: templates.html
     subnav:
-      - title: Templates
+      - title: Was sind Vorlagen?
         url: templates.html
-      - title: Beispiele
+      - title: Liste existierender Vorlagen
         url: beispiele.html
+      - title: CC0
+        url: CC0.html
+      - title: CCBY4
+        url: CCBY4.html
+      - title: CCBYSA4
+        url: CCBYSA4.html
+      - title: CCBYND4
+        url: CCBYND4.html
+      - title: CCBYNC4
+        url: CCBYNC4.html
+      - title: CCBYNCSA4
+        url: CCBYNCSA4.html
+      - title: CCBYNCND4
+        url: CCBYNCND4.html
+      - title: CCBY3DE
+        url: CCBY3DE.html
+      - title: CCBYSA3DE
+        url: CCBYSA3DE.html
+      - title: CCBYND3DE
+        url: CCBYND3DE.html
+      - title: CCBYNC3DE
+        url: CCBYNC3DE.html
+      - title: CCBYNCSA3DE
+        url: CCBYNCSA3DE.html
+      - title: CCBYNCND3DE
+        url: CCBYNCND3DE.html
+      - title: DLDEzero2
+        url: DLDEzero2.html
+      - title: DLDEBY2
+        url: DLDEBY2.html
+      - title: DLDEBY1
+        url: DLDEBY1.html
+      - title: DLDEBYNC1
+        url: DLDEBYNC1.html
   - title: API
     path: /api/
     url: api.html
