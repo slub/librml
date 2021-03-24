@@ -11,7 +11,7 @@
 {
   "id": "doi:10.1371/journal.pbio.0020447",
   "tenant": "http://www.slub-dresden.de",
-  "template": "TermsOfUse",
+  "template": "ConcurrentAccess",
   "actions": [
     {
       "type": "displaymetadata",
@@ -64,7 +64,7 @@
 {% highlight xml %}
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
-  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="TermsOfUse">
+  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="ConcurrentAccess">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
