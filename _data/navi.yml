@@ -16,8 +16,6 @@ toc:
           url: constraints.html
         - title: Attributes
           url: attributes.html
-        - title: XML Beispiel
-          url: xmlbeispiel.html
         - title: XSD
           url: xsdschema.html
   - title: Beispiele
