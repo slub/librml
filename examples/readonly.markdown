@@ -1,7 +1,7 @@
 # Nur zur Ansicht, aber keine Speicher- oder Druckmöglichkeit
 
 | Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
-| :-------: | :---------: | :---------: |
+| :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>read<br/><br/>archive | Keine | Keine |
 
 

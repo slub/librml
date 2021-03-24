@@ -1,7 +1,7 @@
 # Zugang nur zu Metadaten
 
 | Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
-| :-------: | :---------: | :---------: |
+| :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index | Keine | Keine |
 
 
