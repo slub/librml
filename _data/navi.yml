@@ -30,11 +30,11 @@ toc:
         url: authentification.html
       - title: Abschluss eines Nutzungsvertrags
         url: agreement.html
-      - title: IP-Adressbereichs
+      - title: IP-Adressbereich
         url: location.html
-      - title: Ansicht, aber keine Speicherungs-/Druckmöglichkeit
+      - title: Reine Präsentation
         url: readonly.html
-      - title: Beschränkung gleichzeitiger Zugriff
+      - title: Beschränkung gleichzeitiger Zugriffe
         url: concurrent.html
       - title: Nicht-kommerzielle Nutzung
         url: digitization.html
