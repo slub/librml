@@ -6,7 +6,7 @@ Templates werden benutzt um Eingabe-Vorlagen zu erstellen die zur Vereinfachung 
 
 ## Zu den dafür gebauten Templates:
 
-Aus der LibRML-Definition ergibt sich, dass eine Einschränkung immer wieder auf Aktionen angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Meta-Informationen zu dem Template zu speichern.
+Aus der LibRML-Definition ergibt sich, dass eine Einschränkung (*Constraint*) immer wieder auf Nutzungsrechte (*Actions*) angewendet wird und somit wohl vielfach wiederholt wird. Dies bedingt, dass ein schlaues Template-System gefunden werden muss. Nach einigen Versuchen kamen wir zu dem Entschluss, das in Python eingebaute Jinja2 System zu nutzen und um dieses nicht zu beschädigen oder erweitern zu müssen eine zusätzliche Datei mit Meta-Informationen zu dem Template zu speichern.
 
 Ein Template mit dem aktuellen Stand besteht also aus 2 Dateien:
 

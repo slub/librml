@@ -6,7 +6,7 @@ Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu 
 
 
 | Feld | Beschreibung | Wert |
-| :---:| :----------: | :--: |
+| :--- | :---------- | :-- |
 |**id**| ID zur Identifizierung der Ressource | String |
 |**relatedids**| Verwandte IDs im Falle einer Ressource mit mehreren IDs (mehr als einmal im Katalog vorhanden) und/oder mehreren Verträgen (unter unterschiedlichen Lizenzen) | \[String\] |
 |**tenant**| Einrichtung, die die Ressource verwaltet | URI |
@@ -14,7 +14,7 @@ Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu 
 Zudem können generelle Einschränkungen der e-Ressournce definiert werden:
 
 | Feld | Beschreibung | Wert |
-| :---:| :----------: | :--: |
+| :--- | :---------- | :-- |
 |**mention**| Ist eine Namensnennung notwendig | true/false|
 |**sharealike**| Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen | true/false|
 |**copyright**| Urheberrechtsschutz vorhanden | true/false|
@@ -23,7 +23,7 @@ Zudem können generelle Einschränkungen der e-Ressournce definiert werden:
 Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beispiele.markdown) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer einer [Vorlage](../tmpl/beispiele.markdown) ist der Wert in der Regel vorausgefüllt.
 
 | Feld | Beschreibung | Wert |
-| :---:| :----------: | :--: |
+| :--- | :---------- | :-- |
 |**template**| Name des eventuell benutzten Templates | true/false|
 |**usageguide**| URL auf der sich die Richtlinien der dazugehörigen Lizenz befinden | true/false|
 

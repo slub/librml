@@ -10,25 +10,22 @@ Jede e-Ressource ist mit Nutzungsrechten und Lizenzen verbunden. Diese Informati
 
 Dieser Umstand führt dazu, dass die maschinelle Auswertung der Nutzung eines digitalen Objekts nicht möglich ist. Freitextfelder können eine nahezu beliebige Fülle an Informationen enthalten, die sich in Reihenfolge und Schreibweise zwischen ähnlich lizenzierten Objekten unterscheiden kann. Die maschinelle Verarbeitung ist ohne Vereinheitlichung und eineindeutige Informationen nicht gegeben.
 
+## Rechtebeschreibungssprachen
+
+Eine Rights Expression Language (REL) oder im Deutschen eine "Sprache zum Ausdruck von Rechten" ist eine maschinenlesbare Sprache, die dazu dient, Nutzungsrechte, Lizenzen, Rechte zu intellektuellem Eigentum, und andere Benutzungseinschränkungen zu beschreiben.
+
+Eine REL kann in Metadatensätzen integriert werden oder unabhängig davon aufgebaut erstellt werden.
+
 Standards für digitale Rechteverwaltung ([ODRL](https://en.wikipedia.org/wiki/ODRL), [MPEG21](https://de.wikipedia.org/wiki/MPEG-21), [PREMIS](https://de.wikipedia.org/wiki/Preservation_Metadata:_Implementation_Strategies) existieren bereits. Sie konnten sich aber in der bibliothekarischen Praxis bisher nicht bewähren. Ansätze aus der Wirtschaft sind oft sehr komplex und zu fein granular strukturiert. Studienprojekte die einfachere Ansätze verfolgen sind hingegen nicht ausgereift und decken nur triviale Szenarien ab.
 
 Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existiert kein Standard der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
 
 ## LibRML
 
-Aus diesem Grund wurde die **Library Rights Machine-readable Language** (kurz **LibRML**) entwickelt. Als [Beschreibungssprache](rel.markdown)für den bibliothekarischen Sektor wird eine Brücke zwischen Komplexität und Verständlichkeit geschaffen. LibRML ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken.
+Aus diesem Grund wurde die **Library Rights Machine-readable Language** (kurz **LibRML**) entwickelt. Als Beschreibungssprache für den bibliothekarischen Sektor wird eine Brücke zwischen Komplexität und Verständlichkeit geschaffen. LibRML ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken.
 
 <img src="{{site.baseurl}}/assets/images/librml1.png" alt="LibRML Teaser" class="center">
 
 Rechteauszeichnung mit LibRML sind durch maschinelle Unterstützung einfach zu generieren und weiterzuverarbeiten und eröffnen so zahlreiche neue Möglichkeiten in der Automatisierung bibliothekarischer Workflows.
 
-Mehr Informationen befinden [zum Konzept] von LibRML enthält geplante Nutzungsmöglichkeiten und Einschränkungen sowie JSON und XML Beispiele:
-
-- [Rights Expression Language](rel.markdown)
-- [Konzept hinter LibRML](schema/concept.markdown)
-- [Vorlagen für häufig verwendete Lizenzen](tmpl/templates.markdown)
-
-# FAQ
-
-- [Häufig gestellte Fragen für Nutzer (FAQ)](allgfaq.markdown)
-- [Häufig gestellte Fragen zum technischen Hintergrund](techfaq.markdown)
+Mehr zum Aufbau, zu geplante Nutzungsmöglichkeiten und Einschränkungen sowie JSON und XML Beispiele befinden sich auf der [LibRML Konzept](schema/concept.markdown) Seite.

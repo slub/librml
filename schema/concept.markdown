@@ -1,4 +1,4 @@
-# Konzept
+# LibRML Konzept
 ## Aufbau
 Eine LibRML Datei besteht aus:
 
@@ -14,7 +14,7 @@ Eine LibRML Datei besteht aus:
 
 Zunächst werden im [**Header**](header.markdown) allgemeine Informationen zur Beschreibung der e-Ressource vergeben.
 
-Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.markdown) beschrieben. Diese Aktionen werden durch [**Einschränkungen**](constraints.markdown) und [**Eigenschaften**](attributes.markdown) ergänzt. In LibRML wird nur die **erlaubte Nutzung** beschrieben. Aktionen die **nicht** in der LibRML-Beschreibung der e-Ressource vorkommen gelten implizit als **verboten** und können weggelassen werden.
+Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.markdown) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.markdown) und [**Eigenschaften**](attributes.markdown) ergänzt. In LibRML wird nur die **erlaubte Nutzung** beschrieben. Nutzungsrechte die **nicht** in der LibRML-Beschreibung der e-Ressource vorkommen gelten implizit als **verboten** und können weggelassen werden.
 
 ----
 
@@ -81,7 +81,7 @@ Häufig kommt es vor, dass e-Ressourcen fest definierten Lizenzen unterliegen au
 Ausführlichere Informationen zu den Bestandteilen einer LibRML-Beschreibung finden Sie auf den folgenden Seiten:
 
 - [**Header**](header.markdown)
-- [**Aktionen**](actions.markdown)
+- [**Nutzungsrechte**](actions.markdown)
 - [**Einschränkungen**](constraints.markdown)
 - [**Eigenschaften**](attributes.markdown)
 

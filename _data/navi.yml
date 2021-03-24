@@ -2,18 +2,6 @@ toc:
   - title: Home
     path: /
     url: index.html
-    subnav:
-      - title: Übersicht
-        url: index.html
-      - title: Rights Expression Language
-        url: rel.html
-      - title: LibRML Konzept
-        url: schema/concept.html
-      - title: Allgemeine FAQ
-        url: allgfaq.html
-      - title: Technische FAQ
-        url: techfaq.html
-
   - title: Konzept
     path: /schema/
     url: concept.html
@@ -28,13 +16,28 @@ toc:
           url: constraints.html
         - title: Attributes
           url: attributes.html
-        - title: JSON Beispiel
-          url: json.html
         - title: XML Beispiel
           url: xmlbeispiel.html
         - title: XSD
           url: xsdschema.html
-
+  - title: Beispiele
+    path: /examples/
+    url: examples.html
+    subnav:
+      - title: Reine Metadatenanzeige
+        url: metadataonly.html
+      - title: Authentifizierung nötig
+        url: authentification.html
+      - title: Abschluss eines Nutzungsvertrags
+        url: agreement.html
+      - title: IP-Adressbereich
+        url: location.html
+      - title: Reine Präsentation
+        url: readonly.html
+      - title: Beschränkung gleichzeitiger Zugriffe
+        url: concurrent.html
+      - title: Nicht-kommerzielle Nutzung
+        url: digitization.html
   - title: Vorlagen
     path: /tmpl/
     url: templates.html
@@ -43,7 +46,6 @@ toc:
         url: templates.html
       - title: Beispiele
         url: beispiele.html
-
   - title: API
     path: /api/
     url: api.html
@@ -52,3 +54,11 @@ toc:
         url: api.html
       - title: Python Package
         url: python.html
+  - title: FAQ
+    path: /faq/
+    url: faq.html
+    subnav:
+      - title: Für Anwender
+        url: allgfaq.html
+      - title: Für Techniker
+        url: techfaq.html
