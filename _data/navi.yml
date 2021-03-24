@@ -32,7 +32,7 @@ toc:
         url: agreement.html
       - title: IP-Adressbereich
         url: location.html
-      - title: Reine Präsentation
+      - title: Reine Anzeige
         url: readonly.html
       - title: Beschränkung gleichzeitiger Zugriffe
         url: concurrent.html
