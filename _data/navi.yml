@@ -46,39 +46,39 @@ toc:
         url: templates.html
       - title: Liste existierender Vorlagen
         url: beispiele.html
-      - title: CC0
+      - title: CC 0
         url: CC0.html
-      - title: CCBY4
+      - title: CC BY 4.0
         url: CCBY4.html
-      - title: CCBYSA4
+      - title: CC BY-SA 4.0
         url: CCBYSA4.html
-      - title: CCBYND4
+      - title: CC BY-ND 4.0
         url: CCBYND4.html
-      - title: CCBYNC4
+      - title: CC BY-NC 4.0
         url: CCBYNC4.html
-      - title: CCBYNCSA4
+      - title: CC BY-NC-SA 4.0
         url: CCBYNCSA4.html
-      - title: CCBYNCND4
+      - title: CC BY-NC-ND 4.0
         url: CCBYNCND4.html
-      - title: CCBY3DE
+      - title: CC BY 3.0 DE
         url: CCBY3DE.html
-      - title: CCBYSA3DE
+      - title: CC BY-SA 3.0 DE
         url: CCBYSA3DE.html
-      - title: CCBYND3DE
+      - title: CC BY-ND 3.0 DE
         url: CCBYND3DE.html
-      - title: CCBYNC3DE
+      - title: CC BY-NC 3.0 DE
         url: CCBYNC3DE.html
-      - title: CCBYNCSA3DE
+      - title: CC BY-NC-SA 3.0 DE
         url: CCBYNCSA3DE.html
-      - title: CCBYNCND3DE
+      - title: CC BY-NC-ND 3.0 DE
         url: CCBYNCND3DE.html
-      - title: DLDEzero2
+      - title: DL-DE Zero 2.0
         url: DLDEzero2.html
-      - title: DLDEBY2
+      - title: DL-DE-BY 2.0
         url: DLDEBY2.html
-      - title: DLDEBY1
+      - title: DL-DE-BY 1.0
         url: DLDEBY1.html
-      - title: DLDEBYNC1
+      - title: DL-DE-BY-NC 1.0
         url: DLDEBYNC1.html
   - title: API
     path: /api/
