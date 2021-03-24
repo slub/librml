@@ -22,6 +22,8 @@ toc:
     path: /examples/
     url: examples.html
     subnav:
+      - title: Übersicht
+        url: examples.html
       - title: Reine Metadatenanzeige
         url: metadataonly.html
       - title: Authentifizierung nötig
