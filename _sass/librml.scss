@@ -1,3 +1,11 @@
+html,body {
+    height:100%; /* needed for container min-height */
+}
+
+body {
+    color: #000000;
+}
+
 .btn.active {
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -75,8 +83,10 @@ a:hover {
     color: #900900;
 }
 
-body {
-    color: #000000;
+@media screen and (min-width: 64em) {
+    .main-content {
+        min-height: 500px;
+    }
 }
 
 .main-content td {
@@ -84,5 +94,12 @@ body {
 }
 
 .main-content th {
+    font-size: 1.1rem;
+}
+
+footer {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
     font-size: 1.1rem;
 }
