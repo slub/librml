@@ -8,7 +8,7 @@ sidebar: librml
 
 Jede e-Ressource ist mit Nutzungsrechten und Lizenzen verbunden. Diese Informationen befinden sich zum Großteil in Vertragsdokumenten, E-Mails oder ausführlichen Lizenztexten. In den Metadaten der e-Ressourcen werden diese Informationen häufig in Freitextfelder übertragen. Im Fall von standardisierten Lizenzen ([CC-Lizenzen](https://de.wikipedia.org/wiki/Creative_Commons#Lizenzen), [Public Domain](https://de.wikipedia.org/wiki/Gemeinfreiheit#Public_Domain)) befindet sich oft nur der Link zum eigentlichen Lizenztext am digitalen Objekt.
 
-Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existiert kein Standard der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
+Der Bedarf an Automatisierung zur Rechteerfassung sowie der technischen Auswertung von Berechtigungen ist groß, aber bisher existiert kein Standard, der den Anforderungen der bibliothekarischen Praxis gerecht werden konnte.
 
 ## LibRML
 

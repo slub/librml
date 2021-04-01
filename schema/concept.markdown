@@ -20,7 +20,7 @@ Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.m
 
 ## Beispiel
 
-Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und dem öffentlicher Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
+Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und den öffentlichen Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
 
 {% highlight javascript %}
 
@@ -74,7 +74,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 
 ### Vorlagen
 
-Häufig kommt es vor, dass e-Ressourcen fest definierten Lizenzen unterliegen aus der sich die Nutzung ableiten lässt (z.B. Public Domain oder CC-Lizenzen). Für solche Fälle stehen fertige [**Vorlagen**](../tmpl/beispiele.markdown) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
+Häufig kommt es vor, dass e-Ressourcen fest definierten Lizenzen unterliegen, aus der sich die Nutzung ableiten lässt (z. B. Public Domain oder CC-Lizenzen). Für solche Fälle stehen fertige [**Vorlagen**](../tmpl/beispiele.markdown) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
 
 ----
 

@@ -1,7 +1,7 @@
 # Constraints
 ## Einschränkungen
 
-Eingeschränkte Nutzungsmöglichkeiten werden in der LibRML an den konkreten `Actions` festgelegt. Die Einschränkungen (`Constraints`) gelten explizit nur für die Aktion an der sie hinterlegt sind, um die maschinelle Auswertbarkeit zu gewährleisten. Einschränkungen die sich auf mehrere Nutzungsrechte auswirken, müssen entsprechend wiederholt werden. Für die vereinfachte Bearbeitung können systematische Einschränkungen einmalig definiert und wiederverwendet werden (siehe Templates).
+Eingeschränkte Nutzungsmöglichkeiten werden in der LibRML an den konkreten `Actions` festgelegt. Die Einschränkungen (`Constraints`) gelten explizit nur für die Aktion an der sie hinterlegt sind, um die maschinelle Auswertbarkeit zu gewährleisten. Einschränkungen, die sich auf mehrere Nutzungsrechte auswirken, müssen entsprechend wiederholt werden. Für die vereinfachte Bearbeitung können systematische Einschränkungen einmalig definiert und wiederverwendet werden (siehe Templates).
 
 Einige `Constraints` werden durch `Attribute` [(Siehe Attribute)](attributes.markdown) näher spezifiziert.
 
@@ -79,7 +79,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
   "restrictions": [
     {
       "type": "age",
-      "age": "18"
+      "minage": "18"
     },
 {% endhighlight %}
 

@@ -1,7 +1,7 @@
 # Header
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu beschreibenden digitalen Objekts. Ohne eindeutige **id** kann die Rechtebeschreibung nicht mit dem konkreten Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen die gleiche Ressource unterschiedlich lizenziert haben, wird die Einrichtung als `tenant` angegeben um den nötigen Kontext herzustellen. Analog kann es verschiedene Identifier zur gleichen e-Ressourcen geben, die als verwandte IDs als `relatedids` abgelegt werden können.
+Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu beschreibenden digitalen Objekts. Ohne eindeutige **ID** kann die Rechtebeschreibung nicht mit dem konkreten Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen die gleiche Ressource unterschiedlich lizenziert haben, wird die Einrichtung als `tenant` angegeben um den nötigen Kontext herzustellen. Analog kann es verschiedene Identifier zur gleichen e-Ressource geben, die als verwandte IDs als `relatedids` abgelegt werden können.
 
 
 
@@ -20,7 +20,7 @@ Zudem können generelle Einschränkungen der e-Ressournce definiert werden:
 |**copyright**| Urheberrechtsschutz vorhanden | true/false|
 
 
-Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beispiele.markdown) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer einer [Vorlage](../tmpl/beispiele.markdown) ist der Wert in der Regel vorausgefüllt.
+Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beispiele.markdown) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../tmpl/beispiele.markdown) ist der Wert in der Regel vorausgefüllt.
 
 | Feld | Beschreibung | Wert |
 | :--- | :---------- | :-- |
