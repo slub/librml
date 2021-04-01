@@ -26,7 +26,7 @@ In der LibRML stehen folgende Actions zur Beschreibung der Ressourcen zur Verfü
 | :---------- | :--------- | :----------- |
 | **displaymetadata** | Anzeigen der Metadaten | Erlaubt ausschließlich die Anzeige der Metadaten im Katalog. |
 | **read** | „Lesen“ der Datei | Erlaubt das Öffnen und Lesen der Ressource. |
-| **run** |  Ausführen | Erlaubt das Ausführen der Ressource z.B. einer Anwendung |
+| **run** |  Ausführen | Erlaubt das Ausführen der Ressource z. B. einer Anwendung |
 | **lend** | Verleih | Erlaubt den Verleih der Ressource.<br/><br/>Auf Einrichtungen bezogen. |
 | **download** | Herunterladen | Erlaubt das Herunterladen einer Datei auf einen Computer oder auf jeglichen anderen Datenträger. |
 | **print** | Ausdrucken | Erlaubt das Ausdrucken des Werkes. |

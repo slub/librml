@@ -1,4 +1,4 @@
-# CC0
+# CC 0
 ## Creative Commons Kein Urheberrecht / Public Domain
 
 

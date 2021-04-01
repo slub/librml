@@ -22,10 +22,10 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 | Attribute-Name | Beschreibung | Wert&nbsp;+&nbsp;Einheit&nbsp;/&nbsp;Format |
 | :------------- | :--------- | :------------------ |
 |fromdate| Start-Datum der Einschränkung | Datum<br/><br/>**Format**: ISO8601 (YYYY-MM-DD) |
-|todate| End-Datum des Einschränkung | Datum<br/><br/>**Format**: ISO8601 (YYYY-MM-DD) |
+|todate| End-Datum der Einschränkung | Datum<br/><br/>**Format**: ISO8601 (YYYY-MM-DD) |
 |maxresolution| maximal erlaubte Auflösung für den Download einer Ressource | non-negative Integer<br/><br/>**Einheit**: DPI|
 |maxbitrate| maximal erlaubte Bitrate für den Download einer Ressource | non-negative Integer<br/><br/>**Einheit**: Bit |
-|count| Anzahl der erlaubten Action z.B. die Anzahl der erlaubten Ausleihen | non-negative Integer<br/><br/>**Einheit**: — |
+|count| Anzahl der erlaubten Action z. B. die Anzahl der erlaubten Ausleihen | non-negative Integer<br/><br/>**Einheit**: — |
 |sessions| Anzahl der erlaubten parallelen Zugriffe auf eine Ressource |  non-negative Integer<br/><br/>**Einheit**: — |
 |inside| Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution.<br/><br/>  | in <br/><br/>**Einheit**: — |
 |subnet| Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP, IP-Bereiche<br/><br/>**Format**: — |
