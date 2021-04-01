@@ -13,7 +13,7 @@ Ein Template mit dem aktuellen Stand besteht also aus 2 Dateien:
 - librml-tmpl-CustomType2.jinja
 - librml-tmpl-CustomType2.meta.json
 
-Es gibt einen Basisnamen "librml-tmpl-CustomType2" und jeweils die Endung "jinja" und "meta.json". Die Konstruktion ist (im Moment) wichtig, weil die Templates nur geladen werden, wenn sie die Endung jinja haben und aus dem Dateinamen der Name der Metainformation-Datei erzeugt wird.
+Es gibt einen Basisnamen "librml-tmpl-CustomType2" und jeweils die Endung "jinja" und "meta.json". Die Konstruktion ist (im Moment) wichtig, weil die Templates nur geladen werden, wenn sie die Endung jinja haben und aus dem Dateinamen der Name der Meta-Information-Datei erzeugt wird.
 
 Der Inhalt ist ein valides Jinja2-Template:
 

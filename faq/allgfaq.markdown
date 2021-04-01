@@ -18,7 +18,7 @@ Wenn Metadaten zu den analogen Medien in den technischen Systemen der Bibliothek
 
 ## Wer kann/darf die LibRML benutzen?
 
-Jeder der mit der Verknüpfung von Rechteinformationen und Metadaten arbeiten z.B. (System-)Bibliothekare, Verlage, Datenmanager und viele weitere.
+Jeder der mit der Verknüpfung von Rechteinformationen und Metadaten arbeiten z. B. (System-)Bibliothekare, Verlage, Datenmanager und viele weitere.
 
 ## Funktioniert LibRML auch für komplette Ressourcen-Pakete?
 
@@ -26,7 +26,7 @@ Solange ein Paket mit einer eindeutigen ID für alle inbegriffenen Ressourcen ve
 
 ## Wie gehe ich damit um, wenn die Lizenz-/Nutzungsrechte nicht in den Metadaten, sondern anderweitig zu finden sind?
 
-Wenn keine einedeutige Lizenz aus den Metadaten abzuleiten ist (CC-BY, Public Domain, …) dann muss eine LibRML Beschreibung (mit maschineller Unterstützung) erstellt werden.
+Wenn keine eineindeutige Lizenz aus den Metadaten abzuleiten ist (CC-BY, Public Domain, …) dann muss eine LibRML Beschreibung (mit maschineller Unterstützung) erstellt werden.
 
 ## Welche Lizenzen sind schon als Vorlagen vorhanden?
 
@@ -50,11 +50,11 @@ Ja, analog zu Metadaten können auch die Rechteauszeichnungen durch libRML korri
 
 ## An wen kann ich mich wenden, falls ich Fragen habe? Gibt es ein Feld dafür?
 
-Schreiben sie uns eine <a target="_blank" href="mailto:librml@slub-dresden.de">Email </a> oder nutzen Sie das <a target="_blank" href="https://github.com/slub/librml/issues">Github-Issue-System</a> um an der Diskussion teilzunehmen.
+Schreiben Sie uns eine <a target="_blank" href="mailto:librml@slub-dresden.de">e-Mail </a> oder nutzen Sie das <a target="_blank" href="https://github.com/slub/librml/issues">Github-Issue-System</a> um an der Diskussion teilzunehmen.
 
 ## Wie wird die LibRML mit den restlichen Daten verknüpft?
 
-Durch eine eindeutige ID, lassen sich die Rechteinformationen mit den Metadaten der Ressource oder dem Paket maschinell verknüpfen.
+Durch eine eindeutige ID lassen sich die Rechteinformationen mit den Metadaten der Ressource oder dem Paket maschinell verknüpfen.
 
 ## Wie hilft die LibRML dem Bibliotheken-Nutzer?
 
