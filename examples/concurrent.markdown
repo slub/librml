@@ -1,6 +1,6 @@
 # Beschränkung auf eine bestimmte Menge gleichzeitiger Zugänge
 
-| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>archive | Limitierte gleichzeitige Zugänge | read<br/><br/>download<br/><br/>print |
 

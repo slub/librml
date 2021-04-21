@@ -1,6 +1,6 @@
 # Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)
 
-| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>archive | Einrichtung (IP-Bereich)| read<br/><br/>download<br/><br/>print |
 

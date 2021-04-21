@@ -1,8 +1,9 @@
-# Erstellung von Vorlagen für häufige Anwendungsfälle
+# Was sind Vorlagen? 
 
-Templates werden benutzt um Eingabevorlagen zu erstellen die zur Vereinfachung der Erfassung von Nutzungsrechten im LibRML-Format dienen. Diese **Vorlagen** können so in einem Eingabeassistenten (in Arbeit) ausgewählt werden und die Erfassung von einzelnen [**Actions**](../schema/actions.markdown) und [**Constraints**](../schema/constraints.markdown) erübrigt sich. Eventuell könnten danach einzelne Beschränkungen ausgebessert oder hinzugefügt werden aber das Grundgerüst der Nutzungsrechte steht bereits in der LibRML was die Eingabearbeit optimiert.
 
-**[Hier eine Liste der bereits erstellten Beispiele von Vorlagen](beispiele.markdown)** und ihrer Beschreibungen.
+Templates werden bereitgestellt, um die Erfassung von Nutzungsrechten in LibRML zu vereinfachen. Diese **Vorlagen** können in einem Eingabeassistenten (in Arbeit) ausgewählt werden und die Erfassung von einzelnen [**Actions**](../schema/actions.markdown) und [**Constraints**](../schema/constraints.markdown) erübrigt sich. Eventuell könnten danach einzelne Beschränkungen ausgebessert oder hinzugefügt werden aber das Grundgerüst der Nutzungsrechte steht bereits in der LibRML was die Eingabearbeit optimiert.
+
+**[Vorlagenliste](beispiele.markdown)** 
 
 ## Zu den dafür gebauten Templates:
 

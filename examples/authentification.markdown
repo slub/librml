@@ -1,6 +1,6 @@
 # Zugang nur nach Authentifizierung
 
-| Zugelassene Actions | Eventuelle Einschränkung | Durch diese Einschränkung ermöglichte Action |
+| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>archive | Authentifizierung | read<br/><br/>download<br/><br/>print |
 

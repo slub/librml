@@ -1,7 +1,7 @@
 # Actions
 ## Nutzungsrechte
 
-Actions beschreiben die Nutzungsmöglichkeiten einer Ressource. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen [(Siehe LibRML Konzept)](concept.markdown).
+Actions beschreiben die Nutzungsmöglichkeiten einer Ressource. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen [(siehe LibRML Konzept)](concept.markdown).
 
 {% highlight javascript %}
 {

@@ -1,4 +1,4 @@
-# LibRML Konzept
+# Das Konzept hinter LibRML
 ## Aufbau
 Eine LibRML Datei besteht aus:
 
@@ -12,9 +12,9 @@ Eine LibRML Datei besteht aus:
 
 ----
 
-Zunächst werden im [**Header**](header.markdown) allgemeine Informationen zur Beschreibung der e-Ressource vergeben.
+Im [**Header**](header.markdown) werden allgemeine Informationen zur Beschreibung der e-Ressource eingetragen.
 
-Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.markdown) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.markdown) und [**Eigenschaften**](attributes.markdown) ergänzt. In LibRML wird nur die **erlaubte Nutzung** beschrieben. Nutzungsrechte die **nicht** in der LibRML-Beschreibung der e-Ressource vorkommen gelten implizit als **verboten** und können weggelassen werden.
+Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.markdown) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.markdown) und [**Eigenschaften**](attributes.markdown) ergänzt. In LibRML werden nur **erlaubte Nutzungsrechte** beschrieben. Nutzungsrechte die **nicht** in der LibRML-Beschreibung der e-Ressource  enthalten sind, sind implizit **verboten**.
 
 ----
 
@@ -74,7 +74,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 
 ### Vorlagen
 
-Häufig kommt es vor, dass e-Ressourcen fest definierten Lizenzen unterliegen, aus der sich die Nutzung ableiten lässt (z. B. Public Domain oder CC-Lizenzen). Für solche Fälle stehen fertige [**Vorlagen**](../tmpl/beispiele.markdown) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
+E-Ressourcen können fest definierten Lizenzen unterliegen, aus der sich die Nutzung ableiten lässt, zum Beispiel Creative Commons-Lizenzen. Für solche Fälle stehen [**Vorlagen**](../tmpl/beispiele.markdown) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
 
 ----
 

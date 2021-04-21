@@ -1,4 +1,4 @@
-# Bereits verfügbare Vorlagen
+# Vorlagen für gebräuchliche Lizenzen
 
 Eingabevorlagen wie diese sollen das Erstellen von LibRML Dateien vereinfachen.
 In einem Eingabeassistenten ausgewählt, setzt so eine Vorlage verschiedene Nutzungsrechten [(**Actions**)](../schema/actions.markdown) und Einschränkungen [(**Constraints**)](../schema/constraints.markdown) bereits in der LibRML Datei fest (diese können allerdings im Nachhinein bearbeitet werden) und erleichtern so die Eingabe.

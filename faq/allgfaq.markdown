@@ -30,7 +30,7 @@ Wenn keine eineindeutige Lizenz aus den Metadaten abzuleiten ist (CC-BY, Public 
 
 ## Welche Lizenzen sind schon als Vorlagen vorhanden?
 
-Creative Commons und andere Datenlizenzen für Deutschland (Siehe [Beispiele](tmpl/beispiele.markdown))
+Creative Commons und andere Datenlizenzen für Deutschland (siehe [Beispiele](tmpl/beispiele.markdown))
 
 ## Was wenn die zutreffenden Einschränkungen noch nicht in der LibRML vorgesehen sind?
 
