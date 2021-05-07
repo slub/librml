@@ -1,14 +1,13 @@
 # Header
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu beschreibenden digitalen Objekts. Ohne eindeutige **ID** kann die Rechtebeschreibung nicht mit dem konkreten Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen die gleiche Ressource unterschiedlich lizenziert haben, wird die Einrichtung als `tenant` angegeben um den nötigen Kontext herzustellen. Analog kann es verschiedene Identifier zur gleichen e-Ressource geben, die als verwandte IDs als `relatedids` abgelegt werden können.
+Im **Header** befinden sich Informationen zur eindeutigen Identifikation des zu beschreibenden digitalen Objekts. Ohne eindeutige **ID** kann die Rechtebeschreibung nicht mit dem konkreten Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen die gleiche Ressource unterschiedlich lizenziert haben, wird die Einrichtung als `tenant` angegeben um den nötigen Kontext herzustellen.
 
 
 
 | Feld | Beschreibung | Wert |
 | :--- | :---------- | :-- |
 |**id**| ID zur Identifizierung der Ressource | String |
-|**relatedids**| Verwandte IDs im Falle einer Ressource mit mehreren IDs (mehr als einmal im Katalog vorhanden) und/oder mehreren Verträgen (unter unterschiedlichen Lizenzen) | \[String\] |
 |**tenant**| Einrichtung, die die Ressource verwaltet | URI |
 
 Zudem können generelle Einschränkungen der e-Ressournce definiert werden:
@@ -38,10 +37,6 @@ Eine urheberrechtsgeschützt e-Ressource mit zwei verwandten IDs, die im Kontext
 {% highlight javascript %}
 
     "id": "id-123456",
-    "relatedids": [
-        "A-id-123456",
-        "B-id-123456"
-    ],
     "tenant": "http://slub-dresden.de",
     "mention": true,
     "sharealike": true,
@@ -53,8 +48,5 @@ Eine urheberrechtsgeschützt e-Ressource mit zwei verwandten IDs, die im Kontext
 
 
 {% highlight xml %}
-  <item id="id-123456" tenant="http://slub-dresden.de" mention="true" sharealike="true" copyright="true">
-    <relatedid id="A-id-123456"/>
-    <relatedid id="B-id-123456"/>
-  </item>
+  <item id="id-123456" tenant="http://slub-dresden.de" mention="true" sharealike="true" copyright="true" />
 {% endhighlight %}
