@@ -8,6 +8,7 @@
   "id": "demo-mit-DL-DE BY-NC 1.0",
   "tenant": "http://www.slub-dresden.de",
   "mention": true,
+  "noncommercialuse": true,
   "usageguide": "http://www.govdata.de/dl-de/by-1-0",
   "template": "DLDEBYNC-V1",
   "actions": [
@@ -25,93 +26,39 @@
     },
     {
       "type": "download",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "print",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "reproduce",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "modify",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "reuse",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "distribute",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "publish",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "archive",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "move",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     }
   ]
 }

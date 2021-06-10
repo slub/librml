@@ -13,6 +13,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 {
   "id": "DE-611-HS-3665348",
   "tenant": "http://www.slub-dresden.de",
+  "noncommercialuse": true,
   "copyright": true,
   "actions": [
     {
@@ -33,23 +34,11 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
     },
     {
       "type": "distribute",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        },
-      ]
+      "permission": true
     },
     {
       "type": "move",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        },
-      ]
+      "permission": true
     },
   ]
 }
@@ -60,17 +49,13 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 {% highlight xml %}
 <?xml version="1.0" ?>
 <libRML version="0.3">
-    <item id="DE-611-HS-3665348" tenant="http://www.slub-dresden.de" copyright="true">
+    <item id="DE-611-HS-3665348" tenant="http://www.slub-dresden.de" noncommercialuse="true" copyright="true">
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>
         <action type="read" permission="true"/>
         <action type="archive" permission="true"/>        
-        <action type="distribute" permission="true">
-            <restriction type="commercialuse" noncommercialuse="true"/>
-        </action>
-        <action type="move" permission="true">
-            <restriction type="commercialuse" noncommercialuse="true"/>
-        </action>
+        <action type="distribute" permission="true"/>
+        <action type="move" permission="true"/>
     </item>
 </libRML>
 

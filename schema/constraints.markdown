@@ -38,7 +38,6 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 | count | Anzahl | Einschränkung der Action auf eine bestimmte Anzahl an Ausführungen, Benutzungen, ... | [→&nbsp;Count](#count)|
 | concurrent | Gleichzeitig | Einschränkung der Action auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, ... | [→&nbsp;Concurrent](#concurrent) |
 | watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung der Ressource mit einem Wasserzeichen oder einer anderer Markierung. | [→&nbsp;Watermark](#watermark)|
-| commercialuse | Kommerzielle Nutzung | `commercial use` (Kommerzielle Nutzung)<br/><br/>`non commercial use` (Nicht-kommerzielle Nutzung)<br/><br/>Eine zukünftige Erweiterung ist möglich, wie zum Beispiel um den Wert `academical` für akademische Zwecke. Freitext-Eingaben werden jedoch nicht angeboten. | [→&nbsp;Commercialuse](#commercialuse)|
 | quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | [→&nbsp;Quality](#quality)|
 | agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | [→&nbsp;Agreement](#agreement)|
 
@@ -155,17 +154,6 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
     },
 {% endhighlight %}
 
-### Commercialuse
-
-{% highlight javascript %}
-  "type": "publish",
-  "permission": true,
-  "restrictions": [
-    {
-      "type": "commercialuse",
-      "commercialuse": false
-    },
-{% endhighlight %}
 
 ### Quality
 

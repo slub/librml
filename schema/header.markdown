@@ -16,6 +16,7 @@ Zudem können generelle Einschränkungen der e-Ressournce definiert werden:
 | :--- | :---------- | :-- |
 |**mention**| Ist eine Namensnennung notwendig | true/false|
 |**sharealike**| Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen | true/false|
+|**noncommercialuse**| Beschränkung auf nicht-kommerzielle Nutzung | true/false|
 |**copyright**| Urheberrechtsschutz vorhanden | true/false|
 
 
@@ -30,7 +31,7 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beisp
 
 ### Beispiel
 
-Eine urheberrechtsgeschützt e-Ressource mit zwei verwandten IDs, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung, Weiternutzung und Verbreitung unter denselben Einschränkungen wie das Original.
+Eine urheberrechtsgeschützt e-Ressource, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung, Weiternutzung und Verbreitung unter denselben Einschränkungen wie das Original.
 
 **JSON**
 

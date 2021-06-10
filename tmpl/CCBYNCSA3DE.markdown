@@ -9,6 +9,7 @@
   "tenant": "http://www.slub-dresden.de",
   "mention": true,
   "sharealike": true,
+  "noncommercialuse": true,
   "usageguide": "https://creativecommons.org/licenses/by-nc-sa/3.0/de",
   "template": "CCBYNCSA-V3.0DE",
   "actions": [
@@ -26,93 +27,39 @@
     },
     {
       "type": "download",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "print",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "reproduce",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "modify",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "reuse",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "distribute",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "publish",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "archive",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "move",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     }
   ]
 }

@@ -8,6 +8,7 @@
   "id": "demo-mit-CCBYNCND",
   "tenant": "http://www.slub-dresden.de",
   "mention": true,
+  "noncommercialuse": true,
   "usageguide": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
   "template": "CCBYNCND-V4.0",
   "actions": [
@@ -25,73 +26,31 @@
     },
     {
       "type": "download",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "print",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "reproduce",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "distribute",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "publish",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "archive",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     },
     {
       "type": "move",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "commercialuse",
-          "noncommercialuse": true
-        }
-      ]
+      "permission": true
     }
   ]
 }

@@ -27,6 +27,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 {
   "id": "DE-611-HS-3665348",
   "tenant": "https://www.slub-dresden.de",
+  "noncommercialuse": true,
   "copyright": true,
   "actions": [
 	{
@@ -39,31 +40,19 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 	},
 	{
 	  "type": "read",
-	  "permission": true,
+	  "permission": true
 	},
 	{
 	  "type": "distribute",
-	  "permission": true,
-	  "restrictions": [
-		{
-		  "type": "commercialuse",
-		  "noncommercialuse": true
-		},
-	  ]
+	  "permission": true
 	},
 	{
 	  "type": "archive",
-	  "permission": true,
+	  "permission": true
 	},
 	{
 	  "type": "move",
-	  "permission": true,
-	  "restrictions": [
-		{
-		  "type": "commercialuse",
-		  "noncommercialuse": true
-		},
-	  ]
+	  "permission": true
 	},
   ]
 }

@@ -46,6 +46,8 @@ toc:
         url: templates.html
       - title: Vorlagenliste
         url: beispiele.html
+      - title: Public Domain
+        url: PDMark1.html
       - title: CC 0
         url: CC0.html
       - title: CC BY 4.0
