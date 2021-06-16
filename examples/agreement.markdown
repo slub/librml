@@ -8,8 +8,9 @@
 {% highlight javascript %}
 
 {
-  "id": "doi:10.1371/journal.pbio.0020447",
+  "id": "agreement-DE-447",
   "tenant": "http://www.slub-dresden.de",
+  "commercialuse": true,
   "template": "Agreement",
     "actions": [
     {
@@ -124,7 +125,7 @@
 {% highlight xml %}
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
-  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="Agreement">
+  <item id="agreement-DE-447" tenant="http://slub-dresden.de" commercialuse="true" template="Agreement">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>

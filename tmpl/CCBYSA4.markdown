@@ -9,6 +9,7 @@
   "tenant": "http://www.slub-dresden.de",
   "mention": true,
   "sharealike": true,
+  "commercialuse": true,
   "usageguide": "https://creativecommons.org/licenses/by-sa/4.0/",
   "template": "CCBYSA-V4.0",
   "actions": [

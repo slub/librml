@@ -9,8 +9,9 @@
 {% highlight javascript %}
 
 {
-  "id": "doi:10.1371/journal.pbio.0020447",
+  "id": "concuracc-440",
   "tenant": "http://www.slub-dresden.de",
+  "commercialuse": true,
   "template": "ConcurrentAccess",
   "actions": [
     {
@@ -64,7 +65,7 @@
 {% highlight xml %}
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
-  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="ConcurrentAccess">
+  <item id="concuracc-440" tenant="http://slub-dresden.de" commercialuse="true" template="ConcurrentAccess">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>

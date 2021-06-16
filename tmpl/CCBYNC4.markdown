@@ -8,7 +8,7 @@
   "id": "demo-mit-CCBYNC",
   "tenant": "http://www.slub-dresden.de",
   "mention": true,
-  "noncommercialuse": true,
+  "commercialuse": false,
   "usageguide": "https://creativecommons.org/licenses/by-nc/4.0/",
   "template": "CCBYNC-V4.0",
   "actions": [

@@ -8,6 +8,7 @@
   "id": "demo-mit-DL-DE BY 2.0",
   "tenant": "http://www.slub-dresden.de",
   "mention": true,
+  "commercialuse": true,
   "usageguide": "http://www.govdata.de/dl-de/by-2-0",
   "template": "DLDEBY-V2",
   "actions": [

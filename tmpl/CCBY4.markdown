@@ -8,6 +8,7 @@
   "id": "demo-mit-CCBY",
   "tenant": "http://www.slub-dresden.de",
   "mention": true,
+  "commercialuse": true,
   "usageguide": "https://creativecommons.org/licenses/by/4.0/",
   "template": "CCBY-V4.0",
   "actions": [

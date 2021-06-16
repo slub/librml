@@ -7,6 +7,7 @@
 {
   "id": "demo-mit-DL-DE-Zero-2.0",
   "tenant": "http://www.slub-dresden.de",
+  "commercialuse": true,
   "usageguide": "http://www.govdata.de/dl-de/zero-2-0",
   "template": "DLDE-Zero-V2",
   "actions": [

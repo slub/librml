@@ -16,7 +16,7 @@ Zudem können generelle Einschränkungen der e-Ressournce definiert werden:
 | :--- | :---------- | :-- |
 |**mention**| Ist eine Namensnennung notwendig | true/false|
 |**sharealike**| Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen | true/false|
-|**noncommercialuse**| Beschränkung auf nicht-kommerzielle Nutzung | true/false|
+|**commercialuse**| Kommerzielle Nutzung erlaubt | true/false|
 |**copyright**| Urheberrechtsschutz vorhanden | true/false|
 
 

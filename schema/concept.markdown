@@ -20,14 +20,14 @@ Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.m
 
 ## Beispiel
 
-Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und den öffentlichen Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
+Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und den öffentlichen Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken (In diesem Fall schreiben wir aus Vorzeige-Gründen aktiv das *"false"* zur *"commercialuse"* in den Beispiel-Code). **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
 
 {% highlight javascript %}
 
 {
   "id": "DE-611-HS-3665348",
   "tenant": "https://www.slub-dresden.de",
-  "noncommercialuse": true,
+  "commercialuse": false,
   "copyright": true,
   "actions": [
 	{

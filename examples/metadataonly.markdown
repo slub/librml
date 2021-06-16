@@ -9,7 +9,7 @@
 {% highlight javascript %}
 
 {
-  "id": "doi:10.1371/journal.pbio.0020447",
+  "id": "metaonly-441",
   "tenant": "http://www.slub-dresden.de",
   "template": "Metadata access only",
     "actions": [
@@ -30,7 +30,7 @@
 {% highlight xml %}
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
-  <item id="doi:10.1371/journal.pbio.0020447" tenant="http://slub-dresden.de" template="Metadata access only">
+  <item id="metaonly-441" tenant="http://slub-dresden.de" template="Metadata access only">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
   </item>
