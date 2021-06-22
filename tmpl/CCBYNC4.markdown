@@ -6,7 +6,6 @@
 
 {
   "id": "demo-mit-CCBYNC",
-  "tenant": "http://www.slub-dresden.de",
   "mention": true,
   "commercialuse": false,
   "usageguide": "https://creativecommons.org/licenses/by-nc/4.0/",

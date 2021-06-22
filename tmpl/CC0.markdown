@@ -6,7 +6,6 @@
 
 {
   "id": "demo-mit-CC0",
-  "tenant": "http://www.slub-dresden.de",
   "commercialuse": true,
   "usageguide": "https://creativecommons.org/publicdomain/zero/1.0/",
   "template": "CC0",

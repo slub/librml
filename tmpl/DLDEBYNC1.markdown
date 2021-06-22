@@ -6,7 +6,6 @@
 
 {
   "id": "demo-mit-DL-DE BY-NC 1.0",
-  "tenant": "http://www.slub-dresden.de",
   "mention": true,
   "commercialuse": false,
   "usageguide": "http://www.govdata.de/dl-de/by-1-0",

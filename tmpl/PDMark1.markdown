@@ -4,8 +4,7 @@
 {% highlight javascript %}
 
 {
-    "id": "ID-45837",
-    "tenant": "http://www.slub-dresden.de",
+    "id": "ID-PD.M1",
     "commercialuse": true,
     "usageguide": "https://creativecommons.org/publicdomain/mark/1.0/",
     "template": "Public Domain Mark 1.0",
