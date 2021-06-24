@@ -24,8 +24,8 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beisp
 
 | Feld | Beschreibung | Wert |
 | :--- | :---------- | :-- |
-|**template**| Name des eventuell benutzten Templates | true/false|
-|**usageguide**| URL auf der sich die Richtlinien der dazugehörigen Lizenz befinden | true/false|
+|**template**| Name des eventuell benutzten Templates | String |
+|**usageguide**| URL auf der sich die Richtlinien der dazugehörigen Lizenz befinden | URI|
 
 ----
 
