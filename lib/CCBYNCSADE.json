@@ -1,0 +1,71 @@
+{
+    "id": "CCBYNCSADE",
+    "mention": true,
+    "sharealike": true,
+    "commercialuse": false,
+    "usageguide": "https://creativecommons.org/licenses/by-nc-sa/3.0/de",
+    "template": "CCBYNCSA-V3.0DE",
+    "actions": [
+      {
+        "type": "displaymetadata",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "index",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "read",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "download",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "print",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "reproduce",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "modify",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "reuse",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "distribute",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "publish",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "archive",
+        "permission": true,
+        "restrictions": []
+      },
+      {
+        "type": "move",
+        "permission": true,
+        "restrictions": []
+      }
+    ],
+    "copyright": null
+  }
