@@ -33,3 +33,5 @@ LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist
 {% endhighlight %}
 
 Auf diesen Seiten finden Sie ausführliche Informationen zum [Konzept](schema/concept.html) auf dem LibRML basiert, zahlreiche [Beispiele aus der Praxis](examples/examples.html) sowie [Templates](tmpl/templates.html) für gebräuchliche Szenarien und [häufig vorkommende Lizenzmodelle](tmpl/beispiele.html).
+
+Sie können mit einem **visuellem Tool**, dem [LibRML-Builder](builder/index.html), die Erstellung von LibRML-JSON-Dateien ausprobieren und sich aus Aktionen und Einschränkungen ein Beispiel zusammen stellen.
