@@ -1,5 +1,5 @@
 toc:
-  - title: Home
+  - title: Übersicht
     path: /
     url: index.html
   - title: Konzept
@@ -16,6 +16,18 @@ toc:
           url: constraints.html
         - title: Attributes
           url: attributes.html
+  - title: Anwendung
+    path: /usage/
+    url: usage.html
+    subnav:
+      - title: Allgemeine Informationen
+        url: usage.html
+      - title: Referenzen standardisierter Rechteinformationen
+        url: reference_licence.html
+      - title: Referenzen standardisierter Beschränkungen
+        url: reference_usage.html
+      - title: Eingebettetes LibRML in den Metadaten
+        url: embedded.html
   - title: Beispiele
     path: /examples/
     url: examples.html
@@ -36,6 +48,10 @@ toc:
         url: concurrent.html
       - title: Nicht-kommerzielle Nutzung
         url: digitization.html
+      - title: Copyright - Open Access
+        url: copyright_openaccess.html
+      - title: Copyright - Restricted Access
+        url: copyright_restrictedaccess.html
   - title: Vorlagen
     path: /tmpl/
     url: templates.html
@@ -80,19 +96,6 @@ toc:
         url: DLDEBY1.html
       - title: DL-DE-BY-NC 1.0
         url: DLDEBYNC1.html
-  - title: API
-    path: /api/
-    url: api.html
-    subnav:
-      - title: API
-        url: api.html
-      - title: Python Package
-        url: python.html
   - title: FAQ
     path: /faq/
     url: faq.html
-    subnav:
-      - title: Für Anwender
-        url: allgfaq.html
-      - title: Für Techniker
-        url: techfaq.html
