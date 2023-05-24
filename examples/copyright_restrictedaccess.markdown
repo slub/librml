@@ -7,7 +7,7 @@ Das LibRML kann aus den folgenden Werten abgeleitet werden:
 - [Rechtehinweis](https://wiki.dnb.de/pages/viewpage.action?pageId=217533656) = [Urheberrechtsschutz 1.0](http://rightsstatements.org/vocab/InC/1.0/)
 
 Hinweis:
-- Es wird eine Bereitstellung des Objekts entsprechend Bereitstellung digitaler Dokumente, die dem Urheberrecht unterliegen beschrieben.
+- Es wird eine Bereitstellung des Objekts entsprechend [Bereitstellung digitaler Dokumente, die dem Urheberrecht unterliegen](https://wiki.dnb.de/pages/viewpage.action?pageId=212780202) beschrieben.
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
 **JSON**

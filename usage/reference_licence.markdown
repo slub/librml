@@ -37,8 +37,7 @@ In DCMES wird der URI der standardisierten Rechteinformation in dem folgenden El
 
 {% highlight XML %}<dc:rights>{% endhighlight %}
 
-#### LibRML - Zugang nur zu Metadaten
-{% highlight XML %} <dc:rights>https://librml.org/licenses/CCBY4</dc:rights> {% endhighlight %}
+{% highlight XML %} <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights> {% endhighlight %}
 
 Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533660](https://wiki.dnb.de/pages/viewpage.action?pageId=217533660)
 
@@ -48,11 +47,10 @@ In METS wird der URI der standardisierten Rechteinformation in dem folgenden Ele
 
 {% highlight XML %}<mets:mdRef xlink:href>{% endhighlight %}
 
-#### LibRML - Zugang nur zu Metadaten
 {% highlight XML %}
 <mets:amdSec>
   <mets:rightsMD ID="RMD1">
-    <mets:mdRef LABEL="CC BY 4.0" xlink:href="https://librml.org/licenses/CCBY4" LOCTYPE="PURL" MDTYPE="OTHER" OTHERMDTYPE="Creative Commons"/>
+    <mets:mdRef LABEL="CC BY 4.0" xlink:href="https://creativecommons.org/licenses/by/4.0/" LOCTYPE="PURL" MDTYPE="OTHER" OTHERMDTYPE="Creative Commons"/>
   </mets:rightsMD>
 </mets:amdSec>
 {% endhighlight %}
@@ -65,9 +63,8 @@ In MODS wird der URI der standardisierten Rechteinformation in dem folgenden Ele
 
 {% highlight XML %}<mods:accessCondition xlink:href>{% endhighlight %}
 
-#### LibRML - Zugang nur zu Metadaten
 {% highlight XML %}
-<mods:accessCondition type="use and reproduction" xlink:href="https://librml.org/licenses/CCBY4">
+<mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">
   CC BY 4.0
 </mods:accessCondition>
 {% endhighlight %}
