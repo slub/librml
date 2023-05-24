@@ -3,7 +3,7 @@
 
 Das LibRML kann aus den folgenden Werten abgeleitet werden:
 
-- [Access Status](https://wiki.dnb.de/pages/viewpage.action?pageId=217533654) = [Open Access](http://purl.org/coar/access_right/c_abf2)
+- [Access Status](https://wiki.dnb.de/pages/viewpage.action?pageId=217533654) = [Restricted Access](http://purl.org/coar/access_right/c_16ec)
 - [Rechtehinweis](https://wiki.dnb.de/pages/viewpage.action?pageId=217533656) = [Urheberrechtsschutz 1.0](http://rightsstatements.org/vocab/InC/1.0/)
 
 Hinweis:
