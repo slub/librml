@@ -6,8 +6,7 @@
 
 
 **JSON**
-{% highlight javascript %}
-
+```json
 {
   "id": "readonly-449",
   "tenant": "http://www.slub-dresden.de",
@@ -31,11 +30,10 @@
     }
   ]
 }
-
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
   <item id="readonly-449" tenant="http://slub-dresden.de" template="Read only">
@@ -45,4 +43,4 @@
     <action type="archive" permission="true"/>
   </item>
 </libRML>
-{% endhighlight %}
+```

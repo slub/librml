@@ -2,8 +2,7 @@
 ## Datenlizenz Deutschland Zero 2.0
 
 
-{% highlight javascript %}
-
+```json
 {
   "id": "demo-mit-DL-DE-Zero-2.0",
   "commercialuse": true,
@@ -60,5 +59,4 @@
     }
   ]
 }
-
-{% endhighlight %}
+```

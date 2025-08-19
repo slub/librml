@@ -2,8 +2,7 @@
 ## Creative Commons mit Namensnennung und keine Veränderungen/Ableitungen
 
 
-{% highlight javascript %}
-
+```json
 {
   "id": "demo-mit-CCBYND",
   "mention": true,
@@ -53,5 +52,4 @@
     }
   ]
 }
-
-{% endhighlight %}
+```

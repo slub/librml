@@ -23,8 +23,7 @@ Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.m
 Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und den öffentlichen Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken (In diesem Fall schreiben wir zur besseren Verständlichkeit aktiv das *"false"* zur *"commercialuse"* in das JSON). **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.
 So einer e-Ressource würde folgende LibRML zugewiesen werden. 
 
-{% highlight javascript %}
-
+```json
 {
   "id": "DE-611-HS-3665348",
   "tenant": "https://www.slub-dresden.de",
@@ -57,8 +56,7 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 	},
   ]
 }
-
-{% endhighlight %}
+```
 
 ----
 

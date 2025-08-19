@@ -2,8 +2,7 @@
 ## Creative Commons mit Namensnennung und nicht kommerziell - Deutschland
 
 
-{% highlight javascript %}
-
+```json
 {
   "id": "demo-mit-CCBYNCDE",
   "mention": true,
@@ -61,5 +60,4 @@
     }
   ]
 }
-
-{% endhighlight %}
+```

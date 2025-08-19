@@ -2,7 +2,7 @@
 
 *(Dieser Entwurf wird kontinuierlich verändert. Eine finale Version wird erst mit Version 1.0 veröffentlicht.)*
 
-{% highlight xml %}
+```xml
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -119,4 +119,4 @@
     </xs:complexType>
 </xs:schema>
 
-{% endhighlight %}
+```

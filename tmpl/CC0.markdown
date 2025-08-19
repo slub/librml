@@ -2,8 +2,7 @@
 ## Creative Commons Kein Urheberrecht / Public Domain
 
 
-{% highlight javascript %}
-
+```json
 {
   "id": "demo-mit-CC0",
   "commercialuse": true,
@@ -60,5 +59,4 @@
     }
   ]
 }
-
-{% endhighlight %}
+```

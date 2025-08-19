@@ -6,8 +6,7 @@
 
 
 **JSON**
-{% highlight javascript %}
-
+```json
 {
   "id": "concuracc-440",
   "tenant": "http://www.slub-dresden.de",
@@ -58,11 +57,10 @@
     }
   ]
 }
-
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
   <item id="concuracc-440" tenant="http://slub-dresden.de" commercialuse="true" template="ConcurrentAccess">
@@ -80,4 +78,4 @@
     </action>
   </item>
 </libRML>
-{% endhighlight %}
+```

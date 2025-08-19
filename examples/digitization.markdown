@@ -8,8 +8,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 
 
 **JSON**
-{% highlight javascript %}
-
+```json
 {
   "id": "DE-611-HS-3665348",
   "tenant": "http://www.slub-dresden.de",
@@ -42,11 +41,10 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
     },
   ]
 }
-
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+```xml
 <?xml version="1.0" ?>
 <libRML version="0.3">
     <item id="DE-611-HS-3665348" tenant="http://www.slub-dresden.de" commercialuse="false" copyright="true">
@@ -59,4 +57,4 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
     </item>
 </libRML>
 
-{% endhighlight %}
+```

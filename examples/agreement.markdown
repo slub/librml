@@ -5,8 +5,7 @@
 | displaymetadata<br/><br/>index<br/><br/>archive | Nutzungsvertrag | read<br/><br/>download<br/><br/>print<br/><br/>reproduce<br/><br/>modify<br/><br/>reuse<br/><br/>distribute<br/><br/>publish<br/><br/>move |
 
 **JSON**
-{% highlight javascript %}
-
+```json
 {
   "id": "agreement-DE-447",
   "tenant": "http://www.slub-dresden.de",
@@ -117,12 +116,11 @@
     },
   ]
 }
-
-{% endhighlight %}
+```
 
 
 **XML**
-{% highlight xml %}
+```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
   <item id="agreement-DE-447" tenant="http://slub-dresden.de" commercialuse="true" template="Agreement">
@@ -158,4 +156,4 @@
     </action>
   </item>
 </libRML>
-{% endhighlight %}
+```

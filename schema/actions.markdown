@@ -3,7 +3,7 @@
 
 Actions beschreiben die Nutzungsmöglichkeiten von Ressourcen. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen [(siehe LibRML Konzept)](concept.markdown).
 
-{% highlight javascript %}
+```json
 {
   "id": "ID-NAME",
   "actions": [{
@@ -11,7 +11,7 @@ Actions beschreiben die Nutzungsmöglichkeiten von Ressourcen. Alle Nutzungsmög
     "permission": true
   }]
 }
-{% endhighlight %}
+```
 
 
 Um eine Nutzungsmöglichkeit zu gewähren, muss die entsprechende Action in der LibRML-Beschreibung aufgeführt werden. Jede Action wird dafür mit dem zugehörigen `type` eingeleitet, der die Art der Nutzung beschreibt. Mit `"permission": true"`{:.highlight .json} wird sie explizit als erlaubt gekennzeichnet.

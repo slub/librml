@@ -6,8 +6,7 @@
 
 
 **JSON**
-{% highlight javascript %}
-
+```json
 {
   "id": "iprestricted-444",
   "tenant": "http://www.slub-dresden.de",
@@ -64,13 +63,11 @@
     }
   ]
 }
-
-
-{% endhighlight %}
+```
 
 
 **XML**
-{% highlight xml %}
+```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
   <item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
@@ -88,4 +85,4 @@
     </action>
   </item>
 </libRML>
-{% endhighlight %}
+```

@@ -6,8 +6,7 @@
 
 
 **JSON**
-{% highlight javascript %}
-
+```json
 {
   "id": "metaonly-441",
   "tenant": "http://www.slub-dresden.de",
@@ -23,11 +22,10 @@
     }
   ]
 }
-
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
   <item id="metaonly-441" tenant="http://slub-dresden.de" template="Metadata access only">
@@ -35,4 +33,4 @@
     <action type="index" permission="true"/>
   </item>
 </libRML>
-{% endhighlight %}
+```

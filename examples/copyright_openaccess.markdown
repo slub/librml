@@ -11,8 +11,7 @@ Hinweis:
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
 **JSON**
-{% highlight javascript %}
-
+```json
 {
 	"id": "LibRML Copyright - Open Access",
 	"tenant": "http://www.slub-dresden.de",
@@ -45,11 +44,10 @@ Hinweis:
 		},
 	]
 }
-
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="1.0">
 		<item id="LibRML Copyright - Open Access" tenant="http://slub-dresden.de" usageguide="http://librml.org/examples/copyright_openaccess"  template="LibRML Copyright - Open Access">
@@ -61,4 +59,4 @@ Hinweis:
 				<action type="archive" permission="true"/>
 		</item>
 </libRML>
-{% endhighlight %}
+```

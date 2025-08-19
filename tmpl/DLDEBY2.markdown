@@ -2,8 +2,7 @@
 ## Datenlizenz Deutschland - Namensnennung 2.0
 
 
-{% highlight javascript %}
-
+```json
 {
   "id": "demo-mit-DL-DE BY 2.0",
   "mention": true,
@@ -61,5 +60,4 @@
     }
   ]
 }
-
-{% endhighlight %}
+```
