@@ -19,6 +19,7 @@ Einige `Constraints` werden durch `Attribute` [(siehe Attribute)](attributes.mar
 ```
 
 **XML**
+
 ```xml
 <action type="ACTION-NAME" permission="true">
   <restriction type="CONSTRAINT-NAME" ATTRIBUTE="X"/>

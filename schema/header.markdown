@@ -47,7 +47,6 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 **XML**
 
-
 ```xml
   <item id="id-123456" tenant="http://slub-dresden.de" mention="true" sharealike="true" copyright="true" />
 ```

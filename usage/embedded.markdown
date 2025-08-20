@@ -11,6 +11,7 @@ Es wird empfohlen, [Referenzen standardisierter Rechteinformationen](reference_l
 In METS wird der XML-Code in das Element `<rightsMD>` eingetragen.
 
 #### METS
+
 ```xml
 <mets:mets[...]>
   <mets:metsHdr[...]/>
@@ -60,6 +61,7 @@ Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine a
 In MODS wird der XML-Code in das Element `<accessCondition type="LibRML">` eingetragen.
 
 #### MODS
+
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
   <mods:accessCondition type="LibRML">
@@ -91,6 +93,7 @@ Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine a
 Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location).
 
 ### METS
+
 ```xml
 <mets:mets[...]>
   <mets:metsHdr[...]/>
@@ -120,6 +123,7 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
 ```
 
 ### MODS
+
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
     <mods:accessCondition type="LibRML">

@@ -5,6 +5,7 @@
 | displaymetadata<br/><br/>index<br/><br/>archive | Authentifizierung | read<br/><br/>download<br/><br/>print |
 
 **JSON**
+
 ```json
 {
   "id": "auth-DE-442",
@@ -65,6 +66,7 @@
 ```
 
 **XML**
+
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
@@ -81,7 +83,6 @@
     <action type="print" permission="true">
       <restriction type="group" groups="registered"/>
     </action>
-
   </item>
 </libRML>
 ```

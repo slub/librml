@@ -5,6 +5,7 @@
 | displaymetadata<br/><br/>index<br/><br/>archive | Nutzungsvertrag | read<br/><br/>download<br/><br/>print<br/><br/>reproduce<br/><br/>modify<br/><br/>reuse<br/><br/>distribute<br/><br/>publish<br/><br/>move |
 
 **JSON**
+
 ```json
 {
   "id": "agreement-DE-447",
@@ -118,8 +119,8 @@
 }
 ```
 
-
 **XML**
+
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">

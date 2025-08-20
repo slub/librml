@@ -11,6 +11,7 @@ Hinweis:
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
 **JSON**
+
 ```json
 {
   "id": "LibRML Copyright - Restricted Access",
@@ -46,6 +47,7 @@ Hinweis:
 ```
 
 **XML**
+
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">

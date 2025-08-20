@@ -13,6 +13,7 @@ Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) 
 ```
 
 **XML**
+
 ```xml
 <restriction type="CONSTRAINT-NAME" ATTRIBUTE="VALUE"/>
 ```

@@ -8,6 +8,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 
 
 **JSON**
+
 ```json
 {
   "id": "DE-611-HS-3665348",
@@ -44,6 +45,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 ```
 
 **XML**
+
 ```xml
 <?xml version="1.0" ?>
 <libRML version="0.3">
@@ -56,5 +58,4 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
         <action type="move" permission="true"/>
     </item>
 </libRML>
-
 ```
