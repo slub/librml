@@ -75,10 +75,5 @@ Ausführlichere Informationen zu den Bestandteilen einer LibRML-Beschreibung fin
 - [**Einschränkungen**](constraints.markdown)
 - [**Eigenschaften**](attributes.markdown)
 
-Beispiele:
-- [**JSON**](json.markdown)
-- [**XML**](xmlbeispiel.markdown)
-
-
 Häufig vorkommende Lizenzen in LibRML
 - [**Vorlagen**](../tmpl/beispiele.markdown)
