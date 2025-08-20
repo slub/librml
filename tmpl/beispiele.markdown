@@ -22,6 +22,4 @@ Diese Liste dient im Moment der Projekt-internen Nachprüfung.
 | [CC BY-NC-SA 3.0 DE](CCBYNCSA3DE.markdown) | Creative Commons mit Namensnennung, nicht kommerziell und „Share Alike“ (Abgeleitete Werke müssen denselben Bedingungen unterliegen) - Deutschland | Creative Commons DE |
 | [CC BY-NC-ND 3.0 DE](CCBYNCND3DE.markdown) | Creative Commons mit Namensnennung, nicht kommerziell und keine Veränderungen/Ableitungen - Deutschland | Creative Commons DE |
 | [DL-DE Zero 2.0](DLDEzero2.markdown)  |  Datenlizenz Deutschland Zero 2.0                                                                          | Datenlizenzen Deutschland |
-| [DL-DE-BY 2.0](DLDEBY2.markdown) | Datenlizenz Deutschland - Namensnennung 2.0                                                                     | Datenlizenzen Deutschland |
-| [DL-DE-BY 1.0](DLDEBY1.markdown) | Datenlizenz Deutschland - Namensnennung 1.0                                                                     | Datenlizenzen Deutschland |
-| [DL-DE-BY-NC 1.0](DLDEBYNC1.markdown) | Datenlizenz Deutschland - Namensnennung - Nicht kommerziell 1.0                                            | Datenlizenzen Deutschland |
+| [DL-DE-BY 2.0](DLDEBY2.markdown) | Datenlizenz Deutschland - Namensnennung 2.0                                                                     | 
