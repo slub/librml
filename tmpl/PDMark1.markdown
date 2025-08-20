@@ -1,8 +1,7 @@
 # Public Domain
 ## Public Domain Mark 1.0 als LibRML
 
-{% highlight javascript %}
-
+```json
 {
     "id": "ID-PD.M1",
     "commercialuse": true,
@@ -67,5 +66,4 @@
         }
     ]
 }
-
-{% endhighlight %}
+```

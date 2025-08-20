@@ -5,8 +5,8 @@
 | displaymetadata<br/><br/>index<br/><br/>archive | Authentifizierung | read<br/><br/>download<br/><br/>print |
 
 **JSON**
-{% highlight javascript %}
 
+```json
 {
   "id": "auth-DE-442",
   "tenant": "http://www.slub-dresden.de",
@@ -63,12 +63,11 @@
     }
   ]
 }
-
-
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+
+```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.3">
   <item id="auth-DE-442" tenant="http://slub-dresden.de" commercialuse="true" template="Authentification">
@@ -84,7 +83,6 @@
     <action type="print" permission="true">
       <restriction type="group" groups="registered"/>
     </action>
-
   </item>
 </libRML>
-{% endhighlight %}
+```

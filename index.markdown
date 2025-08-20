@@ -22,7 +22,7 @@ Die in der Praxis genutzten Freitextfelder zur Beschreibung von Rechten können 
 
 LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken. Die Feldbelegungen sind [eindeutig spezifiziert](schema/xsdschema.html) und erlauben die maschinelle Weiterverarbeitung.
 
-{% highlight javascript %}
+```javascript
   "type": "read",			<- Lesen
   "permission": true,			<- ist erlaubt
   "restrictions": [			<- mit Einschränkung
@@ -30,7 +30,8 @@ LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist
 	  "type": "date",		<- eines Zeitpunkts
 	  "fromdate": "2035-01-01"	<- ab dem 01.01.2035
 	},
-{% endhighlight %}
+  ]
+```
 
 Auf diesen Seiten finden Sie ausführliche Informationen zum [Konzept](schema/concept.html) auf dem LibRML basiert, zahlreiche [Beispiele aus der Praxis](examples/examples.html) sowie [Templates](tmpl/templates.html) für gebräuchliche Szenarien und [häufig vorkommende Lizenzmodelle](tmpl/beispiele.html).
 

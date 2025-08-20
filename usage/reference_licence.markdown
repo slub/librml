@@ -35,9 +35,9 @@ Folgende Beispiele zeigen die Notwendigkeit der standardisierten Erfassung von R
 
 In DCMES wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
 
-{% highlight XML %}<dc:rights>{% endhighlight %}
+```xml<dc:rights>```
 
-{% highlight XML %} <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights> {% endhighlight %}
+```xml <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights> ```
 
 Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533660](https://wiki.dnb.de/pages/viewpage.action?pageId=217533660)
 
@@ -45,15 +45,15 @@ Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533660](https://wiki
 
 In METS wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
 
-{% highlight XML %}<mets:mdRef xlink:href>{% endhighlight %}
+```xml<mets:mdRef xlink:href>```
 
-{% highlight XML %}
+```xml
 <mets:amdSec>
   <mets:rightsMD ID="RMD1">
     <mets:mdRef LABEL="CC BY 4.0" xlink:href="https://creativecommons.org/licenses/by/4.0/" LOCTYPE="PURL" MDTYPE="OTHER" OTHERMDTYPE="Creative Commons"/>
   </mets:rightsMD>
 </mets:amdSec>
-{% endhighlight %}
+```
 
 Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533670](https://wiki.dnb.de/pages/viewpage.action?pageId=217533670)
 
@@ -61,12 +61,12 @@ Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533670](https://wiki
 
 In MODS wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
 
-{% highlight XML %}<mods:accessCondition xlink:href>{% endhighlight %}
+```xml<mods:accessCondition xlink:href>```
 
-{% highlight XML %}
+```xml
 <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">
   CC BY 4.0
 </mods:accessCondition>
-{% endhighlight %}
+```
 
 Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533671](https://wiki.dnb.de/pages/viewpage.action?pageId=217533671)

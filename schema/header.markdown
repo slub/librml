@@ -36,19 +36,17 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 **JSON**
 
-{% highlight javascript %}
-
+```json
     "id": "id-123456",
     "tenant": "http://slub-dresden.de",
     "mention": true,
     "sharealike": true,
     "copyright": true,
 
-{% endhighlight %}
+```
 
 **XML**
 
-
-{% highlight xml %}
+```xml
   <item id="id-123456" tenant="http://slub-dresden.de" mention="true" sharealike="true" copyright="true" />
-{% endhighlight %}
+```

@@ -2,8 +2,7 @@
 ## Creative Commons mit Namensnennung, nicht kommerziell und „Share Alike“ (Abgeleitete Werke müssen denselben Bedingungen unterliegen) - Deutschland
 
 
-{% highlight javascript %}
-
+```json
 {
   "id": "demo-mit-CCBYNCSADE",
   "mention": true,
@@ -62,5 +61,4 @@
     }
   ]
 }
-
-{% endhighlight %}
+```

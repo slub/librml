@@ -11,7 +11,8 @@ Es wird empfohlen, [Referenzen standardisierter Rechteinformationen](reference_l
 In METS wird der XML-Code in das Element `<rightsMD>` eingetragen.
 
 #### METS
-{% highlight XML %}
+
+```xml
 <mets:mets[...]>
   <mets:metsHdr[...]/>
   <mets:amdSec>
@@ -22,7 +23,7 @@ In METS wird der XML-Code in das Element `<rightsMD>` eingetragen.
     </mets:rightsMD>
   </mets:amdSec>
 </mets:mets>
-{% endhighlight %}
+```
 
 ### Elemente
 
@@ -60,13 +61,14 @@ Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine a
 In MODS wird der XML-Code in das Element `<accessCondition type="LibRML">` eingetragen.
 
 #### MODS
-{% highlight XML %}
+
+```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
   <mods:accessCondition type="LibRML">
     <!--Here, LibRML can be embedded.-->
   </mods:accessCondition>
 </mods:mods>
-{% endhighlight %}
+```
 
 ### Elemente
 
@@ -91,7 +93,8 @@ Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine a
 Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location).
 
 ### METS
-{% highlight XML %}
+
+```xml
 <mets:mets[...]>
   <mets:metsHdr[...]/>
   <mets:amdSec>
@@ -117,10 +120,11 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
     </mets:rightsMD>
   </mets:amdSec>
 </mets:mets>
-{% endhighlight %}
+```
 
 ### MODS
-{% highlight XML %}
+
+```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
     <mods:accessCondition type="LibRML">
         <libRML version="0.3">
@@ -141,4 +145,4 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
         </libRML>
     </mods:accessCondition>
 </mods:mods>
-{% endhighlight %}
+```

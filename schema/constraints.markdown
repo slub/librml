@@ -7,7 +7,7 @@ Einige `Constraints` werden durch `Attribute` [(siehe Attribute)](attributes.mar
 
 **JSON**
 
-{% highlight javascript %}
+```json
 "actions": [{
     "type": "ACTION-NAME",
     "permission": true,
@@ -16,14 +16,15 @@ Einige `Constraints` werden durch `Attribute` [(siehe Attribute)](attributes.mar
         "ATTRIBUTE": "X"
      }]
 }]
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+
+```xml
 <action type="ACTION-NAME" permission="true">
   <restriction type="CONSTRAINT-NAME" ATTRIBUTE="X"/>
 </action>
-{% endhighlight %}
+```
 
 In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur Verfügung.
 
@@ -46,7 +47,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ### Parts
 
-{% highlight javascript %}
+```json
   "type": "download",
   "permission": true,
   "restrictions": [
@@ -54,11 +55,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "parts",
       "parts": "1"
     },
-{% endhighlight %}
+```
 
 ### Group
 
-{% highlight javascript %}
+```json
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -69,10 +70,10 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
         "employee",
       ]
     },
-{% endhighlight %}
+```
 
 ### Age
-{% highlight javascript %}
+```json
   "type": "read",
   "permission": true,
   "restrictions": [
@@ -80,11 +81,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "age",
       "minage": "18"
     },
-{% endhighlight %}
+```
 
 ### Location
 
-{% highlight javascript %}
+```json
   "type": "download",
   "permission": true,
   "restrictions": [
@@ -92,11 +93,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "location",
       "subnet": "192.168.0.0/16"
     },
-{% endhighlight %}
+```
 
 ### Date
 
-{% highlight javascript %}
+```json
   "type": "distribute",
   "permission": true,
   "restrictions": [
@@ -104,11 +105,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "date",
       "fromdate": "2035-01-01"
     },
-{% endhighlight %}
+```
 
 ### Duration
 
-{% highlight javascript %}
+```json
   "type": "run",
   "permission": true,
   "restrictions": [
@@ -116,11 +117,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "duration",
       "duration": 86400
     },
-{% endhighlight %}
+```
 
 ### Count
 
-{% highlight javascript %}
+```json
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -128,11 +129,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "count",
       "count": 10
     },
-{% endhighlight %}
+```
 
 ### Concurrent
 
-{% highlight javascript %}
+```json
   "type": "lend",
   "permission": true,
   "restrictions": [
@@ -140,11 +141,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "concurrent",
       "sessions": 4
     },
-{% endhighlight %}
+```
 
 ### Watermark
 
-{% highlight javascript %}
+```json
   "type": "distribute",
   "permission": true,
   "restrictions": [
@@ -152,12 +153,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "watermark",
       "watermarkvalue": "https://domain/watermark.png"
     },
-{% endhighlight %}
+```
 
 
 ### Quality
 
-{% highlight javascript %}
+```json
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -165,11 +166,11 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "quality",
       "maxresolution": 300
     },
-{% endhighlight %}
+```
 
 ### Agreement
 
-{% highlight javascript %}
+```json
   "type": "read",
   "permission": true,
   "restrictions": [
@@ -177,4 +178,4 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "type": "agreement",
       "required": true
     },
-{% endhighlight %}
+```

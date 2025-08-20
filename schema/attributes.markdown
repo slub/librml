@@ -5,17 +5,18 @@ Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) 
 
 **JSON**
 
-{% highlight javascript %}
+```json
 "restrictions": [{
     "type": "CONSTRAINT-NAME",
     "ATTRIBUTE-NAME": "VALUE",
  }]
-{% endhighlight %}
+```
 
 **XML**
-{% highlight xml %}
+
+```xml
 <restriction type="CONSTRAINT-NAME" ATTRIBUTE="VALUE"/>
-{% endhighlight %}
+```
 
 In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Constraints` zur Verfügung.
 

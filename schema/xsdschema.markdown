@@ -2,9 +2,7 @@
 
 *(Dieser Entwurf wird kontinuierlich verändert. Eine finale Version wird erst mit Version 1.0 veröffentlicht.)*
 
-{% highlight xml %}
-
-
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
            elementFormDefault="qualified">
@@ -118,5 +116,4 @@
         <xs:attribute type="xs:nonNegativeInteger" name="minage"/>
     </xs:complexType>
 </xs:schema>
-
-{% endhighlight %}
+```
