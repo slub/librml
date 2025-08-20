@@ -22,7 +22,7 @@ Die in der Praxis genutzten Freitextfelder zur Beschreibung von Rechten können 
 
 LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken. Die Feldbelegungen sind [eindeutig spezifiziert](schema/xsdschema.html) und erlauben die maschinelle Weiterverarbeitung.
 
-```json
+```javascript
   "type": "read",			<- Lesen
   "permission": true,			<- ist erlaubt
   "restrictions": [			<- mit Einschränkung
