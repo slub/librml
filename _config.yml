@@ -7,7 +7,7 @@
 host: 0.0.0.0
 
 title: LibRML
-email: thomas.baer@slub-dresden.de
+email: librml@slub-dresden.de
 description: Library Rights Machine-readable Language
 
 theme: jekyll-theme-cayman
