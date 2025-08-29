@@ -2,7 +2,7 @@
 
 ## Wofür steht LibRML?
 
-**Lib**rary **R**ights **M**achine-readable **L**anguage.
+LibRML ist ein Akronym und steht für **Lib**rary **R**ights **M**achine-readable **L**anguage.
 
 ## Wer kann/darf die LibRML benutzen?
 
