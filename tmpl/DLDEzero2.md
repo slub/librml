@@ -1,7 +1,6 @@
 # DL-DE Zero 2.0
 ## Datenlizenz Deutschland Zero 2.0
 
-
 ```json
 {
   "id": "demo-mit-DL-DE-Zero-2.0",

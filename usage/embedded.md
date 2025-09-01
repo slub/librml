@@ -53,7 +53,6 @@ In der Metadatendatei eines Datensatzes darf nur ein LibRML-Element vorhanden se
 Optional.
 Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine auswertbare Rechteinformation enthalten ist. Diese kann entweder ausführlich oder als standardisierter URI in einem der jeweils zugelassenen Metadatenstandards enthalten sein.
 
-
 ## MODS
 
 ### Beispiel

@@ -1,7 +1,6 @@
 # CC BY-NC-ND 4.0
 ## Creative Commons mit Namensnennung, nicht kommerziell und keine Veränderungen/Ableitungen
 
-
 ```json
 {
   "id": "demo-mit-CCBYNCND",

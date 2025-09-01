@@ -1,7 +1,6 @@
 # CC BY-ND 3.0 DE
 ## Creative Commons mit Namensnennung und keine Veränderungen/Ableitungen - Deutschland
 
-
 ```json
 {
   "id": "demo-mit-CCBYNDDE",

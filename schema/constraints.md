@@ -43,7 +43,6 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 | quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | [→&nbsp;Quality](#quality)|
 | agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | [→&nbsp;Agreement](#agreement)|
 
-
 ## Beispiele
 
 ### Parts

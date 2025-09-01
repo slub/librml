@@ -4,7 +4,6 @@
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>archive | Limitierte gleichzeitige Zugänge | read<br/><br/>download<br/><br/>print |
 
-
 **JSON**
 
 ```json

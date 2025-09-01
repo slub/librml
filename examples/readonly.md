@@ -4,7 +4,6 @@
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>read<br/><br/>archive | Keine | Keine |
 
-
 **JSON**
 
 ```json

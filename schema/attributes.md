@@ -38,7 +38,6 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 |maxage| Definition des Maximalalters für eine Action. Zum Beispiel in Einrichtungen genutzt die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer | **Einheit**: Jahre|
 |required| "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false | **Format**: — |
 
-
 ## Abhängigkeiten der Attributes, Constraints und Actions
 
 Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und letztendlich mit den Nutzungsrechten zusammenhängen, finden sie hier eine Tabelle mit den verschiedenen Zusammenhängen. 
