@@ -8,7 +8,7 @@ Es wird empfohlen, [Referenzen standardisierter Rechteinformationen](reference_l
 
 ### Beispiel
 
-In METS wird der XML-Code in das Element `<rightsMD>` eingetragen.
+In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
 
 #### METS
 
@@ -58,7 +58,7 @@ Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine a
 
 ### Beispiel
 
-In MODS wird der XML-Code in das Element `<accessCondition type="LibRML">` eingetragen.
+In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetragen.
 
 #### MODS
 
