@@ -1,5 +1,4 @@
 # CC BY-NC 3.0 DE
-
 ## Creative Commons mit Namensnennung und nicht kommerziell - Deutschland
 
 ```json

@@ -1,5 +1,4 @@
 # CC 0
-
 ## Creative Commons Kein Urheberrecht / Public Domain
 
 ```json

@@ -1,5 +1,4 @@
-# CC BY 4.0
-
+# CC BY 4.0 
 ## Creative Commons mit Namensnennung
 
 ```json
