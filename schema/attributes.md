@@ -1,4 +1,5 @@
 # Attributes
+
 ## Eigenschaften der Einschränkungen
 
 Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsrechten (`actions`). Jedem Attribut **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften besitzen.

@@ -1,4 +1,5 @@
 # Constraints
+
 ## Einschränkungen
 
 Eingeschränkte Nutzungsmöglichkeiten werden in der LibRML an den konkreten `Actions` festgelegt. Die Einschränkungen (`Constraints`) gelten explizit nur für die Action an der sie hinterlegt sind, um die maschinelle Auswertbarkeit zu gewährleisten. Einschränkungen, die sich auf mehrere Nutzungsrechte auswirken, müssen entsprechend wiederholt werden. Für die vereinfachte Bearbeitung können systematische Einschränkungen einmalig definiert und wiederverwendet werden (siehe Templates).
@@ -154,7 +155,6 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
       "watermarkvalue": "https://domain/watermark.png"
     },
 ```
-
 
 ### Quality
 

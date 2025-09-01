@@ -1,4 +1,5 @@
 # Actions
+
 ## Nutzungsrechte
 
 Actions beschreiben die Nutzungsmöglichkeiten von Ressourcen. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen [(siehe LibRML Konzept)](concept.md).
