@@ -10,17 +10,15 @@ Folgende Beispiele zeigen in ausgewählten Metadatenstandards die mögliche Erfa
 
 ## Dublin Core Metadata Element Set - DCMES
 
-In DCMES wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
+In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
 
-```xml<dc:rights>```
-
-```xml<dc:rights>https://librml.org/examples/metadataonly.html</dc:rights>```
+```xml
+<dc:rights>https://librml.org/examples/metadataonly.html</dc:rights>
+```
 
 ## Metadata Encoding and Transmission Standard - METS
 
-In METS wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
-
-```xml<mets:mdRef xlink:href>```
+In METS wird der URI der standardisierten Rechteinformation im Element `<mets:mdRef>` eingetragen:
 
 ```xml
 <mets:amdSec>
@@ -32,9 +30,7 @@ In METS wird der URI der standardisierten Rechteinformation in dem folgenden Ele
 
 ## Metadata Object Description Schema - MODS
 
-In MODS wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
-
-```xml<mods:accessCondition type="LibRML" xlink:href>```
+In MODS wird der URI der standardisierten Rechteinformation im Element `<mods:accessCondition>` eingetragen:
 
 ```xml
 <mods:accessCondition type="LibRML" xlink:href="https://librml.org/examples/metadataonly.html">
