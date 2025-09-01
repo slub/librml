@@ -9,7 +9,7 @@ Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadat
 
 Gegebenenfalls werden auch mehrere Rechteinformationen ausgewertet, wie zum Beispiel der Access Status und der Rechtehinweis, um den Zugang zu urheberrechtlich geschützten Objekten korrekt abzuleiten:
 
-1. [Urheberrechtsschutz 1.0 + Open Access
+1. Urheberrechtsschutz 1.0 + Open Access
 2. Urheberrechtsschutz 1.0 + Restricted Access
 
 Weitere Informationen finden sich unter [Übersicht Abhängigkeiten zwischen den Rechteinformationen](https://wiki.dnb.de/pages/viewpage.action?pageId=212780200).
