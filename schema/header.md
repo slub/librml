@@ -42,6 +42,7 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
     "mention": true,
     "sharealike": true,
     "copyright": true,
+
 ```
 
 **XML**
