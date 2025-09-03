@@ -2,7 +2,7 @@
 
 Es können standardisierte Zugriffs- und Nutzungsbeschränkungen definiert werden, die von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, ...) umgesetzt werden, insofern sie über die notwendige Funktionalität verfügen. In die Metadaten kann unter anderem die jeweilige URI eingetragen werden, aus denen dann die Beschreibung in LibRML abgeleitet wird, wie zum Beispiel für [https://librml.org/examples/metadataonly.html](../examples/metadataonly.html).
 
-Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadatenstandards nutzen, um die Lizenz- und Rechtehinweise einzutragen und auszuwerten. Es sollten jedoch die [Empfehlungen für Rechteinformationen in Metadaten (3.0)](https://wiki.dnb.de/pages/viewpage.action?pageId=217533652) oder andere Empfehlungen/Standards berücksichtigt werden. Einige standardisierte Lizenz- und Rechtehinweise wurden mit LibRML beschrieben und stehen unter [Vorlagen](../tmpl/templates.markdown) zur Verfügung. Auch wenn die Objekte beschränkt zugänglich sind, sollte deren Beschreibung vereinheitlicht werden.
+Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadatenstandards nutzen, um die Lizenz- und Rechtehinweise einzutragen und auszuwerten. Es sollten jedoch die [Empfehlungen für Rechteinformationen in Metadaten (3.0)](https://wiki.dnb.de/pages/viewpage.action?pageId=217533652) oder andere Empfehlungen/Standards berücksichtigt werden. Einige standardisierte Lizenz- und Rechtehinweise wurden mit LibRML beschrieben und stehen unter [Vorlagen](../tmpl/templates.md) zur Verfügung. Auch wenn die Objekte beschränkt zugänglich sind, sollte deren Beschreibung vereinheitlicht werden.
 
 # Beispiele
 

@@ -20,7 +20,7 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 |**copyright**| Urheberrechtsschutz vorhanden | true/false|
 
 
-Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beispiele.markdown) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../tmpl/beispiele.markdown) ist der Wert in der Regel vorausgefüllt.
+Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beispiele.md) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../tmpl/beispiele.md) ist der Wert in der Regel vorausgefüllt.
 
 | Feld | Beschreibung | Wert |
 | :--- | :---------- | :-- |
