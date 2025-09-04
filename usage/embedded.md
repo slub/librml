@@ -72,9 +72,11 @@ In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetrag
 ### Elemente
 
 `<mods:accessCondition>`
+
 - LibRML wird in das MODS-Element `<mods:accessCondition>` eingetragen.
 
 `<mods:accessCondition type="LibRML>`
+
 - In das MODS-Attribut @type wird immer "LibRML" eingetragen.
 
 ### Wiederholbarkeit
