@@ -1,4 +1,5 @@
 # CC BY-NC-SA 3.0 DE
+
 ## Creative Commons mit Namensnennung, nicht kommerziell und „Share Alike“ (Abgeleitete Werke müssen denselben Bedingungen unterliegen) - Deutschland
 
 ```json

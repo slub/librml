@@ -1,4 +1,5 @@
 # CC BY-NC-SA 4.0
+
 ## Creative Commons mit Namensnennung, nicht kommerziell und „Share Alike“ (Abgeleitete Werke müssen denselben Bedingungen unterliegen)
 
 ```json
