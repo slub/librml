@@ -6,3 +6,4 @@ _site
 vendor
 Gemfile.lock
 .dccache
+.DS_Store

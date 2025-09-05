@@ -2,19 +2,19 @@
 ## Aufbau
 Eine LibRML Datei besteht aus:
 
-- Allgemeinen Informationen ([**Header**](header.markdown))
+- Allgemeinen Informationen ([**Header**](header.md))
 
-- Nutzungsrechten ([**Actions**](actions.markdown))
+- Nutzungsrechten ([**Actions**](actions.md))
 
-  - Einschränkungen ([**Constraints**](constraints.markdown))
+  - Einschränkungen ([**Constraints**](constraints.md))
 
-  - Eigenschaften ([**Attributes**](attributes.markdown))
+  - Eigenschaften ([**Attributes**](attributes.md))
 
 ----
 
-Im [**Header**](header.markdown) werden allgemeine Informationen wie die ID oder generellen Eigenschaften eingetragen.
+Im [**Header**](header.md) werden allgemeine Informationen wie die ID oder generellen Eigenschaften eingetragen.
 
-Nach dem [**Header**](header.markdown) werden die [**Nutzungsrechte**](actions.markdown) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.markdown) und [**Eigenschaften**](attributes.markdown) ergänzt. In LibRML werden nur **erlaubte Nutzungsrechte** beschrieben. Nutzungsrechte die **nicht** in der LibRML-Beschreibung der e-Ressource  enthalten sind, sind implizit **verboten**.
+Nach dem [**Header**](header.md) werden die [**Nutzungsrechte**](actions.md) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) ergänzt. In LibRML werden nur **erlaubte Nutzungsrechte** beschrieben. Nutzungsrechte die **nicht** in der LibRML-Beschreibung der e-Ressource  enthalten sind, sind implizit **verboten**.
 
 ----
 
@@ -62,16 +62,16 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 ### Vorlagen
 
-E-Ressourcen können fest definierten Lizenzen unterliegen, aus der sich die Nutzung ableiten lässt, zum Beispiel Creative Commons-Lizenzen. Für solche Fälle stehen [**Vorlagen**](../tmpl/beispiele.markdown) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
+E-Ressourcen können fest definierten Lizenzen unterliegen, aus der sich die Nutzung ableiten lässt, zum Beispiel Creative Commons-Lizenzen. Für solche Fälle stehen [**Vorlagen**](../tmpl/beispiele.md) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
 
 ----
 
 Ausführlichere Informationen zu den Bestandteilen einer LibRML-Beschreibung finden Sie auf den folgenden Seiten:
 
-- [**Header**](header.markdown)
-- [**Nutzungsrechte**](actions.markdown)
-- [**Einschränkungen**](constraints.markdown)
-- [**Eigenschaften**](attributes.markdown)
+- [**Header**](header.md)
+- [**Nutzungsrechte**](actions.md)
+- [**Einschränkungen**](constraints.md)
+- [**Eigenschaften**](attributes.md)
 
 Häufig vorkommende Lizenzen in LibRML
-- [**Vorlagen**](../tmpl/beispiele.markdown)
+- [**Vorlagen**](../tmpl/beispiele.md)

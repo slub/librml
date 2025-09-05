@@ -20,7 +20,7 @@ Eine Rights Expression Language (REL) oder im Deutschen eine "Sprache zum Ausdru
 
 Die in der Praxis genutzten Freitextfelder zur Beschreibung von Rechten können eine nahezu beliebige Fülle an Informationen enthalten, die sich in Reihenfolge und Schreibweise zwischen ähnlich lizenzierten Objekten unterscheiden können. Für Menschen ist die Information klar ersichtlich, aber die maschinelle Verarbeitung ist ohne Vereinheitlichung und eineindeutige Informationen nicht möglich.
 
-LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken. Die Feldbelegungen sind [eindeutig spezifiziert](schema/xsdschema.html) und erlauben die maschinelle Weiterverarbeitung.
+LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken. Die Feldbelegungen sind [eindeutig spezifiziert](schema/xsdschema.md) und erlauben die maschinelle Weiterverarbeitung.
 
 ```javascript
   "type": "read",			<- Lesen
@@ -33,6 +33,6 @@ LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist
   ]
 ```
 
-Auf diesen Seiten finden Sie ausführliche Informationen zum [Konzept](schema/concept.html) auf dem LibRML basiert, zahlreiche [Beispiele aus der Praxis](examples/examples.html) sowie [Templates](tmpl/templates.html) für gebräuchliche Szenarien und [häufig vorkommende Lizenzmodelle](tmpl/beispiele.html).
+Auf diesen Seiten finden Sie ausführliche Informationen zum [Konzept](schema/concept.md) auf dem LibRML basiert, zahlreiche [Beispiele aus der Praxis](examples/examples.md) sowie [Templates](tmpl/templates.md) für gebräuchliche Szenarien und [häufig vorkommende Lizenzmodelle](tmpl/beispiele.md).
 
 Sie können mit einem **visuellem Tool**, dem [LibRML-Builder](builder/index.html), die Erstellung von LibRML-JSON-Dateien ausprobieren und sich aus Aktionen und Einschränkungen ein Beispiel zusammen stellen.

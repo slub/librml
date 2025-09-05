@@ -2,7 +2,7 @@
 
 ## Allgemeines
 
-Es wird empfohlen, [Referenzen standardisierter Rechteinformationen](reference_licence.markdown) oder [Referenzen standardisierter Zugriffsbeschränkungen](reference_usage.markdown) anzuwenden. Wenn keine standardisierten Beschreibungen verfügbar sind, kann LibRML in einen Metadatenstandard eingetragen werden. Im Folgenden wird eine empfohlene Anwendung in METS und MODS beschrieben. Der LibRML-Code wird von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, ...) ausgewertet.
+Es wird empfohlen, [Referenzen standardisierter Rechteinformationen](reference_licence.md) oder [Referenzen standardisierter Zugriffsbeschränkungen](reference_usage.md) anzuwenden. Wenn keine standardisierten Beschreibungen verfügbar sind, kann LibRML in einen Metadatenstandard eingetragen werden. Im Folgenden wird eine empfohlene Anwendung in METS und MODS beschrieben. Der LibRML-Code wird von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, ...) ausgewertet.
 
 ## METS
 
