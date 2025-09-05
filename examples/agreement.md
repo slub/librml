@@ -12,7 +12,7 @@
   "tenant": "http://www.slub-dresden.de",
   "commercialuse": true,
   "template": "Agreement",
-    "actions": [
+  "actions": [
     {
       "type": "displaymetadata",
       "permission": true
@@ -114,7 +114,7 @@
           "required": true
         }
       ]
-    },
+    }
   ]
 }
 ```

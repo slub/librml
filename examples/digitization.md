@@ -6,7 +6,6 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>read<br/><br/>archive | Nicht-kommerzielle Nutzung | distribute<br/><br/>move |
 
-
 **JSON**
 
 ```json

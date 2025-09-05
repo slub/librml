@@ -1,6 +1,6 @@
 # CC BY-NC-ND 3.0 DE
-## Creative Commons mit Namensnennung, nicht kommerziell und keine Veränderungen/Ableitungen - Deutschland
 
+## Creative Commons mit Namensnennung, nicht kommerziell und keine Veränderungen/Ableitungen - Deutschland
 
 ```json
 {

@@ -4,7 +4,6 @@
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>archive | Einrichtung (IP-Bereich)| read<br/><br/>download<br/><br/>print |
 
-
 **JSON**
 
 ```json

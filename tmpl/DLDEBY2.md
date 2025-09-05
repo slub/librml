@@ -1,6 +1,6 @@
 # DL-DE-BY 2.0
-## Datenlizenz Deutschland - Namensnennung 2.0
 
+## Datenlizenz Deutschland - Namensnennung 2.0
 
 ```json
 {

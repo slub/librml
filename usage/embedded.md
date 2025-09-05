@@ -8,7 +8,7 @@ Es wird empfohlen, [Referenzen standardisierter Rechteinformationen](reference_l
 
 ### Beispiel
 
-In METS wird der XML-Code in das Element `<rightsMD>` eingetragen.
+In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
 
 #### METS
 
@@ -53,12 +53,11 @@ In der Metadatendatei eines Datensatzes darf nur ein LibRML-Element vorhanden se
 Optional.
 Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine auswertbare Rechteinformation enthalten ist. Diese kann entweder ausführlich oder als standardisierter URI in einem der jeweils zugelassenen Metadatenstandards enthalten sein.
 
-
 ## MODS
 
 ### Beispiel
 
-In MODS wird der XML-Code in das Element `<accessCondition type="LibRML">` eingetragen.
+In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetragen.
 
 #### MODS
 
@@ -73,9 +72,11 @@ In MODS wird der XML-Code in das Element `<accessCondition type="LibRML">` einge
 ### Elemente
 
 `<mods:accessCondition>`
+
 - LibRML wird in das MODS-Element `<mods:accessCondition>` eingetragen.
 
 `<mods:accessCondition type="LibRML>`
+
 - In das MODS-Attribut @type wird immer "LibRML" eingetragen.
 
 ### Wiederholbarkeit

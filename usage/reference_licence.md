@@ -9,14 +9,14 @@ Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadat
 
 Gegebenenfalls werden auch mehrere Rechteinformationen ausgewertet, wie zum Beispiel der Access Status und der Rechtehinweis, um den Zugang zu urheberrechtlich geschützten Objekten korrekt abzuleiten:
 
-1. [Urheberrechtsschutz 1.0 + Open Access
+1. Urheberrechtsschutz 1.0 + Open Access
 2. Urheberrechtsschutz 1.0 + Restricted Access
 
 Weitere Informationen finden sich unter [Übersicht Abhängigkeiten zwischen den Rechteinformationen](https://wiki.dnb.de/pages/viewpage.action?pageId=212780200).
 
-# Beispiele
+## Beispiele
 
-## LibRML
+### LibRML
 
 Folgende Beispiele zeigen die Auswertung mehrerer Rechteinformationen, um urheberrechtlich geschützte Objekte mit LibRML zu beschreiben.
 
@@ -33,19 +33,17 @@ Folgende Beispiele zeigen die Notwendigkeit der standardisierten Erfassung von R
 
 ### Dublin Core Metadata Element Set - DCMES
 
-In DCMES wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
+In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
 
-```xml<dc:rights>```
-
-```xml <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights> ```
+```xml
+<dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
+```
 
 Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533660](https://wiki.dnb.de/pages/viewpage.action?pageId=217533660)
 
 ### Metadata Encoding and Transmission Standard - METS
 
-In METS wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
-
-```xml<mets:mdRef xlink:href>```
+In METS wird der URI der standardisierten Rechteinformation im Element `<mets:mdRef xlink:href>` eingetragen:
 
 ```xml
 <mets:amdSec>
@@ -59,9 +57,7 @@ Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533670](https://wiki
 
 ### Metadata Object Description Schema - MODS
 
-In MODS wird der URI der standardisierten Rechteinformation in dem folgenden Element eingetragen:
-
-```xml<mods:accessCondition xlink:href>```
+In MODS wird der URI der standardisierten Rechteinformation im Element `<mods:accessCondition xlink:href>` eingetragen:
 
 ```xml
 <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">

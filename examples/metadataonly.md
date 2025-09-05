@@ -4,7 +4,6 @@
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index | Keine | Keine |
 
-
 **JSON**
 
 ```json
@@ -12,7 +11,7 @@
   "id": "metaonly-441",
   "tenant": "http://www.slub-dresden.de",
   "template": "Metadata access only",
-    "actions": [
+  "actions": [
     {
       "type": "displaymetadata",
       "permission": true

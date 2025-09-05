@@ -1,4 +1,5 @@
 # Attributes
+
 ## Eigenschaften der Einschränkungen
 
 Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsrechten (`actions`). Jedem Attribut **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften besitzen.
@@ -36,7 +37,6 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 |minage| Definition des Mindestalters für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer | **Einheit**: Jahre|
 |maxage| Definition des Maximalalters für eine Action. Zum Beispiel in Einrichtungen genutzt die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer | **Einheit**: Jahre|
 |required| "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false | **Format**: — |
-
 
 ## Abhängigkeiten der Attributes, Constraints und Actions
 
