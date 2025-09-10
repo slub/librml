@@ -7,7 +7,7 @@
   "id": "demo-mit-DL-DE-Zero-2.0",
   "commercialuse": true,
   "usageguide": "http://www.govdata.de/dl-de/zero-2-0",
-  "template": "DLDE-Zero-V2",
+  "template": "DL-DE-ZERO-2.0",
   "actions": [
     {
       "type": "displaymetadata",
