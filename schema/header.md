@@ -1,7 +1,8 @@
 # Header
+
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** befinden sich Informationen zur eindeutigen Identifikation der LibRML Datei. Ohne eindeutige **ID** kann die Rechtebeschreibung später nicht mit dem zu beschreibenden digitalen Objekts verknüpft werden. Da es vorkommen kann, dass Institutionen interne oder spezifische Entscheidungen treffen müssen zur Verwaltung unterschiedlich lizenzierten Ressourcen, kann die Einrichtung als `tenant` angegeben werden um den nötigen Kontext herzustellen.
+Im **Header** befinden sich Informationen zur eindeutigen Identifikation der LibRML Datei. Ohne eindeutige **ID** kann die Rechtebeschreibung später nicht mit dem zu beschreibenden digitalen Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen interne oder spezifische Entscheidungen treffen müssen zur Verwaltung unterschiedlich lizenzierten Ressourcen, kann die Einrichtung als `tenant` angegeben werden um den nötigen Kontext herzustellen.
 
 | Feld | Beschreibung | Wert |
 | :--- | :---------- | :-- |
@@ -28,7 +29,7 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beisp
 
 ### Beispiel
 
-Eine urheberrechtsgeschützte e-Ressource, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung, Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.
+Eine urheberrechtsgeschützte e-Ressource, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung, Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
 So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 **JSON**

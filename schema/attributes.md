@@ -40,7 +40,7 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 
 ## Abhängigkeiten der Attributes, Constraints und Actions
 
-Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und letztendlich mit den Nutzungsrechten zusammenhängen, finden sie hier eine Tabelle mit den verschiedenen Zusammenhängen. 
+Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und letztendlich mit den Nutzungsrechten zusammenhängen, finden Sie hier eine Tabelle mit den verschiedenen Zusammenhängen.
 
 | Attribute | Constraint | Action |
 | :--------- | :--------- | :--------- |
@@ -60,4 +60,4 @@ Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und le
 |  | parts | alle actions außer displaymetadata und index |
 |  | group | alle actions außer displaymetadata, index, archive and move |
 
-Die constraints parts und group haben keine direkten Attributes sondern "Arrays". Ihre Attributes sind so zu sagen eine Liste.
+Die constraints `parts` und `group` haben keine direkten Attributes sondern "Arrays". Ihre Attributes sind so zu sagen eine Liste.
