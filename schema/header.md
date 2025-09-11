@@ -3,8 +3,6 @@
 
 Im **Header** befinden sich Informationen zur eindeutigen Identifikation der LibRML Datei. Ohne eindeutige **ID** kann die Rechtebeschreibung später nicht mit dem zu beschreibenden digitalen Objekts verknüpft werden. Da es vorkommen kann, dass Institutionen interne oder spezifische Entscheidungen treffen müssen zur Verwaltung unterschiedlich lizenzierten Ressourcen, kann die Einrichtung als `tenant` angegeben werden um den nötigen Kontext herzustellen.
 
-
-
 | Feld | Beschreibung | Wert |
 | :--- | :---------- | :-- |
 |**id**| ID zur Identifizierung | String |
@@ -19,7 +17,6 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 |**commercialuse**| Kommerzielle Nutzung erlaubt | true/false|
 |**copyright**| Urheberrechtsschutz vorhanden | true/false|
 
-
 Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beispiele.md) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../tmpl/beispiele.md) ist der Wert in der Regel vorausgefüllt.
 
 | Feld | Beschreibung | Wert |
@@ -31,8 +28,8 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/beisp
 
 ### Beispiel
 
-Eine urheberrechtsgeschützt e-Ressource, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung, Weiternutzung und Verbreitung unter denselben Einschränkungen wie das Original.
-So einer e-Ressource würde folgende LibRML zugewiesen werden. 
+Eine urheberrechtsgeschützte e-Ressource, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung, Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.
+So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 **JSON**
 

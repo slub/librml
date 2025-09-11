@@ -44,7 +44,7 @@ Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und le
 
 | Attribute | Constraint | Action |
 | :--------- | :--------- | :--------- |
-| fromdate | date |	alle actions |
+| fromdate | date | alle actions |
 | todate | date | alle actions |
 |maxresolution | quality | alle actions außer displaymetadata, index, archive and move |
 |maxbitrate | quality | alle actions außer displaymetadata, index, archive and move |
