@@ -9,7 +9,7 @@
 ```json
 {
   "id": "iprestricted-444",
-  "tenant": "http://www.slub-dresden.de",
+  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": false,
   "template": "IP",
   "actions": [

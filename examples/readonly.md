@@ -9,7 +9,7 @@
 ```json
 {
   "id": "readonly-449",
-  "tenant": "http://www.slub-dresden.de",
+  "tenant": "https://www.slub-dresden.de/",
   "template": "Read Only",
     "actions": [
     {
