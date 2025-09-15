@@ -95,6 +95,7 @@
                     <xs:enumeration value="watermark" />
                     <xs:enumeration value="commercialuse" />
                     <xs:enumeration value="quality" />
+                    <xs:enumeration value="agreement" />
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
