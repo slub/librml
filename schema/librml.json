@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "type": "object",
+  "properties": {
+    "id": {"type": "string"},
+    "tenant": {
+      "type": "string",
+      "format": "uri"
+    },
+    "mention": {"type": "boolean"},
+    "sharealike": {"type": "boolean"},
+    "commercialuse": {"type": "boolean"},
+    "copyright": {"type": "boolean"},
+    "template": {"type": "string"},
+    "usageguide": {
+      "type": "string",
+      "format": "uri"
+    },
+    "actions": {"$ref": "#/$defs/actions_type"}
+  },
+  "required": [
+    "id",
+    "tenant"
+  ],
+  "$defs": {
+    "restrictions_type": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {"type": "string"},
+          "fromdate": {
+            "type": "string",
+            "format": "date"
+          },
+          "todate": {
+            "type": "string",
+            "format": "date"
+          },
+          "maxresolution": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "maxbitrate": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sessions": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "watermarkvalue": {
+            "type": "string",
+            "format": "uri"
+          },
+          "duration": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minage": {
+            "type": "integer",
+            "minimum": 1
+          },
+          " maxage": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "property": {"type": "boolean"}
+        },
+        "required": ["type"]
+      }
+    },
+    "actions_type": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {"type": "string"},
+          "permission": {"type": "boolean"},
+          "restrictions": {"$ref": "#/$defs/restrictions_type"}
+        },
+        "required": [
+          "permission",
+          "type"
+        ]
+      }
+    }
+  }
+}
