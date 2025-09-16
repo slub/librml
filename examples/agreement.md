@@ -9,7 +9,7 @@
 ```json
 {
   "id": "agreement-DE-447",
-  "tenant": "http://www.slub-dresden.de",
+  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
   "template": "Agreement",
   "actions": [

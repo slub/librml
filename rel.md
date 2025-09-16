@@ -13,4 +13,4 @@ Zu erwähnen sei auch [METSRights](https://www.loc.gov/standards/rights/METSRigh
 RELs sind schon vorhanden, jedoch wollen wir uns mit der LibRML auf die Bibliotheksumgebung konzentrieren. Es geht darum eine klare, einfache und durchsetzbare Sprache für alle in Bibliotheken vorhandenen Lizenzen zu erschaffen.
 
 Weitere Informationen und Überlegungen zum Thema RELs im Allgemeinen finden sie in der Master Arbeit von André Hohmann:
-**[Rights Expression Languages in Libraries: Development of an Application Profile](http://hb.diva-portal.org/smash/record.jsf?pid=diva2%3A970467&dswid=-8153)**
+**[Rights Expression Languages in Libraries: Development of an Application Profile](https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-10693)**

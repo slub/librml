@@ -9,7 +9,7 @@
 ```json
 {
   "id": "auth-DE-442",
-  "tenant": "http://www.slub-dresden.de",
+  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
   "template": "Authentification",
   "actions": [

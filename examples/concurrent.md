@@ -9,7 +9,7 @@
 ```json
 {
   "id": "concuracc-440",
-  "tenant": "http://www.slub-dresden.de",
+  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
   "template": "ConcurrentAccess",
   "actions": [

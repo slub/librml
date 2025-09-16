@@ -9,7 +9,7 @@
 ```json
 {
   "id": "metaonly-441",
-  "tenant": "http://www.slub-dresden.de",
+  "tenant": "https://www.slub-dresden.de/",
   "template": "Metadata access only",
   "actions": [
     {
