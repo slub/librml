@@ -8,7 +8,7 @@
   "mention": true,
   "commercialuse": false,
   "usageguide": "https://creativecommons.org/licenses/by-nc/4.0/",
-  "template": "CCBYNC-V4.0",
+  "template": "CC-BY-NC-4.0",
   "actions": [
     {
       "type": "displaymetadata",

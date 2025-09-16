@@ -8,7 +8,7 @@
   "mention": true,
   "commercialuse": true,
   "usageguide": "http://www.govdata.de/dl-de/by-2-0",
-  "template": "DLDEBY-V2",
+  "template": "DL-DE-BY-2.0",
   "actions": [
     {
       "type": "displaymetadata",

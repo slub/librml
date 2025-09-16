@@ -9,7 +9,7 @@
   "sharealike": true,
   "commercialuse": true,
   "usageguide": "https://creativecommons.org/licenses/by-sa/3.0/DE",
-  "template": "CCBYSA-V3.0DE",
+  "template": "CC-BY-SA-3.0-DE",
   "actions": [
     {
       "type": "displaymetadata",
