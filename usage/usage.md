@@ -3,8 +3,8 @@
 LibRML kann den jeweiligen Anforderungen entsprechend flexibel angewendet werden. Es sollten jedoch bestehende Empfehlungen und Standards berücksichtigt werden, um die Anwendung zu vereinfachen. Im Folgenden werden drei Möglichkeiten vorgestellt.
 
 1. Referenzen von standardisierter Lizenz- und Rechtehinweise
-2. Referenzen von standardisierter Zugriffs- und Nutzungsbeschränkungen
-3. Eingebettetes spezifischen LibRML-Codes in Metadatendateien
+1. Referenzen von standardisierter Zugriffs- und Nutzungsbeschränkungen
+1. Eingebettetes spezifischen LibRML-Codes in Metadatendateien
 
 ## Referenzen standardisierter Lizenz- und Rechtehinweise
 

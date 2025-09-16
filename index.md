@@ -2,6 +2,7 @@
 title: LibRML
 sidebar: librml
 ---
+
 # Nutzungsrechte und Lizenzen für Bibliotheken leicht gemacht
 
 ## Stand der Rechtebeschreibung in Bibliotheken
@@ -23,13 +24,13 @@ Die in der Praxis genutzten Freitextfelder zur Beschreibung von Rechten können 
 LibRML schafft eine Brücke zwischen Komplexität und Verständlichkeit. Sie ist einfach genug um von Menschen gelesen zu werden, aber komplex genug um bibliothekarische Anwendungsfälle vollständig abzudecken. Die Feldbelegungen sind [eindeutig spezifiziert](schema/xsdschema.md) und erlauben die maschinelle Weiterverarbeitung.
 
 ```javascript
-  "type": "read",			<- Lesen
-  "permission": true,			<- ist erlaubt
-  "restrictions": [			<- mit Einschränkung
-	{
-	  "type": "date",		<- eines Zeitpunkts
-	  "fromdate": "2035-01-01"	<- ab dem 01.01.2035
-	},
+  "type": "read",               <- Lesen
+  "permission": true,           <- ist erlaubt
+  "restrictions": [             <- mit Einschränkung
+    {
+      "type": "date",           <- eines Zeitpunkts
+      "fromdate": "2035-01-01". <- ab dem 01.01.2035
+    },
   ]
 ```
 
