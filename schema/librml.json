@@ -1,23 +1,40 @@
 {
+  "$id": "https://librml.org/schema/librml.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "description": "LibRML schema version 0.4.0",
   "type": "object",
   "properties": {
-    "id": {"type": "string"},
+    "id": {
+      "type": "string"
+    },
     "tenant": {
       "type": "string",
       "format": "uri"
     },
-    "mention": {"type": "boolean"},
-    "sharealike": {"type": "boolean"},
-    "commercialuse": {"type": "boolean"},
-    "copyright": {"type": "boolean"},
-    "template": {"type": "string"},
+    "mention": {
+      "type": "boolean"
+    },
+    "sharealike": {
+      "type": "boolean"
+    },
+    "commercialuse": {
+      "type": "boolean"
+    },
+    "copyright": {
+      "type": "boolean"
+    },
+    "template": {
+      "type": "string"
+    },
     "usageguide": {
       "type": "string",
       "format": "uri"
     },
-    "actions": {"$ref": "#/$defs/actions_type"}
+    "actions": {
+      "$ref": "#/$defs/actions_type"
+    }
   },
+  "additionalProperties": false,
   "required": [
     "id",
     "tenant"
@@ -29,7 +46,25 @@
       "items": {
         "type": "object",
         "properties": {
-          "type": {"type": "string"},
+          "type": {
+            "type": "string",
+            "enum": [
+              "parts",
+              "group",
+              "age",
+              "location",
+              "date",
+              "duration",
+              "count",
+              "concurrent",
+              "watermark",
+              "quality",
+              "agreement"
+            ]
+          },
+          "permission": {
+            "type": "boolean"
+          },
           "fromdate": {
             "type": "string",
             "format": "date"
@@ -70,9 +105,14 @@
             "type": "integer",
             "minimum": 1
           },
-          "property": {"type": "boolean"}
+          "property": {
+            "type": "boolean"
+          }
         },
-        "required": ["type"]
+        "additionalProperties": false,
+        "required": [
+          "type"
+        ]
       }
     },
     "actions_type": {
@@ -81,9 +121,32 @@
       "items": {
         "type": "object",
         "properties": {
-          "type": {"type": "string"},
-          "permission": {"type": "boolean"},
-          "restrictions": {"$ref": "#/$defs/restrictions_type"}
+          "type": {
+            "type": "string",
+            "enum": [
+              "displaymetadata",
+              "read",
+              "run",
+              "lend",
+              "download",
+              "print",
+              "reproduce",
+              "modify",
+              "reuse",
+              "distribute",
+              "publish",
+              "archive",
+              "index",
+              "move"
+            ]
+          },
+          "permission": {
+            "type": "boolean"
+          },
+          "restrictions": {
+            "$ref": "#/$defs/restrictions_type"
+          },
+          "additionalProperties": false
         },
         "required": [
           "permission",
