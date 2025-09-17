@@ -32,7 +32,7 @@
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
             <xs:element type="RestrictionType" name="restriction" />
         </xs:sequence>
-        <xs:attribute name="type">
+        <xs:attribute name="type" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
                     <xs:enumeration value="displaymetadata" />
@@ -52,7 +52,7 @@
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <xs:attribute type="xs:boolean" name="permission" />
+        <xs:attribute type="xs:boolean" name="permission" use="required" />
     </xs:complexType>
 
     <!-- RestrictionType - all-in-one-mess -->
@@ -81,7 +81,7 @@
             </xs:element>
             <xs:element name="part" maxOccurs="unbounded" minOccurs="0" type="xs:string" />
         </xs:sequence>
-        <xs:attribute name="type">
+        <xs:attribute name="type" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
                     <xs:enumeration value="parts" />
