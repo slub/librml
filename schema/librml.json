@@ -1,128 +1,16 @@
 {
-  "$id": "https://librml.org/schema/librml.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema#",
-  "description": "LibRML schema version 0.4.0",
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string"
-    },
-    "tenant": {
-      "type": "string",
-      "format": "uri"
-    },
-    "mention": {
-      "type": "boolean"
-    },
-    "sharealike": {
-      "type": "boolean"
-    },
-    "commercialuse": {
-      "type": "boolean"
-    },
-    "copyright": {
-      "type": "boolean"
-    },
-    "template": {
-      "type": "string"
-    },
-    "usageguide": {
-      "type": "string",
-      "format": "uri"
-    },
-    "actions": {
-      "$ref": "#/$defs/actions_type"
-    }
-  },
-  "additionalProperties": false,
-  "required": [
-    "id",
-    "tenant"
-  ],
   "$defs": {
-    "restrictions_type": {
-      "type": "array",
-      "minItems": 0,
+    "actions_type": {
       "items": {
-        "type": "object",
+        "additionalProperties": false,
         "properties": {
-          "type": {
-            "type": "string",
-            "enum": [
-              "parts",
-              "group",
-              "age",
-              "location",
-              "date",
-              "duration",
-              "count",
-              "concurrent",
-              "watermark",
-              "quality",
-              "agreement"
-            ]
-          },
           "permission": {
             "type": "boolean"
           },
-          "fromdate": {
-            "type": "string",
-            "format": "date"
+          "restrictions": {
+            "$ref": "#/$defs/restrictions_type"
           },
-          "todate": {
-            "type": "string",
-            "format": "date"
-          },
-          "maxresolution": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "maxbitrate": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "count": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "sessions": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "watermarkvalue": {
-            "type": "string",
-            "format": "uri"
-          },
-          "duration": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "minage": {
-            "type": "integer",
-            "minimum": 1
-          },
-          " maxage": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "property": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false,
-        "required": [
-          "type"
-        ]
-      }
-    },
-    "actions_type": {
-      "type": "array",
-      "minItems": 0,
-      "items": {
-        "type": "object",
-        "properties": {
           "type": {
-            "type": "string",
             "enum": [
               "displaymetadata",
               "read",
@@ -138,21 +26,133 @@
               "archive",
               "index",
               "move"
-            ]
-          },
-          "permission": {
-            "type": "boolean"
-          },
-          "restrictions": {
-            "$ref": "#/$defs/restrictions_type"
-          },
-          "additionalProperties": false
+            ],
+            "type": "string"
+          }
         },
         "required": [
           "permission",
           "type"
-        ]
-      }
+        ],
+        "type": "object"
+      },
+      "minItems": 0,
+      "type": "array"
+    },
+    "restrictions_type": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          " maxage": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "count": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "duration": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "fromdate": {
+            "format": "date",
+            "type": "string"
+          },
+          "maxbitrate": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "maxresolution": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "minage": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "permission": {
+            "type": "boolean"
+          },
+          "property": {
+            "type": "boolean"
+          },
+          "sessions": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "todate": {
+            "format": "date",
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "parts",
+              "group",
+              "age",
+              "location",
+              "date",
+              "duration",
+              "count",
+              "concurrent",
+              "watermark",
+              "quality",
+              "agreement"
+            ],
+            "type": "string"
+          },
+          "watermarkvalue": {
+            "format": "uri",
+            "type": "string"
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "type": "object"
+      },
+      "minItems": 0,
+      "type": "array"
     }
-  }
+  },
+  "$id": "https://librml.org/schema/librml.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "additionalProperties": false,
+  "description": "LibRML schema version 0.4.0",
+  "properties": {
+    "actions": {
+      "$ref": "#/$defs/actions_type"
+    },
+    "commercialuse": {
+      "type": "boolean"
+    },
+    "copyright": {
+      "type": "boolean"
+    },
+    "id": {
+      "type": "string"
+    },
+    "mention": {
+      "type": "boolean"
+    },
+    "sharealike": {
+      "type": "boolean"
+    },
+    "template": {
+      "type": "string"
+    },
+    "tenant": {
+      "format": "uri",
+      "type": "string"
+    },
+    "usageguide": {
+      "format": "uri",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "tenant"
+  ],
+  "type": "object"
 }
