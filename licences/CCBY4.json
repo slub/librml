@@ -1,56 +1,56 @@
 {
-  "id": "CCBY4",
-  "mention": true,
-  "commercialuse": true,
-  "usageguide": "https://creativecommons.org/licenses/by/4.0/",
   "actions": [
     {
-      "type": "displaymetadata",
-      "permission": true
+      "permission": true,
+      "type": "displaymetadata"
     },
     {
-      "type": "index",
-      "permission": true
+      "permission": true,
+      "type": "index"
     },
     {
-      "type": "read",
-      "permission": true
+      "permission": true,
+      "type": "read"
     },
     {
-      "type": "download",
-      "permission": true
+      "permission": true,
+      "type": "download"
     },
     {
-      "type": "print",
-      "permission": true
+      "permission": true,
+      "type": "print"
     },
     {
-      "type": "reproduce",
-      "permission": true
+      "permission": true,
+      "type": "reproduce"
     },
     {
-      "type": "modify",
-      "permission": true
+      "permission": true,
+      "type": "modify"
     },
     {
-      "type": "reuse",
-      "permission": true
+      "permission": true,
+      "type": "reuse"
     },
     {
-      "type": "distribute",
-      "permission": true
+      "permission": true,
+      "type": "distribute"
     },
     {
-      "type": "publish",
-      "permission": true
+      "permission": true,
+      "type": "publish"
     },
     {
-      "type": "archive",
-      "permission": true
+      "permission": true,
+      "type": "archive"
     },
     {
-      "type": "move",
-      "permission": true
+      "permission": true,
+      "type": "move"
     }
-  ]
+  ],
+  "commercialuse": true,
+  "id": "CCBY4",
+  "mention": true,
+  "usageguide": "https://creativecommons.org/licenses/by/4.0/"
 }

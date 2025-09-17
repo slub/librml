@@ -1,0 +1,16 @@
+exclude: ^(assets|builder)
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-json
+    -   id: pretty-format-json
+        args: [--autofix]
+-   repo: https://github.com/markdownlint/markdownlint
+    rev: v0.13.0
+    hooks:
+    -   id: markdownlint
+        files: \.(md)$
+        args: [-r,'MD001,MD003,MD004,MD005,MD006,MD009,MD010,MD011,MD012,MD014,MD018,MD019,MD020,MD021,MD022,MD023,MD025,MD027,MD028,MD029,MD030,MD031,MD032,MD034,MD035,MD037,MD038']

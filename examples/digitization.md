@@ -52,7 +52,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>
         <action type="read" permission="true"/>
-        <action type="archive" permission="true"/>        
+        <action type="archive" permission="true"/>
         <action type="distribute" permission="true"/>
         <action type="move" permission="true"/>
     </item>
