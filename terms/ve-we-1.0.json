@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "@language": "de",
+    "description": "http://purl.org/dc/terms/description"
+  },
+  "@id": "https://nutzungshinweis.slub-dresden.de/ve-we/1.0/",
+  "prefLabel": "Vergriffene Werke 1.0",
+  "description": "Dieser Rechtehinweis besagt, dass Urheberrechtsschutz besteht, aber die nicht kommerzielle Nutzung des Objekts ohne zusätzliche Rechteeinholung gestattet ist.",
+  "definition": "Das Objekt ist urheberrechtlich geschützt. Die Digitalisierung des Objekts erfolgte im Rahmen des Lizenzierungsservices Vergriffene Werke (VW-LiS).",
+  "note": [
+    "Die SLUB Dresden stellt das digitale Objekt zur Verfügung, kann jedoch keine Erlaubnis für dessen weitere Nutzung erteilen. Die Wahrnehmung der Rechte erfolgt nach § 51 VGG durch die VG WORT."
+  ],
+  "scopeNote": "Dieser Rechtehinweis kann nur für urheberrechtlich geschützte Objekte verwendet werden, bei denen die Institution, die diese verfügbar macht, selbst Rechteinhaber ist oder ausdrücklich von dem/den Rechteinhaber(n) ermächtigt wurde, Dritten die Nutzung dessen/derer Werk(e) zu nicht kommerziellen Zwecken ohne vorherige Rechteeinholung zu erlauben."
+}
