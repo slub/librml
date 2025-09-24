@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "@language": "de",
+    "description": "http://purl.org/dc/terms/description"
+  },
+  "@id": "https://nutzungshinweis.slub-dresden.de/do-nz/1.0/",
+  "prefLabel": "Dokumente der NS-Zeit 1.0",
+  "description": "Dieser Rechtehinweis besagt, dass ...",
+  "definition": "Das originale Dokument ist in der Zeit des Nationalsozialismus entstanden und enthält nationalsozialistische Inhalte. Die Benutzung dessen digitaler Reproduktion (des digitalen Objekts) darf nur zu Zwecken der Wissenschaft, der Forschung oder der Lehre, der Berichterstattung über Vorgänge des Zeitgeschehens oder der Geschichte erfolgen (§ 86 Abs. 4 StGB). Die Weiterverbreitung der nationalsozialistischen Inhalte über die genannten Zwecke hinaus ist nicht gestattet.",
+  "note": [
+    "Die SLUB Dresden distanziert sich ausdrücklich von allen antidemokratischen, gewaltverherrlichenden, nationalsozialistischen und rassistischen Inhalten.",
+    "Für nicht-nationalsozialistische Inhalte des digitalen Objekts gelten gegebenenfalls andere Rechte- oder Nutzungshinweise, die in dessen Metadaten angezeigt werden."
+  ],
+  "scopeNote": "Dieser Rechtehinweis kann ..."
+}
