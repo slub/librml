@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "@language": "de",
+    "description": "http://purl.org/dc/terms/description"
+  },
+  "@id": "https://nutzungshinweis.slub-dresden.de/en-ma/1.0/",
+  "prefLabel": "Eingeschränkte Nutzung - Mediathek - Nur Ansicht 1.0",
+  "description": "Dieser Rechtehinweis besagt, dass ...",
+  "definition": "Das digitale Objekt ist frei zugänglich, steht jedoch ausschließlich für die Rezeption zur Verfügung. Die Speicherung des digitalen Objekts ist nicht möglich. Die Nutzung des digitalen Objekts sowie die Veröffentlichung von Teilen oder des ganzen digitalen Objekts in anderen Publikationen ist ohne schriftliche Zustimmung der Rechteinhaber nicht gestattet.",
+  "note": [
+    "Eine Verbreitung des digitalen Objekts auf Social Media-Plattformen oder über Instant-Messaging-Dienste mit impliziter Rechteübertragung auf den jeweiligen Anbieter ist ohne Zustimmung des Rechteinhabers ebenfalls untersagt."
+  ],
+  "scopeNote": "Dieser Rechtehinweis kann ..."
+}
