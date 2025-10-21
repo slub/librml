@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
-    elementFormDefault="qualified" version="0.4.0">
-    <xs:element name="libRML" type="libRMLType" />
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://librml.org/"
+    xmlns:libRML="http://librml.org/"
+    attributeFormDefault="unqualified"
+    elementFormDefault="qualified"
+    version="0.4.0">
+    <xs:element name="libRML" type="libRML:libRMLType" />
 
     <!-- libRMLType - Container for all -->
     <xs:complexType name="libRMLType">
         <!-- Contains only 1 subelement and a string 'version' -->
         <xs:sequence>
-            <xs:element type="ItemType" name="item" minOccurs="1" maxOccurs="1" />
+            <xs:element type="libRML:ItemType" name="item" minOccurs="1" maxOccurs="1" />
         </xs:sequence>
         <xs:attribute type="xs:string" name="version" />
     </xs:complexType>
@@ -15,7 +19,7 @@
     <!-- itemType - has many actions and some attributes -->
     <xs:complexType name="ItemType">
         <xs:sequence minOccurs="1" maxOccurs="unbounded">
-            <xs:element type="ActionType" name="action" />
+            <xs:element type="libRML:ActionType" name="action" />
         </xs:sequence>
         <xs:attribute type="xs:string" name="id" />
         <xs:attribute type="xs:anyURI" name="tenant" />
@@ -30,7 +34,7 @@
     <!-- ActionType - has many restrictions and some attributes -->
     <xs:complexType name="ActionType">
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
-            <xs:element type="RestrictionType" name="restriction" />
+            <xs:element type="libRML:RestrictionType" name="restriction" />
         </xs:sequence>
         <xs:attribute name="type" use="required">
             <xs:simpleType>
