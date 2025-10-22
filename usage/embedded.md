@@ -101,22 +101,22 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
   <mets:amdSec>
     <mets:rightsMD ID="RMD1">
       <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML">
-        <libRML version="0.3">
-            <item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
-            <action type="displaymetadata" permission="true"/>
-            <action type="index" permission="true"/>
-            <action type="archive" permission="true"/>
-            <action type="read" permission="true">
-              <restriction type="location" subnet="192.168.10.0/24"/>
-            </action>
-            <action type="download" permission="true">
-              <restriction type="location" subnet="192.168.10.0/24"/>
-            </action>
-            <action type="print" permission="true">
-              <restriction type="location" subnet="192.168.10.0/24"/>
-            </action>
-          </item>
-        </libRML>
+        <libRML:libRML version="0.3">
+          <libRML:item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
+            <libRML:action type="displaymetadata" permission="true"/>
+            <libRML:action type="index" permission="true"/>
+            <libRML:action type="archive" permission="true"/>
+            <libRML:action type="read" permission="true">
+              <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+            </libRML:action>
+            <libRML:action type="download" permission="true">
+              <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+            </libRML:action>
+            <libRML:action type="print" permission="true">
+              <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+            </libRML:action>
+          </libRML:item>
+        </libRML:libRML>
       </mets:mdWrap>
     </mets:rightsMD>
   </mets:amdSec>
@@ -127,23 +127,23 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
 
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
-    <mods:accessCondition type="LibRML">
-        <libRML version="0.3">
-              <item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
-                <action type="displaymetadata" permission="true"/>
-                <action type="index" permission="true"/>
-                <action type="archive" permission="true"/>
-                <action type="read" permission="true">
-                    <restriction type="location" subnet="192.168.10.0/24"/>
-                </action>
-                <action type="download" permission="true">
-                    <restriction type="location" subnet="192.168.10.0/24"/>
-                </action>
-                <action type="print" permission="true">
-                    <restriction type="location" subnet="192.168.10.0/24"/>
-                </action>
-            </item>
-        </libRML>
-    </mods:accessCondition>
+  <mods:accessCondition type="LibRML">
+    <libRML:libRML version="0.3">
+      <libRML:item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
+        <libRML:action type="displaymetadata" permission="true"/>
+        <libRML:action type="index" permission="true"/>
+        <libRML:action type="archive" permission="true"/>
+        <libRML:action type="read" permission="true">
+          <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+        </libRML:action>
+        <libRML:action type="download" permission="true">
+          <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+        </libRML:action>
+        <libRML:action type="print" permission="true">
+          <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+        </libRML:action>
+      </libRML:item>
+    </libRML:libRML>
+  </mods:accessCondition>
 </mods:mods>
 ```
