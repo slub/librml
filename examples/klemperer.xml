@@ -1,0 +1,25 @@
+<libRML:libRML xmlns:libRML="http://librml.org/schema" xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'  
+      xsi:schemaLocation="http://librml.org/schema http://librml.org/schema/librml.xsd">
+    <libRML:item id="Mscr.Dresd.App.2003,139"
+        tenant="https://www.slub-dresden.de/"
+        usageguide="https://nutzungshinweis.slub-dresden.de/na-vk-tb/1-0"
+        copyright="true">
+        <libRML:action type="displaymetadata" permission="true">
+            <libRML:restriction type="mets" metssection="amdSec | dmdSec | structMap" />
+        </libRML:action>
+        <libRML:action type="download" permission="false">
+        </libRML:action>
+        <libRML:action type="index" permission="true">
+            <libRML:restriction type="mets" metssection="dmdSec" />
+        </libRML:action>
+        <libRML:action type="publish" permission="true">
+            <libRML:restriction type="interface" OAI-PMH="internal" />
+        </libRML:action>
+        <libRML:action type="read" permission="true">
+            <libRML:restriction type="agreement" required="true" />
+            <libRML:restriction type="concurrent" sessions="1" />
+            <libRML:restriction type="group" group="Arbeitsplatz Sondersammlungslesesaal SLUB" />
+            <libRML:restriction type="mets" metsfilegroup="DEFAULT | FULLTEXT | THUMBS" />
+        </libRML:action>
+    </libRML:item>
+</libRML:libRML>
