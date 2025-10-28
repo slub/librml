@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://librml.org/"
-    xmlns:libRML="http://librml.org/"
+    targetNamespace="http://librml.org/schema"
+    xmlns:libRML="http://librml.org/schema"
     attributeFormDefault="unqualified"
     elementFormDefault="qualified"
     version="0.4.0">
