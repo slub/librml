@@ -69,7 +69,7 @@
 
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.3">
+<libRML version="0.4">
   <item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
