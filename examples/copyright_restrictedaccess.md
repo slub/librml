@@ -18,7 +18,7 @@ Hinweis:
 {
   "id": "LibRML Copyright - Restricted Access",
   "tenant": "https://www.slub-dresden.de/",
-  "usageguide": "http://librml.org/examples/copyright_restrictedaccess",
+  "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
   "template": "LibRML Copyright - Restricted Access",
   "actions": [
     {

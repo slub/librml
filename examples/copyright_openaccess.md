@@ -18,7 +18,7 @@ Hinweis:
 {
   "id": "LibRML Copyright - Open Access",
   "tenant": "https://www.slub-dresden.de/",
-  "usageguide": "http://librml.org/examples/copyright_openaccess",
+  "usageguide": "https://librml.org/examples/copyright_openaccess",
   "template": "LibRML Copyright - Open Access",
   "actions": [
     {
