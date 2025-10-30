@@ -54,7 +54,7 @@ Hinweis:
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.4">
-    <item id="LibRML Copyright - Restricted Access" tenant="http://slub-dresden.de" usageguide="http://librml.org/examples/copyright_restrictedaccess"  template="LibRML Copyright - Restricted Access">
+    <item id="LibRML Copyright - Restricted Access" tenant="https://slub-dresden.de" usageguide="http://librml.org/examples/copyright_restrictedaccess"  template="LibRML Copyright - Restricted Access">
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>
         <action type="read" permission="true"/>

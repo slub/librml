@@ -101,7 +101,6 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
   <mets:amdSec>
     <mets:rightsMD ID="RMD1">
       <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML">
-        <libRML version="0.4">
         <libRML:libRML version="0.4">
           <libRML:item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
             <libRML:action type="displaymetadata" permission="true"/>

@@ -37,7 +37,7 @@
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.4">
-  <item id="readonly-449" tenant="http://slub-dresden.de" template="Read only">
+  <item id="readonly-449" tenant="https://slub-dresden.de" template="Read only">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="read" permission="true"/>
