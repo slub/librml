@@ -28,8 +28,8 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 |maxresolution| maximal erlaubte Auflösung für den Download einer Ressource | non-negative Integer | **Einheit**: DPI|
 |maxbitrate| maximal erlaubte Bitrate für den Download einer Ressource | non-negative Integer | **Einheit**: Bit |
 |count| Anzahl der erlaubten Action z. B. die Anzahl der erlaubten Ausleihen | non-negative Integer | **Einheit**: — |
-|sessions| Anzahl der erlaubten parallelen Zugriffe auf eine Ressource |  non-negative Integer | **Einheit**: — |
-|inside| Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution.<br/><br/>  | in | **Einheit**: — |
+|sessions| Anzahl der erlaubten parallelen Zugriffe auf eine Ressource | non-negative Integer | **Einheit**: — |
+|inside| Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution.<br/><br/> | in | **Einheit**: — |
 |subnet| Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP, IP-Bereiche | **Format**: — |
 |outside| Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution. | out | **Einheit**: —|
 |watermarkvalue| Definition des Wasserzeichens. Das Wasserzeichen muss an einem spezifischen Ort hinterlegt sein der hier verlinkt ist.| URI | **Format**: — |
@@ -51,13 +51,12 @@ Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und le
 |count | count | read, run, lend, download, print and reproduce |
 |sessions | concurrent | read, run und lend |
 |inside | location | alle actions |
+|subnet| location | alle actions |
 |outside | location | alle actions |
 |watermarkvalue | watermark | alle actions außer displaymetadata |
 |duration | duration | read, run und lend |
 |minage | age | alle actions außer displaymetadata, index, archive and move |
 |maxage | age | alle actions außer displaymetadata, index, archive and move |
 |required | agreement | alle actions außer displaymetadata und index |
-|  | parts | alle actions außer displaymetadata und index |
-|  | group | alle actions außer displaymetadata, index, archive and move |
-
-Die constraints `parts` und `group` haben keine direkten Attributes sondern "Arrays". Ihre Attributes sind so zu sagen eine Liste.
+| parts | parts | alle actions außer displaymetadata und index |
+| groups | group | alle actions außer displaymetadata, index, archive and move |
