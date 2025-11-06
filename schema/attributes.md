@@ -49,7 +49,7 @@ Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und le
 |maxresolution | quality | alle actions außer displaymetadata, index, archive and move |
 |maxbitrate | quality | alle actions außer displaymetadata, index, archive and move |
 |count | count | read, run, lend, download, print and reproduce |
-|session | concurrent | read, run und lend |
+|sessions | concurrent | read, run und lend |
 |inside | location | alle actions |
 |outside | location | alle actions |
 |watermarkvalue | watermark | alle actions außer displaymetadata |
