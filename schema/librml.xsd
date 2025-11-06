@@ -104,5 +104,9 @@
         <xs:attribute type="xs:string" name="watermarkvalue" />
         <xs:attribute type="xs:nonNegativeInteger" name="duration" />
         <xs:attribute type="xs:nonNegativeInteger" name="minage" />
+        <xs:attribute type="xs:nonNegativeInteger" name="maxage" />
+        <xs:attribute type="xs:boolean" name="required" />
+        <xs:attribute type="xs:nonNegativeInteger" name="parts" />
+        <xs:attribute type="xs:NMTOKENS" name="groups" />
     </xs:complexType>
 </xs:schema>
