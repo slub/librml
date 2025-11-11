@@ -101,7 +101,7 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
   <mets:amdSec>
     <mets:rightsMD ID="RMD1">
       <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML">
-        <libRML:libRML version="0.3">
+        <libRML:libRML version="0.4" xmlns:libRML="http://librml.org/schema">
           <libRML:item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
             <libRML:action type="displaymetadata" permission="true"/>
             <libRML:action type="index" permission="true"/>
@@ -128,7 +128,7 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
   <mods:accessCondition type="LibRML">
-    <libRML:libRML version="0.3">
+    <libRML:libRML version="0.4" xmlns:libRML="http://librml.org/schema">
       <libRML:item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
         <libRML:action type="displaymetadata" permission="true"/>
         <libRML:action type="index" permission="true"/>

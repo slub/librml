@@ -123,8 +123,8 @@
 
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.3">
-  <item id="agreement-DE-447" tenant="http://slub-dresden.de" commercialuse="true" template="Agreement">
+<libRML version="0.4">
+  <item id="agreement-DE-447" tenant="https://slub-dresden.de" commercialuse="true" template="Agreement">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>

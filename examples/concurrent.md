@@ -63,8 +63,8 @@
 
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.3">
-  <item id="concuracc-440" tenant="http://slub-dresden.de" commercialuse="true" template="ConcurrentAccess">
+<libRML version="0.4">
+  <item id="concuracc-440" tenant="https://slub-dresden.de" commercialuse="true" template="ConcurrentAccess">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>

@@ -47,7 +47,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 
 ```xml
 <?xml version="1.0" ?>
-<libRML version="0.3">
+<libRML version="0.4">
     <item id="DE-611-HS-3665348" tenant="https://www.slub-dresden.de/" commercialuse="false" copyright="true">
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>

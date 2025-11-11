@@ -18,7 +18,7 @@ Hinweis:
 {
   "id": "LibRML Copyright - Restricted Access",
   "tenant": "https://www.slub-dresden.de/",
-  "usageguide": "http://librml.org/examples/copyright_restrictedaccess",
+  "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
   "template": "LibRML Copyright - Restricted Access",
   "actions": [
     {
@@ -53,11 +53,10 @@ Hinweis:
 
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.3">
-    <item id="LibRML Copyright - Restricted Access" tenant="http://slub-dresden.de" usageguide="http://librml.org/examples/copyright_restrictedaccess"  template="LibRML Copyright - Restricted Access">
+<libRML version="0.4">
+    <item id="LibRML Copyright - Restricted Access" tenant="https://slub-dresden.de" usageguide="http://librml.org/examples/copyright_restrictedaccess"  template="LibRML Copyright - Restricted Access">
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>
-        <action type="read" permission="true"/>
         <action type="read" permission="true">
           <restriction type="location" subnet="192.168.10.0/24"/>
         </action>
