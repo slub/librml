@@ -27,7 +27,7 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 ```json
 {
-  "id": "DE-611-HS-3665348",
+  "id": "access-0815",
   "tenant": "https://www.slub-dresden.de",
   "commercialuse": false,
   "copyright": true,
