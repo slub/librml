@@ -10,7 +10,7 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 
 ```json
 {
-  "id": "DE-611-HS-3665348",
+  "id": "digitisation-500",
   "tenant": "https://www.slub-dresden.de/",
   "commercialuse": false,
   "copyright": true,

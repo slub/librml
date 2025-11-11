@@ -16,7 +16,7 @@ Hinweis:
 
 ```json
 {
-  "id": "LibRML Copyright - Restricted Access",
+  "id": "copyright-ra-100",
   "tenant": "https://www.slub-dresden.de/",
   "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
   "template": "LibRML Copyright - Restricted Access",

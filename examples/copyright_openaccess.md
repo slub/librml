@@ -16,7 +16,7 @@ Hinweis:
 
 ```json
 {
-  "id": "LibRML Copyright - Open Access",
+  "id": "copyright-oa-100",
   "tenant": "https://www.slub-dresden.de/",
   "usageguide": "https://librml.org/examples/copyright_openaccess",
   "template": "LibRML Copyright - Open Access",
