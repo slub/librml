@@ -102,18 +102,18 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
     <mets:rightsMD ID="RMD1">
       <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML">
         <libRML:libRML version="0.4" xmlns:libRML="http://librml.org/schema">
-          <libRML:item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
+          <libRML:item commercialuse="false">
             <libRML:action type="displaymetadata" permission="true"/>
             <libRML:action type="index" permission="true"/>
             <libRML:action type="archive" permission="true"/>
             <libRML:action type="read" permission="true">
-              <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+              <libRML:restriction type="location" subnet="192.168.10.0"/>
             </libRML:action>
             <libRML:action type="download" permission="true">
-              <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+              <libRML:restriction type="location" subnet="192.168.10.0"/>
             </libRML:action>
             <libRML:action type="print" permission="true">
-              <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+              <libRML:restriction type="location" subnet="192.168.10.0"/>
             </libRML:action>
           </libRML:item>
         </libRML:libRML>
@@ -129,18 +129,18 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
   <mods:accessCondition type="LibRML">
     <libRML:libRML version="0.4" xmlns:libRML="http://librml.org/schema">
-      <libRML:item id="iprestricted-444" tenant="http://slub-dresden.de" commercialuse="false" template="IP">
+      <libRML:item commercialuse="false">
         <libRML:action type="displaymetadata" permission="true"/>
         <libRML:action type="index" permission="true"/>
         <libRML:action type="archive" permission="true"/>
         <libRML:action type="read" permission="true">
-          <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+          <libRML:restriction type="location" subnet="192.168.10.0"/>
         </libRML:action>
         <libRML:action type="download" permission="true">
-          <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+          <libRML:restriction type="location" subnet="192.168.10.0"/>
         </libRML:action>
         <libRML:action type="print" permission="true">
-          <libRML:restriction type="location" subnet="192.168.10.0/24"/>
+          <libRML:restriction type="location" subnet="192.168.10.0"/>
         </libRML:action>
       </libRML:item>
     </libRML:libRML>
