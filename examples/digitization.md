@@ -6,7 +6,23 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>read<br/><br/>archive | Nicht-kommerzielle Nutzung | distribute<br/><br/>move |
 
-**JSON**
+#### XML
+
+```xml
+<?xml version="1.0" ?>
+<libRML version="0.4" xmlns:libRML="https://librml.org/schema">
+    <item id="DE-611-HS-3665348" tenant="https://www.slub-dresden.de/" commercialuse="false" copyright="true">
+        <action type="displaymetadata" permission="true"/>
+        <action type="index" permission="true"/>
+        <action type="read" permission="true"/>
+        <action type="archive" permission="true"/>
+        <action type="distribute" permission="true"/>
+        <action type="move" permission="true"/>
+    </item>
+</libRML>
+```
+
+#### JSON
 
 ```json
 {
@@ -41,20 +57,4 @@ Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dres
     },
   ]
 }
-```
-
-**XML**
-
-```xml
-<?xml version="1.0" ?>
-<libRML version="0.4">
-    <item id="DE-611-HS-3665348" tenant="https://www.slub-dresden.de/" commercialuse="false" copyright="true">
-        <action type="displaymetadata" permission="true"/>
-        <action type="index" permission="true"/>
-        <action type="read" permission="true"/>
-        <action type="archive" permission="true"/>
-        <action type="distribute" permission="true"/>
-        <action type="move" permission="true"/>
-    </item>
-</libRML>
 ```

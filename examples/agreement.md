@@ -4,7 +4,47 @@
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>archive | Nutzungsvertrag | read<br/><br/>download<br/><br/>print<br/><br/>reproduce<br/><br/>modify<br/><br/>reuse<br/><br/>distribute<br/><br/>publish<br/><br/>move |
 
-**JSON**
+#### XML
+
+```xml
+<?xml version='1.0' encoding='ASCII'?>
+<libRML version="0.4" xmlns:libRML="https://librml.org/schema">
+  <item id="agreement-DE-447" tenant="https://slub-dresden.de/" commercialuse="true" template="Agreement">
+    <action type="displaymetadata" permission="true"/>
+    <action type="index" permission="true"/>
+    <action type="archive" permission="true"/>
+    <action type="read" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="download" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="print" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="reproduce" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="modify" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="reuse" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="distribute" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="publish" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="move" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+  </item>
+</libRML>
+```
+
+#### JSON
 
 ```json
 {
@@ -117,44 +157,4 @@
     }
   ]
 }
-```
-
-**XML**
-
-```xml
-<?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.4">
-  <item id="agreement-DE-447" tenant="https://slub-dresden.de" commercialuse="true" template="Agreement">
-    <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
-    <action type="archive" permission="true"/>
-    <action type="read" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="download" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="print" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="reproduce" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="modify" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="reuse" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="distribute" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="publish" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-    <action type="move" permission="true">
-      <restriction type="agreement" required="true"/>
-    </action>
-  </item>
-</libRML>
 ```

@@ -12,7 +12,7 @@ Hinweis:
 - Es wird eine Bereitstellung des Objekts in einem Open Access-Repositorium angenommen, die frei zugänglich und speicherbar ist. Die Weiterverwendung und Anpassung ist nur in Abstimmung mit dem Urheber oder der Urheberin möglich. Schranken des Urheberechts werden nicht berücksichtigt.
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
-### JSON
+#### JSON
 
 ```json
 {
@@ -49,12 +49,12 @@ Hinweis:
 }
 ```
 
-### XML
+#### XML
 
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.4">
-  <item id="LibRML Copyright - Open Access" tenant="https://slub-dresden.de" usageguide="http://librml.org/examples/copyright_openaccess"  template="LibRML Copyright - Open Access">
+<libRML version="0.4" xmlns:libRML="https://librml.org/schema">
+  <item id="copyright-oa-100" tenant="https://slub-dresden.de/" usageguide="http://librml.org/examples/copyright_openaccess"  template="LibRML Copyright - Open Access">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="read" permission="true"/>

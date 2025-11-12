@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.4">
-  <item id="0-1800021143" tenant="https://slub-dresden.de/"
+<libRML version="0.4" xmlns:libRML="https://librml.org/schema">
+  <item id="ez-as-dp-1" tenant="https://slub-dresden.de/"
     usageguide="https://nutzungshinweis.slub-dresden.de/ez-as-dp/1-0">
     <action type="displaymetadata" permission="true" />
-    <action type="read" permission="true"> 
+    <action type="read" permission="true">
         <restriction type="concurrent" sessions="1" />
     </action>
     <action type="archive" permission="true" />
