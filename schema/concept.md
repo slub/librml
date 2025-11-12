@@ -1,8 +1,10 @@
 # Das Konzept hinter LibRML
 
+LibRML ist so aufgebaut, dass es in verschiedenen Anwendungsszenarien eingesetzt werden kann. So ist es möglich, LibRML separat in einzelnen Dateien abzulegen, oder es in anderen Formaten wie z.B. METS einzubetten.
+
 ## Aufbau
 
-Eine LibRML Datei besteht aus:
+Eine Rechtebeschreibung in LibRML setzt sich zusammen aus:
 
 - Allgemeinen Informationen ([**Header**](header.md))
 
