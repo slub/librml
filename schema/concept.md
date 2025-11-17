@@ -14,7 +14,7 @@ Eine LibRML Datei besteht aus:
 
 ---
 
-Im [**Header**](header.md) werden allgemeine Informationen wie die ID oder generellen Eigenschaften eingetragen.
+Im [**Header**](header.md) werden allgemeine Informationen und generellen Eigenschaften eingetragen.
 
 Nach dem [**Header**](header.md) werden die [**Nutzungsrechte**](actions.md) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) ergänzt. In LibRML werden nur **erlaubte Nutzungsrechte** beschrieben. Nutzungsrechte die **nicht** in der LibRML-Beschreibung der e-Ressource  enthalten sind, sind implizit **verboten**.
 
