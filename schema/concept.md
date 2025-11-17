@@ -1,6 +1,6 @@
 # Das Konzept hinter LibRML
 
-LibRML ist so aufgebaut, dass es in verschiedenen Anwendungsszenarien eingesetzt werden kann. So ist es möglich, LibRML separat in einzelnen Dateien abzulegen, oder es in anderen Formaten wie z.B. METS einzubetten.
+LibRML ist so aufgebaut, dass es in verschiedenen Anwendungsszenarien eingesetzt werden kann. So ist es möglich, LibRML separat in einzelnen Dateien abzulegen, oder es in anderen Formaten wie z.B. METS [einzubetten](../usage/embedded.md).
 
 ## Aufbau
 
@@ -27,10 +27,23 @@ Nach dem [**Header**](header.md) werden die [**Nutzungsrechte**](actions.md) bes
 Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de/), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und den öffentlichen Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken (In diesem Fall schreiben wir zur besseren Verständlichkeit aktiv das `false` zur `"commercialuse"` in das JSON). **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.\
 So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
+```xml
+<libRML version="0.4" xmlns="http://librml.org/schema">
+  <item id="access-0815" tenant="https://slub-dresden.de/" commercialuse="false" copyright="true">
+    <action type="displaymetadata" permission="true" />
+    <action type="index" permission="true" />
+    <action type="read" permission="true" />
+    <action type="distribute" permission="true" />
+    <action type="archive" permission="true" />
+    <action type="move" permission="true" />
+  </item>
+</libRML>
+```
+
 ```json
 {
   "id": "access-0815",
-  "tenant": "https://www.slub-dresden.de",
+  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": false,
   "copyright": true,
   "actions": [
