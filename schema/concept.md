@@ -29,7 +29,7 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 ```xml
 <libRML version="0.4" xmlns="http://librml.org/schema">
-  <item id="access-0815" tenant="https://slub-dresden.de/" commercialuse="false" copyright="true">
+  <item id="access-0815" tenant="https://www.slub-dresden.de/" commercialuse="false" copyright="true">
     <action type="displaymetadata" permission="true" />
     <action type="index" permission="true" />
     <action type="read" permission="true" />

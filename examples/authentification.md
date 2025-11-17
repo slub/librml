@@ -9,7 +9,7 @@
 ```xml
 <?xml version='1.0' encoding='ASCII'?>
 <libRML version="0.4" xmlns:libRML="https://librml.org/schema">
-  <item id="auth-DE-442" tenant="https://slub-dresden.de/" commercialuse="true" template="Authentification">
+  <item id="auth-DE-442" tenant="https://www.slub-dresden.de/" commercialuse="true" template="Authentification">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
