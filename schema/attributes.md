@@ -34,7 +34,7 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 | outside | Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution | out | **Einheit**: —|
 | watermarkvalue | Definition des Wasserzeichens. Das Wasserzeichen muss an einem spezifischen Ort hinterlegt sein, der hier verlinkt ist.| URI | **Format**: — |
 | duration | Dauer eines Constraints | non-negative Integer | **Einheit**: Sekunden |
-| minage | Mindestalters für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer | **Einheit**: Jahre |
+| minage | Mindestalter für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer | **Einheit**: Jahre |
 | maxage | Maximalalter für eine Action. Zum Beispiel in Einrichtungen genutzt, die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer | **Einheit**: Jahre |
 | required | "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false | **Format**: — |
 
