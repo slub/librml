@@ -6,4 +6,4 @@ LibRML ist ein Akronym und steht für **Lib**rary **R**ights **M**achine-readabl
 
 ## Wer kann/darf die LibRML benutzen?
 
-Jeder der mit der Verknüpfung von Rechteinformationen und Metadaten arbeiten z. B. (System-)Bibliothekare, Verlage, Datenmanager und viele weitere.
+Jeder, der mit der Verknüpfung von Rechteinformationen und Metadaten arbeitet, z. B. (System-)Bibliothekare, Verlage, Datenmanager und viele weitere.

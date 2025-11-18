@@ -18,13 +18,13 @@ Eine Rechtebeschreibung in LibRML setzt sich zusammen aus:
 
 Im [**Header**](header.md) werden allgemeine Informationen und generellen Eigenschaften eingetragen.
 
-Nach dem [**Header**](header.md) werden die [**Nutzungsrechte**](actions.md) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) ergänzt. In LibRML werden nur **erlaubte Nutzungsrechte** beschrieben. Nutzungsrechte die **nicht** in der LibRML-Beschreibung der e-Ressource  enthalten sind, sind implizit **verboten**.
+Nach dem [**Header**](header.md) werden die [**Nutzungsrechte**](actions.md) beschrieben. Diese Nutzungsrechte werden durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) ergänzt. In LibRML werden nur **erlaubte Nutzungsrechte** beschrieben. Nutzungsrechte, die **nicht** in der LibRML-Beschreibung der e-Ressource enthalten sind, sind implizit **verboten**.
 
 ---
 
 ## Beispiel
 
-Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de/), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und den öffentlichen Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken (In diesem Fall schreiben wir zur besseren Verständlichkeit aktiv das `false` zur `"commercialuse"` in das JSON). **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen der e-Ressource.\
+Eine urheberrechtsbehaftete e-Ressource der [SLUB Dresden](https://www.slub-dresden.de/), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und den öffentlichen Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken (In diesem Fall schreiben wir zur besseren Verständlichkeit aktiv das `false` zur `"commercialuse"` in das JSON). **Nicht erlaubt** ist das Herunterladen, Ausdrucken, Vervielfältigen, Bearbeiten, Wiederverwenden und Veröffentlichen der e-Ressource.\
 So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 ```xml
@@ -79,7 +79,7 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 ### Vorlagen
 
-E-Ressourcen können fest definierten Lizenzen unterliegen, aus der sich die Nutzung ableiten lässt, zum Beispiel Creative Commons-Lizenzen. Für solche Fälle stehen [**Vorlagen**](../tmpl/beispiele.md) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
+E-Ressourcen können fest definierten Lizenzen unterliegen, aus denen sich die Nutzung ableiten lässt, zum Beispiel Creative Commons-Lizenzen. Für solche Fälle stehen [**Vorlagen**](../tmpl/beispiele.md) bereit, die die Nutzungsrechte vollständig definieren und nachgenutzt werden können.
 
 ---
 

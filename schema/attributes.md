@@ -27,20 +27,20 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 | todate | End-Datum der Einschränkung | Datum | **Format**: ISO8601 (YYYY-MM-DD) |
 | maxresolution | maximal erlaubte Auflösung für den Download einer Ressource | non-negative Integer | **Einheit**: DPI |
 | maxbitrate | maximal erlaubte Bitrate für den Download einer Ressource | non-negative Integer | **Einheit**: Bit |
-| count | Anzahl der erlaubten Action z. B. die Anzahl der erlaubten Ausleihen | non-negative Integer | **Einheit**: — |
+| count | Anzahl der erlaubten Action, z. B. die Anzahl der erlaubten Ausleihen | non-negative Integer | **Einheit**: — |
 | sessions | Anzahl der erlaubten parallelen Zugriffe auf eine Ressource | non-negative Integer | **Einheit**: — |
-| inside | Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution.<br/><br/> | in | **Einheit**: — |
+| inside | Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution<br/><br/> | in | **Einheit**: — |
 | subnet | Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP, IP-Bereiche | **Format**: — |
-| outside | Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution. | out | **Einheit**: —|
-| watermarkvalue | Definition des Wasserzeichens. Das Wasserzeichen muss an einem spezifischen Ort hinterlegt sein der hier verlinkt ist.| URI | **Format**: — |
-| duration | Definition der Dauer eines Constraints. | non-negative Integer | **Einheit**: Sekunden |
-| minage | Definition des Mindestalters für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer | **Einheit**: Jahre |
-| maxage | Definition des Maximalalters für eine Action. Zum Beispiel in Einrichtungen genutzt die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer | **Einheit**: Jahre |
+| outside | Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution | out | **Einheit**: —|
+| watermarkvalue | Definition des Wasserzeichens. Das Wasserzeichen muss an einem spezifischen Ort hinterlegt sein, der hier verlinkt ist.| URI | **Format**: — |
+| duration | Dauer eines Constraints | non-negative Integer | **Einheit**: Sekunden |
+| minage | Mindestalters für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer | **Einheit**: Jahre |
+| maxage | Maximalalter für eine Action. Zum Beispiel in Einrichtungen genutzt, die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer | **Einheit**: Jahre |
 | required | "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false | **Format**: — |
 
 ## Abhängigkeiten der Attributes, Constraints und Actions
 
-Um besser zu verstehen wie diese Eigenschaften mit ihren Einschränkungen und letztendlich mit den Nutzungsrechten zusammenhängen, finden Sie hier eine Tabelle mit den verschiedenen Zusammenhängen.
+Um besser zu verstehen, wie diese Eigenschaften mit ihren Einschränkungen und letztendlich mit den Nutzungsrechten zusammenhängen, finden Sie hier eine Tabelle mit den verschiedenen Zusammenhängen.
 
 | Attribute | Constraint | Action |
 | :--------- | :--------- | :--------- |
