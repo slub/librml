@@ -1,9 +1,6 @@
 <libRML:libRML xmlns:libRML="http://librml.org/schema" xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
       xsi:schemaLocation="http://librml.org/schema http://librml.org/schema/librml.xsd">
-    <libRML:item id="klemperer-na-vk-tb-1.0"
-        tenant="https://www.slub-dresden.de/"
-        usageguide="https://nutzungshinweis.slub-dresden.de/na-vk-tb/1-0"
-        copyright="true">
+    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-vk-tb/1-0">
         <libRML:action type="displaymetadata" permission="true">
             <libRML:restriction type="mets" metssection="amdSec | dmdSec | structMap" />
         </libRML:action>

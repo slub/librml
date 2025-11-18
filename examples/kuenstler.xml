@@ -1,9 +1,5 @@
 <libRML:libRML xmlns:libRML="http://librml.org/schema">
-    <libRML:item id="slub-dresden.de/kn-bc/1.0"
-        tenant="https://www.slub-dresden.de/"
-        usageguide="https://nutzungshinweis.slub-dresden.de/kn-bc/1.0/"
-        template="Künstlerbücher 1.0"
-        copyright="true">
+    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/kn-bc/1.0/">
         <libRML:action type="displaymetadata" permission="true">
             <libRML:restriction type="mets" metssection="amdSec | dmdSec | structMap" />
         </libRML:action>
