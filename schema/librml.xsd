@@ -38,7 +38,7 @@
         </xs:sequence>
         <xs:attribute name="type" use="required">
             <xs:simpleType>
-                <xs:restriction base="xs:string">
+                <xs:restriction base="xs:NMTOKEN">
                     <xs:enumeration value="displaymetadata" />
                     <xs:enumeration value="read" />
                     <xs:enumeration value="run" />
@@ -63,7 +63,7 @@
     <xs:complexType name="RestrictionType" mixed="true">
         <xs:attribute name="type" use="required">
             <xs:simpleType>
-                <xs:restriction base="xs:string">
+                <xs:restriction base="xs:NMTOKEN">
                     <xs:enumeration value="parts" />
                     <xs:enumeration value="group" />
                     <xs:enumeration value="age" />

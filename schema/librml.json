@@ -150,9 +150,5 @@
       "type": "string"
     }
   },
-  "required": [
-    "id",
-    "tenant"
-  ],
   "type": "object"
 }

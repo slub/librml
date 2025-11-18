@@ -4,7 +4,29 @@
 | :------- | :--------- | :--------- |
 | displaymetadata<br/><br/>index<br/><br/>archive | Einrichtung (IP-Bereich)| read<br/><br/>download<br/><br/>print |
 
-**JSON**
+#### XML
+
+```xml
+<?xml version='1.0' encoding='ASCII'?>
+<libRML version="0.4" xmlns:libRML="https://librml.org/schema">
+  <item id="iprestricted-444" tenant="https://www.slub-dresden.de/" commercialuse="false" template="IP">
+    <action type="displaymetadata" permission="true"/>
+    <action type="index" permission="true"/>
+    <action type="archive" permission="true"/>
+    <action type="read" permission="true">
+      <restriction type="location" subnet="192.168.10.0/24"/>
+    </action>
+    <action type="download" permission="true">
+      <restriction type="location" subnet="192.168.10.0/24"/>
+    </action>
+    <action type="print" permission="true">
+      <restriction type="location" subnet="192.168.10.0/24"/>
+    </action>
+  </item>
+</libRML>
+```
+
+#### JSON
 
 ```json
 {
@@ -63,26 +85,4 @@
     }
   ]
 }
-```
-
-**XML**
-
-```xml
-<?xml version='1.0' encoding='ASCII'?>
-<libRML version="0.4">
-  <item id="iprestricted-444" tenant="https://slub-dresden.de" commercialuse="false" template="IP">
-    <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
-    <action type="archive" permission="true"/>
-    <action type="read" permission="true">
-      <restriction type="location" subnet="192.168.10.0/24"/>
-    </action>
-    <action type="download" permission="true">
-      <restriction type="location" subnet="192.168.10.0/24"/>
-    </action>
-    <action type="print" permission="true">
-      <restriction type="location" subnet="192.168.10.0/24"/>
-    </action>
-  </item>
-</libRML>
 ```

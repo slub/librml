@@ -4,26 +4,26 @@
 
 Im **Header** befinden sich Informationen zur eindeutigen Identifikation der LibRML Datei. Ohne eindeutige **ID** kann die Rechtebeschreibung nicht mit dem zu beschreibenden digitalen Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen interne oder spezifische Entscheidungen treffen müssen zur Verwaltung unterschiedlich lizenzierten Ressourcen, kann die Einrichtung als `tenant` angegeben werden um den nötigen Kontext herzustellen.
 
-| Feld | Beschreibung | Wert |
-| :--- | :----------- | :--- |
-|**id**| ID zur Identifizierung des LibRML-Blocks | String |
-|**tenant**| Einrichtung, die die Ressource verwaltet | URI |
+| Feld | Beschreibung | Wert | Verpflichtungsgrad |
+| :--- | :----------- | :--- | :----------------- |
+|**id**| ID zur Identifizierung des LibRML-Blocks | String | optional |
+|**tenant**| Einrichtung, die die Ressource verwaltet | URI | optional |
 
 Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden:
 
-| Feld | Beschreibung | Wert |
-| :--- | :----------- | :--- |
-|**mention**| Ist eine Namensnennung notwendig | true/false|
-|**sharealike**| Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen | true/false|
-|**commercialuse**| Kommerzielle Nutzung erlaubt | true/false|
-|**copyright**| Urheberrechtsschutz vorhanden | true/false|
+| Feld | Beschreibung | Wert | Verpflichtungsgrad |
+| :--- | :----------- | :--- | :----------------- |
+|**mention**| Ist eine Namensnennung notwendig | true/false | optional |
+|**sharealike**| Verpflichtung alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen | true/false | optional |
+|**commercialuse**| Kommerzielle Nutzung erlaubt | true/false | optional |
+|**copyright**| Urheberrechtsschutz vorhanden | true/false | optional |
 
 Im Fall einer gebräuchlichen Lizenz ist es möglich die [Vorlage](../tmpl/templates.md) auf der die Beschreibung aufbaut zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../tmpl/templates.md) ist der Wert in der Regel vorausgefüllt.
 
-| Feld | Beschreibung | Wert |
-| :--- | :----------- | :--- |
-|**template**| Name der ursprünglich angewendeten [Vorlage](../tmpl/templates.md) | String |
-|**usageguide**| URL, die auf die zugehörigen Nutzungshinweise verweist | URI |
+| Feld | Beschreibung | Wert | Verpflichtungsgrad |
+| :--- | :----------- | :--- | :----------------- |
+|**template**| Name der ursprünglich angewendeten [Vorlage](../tmpl/templates.md) | String | optional |
+|**usageguide**| URL, die auf die zugehörigen Nutzungshinweise verweist | URI | optional |
 
 ----
 
@@ -36,7 +36,7 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
 ```json
     "id": "id-123456",
-    "tenant": "http://slub-dresden.de",
+    "tenant": "https://www.slub-dresden.de/",
     "mention": true,
     "sharealike": true,
     "copyright": true,
@@ -45,5 +45,5 @@ So einer e-Ressource würde folgende LibRML zugewiesen werden.
 **XML**
 
 ```xml
-  <item id="id-123456" tenant="https://slub-dresden.de" mention="true" sharealike="true" copyright="true" />
+  <item id="id-123456" tenant="https://www.slub-dresden.de/" mention="true" sharealike="true" copyright="true" />
 ```

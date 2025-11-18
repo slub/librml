@@ -92,7 +92,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
   "restrictions": [
     {
       "type": "location",
-      "subnet": "192.168.0.0/16"
+      "subnet": "192.168.0.0"
     },
 ```
 
