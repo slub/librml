@@ -1,8 +1,5 @@
 <libRML:LibRML xmlns:libRML="https://librml.org/schema">
-    <libRML:item id="slub-dresden.de/na-co/1.0/"
-        tenant="https://www.slub-dresden.de/"
-        usageguide="https://nutzungshinweis.slub-dresden.de/na-co/1.0/"
-        copyright="true">
+    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-co/1.0/">
         <libRML:action type="displaymetadata" permission="true">
             <libRML:restriction type="mets" metssection="amdSec | dmdSec | structMap" />
         </libRML:action>
