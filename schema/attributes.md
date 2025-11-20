@@ -7,7 +7,7 @@ Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) 
 **XML**
 
 ```xml
-<restriction type="CONSTRAINT-NAME" ATTRIBUTE-NAME="WERT"/>
+<restriction type="CONSTRAINT-NAME" ATTRIBUT-NAME="WERT"/>
 ```
 
 **JSON**
@@ -15,13 +15,13 @@ Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) 
 ```json
 "restrictions": [{
     "type": "CONSTRAINT-NAME",
-    "ATTRIBUTE-NAME": "WERT",
+    "ATTRIBUT-NAME": "WERT",
  }]
 ```
 
 In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Constraints` zur Verfügung.
 
-| Attribute-Name | Beschreibung | Wert | Einheit&nbsp;/&nbsp;Format |
+| Attribut-Name | Beschreibung | Wert | Einheit&nbsp;/&nbsp;Format |
 | :------------- | :--------- | :--------- | :------------------ |
 | fromdate | Start-Datum der Einschränkung | Datum | **Format**: ISO8601 (YYYY-MM-DD) |
 | todate | End-Datum der Einschränkung | Datum | **Format**: ISO8601 (YYYY-MM-DD) |
@@ -42,7 +42,7 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 
 Um besser zu verstehen, wie diese Eigenschaften mit ihren Einschränkungen und letztendlich mit den Nutzungsrechten zusammenhängen, finden Sie hier eine Tabelle mit den verschiedenen Zusammenhängen.
 
-| Attribute | Constraint | Action |
+| Attribut | Constraint | Action |
 | :--------- | :--------- | :--------- |
 | fromdate | date | alle actions |
 | todate | date | alle actions |

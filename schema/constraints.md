@@ -6,25 +6,25 @@ Eingeschränkte Nutzungsmöglichkeiten werden in der LibRML an den konkreten `Ac
 
 Einige `Constraints` werden durch `Attribute` [(siehe Attribute)](attributes.md) näher spezifiziert.
 
+**XML**
+
+```xml
+  <action type="ACTION-NAME" permission="true">
+    <restriction type="CONSTRAINT-NAME" ATTRIBUT-NAME="WERT"/>
+  </action>
+```
+
 **JSON**
 
 ```json
-"actions": [{
+  "actions": [{
     "type": "ACTION-NAME",
     "permission": true,
     "restrictions": [{
         "type": "CONSTRAINT-NAME",
-        "ATTRIBUTE": "X"
+        "ATTRIBUT-NAME": "WERT"
      }]
-}]
-```
-
-**XML**
-
-```xml
-<action type="ACTION-NAME" permission="true">
-  <restriction type="CONSTRAINT-NAME" ATTRIBUTE="X"/>
-</action>
+  }]
 ```
 
 In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur Verfügung.
