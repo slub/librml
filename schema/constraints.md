@@ -47,6 +47,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ### Parts
 
+```xml
+  <action type="download" permission="true">
+    <restriction type="parts" parts="1" />
+  </action>
+```
+
 ```json
   "type": "download",
   "permission": true,
@@ -58,6 +64,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 ```
 
 ### Group
+
+```xml
+  <action type="print" permission="true">
+    <restriction type="group" groups="registered employee" />
+  </action>
+```
 
 ```json
   "type": "print",
@@ -74,6 +86,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ### Age
 
+```xml
+  <action type="read" permission="true">
+    <restriction type="age" suminagebnet="18" />
+  </action>
+```
+
 ```json
   "type": "read",
   "permission": true,
@@ -85,6 +103,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 ```
 
 ### Location
+
+```xml
+  <action type="download" permission="true">
+    <restriction type="location" subnet="192.168.0.0" />
+  </action>
+```
 
 ```json
   "type": "download",
@@ -98,6 +122,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ### Date
 
+```xml
+  <action type="distribute" permission="true">
+    <restriction type="date" fromdate="2035-01-01" />
+  </action>
+```
+
 ```json
   "type": "distribute",
   "permission": true,
@@ -109,6 +139,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 ```
 
 ### Duration
+
+```xml
+  <action type="run" permission="true">
+    <restriction type="duration" duration="86400" />
+  </action>
+```
 
 ```json
   "type": "run",
@@ -122,6 +158,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ### Count
 
+```xml
+  <action type="print" permission="true">
+    <restriction type="count" count="10" />
+  </action>
+```
+
 ```json
   "type": "print",
   "permission": true,
@@ -133,6 +175,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 ```
 
 ### Concurrent
+
+```xml
+  <action type="lend" permission="true">
+    <restriction type="concurrent" sessions="4" />
+  </action>
+```
 
 ```json
   "type": "lend",
@@ -146,6 +194,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ### Watermark
 
+```xml
+  <action type="distribute" permission="true">
+    <restriction type="watermark" watermarkvalue="https://domain/watermark.png" />
+  </action>
+```
+
 ```json
   "type": "distribute",
   "permission": true,
@@ -158,6 +212,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ### Quality
 
+```xml
+  <action type="print" permission="true">
+    <restriction type="quality" maxresolution="300" />
+  </action>
+```
+
 ```json
   "type": "print",
   "permission": true,
@@ -169,6 +229,12 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 ```
 
 ### Agreement
+
+```xml
+  <action type="read" permission="true">
+    <restriction type="agreement" required="true" />
+  </action>
+```
 
 ```json
   "type": "read",
