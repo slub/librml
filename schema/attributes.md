@@ -4,19 +4,19 @@
 
 Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsrechten (`actions`). Jedem Attribut **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften besitzen.
 
+**XML**
+
+```xml
+<restriction type="CONSTRAINT-NAME" ATTRIBUTE-NAME="WERT"/>
+```
+
 **JSON**
 
 ```json
 "restrictions": [{
     "type": "CONSTRAINT-NAME",
-    "ATTRIBUTE-NAME": "VALUE",
+    "ATTRIBUTE-NAME": "WERT",
  }]
-```
-
-**XML**
-
-```xml
-<restriction type="CONSTRAINT-NAME" ATTRIBUTE="VALUE"/>
 ```
 
 In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Constraints` zur Verfügung.
