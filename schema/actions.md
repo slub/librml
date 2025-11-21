@@ -4,6 +4,14 @@
 
 Actions beschreiben die Nutzungsmöglichkeiten von Ressourcen. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen [(siehe LibRML Konzept)](concept.md).
 
+```xml
+<libRML version="0.4" xmlns="http://librml.org/schema">
+  <item id="ID-NAME">
+    <action type="ACTION-NAME" permission="true" />
+  </item>
+</libRML>
+```
+
 ```json
 {
   "id": "ID-NAME",

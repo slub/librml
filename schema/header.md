@@ -32,18 +32,23 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../tmpl/temp
 Eine urheberrechtsgeschützte e-Ressource, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung; Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
 So einer e-Ressource würde folgende LibRML zugewiesen werden.
 
-**JSON**
-
-```json
-    "id": "id-123456",
-    "tenant": "https://www.slub-dresden.de/",
-    "mention": true,
-    "sharealike": true,
-    "copyright": true,
-```
-
 **XML**
 
 ```xml
-  <item id="id-123456" tenant="https://www.slub-dresden.de/" mention="true" sharealike="true" copyright="true" />
+<libRML version="0.4" xmlns="http://librml.org/schema">
+  <item id="id-123456" tenant="https://www.slub-dresden.de/" mention="true" sharealike="true" copyright="true">
+  </item>
+</libRML>
+```
+
+**JSON**
+
+```json
+{
+  "id": "id-123456",
+  "tenant": "https://www.slub-dresden.de/",
+  "mention": true,
+  "sharealike": true,
+  "copyright": true
+}
 ```
