@@ -106,7 +106,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ```xml
   <action type="download" permission="true">
-    <restriction type="location" subnet="192.168.0.0" />
+    <restriction type="location" subnet="192.168.0.0/24" />
   </action>
 ```
 
