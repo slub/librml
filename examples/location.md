@@ -53,8 +53,8 @@
       "restrictions": [
         {
           "type": "location",
-          "subnet": [
-            "192.168.10.0/24"
+          "inside": [
+            "library"
           ]
         }
       ]
@@ -65,8 +65,8 @@
       "restrictions": [
         {
           "type": "location",
-          "subnet": [
-            "192.168.10.0/24"
+          "inside": [
+            "library"
           ]
         }
       ]
@@ -77,8 +77,8 @@
       "restrictions": [
         {
           "type": "location",
-          "subnet": [
-            "192.168.10.0/24"
+          "inside": [
+            "library"
           ]
         }
       ]
