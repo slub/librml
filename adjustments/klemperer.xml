@@ -6,7 +6,7 @@
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-vk-tb/2-0-beta">
                         <libRML:action type="displaymetadata" permission="true">
-                            <libRML:restriction type="mets" sections="amdSec | dmdSec | structMap"/>
+                            <libRML:restriction type="mets" sections="amdSec dmdSec structMap"/>
                         </libRML:action>
                         <libRML:action type="download" permission="false">
                         </libRML:action>
@@ -20,7 +20,7 @@
                             <libRML:restriction type="agreement" required="true"/>
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="group" group="Arbeitsplatz Sondersammlungslesesaal SLUB"/>
-                            <libRML:restriction type="mets" filegroups="DEFAULT | FULLTEXT | THUMBS"/>
+                            <libRML:restriction type="mets" filegroups="DEFAULT FULLTEXT THUMBS"/>
                         </libRML:action>
                     </libRML:item>
                 </libRML:libRML>

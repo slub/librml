@@ -45,12 +45,12 @@ Umsetzung mit einem angepassten LibRML-Modell
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/sc-zt/1-0">
                         <libRML:action type="displaymetadata" permission="true">
                             <libRML:restriction type="group" groups="Nutzende SLUB"/>
-                            <libRML:restriction type="mets" sections="amdSec | dmdSec | structMap"/>
+                            <libRML:restriction type="mets" sections="amdSec dmdSec structMap"/>
                         </libRML:action>
                         <libRML:action type="download" permission="true">
                             <libRML:restriction type="group" groups="Nutzende SLUB"/>
-                            <libRML:restriction type="mets" filegroups="DOWNLOAD | ORIGINAL"/>
-                            <libRML:restriction type="mets" fileformats="FULLDOWNLOAD-PDF | FULLTEXT-TXT | FULLTEXT-XML | IIIF-JSON"/>
+                            <libRML:restriction type="mets" filegroups="DOWNLOAD ORIGINAL"/>
+                            <libRML:restriction type="mets" fileformats="FULLDOWNLOAD-PDF FULLTEXT-TXT FULLTEXT-XML IIIF-JSON"/>
                         </libRML:action>
                         <libRML:action type="index" permission="true">
                             <libRML:restriction type="group" groups="Nutzende SLUB"/>
@@ -61,7 +61,7 @@ Umsetzung mit einem angepassten LibRML-Modell
                         </libRML:action>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="group" groups="Nutzende SLUB"/>
-                            <libRML:restriction type="mets" filegroups="DEFAULT | FULLTEXT | THUMBS"/>
+                            <libRML:restriction type="mets" filegroups="DEFAULT FULLTEXT THUMBS"/>
                         </libRML:action>
                     </libRML:item>
                 </libRML:libRML>

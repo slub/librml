@@ -42,7 +42,7 @@ Umsetzung mit einem angepassten LibRML-Modell
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am-ua/1.0/">
                         <libRML:action type="displaymetadata" permission="true">
-                            <libRML:restriction type="mets" sections="amdSec | dmdSec | structMap"/>
+                            <libRML:restriction type="mets" sections="amdSec dmdSec structMap"/>
                         </libRML:action>
                         <libRML:action type="download" permission="false"/>
                         <libRML:action type="index" permission="true">
@@ -54,7 +54,7 @@ Umsetzung mit einem angepassten LibRML-Modell
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="group" groups="Sonderarbeitsplatz Lesesaal Sammlungen SLUB"/>
-                            <libRML:restriction type="mets" filegroups="AUDIO | DEFAULT | VIDEO"/>
+                            <libRML:restriction type="mets" filegroups="AUDIO DEFAULT VIDEO"/>
                             <libRML:restriction type="agreement" details="Unter Aufsicht"/><!-- Unter Aufsicht -->
                         </libRML:action>
                     </libRML:item>
@@ -105,11 +105,11 @@ Umsetzung mit einem angepassten LibRML-Modell
                 <libRML:libRML xmlns:libRML="https://librml.org/index.html">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ge-re/1.0/">
                         <libRML:action type="displaymetadata" permission="true">
-                            <libRML:restriction type="mets" sections="amdSec | dmdSec | structMap"/>
+                            <libRML:restriction type="mets" sections="amdSec dmdSec structMap"/>
                         </libRML:action>
                         <libRML:action type="download" permission="true">
-                            <libRML:restriction type="mets" filegroups="DEFAULT | DOWNLOAD"/>
-                            <libRML:restriction type="mets" fileformats="FULLTEXT-TXT | FULLTEXT-XML | IIIF-JSON"/>
+                            <libRML:restriction type="mets" filegroups="DEFAULT DOWNLOAD"/>
+                            <libRML:restriction type="mets" fileformats="FULLTEXT-TXT FULLTEXT-XML IIIF-JSON"/>
                         </libRML:action>
                         <libRML:action type="index" permission="true">
                             <libRML:restriction type="mets" sections="dmdSec"/>
@@ -119,7 +119,7 @@ Umsetzung mit einem angepassten LibRML-Modell
                             <libRML:restriction type="interface" OAI-PMH="internal"/>
                         </libRML:action>
                         <libRML:action type="read" permission="true">
-                            <libRML:restriction type="mets" filegroups="DEFAULT | FULLTEXT | THUMBS"/>
+                            <libRML:restriction type="mets" filegroups="DEFAULT FULLTEXT THUMBS"/>
                         </libRML:action>
                     </libRML:item>
                 </libRML:libRML>
