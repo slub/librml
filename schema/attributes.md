@@ -37,6 +37,8 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 | minage | Mindestalter für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer | **Einheit**: Jahre |
 | maxage | Maximalalter für eine Action. Zum Beispiel in Einrichtungen genutzt, die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer | **Einheit**: Jahre |
 | required | "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false | **Format**: — |
+| parts | Teile der Ressource. | non-negative Integer | **Einheit**: — |
+| groups | Gruppen, auf die eine Constraint zutrifft. | Tokenliste  | **Einheit**: — |
 
 ## Abhängigkeiten der Attributes, Constraints und Actions
 
