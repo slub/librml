@@ -19,7 +19,7 @@
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="agreement" required="true"/>
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="group" group="Arbeitsplatz Sondersammlungslesesaal SLUB"/>
+                            <libRML:restriction type="location" inside="Lesesaal(Sammlungen)"/>
                             <libRML:restriction type="mets" filegroups="DEFAULT FULLTEXT THUMBS"/>
                         </libRML:action>
                     </libRML:item>
