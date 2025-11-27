@@ -32,7 +32,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 | Constraint-Name | Übersetzung | Beschreibung | Beispiel |
 | :-------------- | :--------- | :---------- |:------- |
 | parts | Teile | Einschränkung der Action auf bestimmte Teile der Ressource. | [→&nbsp;Parts](#parts) |
-| group | Nutzergruppe | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group)|
+| group | Nutzergruppen | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group)|
 | age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | [→&nbsp;Age](#age) |
 | location | Ort | Geographisch (ein bestimmtes Gebiet z. B. Deutschland)<br/><br/>Institutionell (eine bestimmte Einrichtung z. B. SLUB Dresden). | [→&nbsp;Location](#location)|
 | date | Zeitpunkt | Einschränkung der Action ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | [→&nbsp;Date](#date)|
@@ -106,7 +106,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
 
 ```xml
   <action type="download" permission="true">
-    <restriction type="location" subnet="192.168.0.0" />
+    <restriction type="location" inside="library" />
   </action>
 ```
 
@@ -116,7 +116,7 @@ In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur
   "restrictions": [
     {
       "type": "location",
-      "subnet": "192.168.0.0"
+      "inside": "library"
     },
 ```
 

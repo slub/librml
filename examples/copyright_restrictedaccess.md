@@ -21,7 +21,7 @@ Hinweis:
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>
         <action type="read" permission="true">
-          <restriction type="location" subnet="192.168.10.0/24"/>
+          <restriction type="location" inside="library"/>
         </action>
         <action type="archive" permission="true"/>
     </item>
@@ -51,8 +51,8 @@ Hinweis:
       "restrictions": [
         {
           "type": "location",
-          "subnet": [
-            "192.168.10.0/24"
+          "inside": [
+            "library"
           ]
         }
       ]

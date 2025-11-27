@@ -107,13 +107,13 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
             <libRML:action type="index" permission="true"/>
             <libRML:action type="archive" permission="true"/>
             <libRML:action type="read" permission="true">
-              <libRML:restriction type="location" subnet="192.168.10.0"/>
+              <libRML:restriction type="location" inside="SLUB"/>
             </libRML:action>
             <libRML:action type="download" permission="true">
-              <libRML:restriction type="location" subnet="192.168.10.0"/>
+              <libRML:restriction type="location" inside="SLUB"/>
             </libRML:action>
             <libRML:action type="print" permission="true">
-              <libRML:restriction type="location" subnet="192.168.10.0"/>
+              <libRML:restriction type="location" inside="SLUB"/>
             </libRML:action>
           </libRML:item>
         </libRML:libRML>
@@ -134,13 +134,13 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
         <libRML:action type="index" permission="true"/>
         <libRML:action type="archive" permission="true"/>
         <libRML:action type="read" permission="true">
-          <libRML:restriction type="location" subnet="192.168.10.0"/>
+          <libRML:restriction type="location" inside="SLUB"/>
         </libRML:action>
         <libRML:action type="download" permission="true">
-          <libRML:restriction type="location" subnet="192.168.10.0"/>
+          <libRML:restriction type="location" inside="SLUB"/>
         </libRML:action>
         <libRML:action type="print" permission="true">
-          <libRML:restriction type="location" subnet="192.168.10.0"/>
+          <libRML:restriction type="location" inside="SLUB"/>
         </libRML:action>
       </libRML:item>
     </libRML:libRML>
