@@ -1,15 +1,15 @@
 # Anpassung LibRML für Retrodigitalisate
 
 In dieser Diskussion wird untersucht, ob und wie LibRML für Retrodigitalisate angepasst werden kann.
-Grundlage ist Untersuchung - LibRML - Anforderungen für Retrodigitalisate (SLUB Dresden), insbesondere Untersuchung - 02-02 LibRML | Neue Elemente für Retrodigitalisate.
+Grundlage ist [Untersuchung - LibRML - Anforderungen für Retrodigitalisate (SLUB Dresden)](https://wiki.dnb.de/x/XdgtFw), insbesondere [Untersuchung - 02-02 LibRML | Neue Elemente für Retrodigitalisate](https://wiki.dnb.de/x/bNgtFw).
 
 Der Schwerpunkt dieser Diskussion besteht in der Erstellung und dem Vergleich von Beispielen, um die Anwendbarkeit zu prüfen. Aspekte der Prüfung sind:
 
-Vereinbarkeit mit dem bestehenden LibRML-Konzept
-Abbildung der notwendigen Eigenschaften, um Schnittstellenverfügbarkeit, Qualität der angezeigten, herunterladbaren Derivate, ...
-Flexibilität hinsichtlich der angewendeten Werte
-Erweiterbarkeit
-Folgende Beispiele sind verfügbar:
+* Vereinbarkeit mit dem bestehenden LibRML-Konzept
+* Abbildung der notwendigen Eigenschaften, um Schnittstellenverfügbarkeit, Qualität der angezeigten, herunterladbaren Derivate, ...
+* Flexibilität hinsichtlich der angewendeten Werte
+* Erweiterbarkeit
+
 
 ## Beispiele
 
