@@ -1,7 +1,3 @@
-html,body {
-    height:100%; /* needed for container min-height */
-}
-
 body {
     color: #000000;
 }
@@ -59,12 +55,6 @@ div.aside {
     text-align: right;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .page-header {
     padding: 1rem 6rem;
     background-image: none;
@@ -88,19 +78,4 @@ a:hover {
         min-height: 500px;
         padding: 2rem 8rem;
     }
-}
-
-.main-content td {
-    font-size: 1rem;
-}
-
-.main-content th {
-    font-size: 1.1rem;
-}
-
-footer {
-    max-width: 64rem;
-    padding: 2rem 8rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
 }
