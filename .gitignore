@@ -7,3 +7,4 @@ vendor
 Gemfile.lock
 .dccache
 .DS_Store
+.vscode

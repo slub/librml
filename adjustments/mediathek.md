@@ -18,7 +18,7 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                         <libRML:action type="publish" permission="false"/>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="group" groups="Gruppensichtungsplätze und Einzelsichtungsplätze der Mediathek SLUB"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Mediathek"/>
                         </libRML:action>
                     </libRML:item>
                 </libRML:libRML>
@@ -46,7 +46,7 @@ Umsetzung mit einem angepassten LibRML-Modell
                         <libRML:action type="publish" permission="false"/>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="group" groups="Gruppensichtungsplätze und Einzelsichtungsplätze der Mediathek SLUB"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Mediathek"/>
                             <libRML:restriction type="mets" filegroups="AUDIO DEFAULT VIDEO"/>
                         </libRML:action>
                     </libRML:item>
