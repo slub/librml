@@ -6,19 +6,18 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-div.logo_box {
-    padding: 40px;
+.logo_box {
+    padding: 1rem;
     display: flex;
     justify-content: center;
 }
 
-div.logo_box figure {
-    margin-top: 0px;
-    float: left;
+.logo_box figure {
+    margin: 0 2em;
 }
 
-div.logo_box img {
-    margin-top: 0px;
+.logo_box img {
+    max-height: 3em;
 }
 
 div.wrapper {
