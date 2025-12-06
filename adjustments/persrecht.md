@@ -20,7 +20,7 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                         <libRML:action type="publish" permission="false"/>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="location" inside="Lesesaal(Sammlungen)"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Lesesaal(Sammlungen)"/>
                             <libRML:restriction type="agreement" required="true"/><!-- Unter Aufsicht -->
                         </libRML:action>
                     </libRML:item>
@@ -55,7 +55,7 @@ Umsetzung mit einem angepassten LibRML-Modell
                         </libRML:action>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="location" inside="Lesesaal(Sammlungen)"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Lesesaal(Sammlungen)"/>
                             <libRML:restriction type="mets" filegroups="AUDIO DEFAULT VIDEO"/>
                             <libRML:restriction type="agreement" required="true"/><!-- Unter Aufsicht -->
                         </libRML:action>
