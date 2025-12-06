@@ -1,3 +1,5 @@
+Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
+
 # Eingeschränkter Zugang - Arbeitsplätze Mediathek - Persönlichkeitsrecht
 
 ## Beispiel A: aktuelles LibRML
