@@ -1,3 +1,5 @@
+Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
+
 # Eingeschränkte Nutzung - Mediathek - Nur Ansicht
 
 ## Beispiel A: aktuelles LibRML

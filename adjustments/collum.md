@@ -1,3 +1,5 @@
+Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
+
 # Nachlass Herbert Collum
 
 ## Beispiel A: aktuelles LibRML

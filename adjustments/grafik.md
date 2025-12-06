@@ -1,3 +1,5 @@
+Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
+
 # Gebrauchs- und Reklamegrafik
 
 ## Beispiel A: aktuelles LibRML
