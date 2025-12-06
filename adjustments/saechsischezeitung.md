@@ -1,3 +1,5 @@
+Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
+
 # Sächsische Zeitung
 
 ## Beispiel A: aktuelles LibRML
