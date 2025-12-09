@@ -7,17 +7,15 @@ body {
 }
 
 .logo_box {
-    padding: 1rem;
+    padding: 1em 0;
     display: flex;
     justify-content: center;
-}
-
-.logo_box figure {
-    margin: 0 2em;
+    gap: 2em;
+    flex-wrap: wrap;
 }
 
 .logo_box img {
-    max-height: 3em;
+    max-width: 150px;
 }
 
 div.wrapper {
