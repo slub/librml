@@ -27,9 +27,9 @@ Mit LibRML wird die Trennung der Beschreibung der Rechte und der Beschränkungen
 * unterschiedliche Funktionen erfüllen (Informationen an Nutzende; machineninterpretierbare Informationen)
 * in unterschiedlichen Systemen benötigt werden
 
-LibRML wurde 2019-2021 im Rahmen eines [EFRE-Projekts](https://www.slub-dresden.de/ueber-uns/projekte/infrastruktur-und-softwareentwicklung/zentraler-hosting-service-fuer-eressourcen/) entwickelt. In dieser Entwicklungsphase lag der Fokus auf der Beschreibung lizenzierter Objekte.
+LibRML wurde 2019–2021 im Rahmen eines [EFRE-Projekts](https://www.slub-dresden.de/ueber-uns/projekte/infrastruktur-und-softwareentwicklung/zentraler-hosting-service-fuer-eressourcen/) entwickelt. In dieser Entwicklungsphase lag der Fokus auf der Beschreibung lizenzierter Objekte.
 
-Im Rahmen eines [Projekts](https://schutzrechte.hypotheses.org/1261) in der [DFG-Pilotphase](https://schutzrechte.hypotheses.org/) wird das Modell 2025-2027 für retrodigitaliserte Objekte angepasst.
+Im Rahmen eines [Projekts](https://schutzrechte.hypotheses.org/1261) in der [DFG-Pilotphase](https://schutzrechte.hypotheses.org/) wird das Modell 2025–2027 für retrodigitaliserte Objekte angepasst.
 In diesem Zeitraum werden die Inhalte dieser Webseite kontinuierlich angepasst.
 Zum Beispiel durch [Beispiele für die Anpassung des Modells](https://librml.org/adjustments/adjustments.html).
 
