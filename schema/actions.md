@@ -1,8 +1,11 @@
-# Actions
+# Actions - Nutzungsarten
+## Allgemeine Informationen
 
-## Nutzungsrechte
+Nutzungsarten (`actions`) beschreiben die Nutzungsmöglichkeiten eines digitalen Objekts, die bei Bedarf eingeschränkt werden sollen. 
+Sie müssen in der LibRML-Beschreibung enthalten sein [(siehe LibRML Konzept)](concept.md), ansonsten ist die Nutzungsart nicht erlaubt. Jedem Element `action` wird ein Element `type` zugewiesen, um die Nutzungsart zu bestimmen. Das Element `permission` kennzeichnet durch den Wert `true` die `action` als erlaubte Nutzungsart. 
 
-Actions beschreiben die Nutzungsmöglichkeiten von Ressourcen. Alle Nutzungsmöglichkeiten sind generell nicht zulässig, solange sie nicht in der Rechtebeschreibung auftauchen [(siehe LibRML Konzept)](concept.md).
+`actions` können zusätzlich durch Einschränkungen [(siehe Constraints)](constraints.md) und Eigenschaften [(siehe Attributes)](attributes.md) spezifiziert werden.
+
 
 ```xml
 <libRML version="0.4" xmlns="http://librml.org/schema">
@@ -22,11 +25,9 @@ Actions beschreiben die Nutzungsmöglichkeiten von Ressourcen. Alle Nutzungsmög
 }
 ```
 
-Um eine Nutzungsmöglichkeit zu gewähren, muss die entsprechende Action in der LibRML-Beschreibung aufgeführt werden. Jede Action wird dafür mit dem zugehörigen `type` eingeleitet, der die Art der Nutzung beschreibt. Mit `"permission": true`{:.highlight .json} wird sie explizit als erlaubt gekennzeichnet.
+## Liste
 
-Alle Actions können zusätzlich durch Einschränkungen [(siehe Constraints)](constraints.md) und Attribute [(siehe Attributes)](attributes.md) feiner spezifiziert werden.
-
-In LibRML stehen folgende Actions zur Beschreibung von Nutzungsrechten zur Verfügung.
+In LibRML stehen folgende Nutzungsarten zur Verfügung.
 
 | Action-Name | Übersetzung | Beschreibung |
 | :---------- | :--------- | :----------- |
