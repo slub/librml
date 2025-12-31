@@ -1,10 +1,10 @@
-# Constraints
+# Constraints - Einschränkungen
+## Allgemeine Informationen
 
-## Einschränkungen
+Einschränkungen (`constraints`) spezifizieren die Zugangs- und Nutzungsbeschränkungen der Nutzungsarten (`action`). 
+Die Einschränkungen gelten ausdrücklich nur für die `action`, der sie zugewiesen sind. Einschränkungen, die für mehrere Nutzungsarten gelten, müssen jeder `action` zugewiesen werden. 
 
-Eingeschränkte Nutzungsmöglichkeiten werden in der LibRML an den konkreten `Actions` festgelegt. Die Einschränkungen (`Constraints`) gelten explizit nur für die Action, an der sie hinterlegt sind, um die maschinelle Auswertbarkeit zu gewährleisten. Einschränkungen, die sich auf mehrere Nutzungsrechte auswirken, müssen entsprechend wiederholt werden. Für die vereinfachte Bearbeitung können systematische Einschränkungen einmalig definiert und wiederverwendet werden (siehe Templates).
-
-Einige `Constraints` werden durch `Attribute` [(siehe Attribute)](attributes.md) näher spezifiziert.
+Einschränkungen können durch `attribute` [(siehe Attribute)](attributes.md) spezifiziert werden.
 
 **XML**
 
@@ -27,7 +27,9 @@ Einige `Constraints` werden durch `Attribute` [(siehe Attribute)](attributes.md)
   }]
 ```
 
-In der LibRML stehen folgende `Constraints` zur Einschränkung der `Actions` zur Verfügung.
+## Liste
+
+In LibRML stehen folgende Einschränkung zur Verfügung.
 
 | Constraint-Name | Übersetzung | Beschreibung | Beispiel |
 | :-------------- | :--------- | :---------- |:------- |

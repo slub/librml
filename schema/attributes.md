@@ -1,8 +1,8 @@
-# Attributes
+# Attributes - Eigenschaften
+## Allgemeine Informationen
 
-## Eigenschaften der Einschränkungen
-
-Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsrechten (`actions`). Jedem Attribut **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften besitzen.
+Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsarten (`actions`). 
+Jeder Eigenschaft **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften zugewiesen werden.
 
 **XML**
 
@@ -19,7 +19,9 @@ Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) 
  }]
 ```
 
-In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Constraints` zur Verfügung.
+## Liste
+
+In LibRML stehen folgende Eigenschaften zur Verfügung.
 
 | Attribut-Name | Beschreibung | Wert | Einheit&nbsp;/&nbsp;Format |
 | :------------- | :--------- | :--------- | :------------------ |
@@ -40,9 +42,7 @@ In der LibRML stehen folgende `Attributes` zur genaueren Beschreibung der `Const
 | parts | Teile der Ressource. | non-negative Integer | **Einheit**: — |
 | groups | Gruppen, auf die eine Constraint zutrifft. | Tokenliste  | **Einheit**: — |
 
-## Abhängigkeiten der Attributes, Constraints und Actions
-
-Um besser zu verstehen, wie diese Eigenschaften mit ihren Einschränkungen und letztendlich mit den Nutzungsrechten zusammenhängen, finden Sie hier eine Tabelle mit den verschiedenen Zusammenhängen.
+## Abhängigkeiten wischen Attributes, Constraints und Actions
 
 | Attribut | Constraint | Action |
 | :--------- | :--------- | :--------- |
