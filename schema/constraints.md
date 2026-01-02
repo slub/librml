@@ -1,12 +1,13 @@
 # Constraints - Einschränkungen
+
 ## Allgemeine Informationen
 
-Einschränkungen (`constraints`) spezifizieren die Zugangs- und Nutzungsbeschränkungen der Nutzungsarten (`action`). 
+Einschränkungen (`constraints`) spezifizieren die Zugangs- und Nutzungsbeschränkungen der Nutzungsarten (`action`).
 Die Einschränkungen gelten ausdrücklich nur für die `action`, der sie zugewiesen sind. Einschränkungen, die für mehrere Nutzungsarten gelten, müssen jeder `action` zugewiesen werden. 
 
-Einschränkungen können durch `attribute` [(siehe Attribute)](attributes.md) spezifiziert werden.
+Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weiter spezifiziert werden.
 
-**XML**
+### XML
 
 ```xml
   <action type="ACTION-NAME" permission="true">
@@ -14,7 +15,7 @@ Einschränkungen können durch `attribute` [(siehe Attribute)](attributes.md) sp
   </action>
 ```
 
-**JSON**
+### JSON
 
 ```json
   "actions": [{

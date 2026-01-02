@@ -1,16 +1,17 @@
 # Attributes - Eigenschaften
+
 ## Allgemeine Informationen
 
-Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsarten (`actions`). 
+Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsarten (`actions`).
 Jeder Eigenschaft **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften zugewiesen werden.
 
-**XML**
+### XML
 
 ```xml
 <restriction type="CONSTRAINT-NAME" ATTRIBUT-NAME="WERT"/>
 ```
 
-**JSON**
+### JSON
 
 ```json
 "restrictions": [{
