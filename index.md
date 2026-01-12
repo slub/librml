@@ -7,7 +7,7 @@ sidebar: librml
 
 ## Rechtebeschreibung
 
-Digitale Objekte, die von Kulturerbeeinrichtungen verwaltet werden, sind in der Regel rechtlich geschützt. Dadurch ist deren Nutzung aus unterschiedlichen Gründe verschiedentlich eingeschränkt, beispielsweise durch Gesetze (Schranken des Urheberrechts), vertragliche Abstimmungen mit den Rechteinhabenden oder Lizenzverträge mit kommerziellen Anbietern.
+Digitale Objekte, die von Kulturerbeeinrichtungen verwaltet werden, sind in der Regel rechtlich geschützt. Dadurch ist deren Nutzung aus unterschiedlichen Gründen verschiedentlich eingeschränkt, beispielsweise durch Gesetze (Schranken des Urheberrechts), vertragliche Abstimmungen mit den Rechteinhabenden oder Lizenzverträge mit kommerziellen Anbietern.
 Davon ausgenommen sind gemeinfreie Objekte, die nicht (mehr) urheberrechtlich geschützt und frei nutzbar sind.
 Die Rechteinformationen der Objekte sollen standardisiert erfasst und verwaltet werden.
 
