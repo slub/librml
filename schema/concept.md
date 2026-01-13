@@ -2,7 +2,7 @@
 ## Allgemeine Informationen
 
 LibRML kann in unterschiedlichen [Anwendungsszenarien](../usage/usage.md) eingesetzt werden. Zum einen kann eine LibRML-Beschreibung in die Metadatendatei eines digitalen Objekts eingetragen werden. Zum anderen kann eine LibRML-Beschreibung als eigenständiges Objekt in Rechteverwaltungssystemen verwaltet werden. In diesen Fällen wird die Verknüpfung zwischen dem digitalen Objekt und der LibRML-Beschreibung durch eine ID ermöglicht, die in die Metadatendatei des digitalen Objekts eingetragen wird.
-In dem EFRE-Projekt wurde zunächst die Anwendung in Rechteverwaltungssystemen verfolgt. In dem DFG-Projekt wird hauptsächlich die Anwendung der LibRML-Beschreibung in der Metadatendatei verfolgt. Vergleiche [Rechtebeschreibung mit LibRML](../index.md). 
+In dem EFRE-Projekt wurde zunächst die Anwendung in Rechteverwaltungssystemen verfolgt. In dem DFG-Projekt wird hauptsächlich die Anwendung der LibRML-Beschreibung in der Metadatendatei verfolgt (siehe [Rechtebeschreibung mit LibRML](../index.md)). 
 Abhängig von der Anwendung werden die im folgenden erläuterten Bestandteile des LibRML angewendet.
 
 ## Aufbau
