@@ -43,10 +43,6 @@
       "items": {
         "additionalProperties": false,
         "properties": {
-          " maxage": {
-            "minimum": 1,
-            "type": "integer"
-          },
           "count": {
             "minimum": 1,
             "type": "integer"
@@ -58,6 +54,10 @@
           "fromdate": {
             "format": "date",
             "type": "string"
+          },
+          "maxage": {
+            "minimum": 1,
+            "type": "integer"
           },
           "maxbitrate": {
             "minimum": 1,
