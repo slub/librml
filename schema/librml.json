@@ -56,7 +56,10 @@
             "type": "string"
           },
           "inside": {
-            "type": "string"
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
           },
           "maxage": {
             "minimum": 1,
