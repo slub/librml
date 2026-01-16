@@ -55,6 +55,9 @@
             "format": "date",
             "type": "string"
           },
+          "inside": {
+            "type": "string"
+          },
           "maxage": {
             "minimum": 1,
             "type": "integer"
@@ -80,6 +83,9 @@
           "sessions": {
             "minimum": 1,
             "type": "integer"
+          },
+          "subnet": {
+            "type": "string"
           },
           "todate": {
             "format": "date",
