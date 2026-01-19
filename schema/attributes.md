@@ -43,7 +43,7 @@ In LibRML stehen folgende Eigenschaften zur Verfügung.
 | parts | Teile der Ressource. | non-negative Integer | **Einheit**: — |
 | groups | Gruppen, auf die eine Constraint zutrifft. | Tokenliste  | **Einheit**: — |
 
-## Abhängigkeiten wischen Attributes, Constraints und Actions
+## Abhängigkeiten zwischen Attributes, Constraints und Actions
 
 | Attribut | Constraint | Action |
 | :--------- | :--------- | :--------- |
