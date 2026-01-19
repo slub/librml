@@ -77,6 +77,12 @@
             "minimum": 1,
             "type": "integer"
           },
+          "outside": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
           "permission": {
             "type": "boolean"
           },
