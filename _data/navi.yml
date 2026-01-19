@@ -10,12 +10,14 @@ toc:
           url: concept.html
         - title: Header
           url: header.html
-        - title: Actions
+        - title: Actions (Nutzungsarten)
           url: actions.html
-        - title: Constraints
+        - title: Constraints (Einschränkungen)
           url: constraints.html
-        - title: Attributes
+        - title: Attributes (Eigenschaften)
           url: attributes.html
+        - title: Abhängigkeiten
+          url: dependencies.html
   - title: Anwendung
     path: /usage/
     url: usage.html
