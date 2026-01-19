@@ -16,6 +16,8 @@ toc:
           url: constraints.html
         - title: Attributes
           url: attributes.html
+        - title: Abhängigkeiten
+          url: dependencies.html
   - title: Anwendung
     path: /usage/
     url: usage.html
