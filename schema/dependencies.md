@@ -17,7 +17,7 @@ Folgende Tabelle verschafft einen Überblick, welche Einschränkungen mit welche
 | subnet | location | alle actions |
 | outside | location | alle actions |
 | watermarkvalue | watermark | alle actions außer `displaymetadata` |
-| duration | duration | read, run und lend |
+| duration | duration | `read`, `run` und `lend` |
 | minage | age | alle actions außer `displaymetadata`, `index`, `archive` und `move` |
 | maxage | age | alle actions außer `displaymetadata`, `index`, `archive` und `move` |
 | required | agreement | alle actions außer `displaymetadata` und `index` |
