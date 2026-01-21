@@ -7,7 +7,7 @@
 ```xml
 <mods:mods>
     <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</mods:accessCondition>
-    <mods:accessCondition type="local terms of use" xlink:href="https://nutzungshinweis.slub-dresden.de/ez-am-pr/1.0/">Eingeschränkter Zugang - Arbeitsplätze Mediathek - Persönlichkeitsrecht 1.0</mods:accessCondition>
+    <mods:accessCondition type="local terms of use" xlink:href="https://nutzungshinweis.slub-dresden.de/ez-am-pr/1-0/">Eingeschränkter Zugang - Arbeitsplätze Mediathek - Persönlichkeitsrecht 1.0</mods:accessCondition>
     <mods:accessCondition type="restriction on access" xlink:href="http://purl.org/coar/access_right/c_16ec" displayLabel="Access Status">Restricted Access</mods:accessCondition>
 </mods:mods>
 ```
@@ -18,7 +18,7 @@ Prüfung: MODS enthält in den dafür vorgesehenen und konfigurierten Elementen 
 
 - `./mods:accessCondition[@type="use and reproduction"]/@xlink:href` contains `creativecommons.org/publicdomain/mark/1.0`
 - AND
-- `./mods:accessCondition[@type="local terms of use"]/@xlink:href` contains `nutzungshinweis.slub-dresden.de/ez-am-pr/1.0`
+- `./mods:accessCondition[@type="local terms of use"]/@xlink:href` contains `nutzungshinweis.slub-dresden.de/ez-am-pr/1-0`
 - AND
 - `./mods:accessCondition[@type="restriction on access"]/@xlink:href` contains `purl.org/coar/access_right/c_16ec`
 
@@ -28,7 +28,7 @@ Ist die Prüfung positiv, werden die zugehörigen gültigen Beschränkungen im L
 
 ```xml
 <libRML:libRML xmlns:libRML="http://librml.org/schema">
-    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am-pr/1.0/">
+    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am-pr/1-0">
         <libRML:action type="displaymetadata" permission="true"/>
         <libRML:action type="index" permission="true"/>
         <libRML:action type="read" permission="true">
