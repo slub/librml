@@ -28,10 +28,10 @@ In LibRML stehen folgende Eigenschaften zur Verfügung.
 | :------------- | :--------- | :--------- | :------------------ |
 | fromdate | Start-Datum der Einschränkung | Datum | **Format**: ISO8601 (YYYY-MM-DD) |
 | todate | End-Datum der Einschränkung | Datum | **Format**: ISO8601 (YYYY-MM-DD) |
-| maxresolution | maximal erlaubte Auflösung für den Download einer Ressource | non-negative Integer | **Einheit**: DPI |
-| maxbitrate | maximal erlaubte Bitrate für den Download einer Ressource | non-negative Integer | **Einheit**: Bit |
+| maxresolution | maximal erlaubte Auflösung für den Download eines digitalen Objekts | non-negative Integer | **Einheit**: DPI |
+| maxbitrate | maximal erlaubte Bitrate für den Download eines digitalen Objekts | non-negative Integer | **Einheit**: Bit |
 | count | Anzahl der erlaubten Action, z. B. die Anzahl der erlaubten Ausleihen | non-negative Integer | **Einheit**: — |
-| sessions | Anzahl der erlaubten parallelen Zugriffe auf eine Ressource | non-negative Integer | **Einheit**: — |
+| sessions | Anzahl der erlaubten parallelen Zugriffe auf ein digitalen Objekt | non-negative Integer | **Einheit**: — |
 | inside | Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution<br/><br/> | Name | **Einheit**: — |
 | subnet | Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP, IP-Bereiche | **Format**: — |
 | outside | Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution | Name | **Einheit**: —|
@@ -40,5 +40,5 @@ In LibRML stehen folgende Eigenschaften zur Verfügung.
 | minage | Mindestalter für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | non-negative Integer | **Einheit**: Jahre |
 | maxage | Maximalalter für eine Action. Zum Beispiel in Einrichtungen genutzt, die Kinderbücher für Erwachsene unzugänglich machen. | non-negative Integer | **Einheit**: Jahre |
 | required | "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | true/false | **Format**: — |
-| parts | Teile der Ressource. | non-negative Integer | **Einheit**: — |
+| parts | Teile des digitalen Objekts. | non-negative Integer | **Einheit**: — |
 | groups | Gruppen, auf die eine Constraint zutrifft. | Tokenliste  | **Einheit**: — |

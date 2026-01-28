@@ -3,7 +3,7 @@
 ## Allgemeine Informationen
 
 Einschränkungen (`constraints`) spezifizieren die Zugangs- und Nutzungsbeschränkungen der Nutzungsarten (`action`).
-Die Einschränkungen gelten ausdrücklich nur für die `action`, der sie zugewiesen sind. Einschränkungen, die für mehrere Nutzungsarten gelten, müssen jeder `action` zugewiesen werden. 
+Die Einschränkungen gelten ausdrücklich nur für die `action`, der sie zugewiesen sind. Einschränkungen, die für mehrere Nutzungsarten gelten, müssen jeder `action` zugewiesen werden.
 
 Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weiter spezifiziert werden.
 
@@ -34,7 +34,7 @@ In LibRML stehen folgende Einschränkung zur Verfügung.
 
 | Constraint-Name | Übersetzung | Beschreibung | Beispiel |
 | :-------------- | :--------- | :---------- |:------- |
-| parts | Teile | Einschränkung der Action auf bestimmte Teile der Ressource. | [→&nbsp;Parts](#parts) |
+| parts | Teile | Einschränkung der Action auf bestimmte Teile des digitalen Objekts. | [→&nbsp;Parts](#parts) |
 | group | Nutzergruppen | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group)|
 | age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | [→&nbsp;Age](#age) |
 | location | Ort | Geographisch (ein bestimmtes Gebiet z. B. Deutschland)<br/><br/>Institutionell (eine bestimmte Einrichtung z. B. SLUB Dresden). | [→&nbsp;Location](#location)|
@@ -42,7 +42,7 @@ In LibRML stehen folgende Einschränkung zur Verfügung.
 | duration | Dauer | Einschränkung der Action auf eine bestimmte Zeitdauer. | [→&nbsp;Duration](#duration) |
 | count | Anzahl | Einschränkung der Action auf eine bestimmte Anzahl an Ausführungen, Benutzungen, ... | [→&nbsp;Count](#count)|
 | concurrent | Gleichzeitig | Einschränkung der Action auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, ... | [→&nbsp;Concurrent](#concurrent) |
-| watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung der Ressource mit einem Wasserzeichen oder einer anderen Markierung. | [→&nbsp;Watermark](#watermark)|
+| watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung des digitalen Objekts mit einem Wasserzeichen oder einer anderen Markierung. | [→&nbsp;Watermark](#watermark)|
 | quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | [→&nbsp;Quality](#quality)|
 | agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | [→&nbsp;Agreement](#agreement)|
 

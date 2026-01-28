@@ -10,6 +10,6 @@ Die folgenden Beispiele enthalten die Beschreibung häufig auftretender Zugriffs
 | [**Zugang nur innerhalb eines IP-Adressbereichs**](location.md) |
 | [**Nur zur Ansicht, aber keine Speicher- oder Druckmöglichkeit**](readonly.md) |
 | [**Beschränkung auf eine bestimmte Menge gleichzeitiger Zugänge**](concurrent.md) |
-| [**Digitalisierte Ressource zur Präsentation und nicht-kommerziellen Nutzung**](digitization.md) |
+| [**Digitales Objekt zur Präsentation und nicht-kommerziellen Nutzung**](digitization.md) |
 | [**Copyright  Open Access**](copyright_openaccess.md) |
 | [**Copyright - Restricted Access**](copyright_restrictedaccess.md) |
