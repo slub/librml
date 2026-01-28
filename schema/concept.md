@@ -3,12 +3,14 @@
 ## Allgemeine Informationen
 
 LibRML kann in unterschiedlichen [Anwendungsszenarien](../usage/usage.md) eingesetzt werden. Zum einen kann eine LibRML-Beschreibung in die Metadatendatei eines digitalen Objekts eingetragen werden. Zum anderen kann eine LibRML-Beschreibung als eigenständiges Objekt in Rechteverwaltungssystemen verwaltet werden. In diesen Fällen wird die Verknüpfung zwischen dem digitalen Objekt und der LibRML-Beschreibung durch eine ID ermöglicht, die in die Metadatendatei des digitalen Objekts eingetragen wird.
-In dem EFRE-Projekt wurde zunächst die Anwendung in Rechteverwaltungssystemen verfolgt. In dem DFG-Projekt wird hauptsächlich die Anwendung der LibRML-Beschreibung in der Metadatendatei verfolgt (siehe [Rechtebeschreibung mit LibRML](../index.md)).
+
+Im EFRE-Projekt wurde zunächst die Anwendung in Rechteverwaltungssystemen verfolgt.
+Im DFG-Projekt wird hauptsächlich die Anwendung der LibRML-Beschreibung in der Metadatendatei verfolgt (siehe [Rechtebeschreibung mit LibRML](../index.md)).
 Abhängig von der Anwendung werden die im folgenden erläuterten Bestandteile des LibRML angewendet.
 
 ## Aufbau
 
-Eine LibRML-Beschreibung besteht aus aus folgenden Elementen:
+Eine LibRML-Beschreibung besteht aus folgenden Elementen:
 
 - Allgemeinen Informationen ([**Header**](header.md))
 
@@ -18,7 +20,7 @@ Eine LibRML-Beschreibung besteht aus aus folgenden Elementen:
 
   - Eigenschaften ([**Attributes**](attributes.md))
 
-Im [**Header**](header.md) werden allgemeine Informationen und generellen Eigenschaften eingetragen.
+Im [**Header**](header.md) werden allgemeine Informationen und allgemeine Eigenschaften eingetragen.
 
 Nach dem [**Header**](header.md) werden die [**Nutzungsarten**](actions.md) beschrieben, die durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) spezifiziert werden. In LibRML werden nur **erlaubte Nutzungsarten** beschrieben. Nutzungsarten, die nicht in der LibRML-Beschreibung des digitalen Objekts enthalten sind, sind **verboten**.
 
