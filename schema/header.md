@@ -29,8 +29,8 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../tmpl/temp
 
 ### Beispiel
 
-Ein urheberrechtsgeschütztes digitales Obkekt, das im Kontext der SLUB Dresden lizenziert ist. Das digitale Objekt erfordert eine Namensnennung; Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
-So einem digitalen Obkekt würde folgende LibRML zugewiesen werden.
+Ein urheberrechtsgeschütztes digitales Objekt, das im Kontext der SLUB Dresden lizenziert ist. Das digitale Objekt erfordert eine Namensnennung; Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
+So einem digitalen Objekt würde folgende LibRML zugewiesen werden.
 
 **XML**
 
