@@ -2,19 +2,19 @@
 
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** befinden sich Informationen zur eindeutigen Identifikation der LibRML Datei. Ohne eindeutige **ID** kann die Rechtebeschreibung nicht mit dem zu beschreibenden digitalen Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen interne oder spezifische Entscheidungen treffen müssen zur Verwaltung unterschiedlich lizenzierter Ressourcen, kann die Einrichtung als `tenant` angegeben werden, um den nötigen Kontext herzustellen.
+Im **Header** befinden sich Informationen zur eindeutigen Identifikation der LibRML Datei. Ohne eindeutige **ID** kann die Rechtebeschreibung nicht mit dem zu beschreibenden digitalen Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen interne oder spezifische Entscheidungen zur Verwaltung unterschiedlich lizenzierter digitaler Objekte treffen müssen, kann die Einrichtung als `tenant` angegeben werden, um den nötigen Kontext herzustellen.
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
 |**id**| ID zur Identifizierung des LibRML-Blocks | String | optional |
-|**tenant**| Einrichtung, die die Ressource verwaltet | URI | optional |
+|**tenant**| Einrichtung, die das digitale Objekt verwaltet | URI | optional |
 
 Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden:
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
 |**mention**| Ist eine Namensnennung notwendig | true/false | optional |
-|**sharealike**| Verpflichtung, alle Derivate der Ressource unter denselben Bedingungen zu veröffentlichen | true/false | optional |
+|**sharealike**| Verpflichtung, alle Derivate des digitalen Objektes unter denselben Bedingungen zu veröffentlichen | true/false | optional |
 |**commercialuse**| Kommerzielle Nutzung erlaubt | true/false | optional |
 |**copyright**| Urheberrechtsschutz vorhanden | true/false | optional |
 
@@ -29,8 +29,8 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../tmpl/temp
 
 ### Beispiel
 
-Eine urheberrechtsgeschützte e-Ressource, die im Kontext der SLUB Dresden lizenziert ist. Die e-Ressource erfordert eine Namensnennung; Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
-So einer e-Ressource würde folgende LibRML zugewiesen werden.
+Ein urheberrechtsgeschütztes digitales Obkekt, das im Kontext der SLUB Dresden lizenziert ist. Das digitale Objekt erfordert eine Namensnennung; Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
+So einem digitalen Obkekt würde folgende LibRML zugewiesen werden.
 
 **XML**
 
