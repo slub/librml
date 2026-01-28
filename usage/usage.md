@@ -8,7 +8,7 @@ LibRML kann den jeweiligen Anforderungen entsprechend flexibel angewendet werden
 
 ## Referenzen standardisierter Lizenz- und Rechtehinweise
 
-Standardisierte Lizenz- und Rechtehinweise, die in spezifischen Elementen des jeweils angewendeten Metadatenstandards eingetragen sind, werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem, ...) ausgewertet und in LibRML übertragen. Dadurch wird eine redundante Erfassung der Rechteinformation vermieden.
+Standardisierte Lizenz- und Rechtehinweise, die in spezifischen Elementen des jeweils angewendeten Metadatenstandards eingetragen sind, werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem, ...) ausgewertet und in LibRML übertragen. Dadurch wird eine redundante Erfassung der Rechteinformationen vermieden.
 
 Siehe [Referenzen standardisierter Rechteinformationen](reference_licence)
 
