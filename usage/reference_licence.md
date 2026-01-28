@@ -1,6 +1,6 @@
 # Anwendung
 
-LibRML kann aus standardisierten Rechteinformationen, wie zum Beispiel Lizenz- und Rechtehinweise, abgeleitet werden, wenn die jeweiligen Systeme (Präsentation, Repositorium, Rechtemanagementsystem, ...) über die notwendige Funktionalität verfügen. Die Rechteinformationen sind in der Regel mit dem URI und/oder der Bezeichnung in den Metadaten der digitalen Objekte beschrieben. Vorteile dieser Anwendung sind unter anderem:
+LibRML kann aus standardisierten Rechteinformationen, wie zum Beispiel Lizenz- und Rechtehinweise, abgeleitet werden, wenn die jeweiligen Systeme (Präsentation, Repositorium, Rechtemanagementsystem, …) über die notwendige Funktionalität verfügen. Die Rechteinformationen sind in der Regel mit dem URI und/oder der Bezeichnung in den Metadaten der digitalen Objekte beschrieben. Vorteile dieser Anwendung sind unter anderem:
 
 1. Redundante Metadaten werden vermieden, weil zum Beispiel der URI [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/) sowohl für die Anzeige im Katalog als auch für die Ableitung von LibRML genutzt werden kann.
 1. Anpassungen von Schutzfristen oder anderen Beschränkungen rechtlich geschützter digitaler Objekten können in den Systemen angepasst werden, anstatt die Metadaten der digitalen Objekte anzupassen. Zum Beispiel, falls das Urheberrecht einmal erst 80 Jahren nach dem Tod der Urheberin/des Urhebers ablaufen sollte.
