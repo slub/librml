@@ -13,9 +13,9 @@ Die Rechteinformationen der Objekte sollen standardisiert erfasst und verwaltet 
 
 In Kulturerbeeinrichtungen ist die Rechtebeschreibung der Objekte von mehreren Anforderungen abhängig. Zum einen von den Anwendungsgebieten, wie zum Beispiel Retrodigitalisierung, Elektronisches Publizieren oder Lizenzierung von kommerziellen Angeboten. Zum anderen von den angewendeten Systemen, wie zum Beispiel Verbundkatalogen, Repositorien, Digitalisierungssoftware, in denen die Rechteinformationen erfasst, verwaltet oder angezeigt werden.
 
-Ein Schwerpunkt der Rechtebeschreibung liegt derzeit in der Beschreibung der Objekte nach [Creative Commons](https://de.creativecommons.net/was-ist-cc/), [Rights Statements](https://rightsstatements.org/), oder den [COAR Access Rights](https://vocabularies.coar-repositories.org/access_rights/). Diese Rechteinformationen sind standardisiert und werden breit angewendet. Unter anderem werden sie von der [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) und der [Europeana](https://www.europeana.eu/) eingefordert. Diese Rechteinformationen dienen hauptsächlich der Vermittlung der Information an die Nutzenden.
+Ein Schwerpunkt der Rechtebeschreibung liegt derzeit in der Beschreibung der Objekte nach [Creative Commons](https://de.creativecommons.net/was-ist-cc/), [Rights Statements](https://rightsstatements.org/) oder den [COAR Access Rights](https://vocabularies.coar-repositories.org/access_rights/). Diese Rechteinformationen sind standardisiert und werden breit angewendet. Unter anderem werden sie von der [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) und der [Europeana](https://www.europeana.eu/) eingefordert. Diese Rechteinformationen dienen hauptsächlich der Vermittlung der Information an die Nutzenden.
 
-Für die Beschreibung von Beschränkungen werden in Kulturerbeeinrichtungen bisher keine standardisierten Rechteinformationen im Umfang der Creative Commons oder Rights Statements Rechteinformationen angewendet.
+Für die Beschreibung von Beschränkungen werden in Kulturerbeeinrichtungen bisher keine standardisierten Rechteinformationen im Umfang der Creative Commons oder Rights Statements angewendet.
 
 ## LibRML
 
