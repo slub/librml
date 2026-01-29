@@ -2,6 +2,24 @@
 
 ## Creative Commons – Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International
 
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<libRML version="0.4" xmlns="https://librml.org/schema">
+  <item id="demo-mit-CCBYNCND" commercialuse="false" mention="true" template="CC-BY-NC-ND-4.0" usageguide="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+    <action type="displaymetadata" permission="true"/>
+    <action type="index" permission="true"/>
+    <action type="read" permission="true"/>
+    <action type="download" permission="true"/>
+    <action type="print" permission="true"/>
+    <action type="reproduce" permission="true"/>
+    <action type="distribute" permission="true"/>
+    <action type="publish" permission="true"/>
+    <action type="archive" permission="true"/>
+    <action type="move" permission="true"/>
+  </item>
+</libRML>
+```
+
 ```json
 {
   "id": "demo-mit-CCBYNCND",
