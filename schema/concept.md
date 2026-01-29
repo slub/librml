@@ -79,4 +79,4 @@ Diesem digitalen Objekt würde folgende LibRML-Beschreibung zugewiesen werden.
 
 ## Vorlagen
 
-Digitale Objekte können Creative-Commons-Lizenzen unterliegen, aus denen sich die Nutzungsmöglichkeiten ableiten. Für diese Anwendungsfälle stehen [**Vorlagen**](../tmpl/templates.md) zur Verfügung.
+Digitale Objekte können Creative-Commons-Lizenzen unterliegen, aus denen sich die Nutzungsmöglichkeiten ableiten. Für diese Anwendungsfälle stehen [**Vorlagen**](.. /templates/templates.md) zur Verfügung.

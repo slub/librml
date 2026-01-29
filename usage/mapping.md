@@ -111,4 +111,4 @@ Ist die Prüfung positiv, werden die zugehörigen gültigen Beschränkungen im L
 </libRML:libRML>
 ```
 
-**ACHTUNG**: In den LibRML-Vorlagen wird PDM 1.0 mit allen in LibRML verfügbaren Aktionen beschrieben (<https://librml.org/tmpl/PDMark1.html>).
+**ACHTUNG**: In den LibRML-Vorlagen wird PDM 1.0 mit allen in LibRML verfügbaren Aktionen beschrieben (<https://librml.org /templates/PDMark1.html>).
