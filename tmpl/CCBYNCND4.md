@@ -1,6 +1,6 @@
 # CC BY-NC-ND 4.0
 
-## Creative Commons mit Namensnennung, nicht kommerziell und keine Veränderungen/Ableitungen
+## Creative Commons – Namensnennung-Nicht kommerziell-Keine Bearbeitungen 4.0 International
 
 ```json
 {

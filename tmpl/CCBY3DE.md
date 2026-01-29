@@ -1,6 +1,6 @@
 # CC BY 3.0 DE
 
-## Creative Commons mit Namensnennung - Deutschland
+## Creative Commons – Namensnennung 3.0 Deutschland
 
 ```json
 {

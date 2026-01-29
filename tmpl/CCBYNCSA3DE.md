@@ -1,6 +1,6 @@
 # CC BY-NC-SA 3.0 DE
 
-## Creative Commons mit Namensnennung, nicht kommerziell und „Share Alike“ (Abgeleitete Werke müssen denselben Bedingungen unterliegen) - Deutschland
+## Creative Commons – Namensnennung - Keine kommerzielle Nutzung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland
 
 ```json
 {

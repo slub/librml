@@ -1,6 +1,6 @@
 # CC BY 4.0
 
-## Creative Commons mit Namensnennung
+## Creative Commons – Namensnennung 4.0 International
 
 ```json
 {

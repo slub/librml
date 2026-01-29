@@ -1,6 +1,6 @@
 # Public Domain
 
-## Public Domain Mark 1.0 als LibRML
+## Public Domain Mark 1.0
 
 ```json
 {

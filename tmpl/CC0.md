@@ -1,6 +1,6 @@
-# CC 0
+# CC0 1.0
 
-## Creative Commons Kein Urheberrecht / Public Domain
+## Creative Commons – Kein Urheberrechtsschutz
 
 ```json
 {
