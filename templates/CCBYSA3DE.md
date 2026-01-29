@@ -8,7 +8,7 @@
   "mention": true,
   "sharealike": true,
   "commercialuse": true,
-  "usageguide": "https://creativecommons.org/licenses/by-sa/3.0/de",
+  "usageguide": "https://creativecommons.org/licenses/by-sa/3.0/de/",
   "template": "CC-BY-SA-3.0-DE",
   "actions": [
     {
