@@ -7,8 +7,6 @@ Sie müssen in der LibRML-Beschreibung enthalten sein [(siehe LibRML Konzept)](c
 
 `actions` können zusätzlich durch Einschränkungen [(siehe Constraints)](constraints.md) und Eigenschaften [(siehe Attributes)](attributes.md) spezifiziert werden.
 
-### XML
-
 ```xml
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item id="ID-NAME">
@@ -16,8 +14,6 @@ Sie müssen in der LibRML-Beschreibung enthalten sein [(siehe LibRML Konzept)](c
   </item>
 </libRML>
 ```
-
-### JSON
 
 ```json
 {
