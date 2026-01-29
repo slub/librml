@@ -7,7 +7,7 @@
   "id": "demo-mit-CCBYNCDE",
   "mention": true,
   "commercialuse": false,
-  "usageguide": "https://creativecommons.org/licenses/by-nc/3.0/de",
+  "usageguide": "https://creativecommons.org/licenses/by-nc/3.0/de/",
   "template": "CC-BY-NC-3.0-DE",
   "actions": [
     {
