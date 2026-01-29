@@ -6,10 +6,9 @@ Grundlage ist [Untersuchung - LibRML - Anforderungen für Retrodigitalisate (SLU
 Der Schwerpunkt dieser Diskussion besteht in der Erstellung und dem Vergleich von Beispielen, um die Anwendbarkeit zu prüfen. Aspekte der Prüfung sind:
 
 * Vereinbarkeit mit dem bestehenden LibRML-Konzept
-* Abbildung der notwendigen Eigenschaften, um Schnittstellenverfügbarkeit, Qualität der angezeigten, herunterladbaren Derivate, ...
+* Abbildung der notwendigen Eigenschaften, um Schnittstellenverfügbarkeit, Qualität der angezeigten, herunterladbaren Derivate, …
 * Flexibilität hinsichtlich der angewendeten Werte
 * Erweiterbarkeit
-
 
 ## Beispiele
 
