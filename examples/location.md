@@ -7,7 +7,7 @@
 #### XML
 
 ```xml
-<?xml version='1.0' encoding='ASCII'?>
+<?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
   <item id="iprestricted-444" tenant="https://www.slub-dresden.de/" commercialuse="false" template="IP">
     <action type="displaymetadata" permission="true"/>

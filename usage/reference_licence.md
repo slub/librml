@@ -25,7 +25,7 @@ Folgende Beispiele zeigen die Auswertung mehrerer Rechteinformationen, um urhebe
 
 Es können auch Creative Commons-Lizenzen ausgewertet und mit LibRML beschrieben werden.
 
-- [CC BY 4.0](../tmpl/CCBY4)
+- [CC BY 4.0](.. /templates/CCBY4)
 
 ## Standardisierte Rechteinformationen in Metadatenstandards
 
