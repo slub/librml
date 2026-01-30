@@ -60,8 +60,6 @@ toc:
     subnav:
       - title: Was sind Vorlagen?
         url: templates.html
-      - title: Vorlagenliste
-        url: beispiele.html
       - title: Public Domain
         url: PDMark1.html
       - title: CC 0
