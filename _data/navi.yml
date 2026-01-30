@@ -55,7 +55,7 @@ toc:
       - title: Copyright - Restricted Access
         url: copyright_restrictedaccess.html
   - title: Vorlagen
-    path: /tmpl/
+    path: /templates/
     url: templates.html
     subnav:
       - title: Was sind Vorlagen?
