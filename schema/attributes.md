@@ -5,13 +5,9 @@
 Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsarten (`actions`).
 Jeder Eigenschaft **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften zugewiesen werden.
 
-### XML
-
 ```xml
 <restriction type="CONSTRAINT-NAME" ATTRIBUT-NAME="WERT"/>
 ```
-
-### JSON
 
 ```json
 "restrictions": [{

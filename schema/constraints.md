@@ -7,15 +7,11 @@ Die Einschränkungen gelten ausdrücklich nur für die `action`, der sie zugewie
 
 Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weiter spezifiziert werden.
 
-### XML
-
 ```xml
   <action type="ACTION-NAME" permission="true">
     <restriction type="CONSTRAINT-NAME" ATTRIBUT-NAME="WERT"/>
   </action>
 ```
-
-### JSON
 
 ```json
   "actions": [{
