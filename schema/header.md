@@ -2,7 +2,14 @@
 
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** befinden sich Informationen zur eindeutigen Identifikation der LibRML Datei. Ohne eindeutige **ID** kann die Rechtebeschreibung nicht mit dem zu beschreibenden digitalen Objekt verknüpft werden. Da es vorkommen kann, dass Institutionen interne oder spezifische Entscheidungen zur Verwaltung unterschiedlich lizenzierter digitaler Objekte treffen müssen, kann die Einrichtung als `tenant` angegeben werden, um den nötigen Kontext herzustellen.
+Im **Header** sind Informationen zur eindeutigen Identifikation der LibRML-Beschreibung enthalten. Die Erfassung dieser Informationen ist von der [Anwendung](../usage/usage.md) der LibRML-Beschreibung abhängig. 
+
+Wird die LibRML-Beschreibung in die Metadaten-Datei des digitalen Objekts eingetragen, in der zum Beispiel bereits Informationen über den `tenant` enthalten sind, muss die Information des `tenant` nicht redundant erfasst werden. In den Beispielen [Anpassung LibRML für Retrodigitalisate](../adjustments/adjustments.md), ist nur das Attribut usageguide eingetragen.
+
+Wird die LibRML-Beschreibung in einem „Rechtemangement-System“ mit LibRML-Beschreibungen aus unterschiedlichen Einrichtungen verwaltet, ist die Information über den `tenant` verpflichtend. Zusätzlich kann die LibRML-Beschreibung ohne eindeutige ID nicht in den zugehörigen digitalen Objekten referenziert werden.
+
+Somit sind im letztgenannten Anwendungsfall einige Informationen im **Header** verpflichtend anzuwenden, auch wenn deren Verpflichtungsgrad generell optional ist. 
+
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
