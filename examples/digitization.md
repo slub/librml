@@ -2,9 +2,18 @@
 
 Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub-dresden.de), die im Rahmen der Digitalisierung die dauerhafte Speicherung, Ablage in Datenbanken, und dem öffentlicher Zugriff erlaubt. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. **Nicht erlaubt** ist das herunterladen, ausdrucken, vervielfältigen, bearbeiten, wiederverwenden und veröffentlichen des digitalen Objektes.
 
-| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
-| :------- | :--------- | :--------- |
-| displaymetadata<br/><br/>index<br/><br/>read<br/><br/>archive | Nicht-kommerzielle Nutzung | distribute<br/><br/>move |
+**Uneingeschränkte Nutzungsarten**:
+
+- displaymetadata (Anzeigen der Metadaten)
+- index (Indexieren)
+- read (Lesen)
+- archive (Archivieren)
+- distribute ((Ver)teilen)
+- move (Übertragen der Daten)
+
+**Eingeschränkte Nutzungsarten**:
+
+- Keine
 
 #### XML
 

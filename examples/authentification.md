@@ -1,8 +1,20 @@
 # Zugang nur nach Authentifizierung
 
-| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
-| :------- | :--------- | :--------- |
-| displaymetadata<br/><br/>index<br/><br/>archive | Authentifizierung | read<br/><br/>download<br/><br/>print |
+**Uneingeschränkte Nutzungsarten**:
+
+- displaymetadata (Anzeigen der Metadaten)
+- index (Indexieren)
+- archive (Archivieren)
+
+**Eingeschränkte Nutzungsarten**:
+
+- read (Lesen)
+- download (Herunterladen)
+- print (Ausdrucken)
+
+**Art der Einschränkung**:
+
+- group (Gruppe)
 
 #### XML
 

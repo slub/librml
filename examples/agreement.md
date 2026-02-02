@@ -1,8 +1,26 @@
 # Zugang nur nach Abschluss eines Nutzungsvertrags
 
-| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
-| :------- | :--------- | :--------- |
-| displaymetadata<br/><br/>index<br/><br/>archive | Nutzungsvertrag | read<br/><br/>download<br/><br/>print<br/><br/>reproduce<br/><br/>modify<br/><br/>reuse<br/><br/>distribute<br/><br/>publish<br/><br/>move |
+**Uneingeschränkte Nutzungsarten**:
+
+- displaymetadata (Anzeigen der Metadaten)
+- index (Indexieren)
+- archive (Archivieren)
+
+**Eingeschränkte Nutzungsarten**:
+
+- read (Lesen)
+- download (Herunterladen)
+- print (Ausdrucken)
+- reproduce (Vervielfältigen)
+- modify (Bearbeiten)
+- reuse (Wiederverwenden)
+- distribute ((Ver)teilen)
+- publish (Veröffentlichen oder vorführen)
+- move (Übertragen der Daten)
+
+**Art der Einschränkung**:
+
+- agreement (Einwilligung)
 
 #### XML
 
