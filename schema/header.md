@@ -18,11 +18,11 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 |**commercialuse**| Kommerzielle Nutzung erlaubt | true/false | optional |
 |**copyright**| Urheberrechtsschutz vorhanden | true/false | optional |
 
-Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](.. /templates/templates.md), auf der die Beschreibung aufbaut, zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](.. /templates/templates.md) ist der Wert in der Regel vorausgefüllt.
+Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../templates/templates.md), auf der die Beschreibung aufbaut, zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../templates/templates.md) ist der Wert in der Regel vorausgefüllt.
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
-|**template**| Name der ursprünglich angewendeten [Vorlage](.. /templates/templates.md) | String | optional |
+|**template**| Name der ursprünglich angewendeten [Vorlage](../templates/templates.md) | String | optional |
 |**usageguide**| URL, die auf die zugehörigen Nutzungshinweise verweist | URI | optional |
 
 ----
