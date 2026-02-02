@@ -16,11 +16,11 @@
 
 Prüfung: MODS enthält in den dafür vorgesehenen und konfigurierten Elementen folgende Werte
 
-- `./mods:accessCondition[@type="use and reproduction"]/@xlink:href` contains `creativecommons.org/publicdomain/mark/1.0`
+- `./mods:accessCondition[@type="use and reproduction"] contains `Public Domain Mark 1.0`
 - AND
-- `./mods:accessCondition[@type="local terms of use"]/@xlink:href` contains `nutzungshinweis.slub-dresden.de/ez-am-pr/1.0`
+- `./mods:accessCondition[@type="local terms of use"]` contains `Eingeschränkter Zugang - Arbeitsplätze Mediathek - Persönlichkeitsrecht 1.0`
 - AND
-- `./mods:accessCondition[@type="restriction on access"]/@xlink:href` contains `purl.org/coar/access_right/c_16ec`
+- `./mods:accessCondition[@type="restriction on access"]` contains `Restricted Access`
 
 ### Maschinenlesbare Rechteinformationen
 
@@ -54,11 +54,11 @@ Ist die Prüfung positiv, werden die zugehörigen gültigen Beschränkungen im L
 
 Prüfung: MODS enthält in den dafür vorgesehenen und konfigurierten Elementen folgende Werte
 
-- `./mods:accessCondition[@type="use and reproduction"]/@xlink:href` contains `rightsstatements.org/vocab/InC/1.0`
+- `./mods:accessCondition[@type="use and reproduction"]` contains `Urheberrechtsschutz 1.0`
 - AND
-- `./mods:accessCondition[@type="local terms of use"]/@xlink:href` contains `nutzungshinweis.slub-dresden.de/ez-am/1.0`
+- `./mods:accessCondition[@type="local terms of use"]` contains `Eingeschränkter Zugang - Arbeitsplätze Mediathek 1.0`
 - AND
-- `./mods:accessCondition[@type="restriction on access"]/@xlink:href` contains `purl.org/coar/access_right/c_16ec`
+- `./mods:accessCondition[@type="restriction on access"]` contains `Restricted Access`
 
 ### Maschinenlesbare Rechteinformationen
 
@@ -91,9 +91,9 @@ Ist die Prüfung positiv, werden die zugehörigen gültigen Beschränkungen im L
 
 Prüfung: MODS enthält in den dafür vorgesehenen und konfigurierten Elementen folgende Werte
 
-- `./mods:accessCondition[@type="use and reproduction"]/@xlink:href` contains `creativecommons.org/publicdomain/mark/1.0`
+- `./mods:accessCondition[@type="use and reproduction"]` contains `Public Domain Mark 1.0`
 - AND
-- `./mods:accessCondition[@type="restriction on access"]/@xlink:href` contains `purl.org/coar/access_right/c_abf2`
+- `./mods:accessCondition[@type="restriction on access"]` contains `Open Access`
 
 ### Maschinenlesbare Rechteinformationen
 
@@ -111,4 +111,4 @@ Ist die Prüfung positiv, werden die zugehörigen gültigen Beschränkungen im L
 </libRML:libRML>
 ```
 
-**ACHTUNG**: In den LibRML-Vorlagen wird PDM 1.0 derzeit mit allen in LibRML verfügbaren Nutzungsarten beschrieben (https://librml.org/templates/PDMark1.html).
+**ACHTUNG**: In den LibRML-Vorlagen wird PDM 1.0 derzeit mit allen in LibRML verfügbaren Nutzungsarten beschrieben: https://librml.org/templates/PDMark1.html.
