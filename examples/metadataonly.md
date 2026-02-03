@@ -1,8 +1,13 @@
 # Zugang nur zu Metadaten
 
-| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
-| :------- | :--------- | :--------- |
-| displaymetadata<br/><br/>index | Keine | Keine |
+**Uneingeschränkte Nutzungsarten**:
+
+- displaymetadata (Anzeigen der Metadaten)
+- index (Indexieren)
+
+**Eingeschränkte Nutzungsarten**:
+
+- Keine
 
 #### XML
 

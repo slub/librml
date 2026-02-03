@@ -1,8 +1,20 @@
 # Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)
 
-| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
-| :------- | :--------- | :--------- |
-| displaymetadata<br/><br/>index<br/><br/>archive | Einrichtung (IP-Bereich)| read<br/><br/>download<br/><br/>print |
+**Uneingeschränkte Nutzungsarten**:
+
+- displaymetadata (Anzeigen der Metadaten)
+- index (Indexieren)
+- archive (Archivieren)
+
+**Eingeschränkte Nutzungsarten**:
+
+- read (Lesen)
+- download (Ausdrucken)
+- print (Herunterladen)
+
+**Art der Einschränkung**:
+
+- location (ortsspezifisch)
 
 #### XML
 

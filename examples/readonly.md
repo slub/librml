@@ -1,8 +1,15 @@
 # Nur zur Ansicht, aber keine Speicher- oder Druckmöglichkeit
 
-| Zugelassene Actions | Constraint | Durch diese Constraint ermöglichte Action |
-| :------- | :--------- | :--------- |
-| displaymetadata<br/><br/>index<br/><br/>read<br/><br/>archive | Keine | Keine |
+**Uneingeschränkte Nutzungsarten**:
+
+- displaymetadata (Anzeigen der Metadaten)
+- index (Indexieren)
+- read (Lesen)
+- archive (Archivieren)
+
+**Eingeschränkte Nutzungsarten**:
+
+- Keine
 
 #### XML
 
