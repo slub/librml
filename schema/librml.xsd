@@ -75,6 +75,7 @@
                     <xs:enumeration value="watermark" />
                     <xs:enumeration value="quality" />
                     <xs:enumeration value="agreement" />
+                    <xs:enumeration value="mets" />
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -103,5 +104,7 @@
         <xs:attribute type="xs:boolean" name="required" />
         <xs:attribute type="xs:positiveInteger" name="parts" />
         <xs:attribute type="xs:NMTOKENS" name="groups" />
+        <xs:attribute type="xs:NMTOKENS" name="fileformats" />
+        <xs:attribute type="xs:NMTOKENS" name="filegroups" />
     </xs:complexType>
 </xs:schema>
