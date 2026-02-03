@@ -72,6 +72,7 @@
                     <xs:enumeration value="duration" />
                     <xs:enumeration value="group" />
                     <xs:enumeration value="location" />
+                    <xs:enumeration value="mets" />
                     <xs:enumeration value="parts" />
                     <xs:enumeration value="quality" />
                     <xs:enumeration value="watermark" />
@@ -81,6 +82,7 @@
         <xs:attributeGroup ref="libRML:ageattr" />
         <xs:attributeGroup ref="libRML:datattr" />
         <xs:attributeGroup ref="libRML:locattr" />
+        <xs:attributeGroup ref="libRML:metsattr" />
         <xs:attributeGroup ref="libRML:qltattr" />
         <xs:attribute type="xs:positiveInteger" name="count" />
         <xs:attribute type="xs:NMTOKENS" name="groups" />
@@ -114,6 +116,10 @@
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="metsattr">
+        <xs:attribute type="xs:NMTOKENS" name="fileformats" />
+        <xs:attribute type="xs:NMTOKENS" name="filegroups" />
     </xs:attributeGroup>
     <xs:attributeGroup name="qltattr">
         <xs:attribute type="xs:positiveInteger" name="maxresolution" />
