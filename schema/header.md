@@ -39,16 +39,12 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../templates
 Ein urheberrechtsgeschütztes digitales Objekt, das im Kontext der SLUB Dresden lizenziert ist. Das digitale Objekt erfordert eine Namensnennung; Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
 So einem digitalen Objekt würde folgende LibRML zugewiesen werden.
 
-**XML**
-
 ```xml
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item id="id-123456" tenant="https://www.slub-dresden.de/" mention="true" sharealike="true" copyright="true">
   </item>
 </libRML>
 ```
-
-**JSON**
 
 ```json
 {
