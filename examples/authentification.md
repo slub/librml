@@ -16,8 +16,6 @@
 
 - group (Gruppe)
 
-#### XML
-
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
@@ -37,8 +35,6 @@
   </item>
 </libRML>
 ```
-
-#### JSON
 
 ```json
 {

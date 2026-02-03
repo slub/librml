@@ -12,8 +12,6 @@ Hinweis:
 - Es wird eine Bereitstellung des Objekts in einem Open Access-Repositorium angenommen, die frei zugänglich und speicherbar ist. Die Weiterverwendung und Anpassung ist nur in Abstimmung mit dem Urheber oder der Urheberin möglich. Schranken des Urheberechts werden nicht berücksichtigt.
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
-#### XML
-
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
@@ -27,8 +25,6 @@ Hinweis:
   </item>
 </libRML>
 ```
-
-#### JSON
 
 ```json
 {
