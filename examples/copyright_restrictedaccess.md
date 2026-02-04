@@ -12,8 +12,6 @@ Hinweis:
 - Es wird eine Bereitstellung des Objekts entsprechend [Bereitstellung digitaler Dokumente, die dem Urheberrecht unterliegen](https://wiki.dnb.de/pages/viewpage.action?pageId=212780202) beschrieben.
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
-#### XML
-
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
@@ -27,8 +25,6 @@ Hinweis:
     </item>
 </libRML>
 ```
-
-#### JSON
 
 ```json
 {

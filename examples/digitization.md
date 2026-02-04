@@ -15,8 +15,6 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
 
 - Keine
 
-#### XML
-
 ```xml
 <?xml version="1.0" ?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
@@ -30,8 +28,6 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
     </item>
 </libRML>
 ```
-
-#### JSON
 
 ```json
 {
