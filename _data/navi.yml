@@ -36,7 +36,7 @@ toc:
     subnav:
       - title: Übersicht
         url: examples.html
-      - title: Reine Metadatenanzeige
+      - title: Anzeige der Metadaten
         url: metadataonly.html
       - title: Authentifizierung
         url: authentification.html
@@ -44,7 +44,7 @@ toc:
         url: agreement.html
       - title: IP-Adressbereich
         url: location.html
-      - title: Reine Anzeige
+      - title: Anzeige des Objekts
         url: readonly.html
       - title: Beschränkung gleichzeitiger Zugriffe
         url: concurrent.html

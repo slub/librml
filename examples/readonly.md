@@ -1,4 +1,6 @@
-# Nur zur Ansicht, aber keine Speicher- oder Druckmöglichkeit
+# Anzeige des Objekts
+
+Zugang zum Objekt zur Ansicht ohne weitere Nutzungsmöglichkeiten, wie Speichern oder Drucken. 
 
 **Uneingeschränkte Nutzungsarten**:
 
