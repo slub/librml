@@ -2,6 +2,8 @@
 
 # Nachlass Herbert Collum
 
+Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/na-he-co/1.0/> zusammengefasst sind.
+
 ## Beispiel A: aktuelles LibRML
 
 Umsetzung mit dem derzeit gültigen LibRML-Modell

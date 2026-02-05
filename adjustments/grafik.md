@@ -2,6 +2,8 @@
 
 # Gebrauchs- und Reklamegrafik
 
+Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/ge-re/1.0/> zusammengefasst sind.
+
 ## Beispiel A: aktuelles LibRML
 
 Umsetzung mit dem derzeit gültigen LibRML-Modell

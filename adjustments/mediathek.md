@@ -2,6 +2,8 @@
 
 # Eingeschränkter Zugang - Arbeitsplätze Mediathek
 
+Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/ez-am/1.0/> zusammengefasst sind.
+
 ## Beispiel A: aktuelles LibRML
 
 Umsetzung mit dem derzeit gültigen LibRML-Modell
