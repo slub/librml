@@ -24,6 +24,8 @@ Im [**Header**](header.md) werden allgemeine Informationen und allgemeine Eigens
 
 Nach dem [**Header**](header.md) werden die [**Nutzungsarten**](actions.md) beschrieben, die durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) spezifiziert werden. In LibRML werden nur **erlaubte Nutzungsarten** beschrieben. Nutzungsarten, die nicht in der LibRML-Beschreibung des digitalen Objekts enthalten sind, sind **verboten**.
 
+Die aktuellen Schemata für die XML- und JSON-Repräsentationen können [hier](schemas.md) eingesehen werden.
+
 ## Beispiel
 
 Ein urheberrechtlich geschütztes digitales Objekt der [SLUB Dresden](https://www.slub-dresden.de/) darf unter anderem indexiert, archiviert und gelesen werden. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. Nicht erlaubt ist das Herunterladen, Ausdrucken, Vervielfältigen, Bearbeiten, Wiederverwenden und Veröffentlichen des digitalen Objekts.

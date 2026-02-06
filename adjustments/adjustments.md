@@ -1,4 +1,4 @@
-# Anpassung LibRML für Retrodigitalisate
+# Erweiterungen von LibRML für Retrodigitalisate
 
 In dieser Diskussion wird untersucht, ob und wie LibRML für Retrodigitalisate angepasst werden kann.
 Grundlage ist [Untersuchung - LibRML - Anforderungen für Retrodigitalisate (SLUB Dresden)](https://wiki.dnb.de/x/XdgtFw), insbesondere [Untersuchung - 02-02 LibRML | Neue Elemente für Retrodigitalisate](https://wiki.dnb.de/x/bNgtFw).
