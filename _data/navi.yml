@@ -21,7 +21,7 @@ toc:
         - title: Erweiterungen
           url: /adjustments/adjustments.html
         - title: Schemata
-          url: xsdschema.html
+          url: schemas.html
   - title: Anwendung
     path: /usage/
     url: usage.html
