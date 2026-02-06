@@ -18,6 +18,10 @@ toc:
           url: attributes.html
         - title: Abhängigkeiten
           url: dependencies.html
+        - title: Erweiterungen
+          url: /adjustments/adjustments.html
+        - title: Schemata
+          url: xsdschema.html
   - title: Anwendung
     path: /usage/
     url: usage.html
