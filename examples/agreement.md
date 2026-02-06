@@ -1,4 +1,6 @@
-# Zugang nur nach Abschluss eines Nutzungsvertrags
+# Einwilligung
+
+Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nutzungsvertrags oder Bestätigung von Nutzungsbestimmungen. 
 
 **Uneingeschränkte Nutzungsarten**:
 
