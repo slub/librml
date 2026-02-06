@@ -42,7 +42,7 @@ Umsetzung mit einem angepassten LibRML-Modell
 <mets:mets xmlns:mets="http://www.loc.gov/METS/">
     <mets:metsHdr CREATEDATE="2023-05-15T14:10:06.000+02:00" LASTMODDATE="2025-11-06T07:20:31.561+01:00"/>
     <mets:amdSec ID="AMD">
-        <mets:rightsMD ID="RMD1">
+        <mets:rightsMD ID="LibRML">
             <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-he-co/1-0">
