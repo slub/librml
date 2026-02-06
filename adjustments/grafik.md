@@ -39,7 +39,7 @@ Umsetzung mit einem angepassten LibRML-Modell
     <mets:amdSec ID="AMD">
         <mets:rightsMD ID="RMD1">
             <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
-                <libRML:libRML xmlns:libRML="https://librml.org/index.html">
+                <libRML:libRML xmlns:libRML="https://librml.org/schema">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ge-re/1.0/">
                         <libRML:action type="displaymetadata" permission="true">
                             <libRML:restriction type="mets" sections="amdSec dmdSec structMap"/>
