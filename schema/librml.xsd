@@ -60,7 +60,7 @@
     </xs:complexType>
 
     <!-- RestrictionType -->
-    <xs:complexType name="RestrictionType" mixed="true">
+    <xs:complexType name="RestrictionType">
         <xs:attribute name="type" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:NMTOKEN">
