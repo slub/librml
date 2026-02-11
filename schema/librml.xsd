@@ -11,9 +11,9 @@
     <xs:complexType name="libRMLType">
         <!-- Contains only 1 subelement and a string 'version' -->
         <xs:sequence>
-            <xs:element type="libRML:ItemType" name="item" minOccurs="1" maxOccurs="1" />
+            <xs:element type="libRML:ItemType" name="item" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
-        <xs:attribute type="xs:string" name="version" />
+        <xs:attribute type="xs:string" name="version"/>
     </xs:complexType>
 
     <!-- itemType - has many actions and some attributes -->
@@ -21,20 +21,20 @@
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
             <xs:element type="libRML:ActionType" name="action" />
         </xs:sequence>
-        <xs:attribute type="xs:NMTOKEN" name="id" />
-        <xs:attribute type="xs:anyURI" name="tenant" />
-        <xs:attribute type="xs:boolean" name="mention" />
-        <xs:attribute type="xs:boolean" name="sharealike" />
-        <xs:attribute type="xs:boolean" name="commercialuse" />
-        <xs:attribute type="xs:boolean" name="copyright" />
-        <xs:attribute type="xs:string" name="template" />
-        <xs:attribute type="xs:anyURI" name="usageguide" />
+        <xs:attribute type="xs:NMTOKEN" name="id"/>
+        <xs:attribute type="xs:anyURI" name="tenant"/>
+        <xs:attribute type="xs:boolean" name="mention"/>
+        <xs:attribute type="xs:boolean" name="sharealike"/>
+        <xs:attribute type="xs:boolean" name="commercialuse"/>
+        <xs:attribute type="xs:boolean" name="copyright"/>
+        <xs:attribute type="xs:string" name="template"/>
+        <xs:attribute type="xs:anyURI" name="usageguide"/>
     </xs:complexType>
 
     <!-- ActionType - has many restrictions and some attributes -->
     <xs:complexType name="ActionType">
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
-            <xs:element type="libRML:RestrictionType" name="restriction" />
+            <xs:element type="libRML:RestrictionType" name="restriction"/>
         </xs:sequence>
         <xs:attribute name="type" use="required">
             <xs:simpleType>
@@ -56,7 +56,7 @@
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <xs:attribute type="xs:boolean" name="permission" use="required" />
+        <xs:attribute type="xs:boolean" name="permission" use="required"/>
     </xs:complexType>
 
     <!-- RestrictionType -->
