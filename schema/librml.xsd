@@ -1,62 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://librml.org/schema"
-    xmlns:libRML="http://librml.org/schema"
-    attributeFormDefault="unqualified"
-    elementFormDefault="qualified"
-    version="0.4.0">
-    <xs:element name="libRML" type="libRML:libRMLType" />
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://librml.org/schema"
+    xmlns:libRML="http://librml.org/schema" attributeFormDefault="unqualified"
+    elementFormDefault="qualified" version="0.4.0"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1">
+    <xs:element name="libRML" type="libRML:libRMLType"/>
 
     <!-- libRMLType - Container for all -->
     <xs:complexType name="libRMLType">
         <!-- Contains only 1 subelement and a string 'version' -->
         <xs:sequence>
-            <xs:element type="libRML:ItemType" name="item" minOccurs="1" maxOccurs="1" />
+            <xs:element type="libRML:ItemType" name="item" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
-        <xs:attribute type="xs:string" name="version" />
+        <xs:attribute type="xs:string" name="version"/>
     </xs:complexType>
 
     <!-- itemType - has many actions and some attributes -->
     <xs:complexType name="ItemType">
         <xs:sequence minOccurs="1" maxOccurs="unbounded">
-            <xs:element type="libRML:ActionType" name="action" />
+            <xs:element type="libRML:ActionType" name="action"/>
         </xs:sequence>
-        <xs:attribute type="xs:NMTOKEN" name="id" />
-        <xs:attribute type="xs:anyURI" name="tenant" />
-        <xs:attribute type="xs:boolean" name="mention" />
-        <xs:attribute type="xs:boolean" name="sharealike" />
-        <xs:attribute type="xs:boolean" name="commercialuse" />
-        <xs:attribute type="xs:boolean" name="copyright" />
-        <xs:attribute type="xs:string" name="template" />
-        <xs:attribute type="xs:anyURI" name="usageguide" />
+        <xs:attribute type="xs:NMTOKEN" name="id"/>
+        <xs:attribute type="xs:anyURI" name="tenant"/>
+        <xs:attribute type="xs:boolean" name="mention"/>
+        <xs:attribute type="xs:boolean" name="sharealike"/>
+        <xs:attribute type="xs:boolean" name="commercialuse"/>
+        <xs:attribute type="xs:boolean" name="copyright"/>
+        <xs:attribute type="xs:string" name="template"/>
+        <xs:attribute type="xs:anyURI" name="usageguide"/>
     </xs:complexType>
 
     <!-- ActionType - has many restrictions and some attributes -->
     <xs:complexType name="ActionType">
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
-            <xs:element type="libRML:RestrictionType" name="restriction" />
+            <xs:element type="libRML:RestrictionType" name="restriction"/>
         </xs:sequence>
         <xs:attribute name="type" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:NMTOKEN">
-                    <xs:enumeration value="displaymetadata" />
-                    <xs:enumeration value="read" />
-                    <xs:enumeration value="run" />
-                    <xs:enumeration value="lend" />
-                    <xs:enumeration value="download" />
-                    <xs:enumeration value="print" />
-                    <xs:enumeration value="reproduce" />
-                    <xs:enumeration value="modify" />
-                    <xs:enumeration value="reuse" />
-                    <xs:enumeration value="distribute" />
-                    <xs:enumeration value="publish" />
-                    <xs:enumeration value="archive" />
-                    <xs:enumeration value="index" />
-                    <xs:enumeration value="move" />
+                    <xs:enumeration value="displaymetadata"/>
+                    <xs:enumeration value="read"/>
+                    <xs:enumeration value="run"/>
+                    <xs:enumeration value="lend"/>
+                    <xs:enumeration value="download"/>
+                    <xs:enumeration value="print"/>
+                    <xs:enumeration value="reproduce"/>
+                    <xs:enumeration value="modify"/>
+                    <xs:enumeration value="reuse"/>
+                    <xs:enumeration value="distribute"/>
+                    <xs:enumeration value="publish"/>
+                    <xs:enumeration value="archive"/>
+                    <xs:enumeration value="index"/>
+                    <xs:enumeration value="move"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <xs:attribute type="xs:boolean" name="permission" use="required" />
+        <xs:attribute type="xs:boolean" name="permission" use="required"/>
     </xs:complexType>
 
     <!-- RestrictionType -->
@@ -64,44 +62,56 @@
         <xs:attribute name="type" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:NMTOKEN">
-                    <xs:enumeration value="parts" />
-                    <xs:enumeration value="group" />
-                    <xs:enumeration value="age" />
-                    <xs:enumeration value="location" />
-                    <xs:enumeration value="date" />
-                    <xs:enumeration value="duration" />
-                    <xs:enumeration value="count" />
-                    <xs:enumeration value="concurrent" />
-                    <xs:enumeration value="watermark" />
-                    <xs:enumeration value="quality" />
-                    <xs:enumeration value="agreement" />
+                    <xs:enumeration value="parts"/>
+                    <xs:enumeration value="group"/>
+                    <xs:enumeration value="age"/>
+                    <xs:enumeration value="location"/>
+                    <xs:enumeration value="date"/>
+                    <xs:enumeration value="duration"/>
+                    <xs:enumeration value="count"/>
+                    <xs:enumeration value="concurrent"/>
+                    <xs:enumeration value="watermark"/>
+                    <xs:enumeration value="quality"/>
+                    <xs:enumeration value="agreement"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <xs:attribute type="xs:date" name="fromdate" />
-        <xs:attribute type="xs:date" name="todate" />
-        <xs:attribute type="xs:positiveInteger" name="maxresolution" />
-        <xs:attribute type="xs:string" name="maxbitrate" />
-        <xs:attribute type="xs:positiveInteger" name="count" />
-        <xs:attribute type="xs:positiveInteger" name="sessions" />
-        <xs:attribute type="xs:Name" name="inside" />
+        <xs:attributeGroup ref="libRML:ageattr"/>
+        <xs:attributeGroup ref="libRML:datattr"/>
+        <xs:attributeGroup ref="libRML:locattr"/>
+        <xs:attribute type="xs:positiveInteger" name="maxresolution"/>
+        <xs:attribute type="xs:string" name="maxbitrate"/>
+        <xs:attribute type="xs:positiveInteger" name="count"/>
+        <xs:attribute type="xs:positiveInteger" name="sessions"/>
+        <xs:attribute type="xs:string" name="watermarkvalue"/>
+        <xs:attribute type="xs:positiveInteger" name="duration"/>
+        <xs:attribute type="xs:boolean" name="required"/>
+        <xs:attribute type="xs:positiveInteger" name="parts"/>
+        <xs:attribute type="xs:NMTOKENS" name="groups"/>
+    </xs:complexType>
+    <xs:attributeGroup name="ageattr">
+        <xs:attribute type="xs:positiveInteger" name="minage"/>
+        <xs:attribute type="xs:positiveInteger" name="maxage"/>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="datattr">
+        <xs:attribute type="xs:date" name="fromdate"/>
+        <xs:attribute type="xs:date" name="todate"/>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="locattr">
+        <xs:attribute type="xs:Name" name="inside"/>
+        <xs:attribute type="xs:Name" name="outside"/>
         <xs:attribute name="subnet">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
                     <!-- Regex for IPV4 incl. CDIR -->
-                    <xs:pattern value="((1?\d?\d|2[0-4]\d|25[0-5])\.){3}(1?\d?\d|2[0-4]\d|25[0-5])/(3[0-2]|[12]?\d)" />
+                    <xs:pattern
+                        value="((1?\d?\d|2[0-4]\d|25[0-5])\.){3}(1?\d?\d|2[0-4]\d|25[0-5])/(3[0-2]|[12]?\d)"/>
                     <!-- Regex for IPv6 -->
-                    <xs:pattern value="(([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}(:[0-9a-fA-F]{1,4}){1,6}|:((:[0-9a-fA-F]{1,4}){1,7}|:))/(12[0-8]|1[01][0-9]|[1-9][0-9]|[0-9])"/>
+                    <xs:pattern
+                        value="(([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}(:[0-9a-fA-F]{1,4}){1,6}|:((:[0-9a-fA-F]{1,4}){1,7}|:))/(12[0-8]|1[01][0-9]|[1-9][0-9]|[0-9])"
+                    />
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <xs:attribute type="xs:Name" name="outside" />
-        <xs:attribute type="xs:string" name="watermarkvalue" />
-        <xs:attribute type="xs:positiveInteger" name="duration" />
-        <xs:attribute type="xs:positiveInteger" name="minage" />
-        <xs:attribute type="xs:positiveInteger" name="maxage" />
-        <xs:attribute type="xs:boolean" name="required" />
-        <xs:attribute type="xs:positiveInteger" name="parts" />
-        <xs:attribute type="xs:NMTOKENS" name="groups" />
-    </xs:complexType>
+    </xs:attributeGroup>
 </xs:schema>
