@@ -7,9 +7,9 @@ Die folgenden Beispiele enthalten die Beschreibung häufig auftretender Zugriffs
 | [**Anzeige der Metadaten**](metadataonly.md) |
 | [**Authentifizierung**](authentification.md) |
 | [**Einwilligung**](agreement.md) |
-| [**Zugang nur innerhalb eines IP-Adressbereichs**](location.md) |
+| [**IP-Adressbereich**](location.md) |
 | [**Anzeige des Objekts**](readonly.md) |
-| [**Beschränkung auf eine bestimmte Menge gleichzeitiger Zugänge**](concurrent.md) |
-| [**Digitales Objekt zur Präsentation und nicht-kommerziellen Nutzung**](digitization.md) |
-| [**Copyright  Open Access**](copyright_openaccess.md) |
+| [**Gleichzeitiger Zugriff**](concurrent.md) |
+| [**Nicht-kommerzielle Nutzung**](digitization.md) |
+| [**Copyright - Open Access**](copyright_openaccess.md) |
 | [**Copyright - Restricted Access**](copyright_restrictedaccess.md) |
