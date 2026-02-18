@@ -1,4 +1,5 @@
-# Beschränkung auf eine bestimmte Menge gleichzeitiger Zugänge
+# Gleichzeitiger Zugriff
+Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschränkt. 
 
 **Uneingeschränkte Nutzungsarten**:
 

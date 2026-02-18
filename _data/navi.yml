@@ -50,7 +50,7 @@ toc:
         url: location.html
       - title: Anzeige des Objekts
         url: readonly.html
-      - title: Beschränkung gleichzeitiger Zugriffe
+      - title: Gleichzeitiger Zugriff
         url: concurrent.html
       - title: Nicht-kommerzielle Nutzung
         url: digitization.html
