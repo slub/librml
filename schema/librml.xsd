@@ -81,8 +81,7 @@
         <xs:attributeGroup ref="libRML:ageattr" />
         <xs:attributeGroup ref="libRML:datattr" />
         <xs:attributeGroup ref="libRML:locattr" />
-        <xs:attribute type="xs:positiveInteger" name="maxresolution" />
-        <xs:attribute type="xs:string" name="maxbitrate" />
+        <xs:attributeGroup ref="libRML:qltattr" />
         <xs:attribute type="xs:positiveInteger" name="count" />
         <xs:attribute type="xs:positiveInteger" name="sessions" />
         <xs:attribute type="xs:string" name="watermarkvalue" />
@@ -115,5 +114,9 @@
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
+    </xs:attributeGroup>
+    <xs:attributeGroup name="qltattr">
+        <xs:attribute type="xs:positiveInteger" name="maxresolution" />
+        <xs:attribute type="xs:positiveInteger" name="maxbitrate" />
     </xs:attributeGroup>
 </xs:schema>
