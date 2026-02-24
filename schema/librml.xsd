@@ -39,20 +39,20 @@
         <xs:attribute name="type" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:NMTOKEN">
-                    <xs:enumeration value="displaymetadata" />
-                    <xs:enumeration value="read" />
-                    <xs:enumeration value="run" />
-                    <xs:enumeration value="lend" />
-                    <xs:enumeration value="download" />
-                    <xs:enumeration value="print" />
-                    <xs:enumeration value="reproduce" />
-                    <xs:enumeration value="modify" />
-                    <xs:enumeration value="reuse" />
-                    <xs:enumeration value="distribute" />
-                    <xs:enumeration value="publish" />
                     <xs:enumeration value="archive" />
+                    <xs:enumeration value="displaymetadata" />
+                    <xs:enumeration value="distribute" />
+                    <xs:enumeration value="download" />
                     <xs:enumeration value="index" />
+                    <xs:enumeration value="lend" />
+                    <xs:enumeration value="modify" />
                     <xs:enumeration value="move" />
+                    <xs:enumeration value="print" />
+                    <xs:enumeration value="publish" />
+                    <xs:enumeration value="read" />
+                    <xs:enumeration value="reproduce" />
+                    <xs:enumeration value="reuse" />
+                    <xs:enumeration value="run" />
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -64,17 +64,17 @@
         <xs:attribute name="type" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:NMTOKEN">
-                    <xs:enumeration value="parts" />
-                    <xs:enumeration value="group" />
                     <xs:enumeration value="age" />
-                    <xs:enumeration value="location" />
+                    <xs:enumeration value="agreement" />
+                    <xs:enumeration value="concurrent" />
+                    <xs:enumeration value="count" />
                     <xs:enumeration value="date" />
                     <xs:enumeration value="duration" />
-                    <xs:enumeration value="count" />
-                    <xs:enumeration value="concurrent" />
-                    <xs:enumeration value="watermark" />
+                    <xs:enumeration value="group" />
+                    <xs:enumeration value="location" />
+                    <xs:enumeration value="parts" />
                     <xs:enumeration value="quality" />
-                    <xs:enumeration value="agreement" />
+                    <xs:enumeration value="watermark" />
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -83,12 +83,12 @@
         <xs:attributeGroup ref="libRML:locattr" />
         <xs:attributeGroup ref="libRML:qltattr" />
         <xs:attribute type="xs:positiveInteger" name="count" />
+        <xs:attribute type="xs:positiveInteger" name="duration" />
+        <xs:attribute type="xs:NMTOKENS" name="groups" />
+        <xs:attribute type="xs:positiveInteger" name="parts" />
+        <xs:attribute type="xs:boolean" name="required" />
         <xs:attribute type="xs:positiveInteger" name="sessions" />
         <xs:attribute type="xs:string" name="watermarkvalue" />
-        <xs:attribute type="xs:positiveInteger" name="duration" />
-        <xs:attribute type="xs:boolean" name="required" />
-        <xs:attribute type="xs:positiveInteger" name="parts" />
-        <xs:attribute type="xs:NMTOKENS" name="groups" />
     </xs:complexType>
     <xs:attributeGroup name="ageattr">
         <xs:attribute type="xs:positiveInteger" name="minage" />
