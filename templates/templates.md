@@ -6,7 +6,8 @@ Vorlagen (sogenannte ''Templates''') werden bereitgestellt, um die Erfassung von
 
 | Name / Link | Beschreibung | Typ |
 | :----- | :---- | :---: |
-| [CC0](CC0.md) | Creative Commons – Kein Urheberrechtsschutz | Creative Commons |
+| [PDM 1.0](PDM1.md) | Creative Commons – Kein Urheberrechtsschutz | Creative Commons |
+| [CC0 1.0](CC0.md) | Creative Commons – Kein Urheberrechtsschutz | Creative Commons |
 | [CC BY 4.0](CCBY4.md) | Creative Commons – Namensnennung 4.0 International | Creative Commons |
 | [CC BY-SA 4.0](CCBYSA4.md) | Creative Commons – Namensnennung-Share Alike 4.0 International | Creative Commons |
 | [CC BY-ND 4.0](CCBYND4.md) | Creative Commons – Namensnennung-Keine Bearbeitungen 4.0 International | Creative Commons |
