@@ -16,7 +16,7 @@
 
 Prüfung: MODS enthält in den dafür vorgesehenen und konfigurierten Elementen folgende Werte
 
-- `./mods:accessCondition[@type="use and reproduction"] contains `Public Domain Mark 1.0`
+- `./mods:accessCondition[@type="use and reproduction"]` contains `Public Domain Mark 1.0`
 - AND
 - `./mods:accessCondition[@type="local terms of use"]` contains `Eingeschränkter Zugang - Arbeitsplätze Mediathek - Persönlichkeitsrecht 1.0`
 - AND
