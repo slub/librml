@@ -1,5 +1,6 @@
 # IP-Adressbereich
-Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campusnetz. 
+
+Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campusnetz.
 
 **Uneingeschränkte Nutzungsarten**:
 

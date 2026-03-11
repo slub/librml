@@ -17,4 +17,3 @@ In der folgendenden Tabelle sind die erlaubten Kombinationen von Einschränkunge
 | parts | parts | alle außer `displaymetadata` `index` |
 | quality | maxbitrate <br> maxresolution | alle außer `archive` `displaymetadata` `index` `move` |
 | watermark | watermarkvalue | alle außer `displaymetadata` |
-

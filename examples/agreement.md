@@ -1,6 +1,6 @@
 # Einwilligung
 
-Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nutzungsvertrags oder Bestätigung von Nutzungsbestimmungen. 
+Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nutzungsvertrags oder Bestätigung von Nutzungsbestimmungen.
 
 **Uneingeschränkte Nutzungsarten**:
 

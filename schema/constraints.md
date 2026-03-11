@@ -42,7 +42,6 @@ In LibRML stehen folgende Einschränkung zur Verfügung.
 | quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | [→&nbsp;Quality](#quality) |
 | watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung des digitalen Objekts mit einem Wasserzeichen oder einer anderen Markierung. | [→&nbsp;Watermark](#watermark) |
 
-
 ## Beispiele
 
 ### Parts
