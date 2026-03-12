@@ -37,7 +37,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 | date | Zeitpunkt | Einschränkung ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | [→&nbsp;Date](#date) |
 | duration | Dauer | Einschränkung auf eine bestimmte Zeitdauer. | [→&nbsp;Duration](#duration) |
 | group | Gruppe | Einschränkung auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group) |
-| location | Ort | Einschränkung auf ein bestimmtes Gebiet (z. B. Deutschland)oder auf eine bestimmte Einrichtung (z. B. SLUB Dresden). | [→&nbsp;Location](#location) |
+| location | Ort | Einschränkung auf ein bestimmtes Gebiet (z. B. `Deutschland`)oder auf eine bestimmte Einrichtung (z. B. `SLUB`). | [→&nbsp;Location](#location) |
 | parts | Teile | Einschränkung auf bestimmte Teile des digitalen Objekts. | [→&nbsp;Parts](#parts) |
 | quality | Qualität | Einschränkung auf eine maximale Qualität. | [→&nbsp;Quality](#quality) |
 | watermark | Wasserzeichen | Einschränkung auf eine Kennzeichnung des digitalen Objekts mit einem Wasserzeichen oder einer anderen Markierung. | [→&nbsp;Watermark](#watermark) |
