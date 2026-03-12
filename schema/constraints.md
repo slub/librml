@@ -30,17 +30,17 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 
 | Constraint-Name | Übersetzung | Beschreibung | Beispiel |
 | :-------------- | :--------- | :---------- |:------- |
-| age | Alter | Einschränkung der Action auf Nutzer eines bestimmten Alters. | [→&nbsp;Age](#age) |
-| agreement | Einwilligung | Einschränkung der Action hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | [→&nbsp;Agreement](#agreement) |
-| concurrent | Gleichzeitig | Einschränkung der Action auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, … | [→&nbsp;Concurrent](#concurrent) |
-| count | Anzahl | Einschränkung der Action auf eine bestimmte Anzahl an Ausführungen, Benutzungen, … | [→&nbsp;Count](#count) |
-| date | Zeitpunkt | Einschränkung der Action ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | [→&nbsp;Date](#date) |
-| duration | Dauer | Einschränkung der Action auf eine bestimmte Zeitdauer. | [→&nbsp;Duration](#duration) |
-| group | Gruppe | Einschränkung der Action auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group) |
-| location | Ort | Geographisch (ein bestimmtes Gebiet z. B. Deutschland)<br/><br/>Institutionell (eine bestimmte Einrichtung z. B. SLUB Dresden). | [→&nbsp;Location](#location) |
-| parts | Teile | Einschränkung der Action auf bestimmte Teile des digitalen Objekts. | [→&nbsp;Parts](#parts) |
-| quality | Qualität | Einschränkung der Action auf eine maximale Qualität. | [→&nbsp;Quality](#quality) |
-| watermark | Wasserzeichen | Einschränkung der Action auf eine Kennzeichnung des digitalen Objekts mit einem Wasserzeichen oder einer anderen Markierung. | [→&nbsp;Watermark](#watermark) |
+| age | Alter | Einschränkung auf Nutzer eines bestimmten Alters. | [→&nbsp;Age](#age) |
+| agreement | Einwilligung | Einschränkung hinsichtlich eines Vertrags oder Zustimmung zu Nutzungsbedingungen. | [→&nbsp;Agreement](#agreement) |
+| concurrent | gleichzeitig | Einschränkung auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, o. Ä. | [→&nbsp;Concurrent](#concurrent) |
+| count | Anzahl | Einschränkung auf eine bestimmte Anzahl an Ausführungen, Benutzungen, o. Ä. | [→&nbsp;Count](#count) |
+| date | Zeitpunkt | Einschränkung ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | [→&nbsp;Date](#date) |
+| duration | Dauer | Einschränkung auf eine bestimmte Zeitdauer. | [→&nbsp;Duration](#duration) |
+| group | Gruppe | Einschränkung auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group) |
+| location | Ort | Einschränkung auf ein bestimmtes Gebiet (z. B. Deutschland)oder auf eine bestimmte Einrichtung (z. B. SLUB Dresden). | [→&nbsp;Location](#location) |
+| parts | Teile | Einschränkung auf bestimmte Teile des digitalen Objekts. | [→&nbsp;Parts](#parts) |
+| quality | Qualität | Einschränkung auf eine maximale Qualität. | [→&nbsp;Quality](#quality) |
+| watermark | Wasserzeichen | Einschränkung auf eine Kennzeichnung des digitalen Objekts mit einem Wasserzeichen oder einer anderen Markierung. | [→&nbsp;Watermark](#watermark) |
 
 ## Beispiele
 
