@@ -26,7 +26,7 @@ Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weite
 
 ## Liste
 
-In LibRML stehen folgende Einschränkung zur Verfügung.
+In LibRML stehen folgende Einschränkungen zur Verfügung.
 
 | Constraint-Name | Übersetzung | Beschreibung | Beispiel |
 | :-------------- | :--------- | :---------- |:------- |
