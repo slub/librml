@@ -26,7 +26,7 @@ In LibRML stehen folgende Eigenschaften zur Verfügung.
 | duration | Dauer eines Constraints | positive integer | **Einheit**: Sekunden |
 | fromdate | Start-Datum der Einschränkung | Datum | **Format**: ISO8601 (YYYY-MM-DD) |
 | groups | Gruppen, auf die eine Constraint zutrifft. | Tokenliste  | |
-| inside | Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution<br/><br/> | Name | |
+| inside | Nutzung innerhalb eines geographischen Gebiets oder innerhalb einer Institution | Name | |
 | maxage | Maximalalter für eine Action. Zum Beispiel in Einrichtungen genutzt, die Kinderbücher für Erwachsene unzugänglich machen. | positive integer | **Einheit**: Jahre |
 | maxbitrate | maximal erlaubte Bitrate für den Download eines digitalen Objekts | positive integer | **Einheit**: Bit |
 | maxresolution | maximal erlaubte Auflösung für den Download eines digitalen Objekts | positive integer | **Einheit**: DPI |
