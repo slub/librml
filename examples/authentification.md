@@ -1,6 +1,6 @@
 # Authentifizierung
 
-Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehörigkeit zu einer Gruppe beschrieben. 
+Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehörigkeit zu einer Gruppe beschrieben.
 
 **Uneingeschränkte Nutzungsarten**:
 

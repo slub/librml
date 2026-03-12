@@ -50,6 +50,8 @@ toc:
         url: location.html
       - title: Anzeige des Objekts
         url: readonly.html
+      - title: Embargofrist
+        url: embargo.html
       - title: Gleichzeitiger Zugriff
         url: concurrent.html
       - title: Nicht-kommerzielle Nutzung

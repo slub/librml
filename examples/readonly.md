@@ -1,6 +1,6 @@
 # Anzeige des Objekts
 
-Zugang zum Objekt zur Ansicht ohne weitere Nutzungsmöglichkeiten, wie Speichern oder Drucken. 
+Zugang zum Objekt zur Ansicht ohne weitere Nutzungsmöglichkeiten, wie Speichern oder Drucken.
 
 **Uneingeschränkte Nutzungsarten**:
 
