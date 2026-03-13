@@ -12,24 +12,25 @@ Somit sind im letztgenannten Anwendungsfall einige Informationen im **Header** v
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
-|**id**| ID zur Identifizierung des LibRML-Blocks | String | optional |
-|**tenant**| Einrichtung, die das digitale Objekt verwaltet | URI | optional |
+| **id** | ID zur Identifizierung des LibRML-Blocks | String | optional |
+| **tenant** | Einrichtung, die das digitale Objekt verwaltet | URI | optional |
 
 Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden:
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
-|**mention**| Ist eine Namensnennung notwendig | true/false | optional |
-|**sharealike**| Verpflichtung, alle Derivate des digitalen Objektes unter denselben Bedingungen zu veröffentlichen | true/false | optional |
-|**commercialuse**| Kommerzielle Nutzung erlaubt | true/false | optional |
-|**copyright**| Urheberrechtsschutz vorhanden | true/false | optional |
+| **mention** | Ist eine Namensnennung notwendig | true/false | optional |
+| **sharealike** | Verpflichtung, alle Derivate des digitalen Objektes unter denselben Bedingungen zu veröffentlichen | true/false | optional |
+| **commercialuse** | Kommerzielle Nutzung erlaubt | true/false | optional |
+| **derivatives** | Bearbeitungen erlaubt | true/false | optional |
+| **copyright** | Urheberrechtsschutz vorhanden | true/false | optional |
 
 Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../templates/templates.md), auf der die Beschreibung aufbaut, zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../templates/templates.md) ist der Wert in der Regel vorausgefüllt.
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
-|**template**| Name der ursprünglich angewendeten [Vorlage](../templates/templates.md) | String | optional |
-|**usageguide**| URL, die auf die zugehörigen Nutzungshinweise verweist | URI | optional |
+| **template** | Name der ursprünglich angewendeten [Vorlage](../templates/templates.md) | String | optional |
+| **usageguide** | URL, die auf die zugehörigen Nutzungshinweise verweist | URI | optional |
 
 ----
 
