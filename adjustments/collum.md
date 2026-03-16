@@ -15,7 +15,7 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
         <mets:rightsMD ID="LibRML">
             <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
-                    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-he-co/1-0">
+                    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-he-co/1.0/">
                         <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="true">
                             <libRML:restriction type="parts" parts="10"/>
@@ -45,7 +45,7 @@ Umsetzung mit einem angepassten LibRML-Modell
         <mets:rightsMD ID="LibRML">
             <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
-                    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-he-co/1-0">
+                    <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-he-co/1.0/">
                         <libRML:action type="displaymetadata" permission="true">
                             <libRML:restriction type="mets" sections="amdSec dmdSec structMap"/>
                         </libRML:action>
