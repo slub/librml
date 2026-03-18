@@ -24,11 +24,11 @@
 
 ```json
 {
+  "commercialuse": true,
   "id": "demo-mit-DL-DE-BY-2.0",
   "mention": true,
-  "commercialuse": true,
-  "usageguide": "http://www.govdata.de/dl-de/by-2-0",
   "template": "DL-DE-BY-2.0",
+  "usageguide": "http://www.govdata.de/dl-de/by-2-0",
   "actions": [
     {
       "type": "displaymetadata",

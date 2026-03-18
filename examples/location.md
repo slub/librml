@@ -40,10 +40,10 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
 
 ```json
 {
-  "id": "iprestricted-444",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": false,
+  "id": "iprestricted-444",
   "template": "IP",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

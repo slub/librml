@@ -24,11 +24,11 @@
 
 ```json
 {
+  "commercialuse": false,
   "id": "demo-mit-CCBYNC",
   "mention": true,
-  "commercialuse": false,
-  "usageguide": "https://creativecommons.org/licenses/by-nc/4.0/",
   "template": "CC-BY-NC-4.0",
+  "usageguide": "https://creativecommons.org/licenses/by-nc/4.0/",
   "actions": [
     {
       "type": "displaymetadata",

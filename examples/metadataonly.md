@@ -24,8 +24,8 @@ Zugang nur zu Metadaten. Nutzung (Ansicht, Download, ...) des digitalen Objekts 
 ```json
 {
   "id": "metaonly-441",
-  "tenant": "https://www.slub-dresden.de/",
   "template": "Metadata access only",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

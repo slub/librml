@@ -26,10 +26,10 @@
 
 ```json
 {
-  "id": "ID-PD.M1",
   "commercialuse": true,
-  "usageguide": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "id": "ID-PD.M1",
   "template": "CC-PDM-1.0",
+  "usageguide": "https://creativecommons.org/publicdomain/mark/1.0/",
   "actions": [
     {
       "type": "displaymetadata",

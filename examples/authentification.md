@@ -40,10 +40,10 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
 
 ```json
 {
-  "id": "auth-DE-442",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
+  "id": "auth-DE-442",
   "template": "Authentification",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

@@ -31,10 +31,10 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
 
 ```json
 {
-  "id": "digitisation-500",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": false,
   "copyright": true,
+  "id": "digitisation-500",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

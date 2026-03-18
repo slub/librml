@@ -28,11 +28,11 @@ Hinweis:
 
 ```json
 {
+  "copyright": true,
   "id": "copyright-ra-100",
   "tenant": "https://www.slub-dresden.de/",
-  "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
   "template": "LibRML Copyright - Restricted Access",
-  "copyright": true,
+  "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
   "actions": [
     {
       "type": "displaymetadata",

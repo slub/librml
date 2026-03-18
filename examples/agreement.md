@@ -64,10 +64,10 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
 
 ```json
 {
-  "id": "agreement-DE-447",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
+  "id": "agreement-DE-447",
   "template": "Agreement",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

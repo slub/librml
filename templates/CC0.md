@@ -26,10 +26,10 @@
 
 ```json
 {
-  "id": "demo-mit-CC0",
   "commercialuse": true,
-  "usageguide": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "id": "demo-mit-CC0",
   "template": "CC0-1.0",
+  "usageguide": "https://creativecommons.org/publicdomain/zero/1.0/",
   "actions": [
     {
       "type": "displaymetadata",

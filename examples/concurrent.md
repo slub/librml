@@ -40,10 +40,10 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
 
 ```json
 {
-  "id": "concuracc-440",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
+  "id": "concuracc-440",
   "template": "ConcurrentAccess",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

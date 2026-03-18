@@ -54,10 +54,10 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
 
 ```json
 {
-  "id": "embargo-28",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": false,
+  "id": "embargo-28",
   "template": "IP",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

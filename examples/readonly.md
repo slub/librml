@@ -28,9 +28,9 @@ Zugang zum Objekt zur Ansicht ohne weitere Nutzungsmöglichkeiten, wie Speichern
 ```json
 {
   "id": "readonly-449",
-  "tenant": "https://www.slub-dresden.de/",
   "template": "Read Only",
-    "actions": [
+  "tenant": "https://www.slub-dresden.de/",
+  "actions": [
     {
       "type": "displaymetadata",
       "permission": true

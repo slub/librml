@@ -24,12 +24,12 @@
 
 ```json
 {
+  "commercialuse": true,
   "id": "demo-mit-CCBYSADE",
   "mention": true,
   "sharealike": true,
-  "commercialuse": true,
-  "usageguide": "https://creativecommons.org/licenses/by-sa/3.0/de/",
   "template": "CC-BY-SA-3.0-DE",
+  "usageguide": "https://creativecommons.org/licenses/by-sa/3.0/de/",
   "actions": [
     {
       "type": "displaymetadata",
