@@ -15,7 +15,7 @@ Hinweis:
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="copyright-oa-100" tenant="https://www.slub-dresden.de/" usageguide="http://librml.org/examples/copyright_openaccess" template="LibRML Copyright - Open Access" copyright="true">
+  <item copyright="true" id="copyright-oa-100" template="LibRML Copyright - Open Access" tenant="https://www.slub-dresden.de/" usageguide="http://librml.org/examples/copyright_openaccess">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="read" permission="true"/>

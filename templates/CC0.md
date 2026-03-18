@@ -5,7 +5,7 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="demo-mit-CC0" commercialuse="true" template="CC0-1.0" usageguide="https://creativecommons.org/publicdomain/zero/1.0/">
+  <item commercialuse="true" id="demo-mit-CC0" template="CC0-1.0" usageguide="https://creativecommons.org/publicdomain/zero/1.0/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="read" permission="true"/>

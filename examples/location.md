@@ -21,7 +21,7 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="iprestricted-444" tenant="https://www.slub-dresden.de/" commercialuse="false" template="IP">
+  <item commercialuse="false" id="iprestricted-444" template="IP" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>

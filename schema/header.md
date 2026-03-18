@@ -40,7 +40,7 @@ So einem digitalen Objekt würde folgende LibRML zugewiesen werden.
 
 ```xml
 <libRML version="0.4" xmlns="http://librml.org/schema">
-  <item id="id-123456" tenant="https://www.slub-dresden.de/" mention="true" sharealike="true" copyright="true">
+  <item copyright="true" id="id-123456" mention="true" sharealike="true" tenant="https://www.slub-dresden.de/">
   </item>
 </libRML>
 ```

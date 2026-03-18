@@ -21,7 +21,7 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="concuracc-440" tenant="https://www.slub-dresden.de/" commercialuse="true" template="ConcurrentAccess">
+  <item commercialuse="true" id="concuracc-440" template="ConcurrentAccess" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>

@@ -33,7 +33,7 @@ Diesem digitalen Objekt würde folgende LibRML-Beschreibung zugewiesen werden.
 
 ```xml
 <libRML version="0.4" xmlns="http://librml.org/schema">
-  <item id="access-0815" tenant="https://www.slub-dresden.de/" commercialuse="false" copyright="true">
+  <item commercialuse="false" copyright="true" id="access-0815" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true" />
     <action type="index" permission="true" />
     <action type="read" permission="true" />
