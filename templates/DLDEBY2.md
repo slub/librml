@@ -5,7 +5,7 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="demo-mit-DL-DE-BY-2.0" commercialuse="true" mention="true" template="DL-DE-BY-2.0" usageguide="http://www.govdata.de/dl-de/by-2-0">
+  <item commercialuse="true" id="demo-mit-DL-DE-BY-2.0" mention="true" template="DL-DE-BY-2.0" usageguide="http://www.govdata.de/dl-de/by-2-0">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="read" permission="true"/>
@@ -24,11 +24,11 @@
 
 ```json
 {
+  "commercialuse": true,
   "id": "demo-mit-DL-DE-BY-2.0",
   "mention": true,
-  "commercialuse": true,
-  "usageguide": "http://www.govdata.de/dl-de/by-2-0",
   "template": "DL-DE-BY-2.0",
+  "usageguide": "http://www.govdata.de/dl-de/by-2-0",
   "actions": [
     {
       "type": "displaymetadata",

@@ -27,7 +27,7 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="agreement-DE-447" tenant="https://www.slub-dresden.de/" commercialuse="true" template="Agreement">
+  <item commercialuse="true" id="agreement-DE-447" template="Agreement" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
@@ -64,10 +64,10 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
 
 ```json
 {
-  "id": "agreement-DE-447",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
+  "id": "agreement-DE-447",
   "template": "Agreement",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

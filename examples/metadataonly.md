@@ -14,7 +14,7 @@ Zugang nur zu Metadaten. Nutzung (Ansicht, Download, ...) des digitalen Objekts 
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="metaonly-441" tenant="https://www.slub-dresden.de/" template="Metadata access only">
+  <item id="metaonly-441" template="Metadata access only" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
   </item>
@@ -24,8 +24,8 @@ Zugang nur zu Metadaten. Nutzung (Ansicht, Download, ...) des digitalen Objekts 
 ```json
 {
   "id": "metaonly-441",
-  "tenant": "https://www.slub-dresden.de/",
   "template": "Metadata access only",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

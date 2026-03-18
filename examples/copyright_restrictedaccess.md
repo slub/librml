@@ -15,7 +15,7 @@ Hinweis:
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-    <item id="copyright-ra-100" tenant="https://www.slub-dresden.de/" usageguide="http://librml.org/examples/copyright_restrictedaccess" template="LibRML Copyright - Restricted Access" copyright="true">
+    <item copyright="true" id="copyright-ra-100" template="LibRML Copyright - Restricted Access" tenant="https://www.slub-dresden.de/" usageguide="http://librml.org/examples/copyright_restrictedaccess">
         <action type="displaymetadata" permission="true"/>
         <action type="index" permission="true"/>
         <action type="read" permission="true">
@@ -28,11 +28,11 @@ Hinweis:
 
 ```json
 {
+  "copyright": true,
   "id": "copyright-ra-100",
   "tenant": "https://www.slub-dresden.de/",
-  "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
   "template": "LibRML Copyright - Restricted Access",
-  "copyright": true,
+  "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
   "actions": [
     {
       "type": "displaymetadata",

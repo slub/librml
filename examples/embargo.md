@@ -23,7 +23,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="embargo-28" tenant="https://www.slub-dresden.de/" commercialuse="false" template="IP">
+  <item commercialuse="false" id="embargo-28" template="IP" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
@@ -54,10 +54,10 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
 
 ```json
 {
-  "id": "embargo-28",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": false,
+  "id": "embargo-28",
   "template": "IP",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

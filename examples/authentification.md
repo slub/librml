@@ -21,7 +21,7 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="auth-DE-442" tenant="https://www.slub-dresden.de/" commercialuse="true" template="Authentification">
+  <item commercialuse="true" id="auth-DE-442" template="Authentification" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
@@ -40,10 +40,10 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
 
 ```json
 {
-  "id": "auth-DE-442",
-  "tenant": "https://www.slub-dresden.de/",
   "commercialuse": true,
+  "id": "auth-DE-442",
   "template": "Authentification",
+  "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
       "type": "displaymetadata",

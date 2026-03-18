@@ -5,7 +5,7 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <libRML version="0.4" xmlns="https://librml.org/schema">
-  <item id="demo-mit-CCBYNC" commercialuse="false" mention="true" template="CC-BY-NC-4.0" usageguide="https://creativecommons.org/licenses/by-nc/4.0/">
+  <item commercialuse="false" id="demo-mit-CCBYNC" mention="true" template="CC-BY-NC-4.0" usageguide="https://creativecommons.org/licenses/by-nc/4.0/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
     <action type="read" permission="true"/>
@@ -24,11 +24,11 @@
 
 ```json
 {
+  "commercialuse": false,
   "id": "demo-mit-CCBYNC",
   "mention": true,
-  "commercialuse": false,
-  "usageguide": "https://creativecommons.org/licenses/by-nc/4.0/",
   "template": "CC-BY-NC-4.0",
+  "usageguide": "https://creativecommons.org/licenses/by-nc/4.0/",
   "actions": [
     {
       "type": "displaymetadata",
