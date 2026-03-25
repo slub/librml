@@ -89,8 +89,9 @@
             },
             "type": "array"
           },
-          "parts": {
-            "minimum": 1,
+          "percentage": {
+            "maximum": 100,
+            "minimum": 0,
             "type": "integer"
           },
           "permission": {
