@@ -11,9 +11,9 @@ In der folgendenden Tabelle sind die erlaubten Kombinationen von Einschränkunge
 | concurrent | sessions | nur `lend` `read` `run` |
 | count | count | nur `download` `lend` `print` `read` `reproduce` `run` |
 | date | fromdate <br> todate | alle |
-| duration | maxduration | nur `lend` `read` `run` |
+| duration | maxduration <br> percentage | nur `lend` `read` `run` |
 | group | groups | alle außer `archive` `displaymetadata` `index` `move` |
 | location | inside <br> outside <br> subnet | alle |
-| parts | parts | alle außer `displaymetadata` `index` |
+| parts | percentage | alle außer `displaymetadata` `index` |
 | quality | maxbitrate <br> maxresolution | alle außer `archive` `displaymetadata` `index` `move` |
 | watermark | watermarkvalue | alle außer `displaymetadata` |

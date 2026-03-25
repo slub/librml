@@ -4,7 +4,7 @@
     xmlns:libRML="http://librml.org/schema"
     attributeFormDefault="unqualified"
     elementFormDefault="qualified"
-    version="0.4.0">
+    version="0.5.0">
     <xs:element name="libRML" type="libRML:libRMLType" />
 
     <!-- libRMLType - Container for all -->
@@ -83,9 +83,9 @@
         <xs:attributeGroup ref="libRML:locattr" />
         <xs:attributeGroup ref="libRML:qltattr" />
         <xs:attribute type="xs:positiveInteger" name="count" />
-        <xs:attribute type="xs:positiveInteger" name="maxduration" />
         <xs:attribute type="xs:NMTOKENS" name="groups" />
-        <xs:attribute type="xs:positiveInteger" name="parts" />
+        <xs:attribute type="xs:positiveInteger" name="maxduration" />
+        <xs:attribute type="xs:nonNegativeInteger" name="percentage" />
         <xs:attribute type="xs:boolean" name="required" />
         <xs:attribute type="xs:positiveInteger" name="sessions" />
         <xs:attribute type="xs:string" name="watermarkvalue" />
