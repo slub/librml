@@ -32,7 +32,7 @@ In LibRML stehen folgende Eigenschaften zur Verfügung.
 | maxresolution | Maximal erlaubte Auflösung für den Download eines digitalen Objekts | positive integer | **Einheit**: DPI |
 | minage | Mindestalter für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | positive integer | **Einheit**: Jahre |
 | outside | Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution | Name | |
-| parts | Teile des digitalen Objekts. | positive integer | |
+| percentage | Teile des digitalen Objekts in Prozent. | nicht-negative integer | |
 | required | "Erforderlich" (wird bei der Erforderlichkeit von externen Verträgen benutzt) | Boolean | true/false |
 | sessions | Anzahl der erlaubten parallelen Zugriffe auf ein digitalen Objekt | positive integer | |
 | subnet | Innerhalb einer Einrichtung kann der Zugriff über ein Subnetz genauer spezifiziert werden. | IP-Bereiche | **Format:**: [CIDR-Notation](https://de.wikipedia.org/wiki/CIDR) |
