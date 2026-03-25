@@ -141,7 +141,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 
 ```xml
   <action type="run" permission="true">
-    <restriction type="duration" duration="86400" />
+    <restriction type="duration" maxduration="86400" />
   </action>
 ```
 
@@ -151,7 +151,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
   "restrictions": [
     {
       "type": "duration",
-      "duration": 86400
+      "maxduration": 86400
     },
 ```
 
