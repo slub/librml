@@ -153,7 +153,7 @@
   "$id": "https://librml.org/schema/librml.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema#",
   "additionalProperties": false,
-  "description": "LibRML schema version 0.4.0",
+  "description": "LibRML schema version 0.5.0",
   "properties": {
     "actions": {
       "$ref": "#/$defs/actions_type"
