@@ -47,10 +47,6 @@
             "minimum": 1,
             "type": "integer"
           },
-          "duration": {
-            "minimum": 1,
-            "type": "integer"
-          },
           "fromdate": {
             "format": "date",
             "type": "string"
@@ -72,6 +68,10 @@
             "type": "integer"
           },
           "maxbitrate": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "maxduration": {
             "minimum": 1,
             "type": "integer"
           },

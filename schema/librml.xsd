@@ -83,7 +83,7 @@
         <xs:attributeGroup ref="libRML:locattr" />
         <xs:attributeGroup ref="libRML:qltattr" />
         <xs:attribute type="xs:positiveInteger" name="count" />
-        <xs:attribute type="xs:positiveInteger" name="duration" />
+        <xs:attribute type="xs:positiveInteger" name="maxduration" />
         <xs:attribute type="xs:NMTOKENS" name="groups" />
         <xs:attribute type="xs:positiveInteger" name="parts" />
         <xs:attribute type="xs:boolean" name="required" />
