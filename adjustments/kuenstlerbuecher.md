@@ -18,7 +18,7 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/kr-bu/1.0/">
                         <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="true">
-                            <libRML:restriction type="parts" parts="10"/>
+                            <libRML:restriction type="parts" percentage="10"/>
                         </libRML:action>
                         <libRML:action type="index" permission="true"/>
                         <libRML:action type="publish" permission="false"/>
