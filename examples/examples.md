@@ -5,6 +5,7 @@ Die folgenden Beispiele enthalten die Beschreibung ausgewählter Zugangs- und Nu
 * [Anzeige der Metadaten](metadataonly.md)
 * [Authentifizierung](authentification.md)
 * [Einwilligung](agreement.md)
+* [Begrenztes Abspielen des Objekts](duration.md)
 * [Embargofrist](embargo.md)
 * [IP-Adressbereich](location.md)
 * [Anzeige des Objekts](readonly.md)

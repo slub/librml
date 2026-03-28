@@ -50,6 +50,8 @@ toc:
         url: location.html
       - title: Anzeige des Objekts
         url: readonly.html
+      - title: Begrenztes Abspielen des Objekts
+        url: duration.html
       - title: Embargofrist
         url: embargo.html
       - title: Gleichzeitiger Zugriff
