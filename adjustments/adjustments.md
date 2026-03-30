@@ -30,8 +30,8 @@ Grundlage der Dokumentation der Anpassungen ist: [Untersuchung - LibRML - Anford
 
 Bezeichnung | Beschreibung | Beispiel | Bemerkung
 -- | -- | -- | -- 
-mets | Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRML benötigt sind, werden in dem constraint `mets` beschrieben und in Attributen spezifiziert. | - | Anwendbar in Actions: - `displaymetadata`</li><li>`download`</li><li>`index`</li><li>`read`
-interface | Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.  | - | Anwendbar in Actions:<ul><li>`publish`
+mets | Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRML benötigt sind, werden in dem constraint `mets` beschrieben und in Attributen spezifiziert. | - | Anwendbar in Actions: <ul><li> `displaymetadata` </li><li> `download` </li><li> `index` </li><li> `read`
+interface | Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.  | - | Anwendbar in Actions: <ul><li> `publish`
  
 
 ### Attributes
