@@ -24,13 +24,13 @@ Der Schwerpunkt dieser Diskussion besteht in der Erstellung und dem Vergleich vo
 
 ### Grundlage
 
-Grundlage der Dokumentation der Anpassungen ist: [Untersuchung - LibRML - Anforderungen für Retrodigitalisate (SLUB Dresden)](https://wiki.dnb.de/x/XdgtFw), insbesondere [Untersuchung - 02-02 LibRML | Neue Elemente für Retrodigitalisate](https://wiki.dnb.de/x/bNgtFw).
+Grundlage der Dokumentation der Anpassungen ist: [Untersuchung - LibRML - Anforderungen für Retrodigitalisate (SLUB Dresden)](https://wiki.dnb.de/x/XdgtFw), insbesondere [Untersuchung - 02-02 LibRML  Neue Elemente für Retrodigitalisate](https://wiki.dnb.de/x/bNgtFw).
 
 ### Constraints
 
 Bezeichnung | Beschreibung | Beispiel | Bemerkung
 -- | -- | -- | -- 
-mets | Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRML benötigt sind, werden in dem constraint `mets` beschrieben und in Attributen spezifiziert.</p> | - | Anwendbar in Actions:<ul><li>`displaymetadata`</li><li>`download`</li><li>`index`</li><li>`read`
+mets | Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRML benötigt sind, werden in dem constraint `mets` beschrieben und in Attributen spezifiziert. | - | Anwendbar in Actions: - `displaymetadata`</li><li>`download`</li><li>`index`</li><li>`read`
 interface | Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.  | - | Anwendbar in Actions:<ul><li>`publish`
  
 
