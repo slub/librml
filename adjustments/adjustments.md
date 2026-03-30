@@ -12,7 +12,6 @@ Der Schwerpunkt dieser Diskussion besteht in der Erstellung und dem Vergleich vo
 
 ## Beispiele
 
-* [Nachlass Herbert Collum](collum.md)
 * [Künstlerbücher](kuenstlerbuecher.md)
 * [Sächsische Zeitung](saechsischezeitung.md)
 * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Persönlichkeitsrecht](persrecht.md)
