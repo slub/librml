@@ -149,8 +149,8 @@ Weitere Informationen:
 
 Werte:
 
-* `internal`
-* `external`
+* internal
+* external
 
 Weitere Informationen:
 
