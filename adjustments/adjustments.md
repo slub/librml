@@ -33,7 +33,7 @@ Grundlage der Dokumentation der Anpassungen ist: [Untersuchung - LibRML - Anford
 
 Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRML benötigt sind, werden in dem constraint `mets` beschrieben und in Attributen spezifiziert.
 
-Anwendbar in [Actions](/schema/actions.md):
+Anwendbar in den folgenden [Actions](/schema/actions.md):
 
 * `displaymetadata`
 * `download`
@@ -44,7 +44,7 @@ Anwendbar in [Actions](/schema/actions.md):
 
 Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.
 
-Anwendbar in [Actions](/schema/actions.md):
+Anwendbar in den folgenden [Actions](/schema/actions.md):
 
 * `publish`
 
@@ -85,7 +85,7 @@ In der SLUB Dresden werden spezifische Vorgaben definiert, die von Kitodo.Presen
   * Anzeige der Derivate DEFAULT und FULLTEXT in der Vollansicht
   * ORIGINAL: Anzeige
 
-Anwendbar in [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `mets`
 
@@ -117,7 +117,7 @@ Weitere Informationen:
   * FULLTEXT-TXT
   * FULLTEXT-XML
 
-Anwendbar in [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `mets`
 
@@ -127,17 +127,17 @@ Verfügbarkeit der Objekte an der OAI-Schnittstelle.
 
 Werte:
 
-* `internal`
-* `external`
+* internal
+* external
 
 Weitere Informationen:
 
-* `internal` =
+* internal =
   Bereitstellung für administrative Zwecke für das Personal innerhalb einer Einrichtung.
-* `external` =
+* external =
   Bereitstellung ohne Einschränkung.
 
-Anwendbar in [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `interface`
 
@@ -154,11 +154,11 @@ Werte:
 
 Weitere Informationen:
 
-* `internal` =
+* internal =
   Bereitstellung für administrative Zwecke für das Personal innerhalb einer Einrichtung.
-* `external` =
+* external =
   Bereitstellung ohne Einschränkung.
 
-Anwendbar in [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `interface`
