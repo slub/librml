@@ -33,7 +33,7 @@ Grundlage der Dokumentation der Anpassungen ist: [Untersuchung - LibRML - Anford
 
 Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRML benötigt sind, werden in dem constraint `mets` beschrieben und in Attributen spezifiziert.
 
-Zugehörige [Actions](/schema/actions.md):
+Anwendbar in den folgenden [Actions](/schema/actions.md):
 
 * `displaymetadata`
 * `download`
@@ -44,7 +44,7 @@ Zugehörige [Actions](/schema/actions.md):
 
 Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.
 
-Zugehörige [Actions](/schema/actions.md):
+Anwendbar in den folgenden [Actions](/schema/actions.md):
 
 * `publish`
 
@@ -83,10 +83,9 @@ In der SLUB Dresden werden spezifische Vorgaben definiert, die von Kitodo.Presen
 * "DEFAULT FULLTEXT THUMBS" (action: `read`):
   * Anzeige der Thumbnails in der Listenansicht,
   * Anzeige der Derivate DEFAULT und FULLTEXT in der Vollansicht
+  * ORIGINAL: Anzeige
 
-ORIGINAL: Anzeige
-
-Anwendbar in Constraints:
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `mets`
 
@@ -112,17 +111,13 @@ Weitere Informationen:
   * METS-XML
 * Aggregierte Derivate aus METS-fileGroup:
   * FULLDOWNLOAD
-
-  ```xml
-    mets:fileGrp[@USE="DOWNLOAD"]
-    mets:file[@ID="FULLDOWNLOAD"]
-  ```
+    * `mets:fileGrp[@USE="DOWNLOAD"]/mets:file[@ID="FULLDOWNLOAD"]`
 
 * Abgeleitete Derivate einer METS-fileGroup:
   * FULLTEXT-TXT
   * FULLTEXT-XML
 
-Anwendbar in Constraints:
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `mets`
 
@@ -132,17 +127,17 @@ Verfügbarkeit der Objekte an der OAI-Schnittstelle.
 
 Werte:
 
-* `internal`
-* `external`
+* internal
+* external
 
 Weitere Informationen:
 
-* `internal` =
+* internal =
   Bereitstellung für administrative Zwecke für das Personal innerhalb einer Einrichtung.
-* `external` =
+* external =
   Bereitstellung ohne Einschränkung.
 
-Anwendbar in Constraints:
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `interface`
 
@@ -159,11 +154,11 @@ Werte:
 
 Weitere Informationen:
 
-* "internal" =
+* internal =
   Bereitstellung für administrative Zwecke für das Personal innerhalb einer Einrichtung.
-* "external" =
+* external =
   Bereitstellung ohne Einschränkung.
 
-Anwendbar in Constraints:
+Anwendbar in den folgenden [Constraints](/schema/constraints.md):
 
 * `interface`
