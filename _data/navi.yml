@@ -18,11 +18,9 @@ toc:
         url: attributes.html
       - title: Abhängigkeiten
         url: dependencies.html
-      - title: Erweiterungen
-        url: /adjustments/adjustments.html
       - title: Schemata
         url: schemas.html
-  - title: Erweiterung (DFG-Projekt)
+  - title: Erweiterungen
     path: /adjustments/
     url: adjustments.html
     subnav:
