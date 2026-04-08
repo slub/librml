@@ -11,7 +11,7 @@ Aspekte der Prüfung sind:
 * Flexibilität hinsichtlich der angewendeten Werte
 * Informationssammlung für die Erstellung eines möglichen Anwendungsprofils ([AP 5 Anpassung LibRML](https://wiki.dnb.de/x/VhmpG), [Evaluate the creation of an application profile for digitized objects](https://github.com/slub/librml/issues/92))
 
-# Weitere Informationen
+## Weitere Informationen
 
 * [Beispiele](adjustments_examples.md)
 * [Bestehende Elemente für Retrodigitalisate](adjustments_elements_existing)
