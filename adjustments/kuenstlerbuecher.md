@@ -1,5 +1,3 @@
-Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
-
 # Künstlerbücher
 
 Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/kr-bu/1.0/> zusammengefasst sind.
