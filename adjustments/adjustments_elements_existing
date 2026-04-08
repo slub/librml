@@ -3,18 +3,18 @@
 ## Allgemeine Informationen
 
 Grundlage der Dokumentation ist: [Untersuchung - 02-01 LibRML | Bestehende Elemente für Retrodigitalisate](https://wiki.dnb.de/x/aNgtFw).
-Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitalisate entsprechend [AP 5 Anpassung LibRML](https://wiki.dnb.de/x/VhmpG). 
+Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitalisate entsprechend [AP 5 Anpassung LibRML](https://wiki.dnb.de/x/VhmpG).
 
 ## Actions
 
 * **archive**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
+    * **Bemerkung:**
       * Dies wird in der SLUB Dresden nicht mit/in Kitodo.Presentation gesteuert und muss nicht mit LibRML beschrieben werden.
 * **displaymetadata**
     * **Relevanz:** Ja
-    * **Bemerkung:** 
-      * Metadaten einschließlich der Nutzungshinweise werden in den Digitalen Sammlungen angezeigt, auch wenn die Objekte nicht frei zugänglich sind. 
+    * **Bemerkung:**
+      * Metadaten einschließlich der Nutzungshinweise werden in den Digitalen Sammlungen angezeigt, auch wenn die Objekte nicht frei zugänglich sind.
       * Dies betrifft die Listenansicht und Werkansicht.
     * **Beispiele:**
       * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
@@ -22,12 +22,12 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
       * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **distribute**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
-      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden. 
+    * **Bemerkung:**
+      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
       * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **download**
     * **Relevanz:** Ja
-    * **Bemerkung:** 
+    * **Bemerkung:**
       * Bestimmte Elemente des digitalen Objekts können flexibel heruntergeladen werden, wie zum Beispiel: Dateigruppen, IIIF-Manifeste, METS-Datei.
     * **Beispiele:**
       * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
@@ -35,8 +35,8 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
       * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **index**
     * **Relevanz:** Ja
-    * **Bemerkung:** 
-      * Die Metadaten der digitalen Objekte können gesucht und angezeigt werden. 
+    * **Bemerkung:**
+      * Die Metadaten der digitalen Objekte können gesucht und angezeigt werden.
       * Wenn die Metadaten nicht indexiert werden dürfen, ist eine Aufnahme des digitalen Objekts in die Digitalen Sammlungen nicht notwendig.
     * **Beispiele:**
       * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
@@ -44,27 +44,27 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
       * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **lend**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
-      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden. 
+    * **Bemerkung:**
+      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
       * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **modify**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
-      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden. 
+    * **Bemerkung:**
+      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
       * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **move**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
+    * **Bemerkung:**
       * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
 * **print**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
-      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden. 
+    * **Bemerkung:**
+      * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
       * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **publish**
     * **Relevanz:** Ja
-    * **Bemerkung:** 
-      * Die Bereitstellung über Schnittstellen kannbeschrieben werden (Interface-IIIF, Interface-OAI-PMH). 
+    * **Bemerkung:**
+      * Die Bereitstellung über Schnittstellen kannbeschrieben werden (Interface-IIIF, Interface-OAI-PMH).
       *   Die Veröffentlichung als Verlagsveröffentlichung wird nicht mit/in Kitodo.Presentation gesteuert.
     * **Beispiele:**
       * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
@@ -72,8 +72,8 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
       * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **read**
     * **Relevanz:** Ja
-    * **Bemerkung:** 
-      * Anzeige der Bestandteile des digitalen Objekts. Bestimmte Elemente werden flexibel angezeigt 
+    * **Bemerkung:**
+      * Anzeige der Bestandteile des digitalen Objekts. Bestimmte Elemente werden flexibel angezeigt
         * _Werkansicht_: Qualität der Bilddaten in der Vollansicht
         * _Werkansicht_: Anzeige der Volltexte (falls Volltexte in einigen Fällen nur für die Indexierung angewendet werden dürfen)
         * _Listenansicht_: Thumbnail-Anzeige erlaubt - jedoch keine Ansicht des digitalen Objekts in höherer Qualität in der Vollansicht
@@ -84,17 +84,17 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
       * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **reproduce**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
+    * **Bemerkung:**
       * Dies wird nicht mit/in Kitodo.Presentation gesteuert.
       * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **reuse**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
+    * **Bemerkung:**
       * Dies wird nicht mit/in Kitodo.Presentation gesteuert.
         * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **run**
     * **Relevanz:** Nein
-    * **Bemerkung:** 
+    * **Bemerkung:**
       * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
 
 ## Constraints
@@ -138,7 +138,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
     * **Bemerkung:** Kann genutzt werden, um  zu beschreiben, dass zum Beispiel nur 10 % eines Objekts gespeichert werden darf.
 * **quality**
     * **Relevanz:** Ja
-    * **Bemerkung:** Auswertung der Bild-Derivate in unterschiedlicher Qualität. 
+    * **Bemerkung:** Auswertung der Bild-Derivate in unterschiedlicher Qualität.
 * **watermark**
     * **Relevanz:** Nein
     * **Bemerkung:** Die Beschränkung des Objekts durch dieses Constraint ist vorerst nicht vorgesehen.
