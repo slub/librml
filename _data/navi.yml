@@ -6,22 +6,49 @@ toc:
     path: /schema/
     url: concept.html
     subnav:
-        - title: Konzept
-          url: concept.html
-        - title: Header
-          url: header.html
-        - title: Actions (Nutzungsarten)
-          url: actions.html
-        - title: Constraints (Einschränkungen)
-          url: constraints.html
-        - title: Attributes (Eigenschaften)
-          url: attributes.html
-        - title: Abhängigkeiten
-          url: dependencies.html
-        - title: Erweiterungen
-          url: /adjustments/adjustments.html
-        - title: Schemata
-          url: schemas.html
+      - title: Konzept
+        url: concept.html
+      - title: Header
+        url: header.html
+      - title: Actions (Nutzungsarten)
+        url: actions.html
+      - title: Constraints (Einschränkungen)
+        url: constraints.html
+      - title: Attributes (Eigenschaften)
+        url: attributes.html
+      - title: Abhängigkeiten
+        url: dependencies.html
+      - title: Erweiterungen
+        url: /adjustments/adjustments.html
+      - title: Schemata
+        url: schemas.html
+  - title: Erweiterung (DFG-Projekt)
+    path: /adjustments/
+    url: adjustments.html
+    subnav:
+      - title: Allgemeine Informationen
+        url: adjustments.html
+      - title: Beispiele
+        url: adjustments_examples.html
+        subnav:
+        - title: Mediathek - Nur Ansicht
+          url: ansicht.html
+        - title: Arbeitsplätze Mediathek
+          url: mediathek.html
+        - title: Arbeitsplätze Mediathek - Persönlichkeitsrecht
+          url: persrecht.html
+        - title: Arbeitsplätze Mediathek - Unter Aufsicht
+          url: aufsicht.html
+        - title: Gebrauchs- und Reklamegrafik
+          url: grafik.html
+        - title: Künstlerbücher
+          url: kuenstlerbuecher.html
+        - title: Sächsische Zeitung
+          url: saechsischezeitung.html
+      - title: Bestehende Elemente für Retrodigitalisate
+        url: adjustments_elements_existing.html
+      - title: Neue Elemente für Retrodigitalisate
+        url: adjustments_elements_new.html
   - title: Anwendung
     path: /usage/
     url: usage.html
@@ -100,6 +127,3 @@ toc:
         url: DLDEzero2.html
       - title: DL-DE-BY 2.0
         url: DLDEBY2.html
-  - title: FAQ
-    path: /faq/
-    url: faq.html
