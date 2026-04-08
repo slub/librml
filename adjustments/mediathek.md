@@ -1,5 +1,3 @@
-Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
-
 # Eingeschränkter Zugang - Arbeitsplätze Mediathek
 
 Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/ez-am/1.0/> zusammengefasst sind.

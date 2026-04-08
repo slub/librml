@@ -1,5 +1,3 @@
-Übersicht der Beispiele hinsichtlich [Anpassung LibRML für Retrodigitalisate](adjustments.md).
-
 # Eingeschränkte Nutzung - Mediathek - Nur Ansicht
 
 Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/en-ma/1.0/> zusammengefasst sind.
