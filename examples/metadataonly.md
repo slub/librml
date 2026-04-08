@@ -13,7 +13,7 @@ Zugang nur zu Metadaten. Nutzung (Ansicht, Download, ...) des digitalen Objekts 
 
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.4" xmlns="https://librml.org/schema">
+<libRML version="0.4" xmlns="http://librml.org/schema">
   <item id="metaonly-441" template="Metadata access only" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>

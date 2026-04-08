@@ -4,7 +4,7 @@
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
-<libRML version="0.4" xmlns="https://librml.org/schema">
+<libRML version="0.4" xmlns="http://librml.org/schema">
   <item commercialuse="true" id="demo-mit-DL-DE-BY-2.0" mention="true" template="DL-DE-BY-2.0" usageguide="http://www.govdata.de/dl-de/by-2-0">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>

@@ -15,7 +15,7 @@ Zugang zum Objekt zur Ansicht ohne weitere Nutzungsmöglichkeiten, wie Speichern
 
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.4" xmlns="https://librml.org/schema">
+<libRML version="0.4" xmlns="http://librml.org/schema">
   <item id="readonly-449" template="Read only" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>

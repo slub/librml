@@ -4,7 +4,7 @@
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
-<libRML version="0.4" xmlns="https://librml.org/schema">
+<libRML version="0.4" xmlns="http://librml.org/schema">
   <item commercialuse="true" copyright="false" id="ID-PD.M1" template="CC-PDM-1.0" usageguide="https://creativecommons.org/publicdomain/mark/1.0/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
