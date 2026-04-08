@@ -22,7 +22,6 @@ Der Schwerpunkt dieser Diskussion besteht in der Erstellung und dem Vergleich vo
 * [Künstlerbücher](kuenstlerbuecher.md)
 * [Sächsische Zeitung](saechsischezeitung.md)
 
-
 ## Dokumentation
 
 * [Neue Elemente für Retrodigitalisate](adjustments_elements_new.md)
