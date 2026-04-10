@@ -1,4 +1,5 @@
 # Eingebettetes LibRML in den Metadaten
+
 ## Allgemeine Informationen
 
 LibRML kann in eine Metadatendatei eingetragen werden. Im Folgenden wird eine Anwendung in [METS](https://www.loc.gov/standards/mets/) und [MODS](https://www.loc.gov/standards/mods/) beschrieben. Der LibRML-Code wird von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet.
