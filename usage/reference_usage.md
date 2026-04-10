@@ -1,4 +1,5 @@
 # Referenzen standardisierter Beschränkungen
+
 ## Allgemeine Informationen
 
 Es können standardisierte Zugriffs- und Nutzungsbeschränkungen definiert werden, die von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, …) umgesetzt werden, insofern sie über die notwendige Funktionalität verfügen. In den Metadaten kann die jeweilige URI eingetragen werden, aus der die Beschreibung in LibRML abgeleitet wird (siehe ''[Reine Metadatenanzeige](../examples/metadataonly.md)'').
