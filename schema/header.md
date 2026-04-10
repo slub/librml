@@ -24,7 +24,7 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 | **mention** | Ist eine Namensnennung notwendig | true/false | optional |
 | **sharealike** | Verpflichtung, alle Derivate des digitalen Objektes unter denselben Bedingungen zu veröffentlichen | true/false | optional |
 
-Diese Angaben können beispielsweise dazu verwendet werden auf der Präsentationsebene entsprechende [Symbole](../icons.md) anzuzeigen.
+Diese Angaben können beispielsweise dazu verwendet werden auf der Präsentationsebene entsprechende [Symbole](icons.md) anzuzeigen.
 
 Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../templates/templates.md), auf der die Beschreibung aufbaut, zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../templates/templates.md) ist der Wert in der Regel vorausgefüllt.
 
