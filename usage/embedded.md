@@ -1,12 +1,13 @@
-# Allgemeine Informationen
+# Eingebettetes LibRML in den Metadaten
+## Allgemeine Informationen
 
 LibRML kann in eine Metadatendatei eingetragen werden. Im Folgenden wird eine Anwendung in [METS](https://www.loc.gov/standards/mets/) und [MODS](https://www.loc.gov/standards/mods/) beschrieben. Der LibRML-Code wird von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet.
 
 Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann der LibRML-Code daraus abgeleitet und in die Metadaten eingetragen werden, wie zum Beispiel in METS durch [XSLT](https://github.com/slub/librml/discussions/32#discussioncomment-15669157).
 
-# METS
+## METS
 
-## Elemente
+### Elemente
 
 In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
 
@@ -39,7 +40,7 @@ In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
 
 - In das METS-Attribut @OTHERMDTYPE wird immer "LibRML" eingetragen.
 
-## Beispiel
+### Beispiel
 
 In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
 
@@ -71,9 +72,9 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
 </mets:mets>
 ```
 
-# MODS
+## MODS
 
-## Elemente
+### Elemente
 
 In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetragen.
 
@@ -93,7 +94,7 @@ In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetrag
 
 - In das MODS-Attribut @type wird immer "LibRML" eingetragen.
 
-## Beispiel
+### Beispiel
 
 In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
 
