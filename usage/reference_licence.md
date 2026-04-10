@@ -1,4 +1,5 @@
 # Referenzen standardisierter Rechteinformationen
+
 ## Allgemeine Informationen
 
 LibRML kann aus standardisierten Rechteinformationen, wie zum Beispiel Lizenz- und Rechtehinweise, abgeleitet werden, wenn die jeweiligen Systeme (Präsentation, Repositorium, Rechtemanagementsystem, …) über die notwendige Funktionalität verfügen. Die Rechteinformationen sind in der Regel mit dem URI und/oder der Bezeichnung in den Metadaten der digitalen Objekte beschrieben. Vorteile dieser Anwendung sind unter anderem:
