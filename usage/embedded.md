@@ -1,16 +1,16 @@
-# Anwendung
+# Eingebettetes LibRML in den Metadaten
 
-## Allgemeines
+## Allgemeine Informationen
 
-Es wird empfohlen, [Referenzen standardisierter Rechteinformationen](reference_licence.md) oder [Referenzen standardisierter Zugriffsbeschränkungen](reference_usage.md) anzuwenden. Wenn keine standardisierten Beschreibungen verfügbar sind, kann LibRML in einen Metadatenstandard eingetragen werden. Im Folgenden wird eine empfohlene Anwendung in [METS](https://www.loc.gov/standards/mets/) und [MODS](https://www.loc.gov/standards/mods/) beschrieben. Der LibRML-Code wird von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet.
+LibRML kann in eine Metadatendatei eingetragen werden. Im Folgenden wird eine Anwendung in [METS](https://www.loc.gov/standards/mets/) und [MODS](https://www.loc.gov/standards/mods/) beschrieben. Der LibRML-Code wird von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet.
+
+Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann der LibRML-Code daraus abgeleitet und in die Metadaten eingetragen werden, wie zum Beispiel in METS durch [XSLT](https://github.com/slub/librml/discussions/32#discussioncomment-15669157).
 
 ## METS
 
-### Beispiel
+### Elemente
 
 In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
-
-#### METS
 
 ```xml
 <mets:mets[...]>
@@ -24,8 +24,6 @@ In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
   </mets:amdSec>
 </mets:mets>
 ```
-
-### Elemente
 
 `<mets:rightsMD>`
 
@@ -43,57 +41,9 @@ In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
 
 - In das METS-Attribut @OTHERMDTYPE wird immer "LibRML" eingetragen.
 
-### Wiederholbarkeit
-
-Nein.
-In der Metadatendatei eines Datensatzes darf nur ein LibRML-Element vorhanden sein.
-
-### Verpflichtungsgrad
-
-Optional.
-Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine auswertbare Rechteinformation enthalten ist. Diese kann entweder ausführlich oder als standardisierter URI in einem der jeweils zugelassenen Metadatenstandards enthalten sein.
-
-## MODS
-
 ### Beispiel
 
-In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetragen.
-
-#### MODS
-
-```xml
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
-  <mods:accessCondition type="LibRML">
-    <!--Here, LibRML can be embedded.-->
-  </mods:accessCondition>
-</mods:mods>
-```
-
-### Elemente
-
-`<mods:accessCondition>`
-
-- LibRML wird in das MODS-Element `<mods:accessCondition>` eingetragen.
-
-`<mods:accessCondition type="LibRML>`
-
-- In das MODS-Attribut @type wird immer "LibRML" eingetragen.
-
-### Wiederholbarkeit
-
-Nein.
-In der Metadatendatei eines Datensatzes darf nur ein LibRML-Element vorhanden sein.
-
-### Verpflichtungsgrad
-
-Optional.
-Es ist jedoch verpflichtend, dass in der Metadatendatei eines Datensatzes eine auswertbare Rechteinformation enthalten ist. Diese kann entweder ausführlich oder als standardisierter URI in einem der jeweils zugelassenen Metadatenstandards enthalten sein.
-
-## Beispiele
-
-Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location).
-
-### METS
+In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
 
 ```xml
 <mets:mets[...]>
@@ -123,7 +73,31 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
 </mets:mets>
 ```
 
-### MODS
+## MODS
+
+### Elemente
+
+In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetragen.
+
+```xml
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+  <mods:accessCondition type="LibRML">
+    <!--Here, LibRML can be embedded.-->
+  </mods:accessCondition>
+</mods:mods>
+```
+
+`<mods:accessCondition>`
+
+- LibRML wird in das MODS-Element `<mods:accessCondition>` eingetragen.
+
+`<mods:accessCondition type="LibRML>`
+
+- In das MODS-Attribut @type wird immer "LibRML" eingetragen.
+
+### Beispiel
+
+In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
 
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
@@ -147,3 +121,4 @@ Die folgenden Beispiele nutzen das LibRML [Zugang nur innerhalb eines IP-Adressb
   </mods:accessCondition>
 </mods:mods>
 ```
+
