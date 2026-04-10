@@ -14,7 +14,7 @@ Siehe [Referenzen standardisierter Rechteinformationen](reference_licence)
 
 # Referenzen standardisierter Zugriffs- und Nutzungsbeschränkungen
 
-Referenzen (URI) von Zugriffs- und Nutzungsbeschränkungen, die in den Metadatenstandards in spezifischen Elementen eingetragen sind, werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet und in LibRML übertragen. Dadurch wird die Erfassung der Beschränkungen erleichtert. Einige Systeme sind unter Umständen noch nicht in der Lage, reines LibRML auszugeben.
+Referenzen (URI) auf Zugriffs- und Nutzungsbeschränkungen, die in den Metadatenstandards in spezifischen Elementen eingetragen sind, werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet und in LibRML übertragen. Dadurch wird die Erfassung der Beschränkungen erleichtert. Einige Systeme sind unter Umständen noch nicht in der Lage, reines LibRML auszugeben.
 
 Siehe [Referenzen standardisierter Beschränkungen](reference_usage)
 
