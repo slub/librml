@@ -1,4 +1,5 @@
-# Allgemeine Informationen
+# Referenzen standardisierter Rechteinformationen
+## Allgemeine Informationen
 
 LibRML kann aus standardisierten Rechteinformationen, wie zum Beispiel Lizenz- und Rechtehinweise, abgeleitet werden, wenn die jeweiligen Systeme (Präsentation, Repositorium, Rechtemanagementsystem, …) über die notwendige Funktionalität verfügen. Die Rechteinformationen sind in der Regel mit dem URI und/oder der Bezeichnung in den Metadaten der digitalen Objekte beschrieben. Vorteile dieser Anwendung sind unter anderem:
 
@@ -14,9 +15,9 @@ Gegebenenfalls werden auch mehrere Rechteinformationen ausgewertet, wie zum Beis
 
 Weitere Informationen finden sich unter [Übersicht Abhängigkeiten zwischen den Rechteinformationen](https://wiki.dnb.de/pages/viewpage.action?pageId=212780200).
 
-# Beispiele
+## Beispiele
 
-## LibRML
+### LibRML
 
 Folgende Beispiele zeigen die Auswertung mehrerer Rechteinformationen, um urheberrechtlich geschützte Objekte mit LibRML zu beschreiben.
 
@@ -27,11 +28,11 @@ Es können auch Creative Commons-Lizenzen ausgewertet und mit LibRML beschrieben
 
 - [CC BY 4.0](.. /templates/CCBY4)
 
-# Standardisierte Rechteinformationen in Metadatenstandards
+## Standardisierte Rechteinformationen in Metadatenstandards
 
 Folgende Beispiele zeigen die Notwendigkeit der standardisierten Erfassung von Rechteinformationen in den jeweiligen Metadatenstandards anhand der Creative Commons-Lizenz CC BY 4.0.
 
-## Dublin Core Metadata Element Set - DCMES
+### Dublin Core Metadata Element Set - DCMES
 
 In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
 
@@ -41,7 +42,7 @@ In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rig
 
 Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533660](https://wiki.dnb.de/pages/viewpage.action?pageId=217533660)
 
-## Metadata Encoding and Transmission Standard - METS
+### Metadata Encoding and Transmission Standard - METS
 
 In METS wird der URI der standardisierten Rechteinformation im Element `<mets:mdRef xlink:href>` eingetragen:
 
@@ -55,7 +56,7 @@ In METS wird der URI der standardisierten Rechteinformation im Element `<mets:md
 
 Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533670](https://wiki.dnb.de/pages/viewpage.action?pageId=217533670)
 
-## Metadata Object Description Schema - MODS
+### Metadata Object Description Schema - MODS
 
 In MODS wird der URI der standardisierten Rechteinformation im Element `<mods:accessCondition xlink:href>` eingetragen:
 
