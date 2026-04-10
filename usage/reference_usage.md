@@ -1,4 +1,5 @@
-# Allgemeine Informationen
+# Referenzen standardisierter Beschränkungen
+## Allgemeine Informationen
 
 Es können standardisierte Zugriffs- und Nutzungsbeschränkungen definiert werden, die von den jeweiligen Systemen (Präsentation, Repositorium, Rechtemanagementsystem, …) umgesetzt werden, insofern sie über die notwendige Funktionalität verfügen. In den Metadaten kann die jeweilige URI eingetragen werden, aus der die Beschreibung in LibRML abgeleitet wird (siehe ''[Reine Metadatenanzeige](../examples/metadataonly.md)'').
 
@@ -6,11 +7,11 @@ Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadat
 
 Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann die URL zu dem LibRML-Code daraus abgeleitet und in die Metadaten eingetragen werden, wie zum Beispiel in METS durch [XSLT](https://github.com/slub/librml/discussions/32#discussioncomment-15959992).
 
-# Beispiele
+## Beispiele
 
 Folgende Beispiele zeigen in ausgewählten Metadatenstandards die mögliche Erfassung von standardisierten Beschränkungen.
 
-## Dublin Core Metadata Element Set - DCMES
+### Dublin Core Metadata Element Set - DCMES
 
 In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
 
@@ -18,7 +19,7 @@ In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rig
 <dc:rights>https://librml.org/examples/metadataonly.html</dc:rights>
 ```
 
-## Metadata Encoding and Transmission Standard - METS
+### Metadata Encoding and Transmission Standard - METS
 
 In METS wird der URI der standardisierten Rechteinformation im Element `<mets:mdRef>` eingetragen:
 
@@ -30,7 +31,7 @@ In METS wird der URI der standardisierten Rechteinformation im Element `<mets:md
 </mets:amdSec>
 ```
 
-## Metadata Object Description Schema - MODS
+### Metadata Object Description Schema - MODS
 
 In MODS wird der URI der standardisierten Rechteinformation im Element `<mods:accessCondition>` eingetragen:
 
