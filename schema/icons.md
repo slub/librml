@@ -6,7 +6,7 @@ welche die Eigenschaften des Objektes repräsentieren.
 
 ## Copyright
 
-Der Copyright-Status eines Objektes kann in der Präsentationsebene abhängig vom gesetzten Wert durch die gängigen Symbole von <RightsStatements.org> dargestellt werden.
+Der Copyright-Status eines Objektes kann in der Präsentationsebene abhängig vom gesetzten Wert durch die gängigen Symbole von [RightsStatements.org](RightsStatements.org) dargestellt werden.
 
 | **true** | **false** | ohne Angabe |
 | ---- | ---- | ---- |
@@ -14,7 +14,7 @@ Der Copyright-Status eines Objektes kann in der Präsentationsebene abhängig vo
 
 ## Creative Commons
 
-Symbole aus dem dem Kontext der Creative Commons Lizenzen können in der Präsentationsebene verwendet werden, um die Weitervewendungsmöglichkeiten darzustellen.
+Symbole aus dem dem Kontext der [Creative Commons Lizenzen](https://de.creativecommons.net/was-ist-cc/) können in der Präsentationsebene verwendet werden, um die Weitervewendungsmöglichkeiten darzustellen.
 
 | commercialuse |       mention       |    sharealike    |
 | :----: | :----: | :----: |
