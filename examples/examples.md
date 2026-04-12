@@ -1,15 +1,16 @@
-# Beispiele aus der Praxis
+# Beispiele
 
-Die folgenden Beispiele enthalten die Beschreibung ausgewählter Zugangs- und Nutzungsbeschränkungen in LibRML.
-
+Die folgenden Beispiele enthalten die Beschreibung ausgewählter Nutzungsarten (Actions) und Einschränkungen (Constraints) in LibRML.
 * [Anzeige der Metadaten](metadataonly.md)
-* [Authentifizierung](authentification.md)
-* [Einwilligung](agreement.md)
-* [Begrenztes Abspielen des Objekts](duration.md)
-* [Embargofrist](embargo.md)
-* [IP-Adressbereich](location.md)
 * [Anzeige des Objekts](readonly.md)
+* [Authentifizierung](authentification.md)
+* [Begrenztes Abspielen des Objekts](duration.md)
+* [Einwilligung](agreement.md)
+* [Embargofrist](embargo.md)
 * [Gleichzeitiger Zugriff](concurrent.md)
-* [Nicht-kommerzielle Nutzung](digitization.md)
+* [IP-Adressbereich](location.md)
+
+Die folgenden Beispiele enthalten die Beschreibung ausgewählter Anwendungsfälle in LibRML.
 * [Copyright - Open Access](copyright_openaccess.md)
 * [Copyright - Restricted Access](copyright_restrictedaccess.md)
+* [Nicht-kommerzielle Nutzung](digitization.md)

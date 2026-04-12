@@ -24,7 +24,7 @@ toc:
     path: /adjustments/
     url: adjustments.html
     subnav:
-      - title: Allgemeine Informationen
+      - title: Erweiterungen
         url: adjustments.html
       - title: Beispiele
         url: adjustments_examples.html
@@ -51,7 +51,7 @@ toc:
     path: /usage/
     url: usage.html
     subnav:
-      - title: Allgemeine Informationen
+      - title: Anwendung
         url: usage.html
       - title: Referenzen standardisierter Rechteinformationen
         url: reference_licence.html
@@ -63,35 +63,35 @@ toc:
     path: /examples/
     url: examples.html
     subnav:
-      - title: Übersicht
+      - title: Beispiele
         url: examples.html
       - title: Anzeige der Metadaten
         url: metadataonly.html
-      - title: Authentifizierung
-        url: authentification.html
-      - title: Einwilligung
-        url: agreement.html
-      - title: IP-Adressbereich
-        url: location.html
       - title: Anzeige des Objekts
         url: readonly.html
+      - title: Authentifizierung
+        url: authentification.html
       - title: Begrenztes Abspielen des Objekts
         url: duration.html
+      - title: Einwilligung
+        url: agreement.html
       - title: Embargofrist
         url: embargo.html
       - title: Gleichzeitiger Zugriff
         url: concurrent.html
-      - title: Nicht-kommerzielle Nutzung
-        url: digitization.html
+      - title: IP-Adressbereich
+        url: location.html
       - title: Copyright - Open Access
         url: copyright_openaccess.html
       - title: Copyright - Restricted Access
         url: copyright_restrictedaccess.html
+      - title: Nicht-kommerzielle Nutzung
+        url: digitization.html
   - title: Vorlagen
     path: /templates/
     url: templates.html
     subnav:
-      - title: Was sind Vorlagen?
+      - title: Vorlagen
         url: templates.html
       - title: Public Domain
         url: PDM1.html
