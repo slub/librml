@@ -2,7 +2,7 @@
 
 ## Allgemeine Informationen und Haupteinschränkungen
 
-Im **Header** sind Informationen zur eindeutigen Identifikation der LibRML-Beschreibung enthalten. Die Erfassung dieser Informationen ist von der [Anwendung](../usage/usage.md) der LibRML-Beschreibung abhängig.
+Der **Header** enthält Informationen zur eindeutigen Identifikation der LibRML-Beschreibung. Die Erfassung dieser Informationen ist von der [Anwendung](../usage/usage.md) der LibRML-Beschreibung abhängig.
 
 Wird die LibRML-Beschreibung in die Metadaten-Datei des digitalen Objekts eingetragen, in der zum Beispiel bereits Informationen über den `tenant` enthalten sind, muss die Information des `tenant` nicht redundant erfasst werden. In den Beispielen [Anpassung LibRML für Retrodigitalisate](../adjustments/adjustments.md), ist nur das Attribut usageguide eingetragen.
 
@@ -26,7 +26,10 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 
 Diese Angaben können beispielsweise dazu verwendet werden auf der Präsentationsebene entsprechende [Symbole](icons.md) anzuzeigen.
 
-Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../templates/templates.md), auf der die Beschreibung aufbaut, zu erwähnen, sowie einen Lizenztext zu verlinken. Beim automatischen Generieren aus einer [Vorlage](../templates/templates.md) ist der Wert in der Regel vorausgefüllt.
+
+Im Falle einer Standardlizenz kann über das Feld `template` auf die verwendete [Vorlage](../templates/templates.md) verwiesen werden.
+Beim automatischen Generieren aus einer [Vorlage](../templates/templates.md) ist der Wert in der Regel vorausgefüllt.
+Im Falle nicht standardisierter Nutzungshinweise kann über das Feld `usageguide` auf weiterführende Informationen verwiesen werden.
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
@@ -37,8 +40,9 @@ Im Fall einer gebräuchlichen Lizenz ist es möglich, die [Vorlage](../templates
 
 ### Beispiel
 
-Ein urheberrechtsgeschütztes digitales Objekt, das im Kontext der SLUB Dresden lizenziert ist. Das digitale Objekt erfordert eine Namensnennung; Weiternutzung und Verbreitung unterliegen denselben Einschränkungen wie das Original.\
-So einem digitalen Objekt würde folgende LibRML zugewiesen werden.
+Ein urheberrechtlich geschütztes digitales Objekt der SLUB Dresden erfordert eine Namensnennung; zudem müssen Derivate unter denselben Bedingungen veröffentlicht werden (Share Alike).
+
+Diesem Objekt würde folgender LibRML-Header zugewiesen:
 
 ```xml
 <libRML version="0.4" xmlns="http://librml.org/schema">
