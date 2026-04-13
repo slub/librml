@@ -2,33 +2,35 @@
 
 ## Allgemeine Informationen
 
-LibRML kann in unterschiedlichen [Anwendungsszenarien](../usage/usage.md) eingesetzt werden. Zum einen kann eine LibRML-Beschreibung in die Metadatendatei eines digitalen Objekts eingetragen werden. Zum anderen kann eine LibRML-Beschreibung als eigenständiges Objekt in Rechteverwaltungssystemen verwaltet werden. In diesen Fällen wird die Verknüpfung zwischen dem digitalen Objekt und der LibRML-Beschreibung durch eine ID ermöglicht, die in die Metadatendatei des digitalen Objekts eingetragen wird.
+LibRML kann grundsätzlich in zwei Anwendungsszenarien eingesetzt werden:
 
-Im EFRE-Projekt wurde zunächst die Anwendung in Rechteverwaltungssystemen verfolgt.
-Im DFG-Projekt wird hauptsächlich die Anwendung der LibRML-Beschreibung in der Metadatendatei verfolgt (siehe [Rechtebeschreibung mit LibRML](../index.md)).
-Abhängig von der Anwendung werden die im folgenden erläuterten Bestandteile des LibRML angewendet.
+1. **Eingebettete Beschreibung**: Die LibRML-Beschreibung wird direkt in die Metadatendatei eines digitalen Objekts eingebettet.
+1. **Referenzierte Beschreibung**: Die LibRML-Beschreibung wird als eigenständiges Objekt in einem zentralen Rechteverwaltungssystem verwaltet. Die Verknüpfung erfolgt über eine eindeutige ID (Referenz-ID), die in den Metadaten des digitalen Objekts hinterlegt wird.
+
+Weitere Informationen finden Sie unter [Anwendungsszenarien](../usage/usage.md).
+
+Während im vorangegangenen EFRE-Projekt die Verwaltung in zentralen Rechteverwaltungssystemen im Fokus stand, liegt der Schwerpunkt des DFG-Projekts auf der Einbettung der LibRML-Beschreibung in die Metadatendateien (siehe Rechtebeschreibung mit LibRML). 
+
+Je nach gewähltem Szenario kommen die im Folgenden erläuterten Elemente unterschiedlich zum Einsatz.
 
 ## Aufbau
 
-Eine LibRML-Beschreibung besteht aus folgenden Elementen:
+Eine LibRML-Beschreibung ist hierarchisch strukturiert und besteht aus folgenden Elementen:
 
 - Allgemeinen Informationen ([**Header**](header.md))
-
 - Nutzungsarten ([**Actions**](actions.md))
-
   - Einschränkungen ([**Constraints**](constraints.md))
-
   - Eigenschaften ([**Attributes**](attributes.md))
 
-Im [**Header**](header.md) werden allgemeine Informationen und allgemeine Eigenschaften eingetragen.
-
-Nach dem [**Header**](header.md) werden die [**Nutzungsarten**](actions.md) beschrieben, die durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) spezifiziert werden. In LibRML werden nur **erlaubte Nutzungsarten** beschrieben. Nutzungsarten, die nicht in der LibRML-Beschreibung des digitalen Objekts enthalten sind, sind **verboten**.
+Im [**Header**](header.md) werden Metadaten zur Beschreibung selbst sowie allgemeine Eigenschaften des Objekts definiert. Darauf folgen die [**Nutzungsarten**](actions.md), die durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) präzisiert werden können.
+In LibRML gilt das Prinzip der Exklusivität: Es werden ausschließlich erlaubte Nutzungsarten ausdrücklich beschrieben. Jede Nutzungsart, die nicht ausdrücklich in der LibRML-Beschreibung aufgeführt ist, gilt als verboten.
 
 Die aktuellen Schemata für die XML- und JSON-Repräsentationen können [hier](schemas.md) eingesehen werden.
 
 ## Beispiel
 
-Ein urheberrechtlich geschütztes digitales Objekt der [SLUB Dresden](https://www.slub-dresden.de/) darf unter anderem indexiert, archiviert und gelesen werden. Davon ausgenommen ist die Nutzung zu kommerziellen Zwecken. Nicht erlaubt ist das Herunterladen, Ausdrucken, Vervielfältigen, Bearbeiten, Wiederverwenden und Veröffentlichen des digitalen Objekts.
+Ein urheberrechtlich geschütztes digitales Objekt der [SLUB Dresden](https://www.slub-dresden.de/) darf unter anderem indexiert, archiviert und gelesen werden. Eine Nutzung zu kommerziellen Zwecken ist hingegen ausgeschlossen. Da alle nicht genannten Aktionen untersagt sind, ist damit auch das Herunterladen, Ausdrucken, Vervielfältigen, Bearbeiten oder Veröffentlichen nicht gestattet.
+
 Diesem digitalen Objekt würde folgende LibRML-Beschreibung zugewiesen werden.
 
 ```xml
@@ -81,4 +83,4 @@ Diesem digitalen Objekt würde folgende LibRML-Beschreibung zugewiesen werden.
 
 ## Vorlagen
 
-Digitale Objekte können Creative-Commons-Lizenzen unterliegen, aus denen sich die Nutzungsmöglichkeiten ableiten. Für diese Anwendungsfälle stehen [**Vorlagen**](.. /templates/templates.md) zur Verfügung.
+Nutzungsmöglichkeiten leiten sich auch aus Standard-Lizenzen wie Creative Commons ab. Um die Erstellung der LibRML-Beschreibung zu erleichtern, stehen für diese Anwendungsfälle die [**Vorlagen**](../templates/templates.md) zur Verfügung.

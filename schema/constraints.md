@@ -3,7 +3,8 @@
 ## Allgemeine Informationen
 
 Einschränkungen (`constraints`) spezifizieren die Zugangs- und Nutzungsbeschränkungen der Nutzungsarten (`action`).
-Die Einschränkungen gelten ausdrücklich nur für die `action`, der sie zugewiesen sind. Einschränkungen, die für mehrere Nutzungsarten gelten, müssen jeder `action` zugewiesen werden.
+
+Eine Einschränkung gilt ausdrücklich nur für die `action`, der sie direkt zugewiesen ist. Sollen Einschränkungen für mehrere Nutzungsarten gelten, müssen sie jeder betroffenen `action` individuell zugewiesen werden.
 
 Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weiter spezifiziert werden.
 

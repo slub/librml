@@ -2,8 +2,9 @@
 
 ## Allgemeine Informationen
 
-Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsarten (`actions`).
-Jeder Eigenschaft **muss** ein Wert zugewiesen werden. Einschränkungen können mehreren Eigenschaften zugewiesen werden.
+Eigenschaften (`attributes`) spezifizieren die Einschränkungen (`constraints`) von Nutzungsarten (`actions`). Während ein `Constraint` den Typ der Einschränkung festlegt (z. B. Ort oder Zeit), definieren die Attribute die konkreten Parameter.
+
+Jeder Eigenschaft **muss** ein Wert zugewiesen werden. Eine Einschränkung kann  durch mehrere Eigenschaften spezifiziert werden.
 
 ```xml
 <restriction type="CONSTRAINT-NAME" ATTRIBUT-NAME="WERT"/>
