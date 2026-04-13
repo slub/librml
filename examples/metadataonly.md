@@ -1,6 +1,6 @@
 # Anzeige der Metadaten
 
-Zugang nur zu Metadaten. Nutzung (Ansicht, Download, ...) des digitalen Objekts ist nicht möglich.
+Zugang nur zu Metadaten, eine weitere Nutzung (z.B. Ansicht und Download) des digitalen Objekts ist nicht möglich.
 
 **Uneingeschränkte Nutzungsarten**:
 

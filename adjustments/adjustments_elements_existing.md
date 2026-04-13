@@ -77,7 +77,6 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
       * _Werkansicht_: Qualität der Bilddaten in der Vollansicht
       * _Werkansicht_: Anzeige der Volltexte (falls Volltexte in einigen Fällen nur für die Indexierung angewendet werden dürfen)
       * _Listenansicht_: Thumbnail-Anzeige erlaubt - jedoch keine Ansicht des digitalen Objekts in höherer Qualität in der Vollansicht
-      * ...
   * **Beispiele:**
     * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)
@@ -158,7 +157,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
     * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **inside**
   * **Relevanz:** Ja
-  * **Bemerkung:** Beschreibung der Arbeitsplätze...
+  * **Bemerkung:** Beschreibung der Arbeitsplätze
   * **Beispiele:**
     * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher)

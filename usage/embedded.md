@@ -97,7 +97,7 @@ In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetrag
 
 ### Beispiel
 
-In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
+Im folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
 
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
