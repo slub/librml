@@ -10,15 +10,15 @@ LibRML kann flexibel und den jeweiligen Anforderungen entsprechend angewendet we
 
 ## Referenzierung Lizenz- und Rechtehinweise
 
-Es werden standardisierte Lizenz- und Rechtehinweise genutzt, die bereits in spezifischen Elementen des verwendeten Metadatenstandards (zum Beispiel METS, MODS) eingetragen sind. Die Informationen werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem) ausgewertet und in LibRML übersetzt. 
+Es werden standardisierte Lizenz- und Rechtehinweise genutzt, die bereits in spezifischen Elementen des verwendeten Metadatenstandards (zum Beispiel METS, MODS) eingetragen sind. Die Informationen werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem) ausgewertet und in LibRML übersetzt.
 Dadurch wird eine redundante Erfassung der Rechteinformationen in den Metadaten vermieden.
 
 Siehe [Referenzen standardisierter Rechteinformationen](reference_licence)
 
 ## Referenzierung LibRML-Beschreibung
 
-Es werden externe LibRML-Beschreibungen mittels URI in der Metadatendatei des digitalen Objekts referenziert. Die Informationen werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem) über diesen URI aufgelöst und ausgewertet. 
-Dadurch sind Anpassungen der LibRML-Beschreibung nur in der externen Quelle notwendig und müssen nicht in den einzelnen Metadatendateien der digitalen Objekte vorgenommen werden. 
+Es werden externe LibRML-Beschreibungen mittels URI in der Metadatendatei des digitalen Objekts referenziert. Die Informationen werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem) über diesen URI aufgelöst und ausgewertet.
+Dadurch sind Anpassungen der LibRML-Beschreibung nur in der externen Quelle notwendig und müssen nicht in den einzelnen Metadatendateien der digitalen Objekte vorgenommen werden.
 
 Siehe [Referenzen standardisierter Beschränkungen](reference_usage)
 

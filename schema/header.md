@@ -26,7 +26,6 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 
 Diese Angaben können beispielsweise dazu verwendet werden auf der Präsentationsebene entsprechende [Symbole](icons.md) anzuzeigen.
 
-
 Im Falle einer Standardlizenz kann über das Feld `template` auf die verwendete [Vorlage](../templates/templates.md) verwiesen werden.
 Im Falle nicht standardisierter Nutzungshinweise kann über das Feld `usageguide` auf weiterführende Informationen verwiesen werden.
 

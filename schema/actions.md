@@ -2,7 +2,7 @@
 
 ## Allgemeine Informationen
 
-Nutzungsarten (`actions`) beschreiben die Nutzungsmöglichkeiten eines digitalen Objekts. 
+Nutzungsarten (`actions`) beschreiben die Nutzungsmöglichkeiten eines digitalen Objekts.
 
 In einer LibRML-Beschreibung muss jede erlaubte `action` ausdrücklich aufgeführt werden [(siehe LibRML Konzept)](concept.md). Jede `action`, die nicht enthalten ist, wird vom System als untersagt interpretiert. Jede `action` wird über das Attribut `type` eindeutig identifiziert. Das Attribut `permission="true"` kennzeichnet die `action` formal als erlaubt.
 

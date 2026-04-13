@@ -121,4 +121,3 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
   </mods:accessCondition>
 </mods:mods>
 ```
-
