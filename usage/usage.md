@@ -2,26 +2,29 @@
 
 ## Allgemeine Informationen
 
-LibRML kann den jeweiligen Anforderungen entsprechend angewendet werden. Es können bestehende Empfehlungen und Standards berücksichtigt werden, um die Anwendung zu vereinfachen. Im Folgenden werden drei Möglichkeiten vorgestellt.
+LibRML kann flexibel und den jeweiligen Anforderungen entsprechend angewendet werden. Im Folgenden werden drei Möglichkeiten der Anwendung vorgestellt:
 
-1. Referenzen von standardisierter Lizenz- und Rechtehinweise
-1. Referenzen von standardisierter Zugriffs- und Nutzungsbeschränkungen
-1. Eingebettetes spezifischen LibRML-Codes in Metadatendateien
+1. Referenzierung Lizenz- und Rechtehinweise
+1. Referenzierung LibRML-Beschreibung
+1. Eingebettetes LibRML in der Metadatendatei
 
-## Referenzen standardisierter Lizenz- und Rechtehinweise
+## Referenzierung Lizenz- und Rechtehinweise
 
-Standardisierte Lizenz- und Rechtehinweise, die in spezifischen Elementen des jeweils angewendeten Metadatenstandards eingetragen sind, werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet und in LibRML übertragen. Dadurch wird eine redundante Erfassung der Rechteinformationen vermieden.
+Es werden standardisierte Lizenz- und Rechtehinweise genutzt, die bereits in spezifischen Elementen des verwendeten Metadatenstandards (zum Beispiel METS, MODS) eingetragen sind. Die Informationen werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem) ausgewertet und in LibRML übersetzt. 
+Dadurch wird eine redundante Erfassung der Rechteinformationen in den Metadaten vermieden.
 
 Siehe [Referenzen standardisierter Rechteinformationen](reference_licence)
 
-## Referenzen standardisierter Zugriffs- und Nutzungsbeschränkungen
+## Referenzierung LibRML-Beschreibung
 
-Referenzen (URI) auf Zugriffs- und Nutzungsbeschränkungen, die in den Metadatenstandards in spezifischen Elementen eingetragen sind, werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet und in LibRML übertragen. Dadurch wird die Erfassung der Beschränkungen erleichtert. Einige Systeme sind unter Umständen noch nicht in der Lage, reines LibRML auszugeben.
+Es werden externe LibRML-Beschreibungen mittels URI in der Metadatendatei des digitalen Objekts referenziert. Die Informationen werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem) über diesen URI aufgelöst und ausgewertet. 
+Dadurch sind Anpassungen der LibRML-Beschreibung nur in der externen Quelle notwendig und müssen nicht in den einzelnen Metadatendateien der digitalen Objekte vorgenommen werden. 
 
 Siehe [Referenzen standardisierter Beschränkungen](reference_usage)
 
 ## Eingebettetes LibRML in der Metadatendatei
 
-Zugriffs- und Nutzungsbeschränkungen werden mittels LibRML in eine Metadatendatei eingebettet und von einem System (Präsentation, Repositorium, Rechtemanagementsystem, …) ausgewertet.
+Es werden LibRML-Beschreibungen direkt in die Metadatendatei des digitalen Objekts eingebettet. Die Informationen werden von einem System (Präsentation, Repositorium, Rechtemanagementsystem, …) unmittelbar ausgewertet.
+Dies ermöglicht eine direkte Verarbeitung des LibRML-Codes ohne Abhängigkeiten von externen Quellen oder Mappings.
 
 Siehe [Eingebettetes LibRML in den Metadaten](embedded)
