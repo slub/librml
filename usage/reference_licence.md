@@ -4,7 +4,7 @@
 
 LibRML kann aus standardisierten Rechteinformationen, wie zum Beispiel Lizenz- und Rechtehinweise, abgeleitet werden, wenn die jeweiligen Systeme (Präsentation, Repositorium, Rechtemanagementsystem, …) über die notwendige Funktionalität verfügen. Die Rechteinformationen sind in der Regel mit dem URI und/oder der Bezeichnung in den Metadaten der digitalen Objekte beschrieben. Vorteile dieser Anwendung sind unter anderem:
 
-1. Redundante Metadaten werden vermieden, weil zum Beispiel der URI [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/) sowohl für die Anzeige im Katalog als auch für die Ableitung von LibRML genutzt werden kann.
+1. Redundante Metadaten werden vermieden, weil zum Beispiel die URI [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/) sowohl für die Anzeige im Katalog als auch für die Ableitung von LibRML genutzt werden kann.
 1. Anpassungen von Schutzfristen oder anderen Beschränkungen rechtlich geschützter digitaler Objekte können in den Systemen angepasst werden, anstatt die Metadaten der digitalen Objekte anzupassen. Zum Beispiel, falls das Urheberrecht in Zukunft erst 80 Jahren nach dem Tod der Urheberin/des Urhebers ablaufen sollte.
 
 Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadatenstandards nutzen, um die Lizenz- und Rechtehinweise einzutragen und auszuwerten. Es sollten jedoch unter anderem die [Empfehlungen für Rechteinformationen in Metadaten (3.0)](https://wiki.dnb.de/pages/viewpage.action?pageId=217533652) oder andere Empfehlungen/Standards berücksichtigt werden. Einige standardisierte Lizenz- und Rechtehinweise sind bereits mit LibRML beschrieben und unter Vorlagen zur Nachnutzung verfügbar. Auch wenn es sich um beschränkt zugängliche Objekte handelt, sollte die Anwendung vereinheitlicht werden.
@@ -35,7 +35,7 @@ Folgende Beispiele zeigen die Notwendigkeit der standardisierten Erfassung von R
 
 ### Dublin Core Metadata Element Set - DCMES
 
-In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
+In DCMES wird die URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
 
 ```xml
 <dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
@@ -45,7 +45,7 @@ Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533660](https://wiki
 
 ### Metadata Encoding and Transmission Standard - METS
 
-In METS wird der URI der standardisierten Rechteinformation im Element `<mets:mdRef xlink:href>` eingetragen:
+In METS wird die URI der standardisierten Rechteinformation im Element `<mets:mdRef xlink:href>` eingetragen:
 
 ```xml
 <mets:amdSec>
@@ -59,7 +59,7 @@ Siehe: [https://wiki.dnb.de/pages/viewpage.action?pageId=217533670](https://wiki
 
 ### Metadata Object Description Schema - MODS
 
-In MODS wird der URI der standardisierten Rechteinformation im Element `<mods:accessCondition xlink:href>` eingetragen:
+In MODS wird die URI der standardisierten Rechteinformation im Element `<mods:accessCondition xlink:href>` eingetragen:
 
 ```xml
 <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">
