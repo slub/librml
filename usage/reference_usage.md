@@ -6,7 +6,7 @@ Es können standardisierte Zugriffs- und Nutzungsbeschränkungen definiert werde
 
 Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadatenstandards nutzen, um die Lizenz- und Rechtehinweise einzutragen und auszuwerten. Es sollten jedoch die [Empfehlungen für Rechteinformationen in Metadaten (3.0)](https://wiki.dnb.de/pages/viewpage.action?pageId=217533652) oder andere Empfehlungen/Standards berücksichtigt werden. Einige standardisierte Lizenz- und Rechtehinweise wurden mit LibRML beschrieben und stehen unter [Vorlagen](.. /templates/templates.md) zur Verfügung.
 
-Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann die URL zu dem LibRML-Code daraus abgeleitet und in die Metadaten eingetragen werden, wie zum Beispiel in METS durch [XSLT](https://github.com/slub/librml/discussions/32#discussioncomment-15959992).
+Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann die URL zum LibRML-Code daraus abgeleitet und in die Metadaten eingetragen werden, wie zum Beispiel in METS durch [XSLT](https://github.com/slub/librml/discussions/32#discussioncomment-15959992).
 
 ## Beispiele
 
