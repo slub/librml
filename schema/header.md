@@ -28,7 +28,6 @@ Diese Angaben können beispielsweise dazu verwendet werden auf der Präsentation
 
 
 Im Falle einer Standardlizenz kann über das Feld `template` auf die verwendete [Vorlage](../templates/templates.md) verwiesen werden.
-Beim automatischen Generieren aus einer [Vorlage](../templates/templates.md) ist der Wert in der Regel vorausgefüllt.
 Im Falle nicht standardisierter Nutzungshinweise kann über das Feld `usageguide` auf weiterführende Informationen verwiesen werden.
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
