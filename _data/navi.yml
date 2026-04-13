@@ -57,7 +57,7 @@ toc:
         url: reference_licence.html
       - title: Referenzierung LibRML-Beschreibung
         url: reference_usage.html
-      - title: Eingebettetes LibRML in der Metadatendatei
+      - title: Einbettung LibRML in die Metadatendatei
         url: embedded.html
   - title: Beispiele
     path: /examples/
