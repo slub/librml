@@ -20,7 +20,7 @@ Die Library Rights Machine-readable Language (LibRML) ist ein Modell zur formale
 Obwohl die Begriffe _**Rights** Expression Languages_ oder _Library **Rights** Machine-readable Language_ das Wort „Rechte“ im Namen tragen, liegt der Fokus der LibRML auf der technischen Abbildung von Berechtigungen, die innerhalb eines Systems maschinell durchgesetzt werden können. 
 Während Creative Commons oder Rights Statements den rechtlichen Status oder die Lizenz beschreiben, definiert LibRML die sich daraus ergebenden funktionalen Spielräume (wie zum Beispiel Drucken, Download, Beschränkung auf spezifische Arbeitsplätze, ...). 
 
-Im Rahmen eines [Projekts](https://schutzrechte.hypotheses.org/1261) in der [DFG-Pilotphase](https://schutzrechte.hypotheses.org/) wird das Modell 2025–2027 für retrodigitalisierte Objekte angepasst.
-In diesem Zeitraum werden die Inhalte dieser Webseite kontinuierlich ergänzt, unter anderem in [Erweiterungen](https://librml.org/adjustments/adjustments.html).
+LibRML entstand zwischen 2019 und 2021 im Rahmen eines [EFRE-Projekts](https://www.slub-dresden.de/ueber-uns/projekte/infrastruktur-und-softwareentwicklung/zentraler-hosting-service-fuer-eressourcen/), wobei der Fokus auf der Beschreibung lizenzierter Objekte lag. Im Rahmen eines [Projekts](https://schutzrechte.hypotheses.org/1261) in der [DFG-Pilotphase](https://schutzrechte.hypotheses.org/) wird das Modell 2025–2027 für retrodigitalisierte Objekte angepasst.
+In diesem Zeitraum werden die Inhalte dieser Webseite laufend aktualisiert. Spezifische Anpassungen werden im Bereich [Erweiterungen](https://librml.org/adjustments/adjustments.html) dokumentiert.
 
 Auf diesen Seiten finden Sie ausführliche Informationen zum [Konzept](schema/concept.md), auf dem LibRML basiert, [Beispiele aus der Praxis](examples/examples.md) sowie [Vorlagen](tmpl/templates.md).
