@@ -53,11 +53,11 @@ toc:
     subnav:
       - title: Anwendung
         url: usage.html
-      - title: Referenzen standardisierter Rechteinformationen
+      - title: Referenzierung Lizenz- und Rechtehinweise
         url: reference_licence.html
-      - title: Referenzen standardisierter Beschränkungen
+      - title: Referenzierung LibRML-Beschreibung
         url: reference_usage.html
-      - title: Eingebettetes LibRML in den Metadaten
+      - title: Eingebettetes LibRML in der Metadatendatei
         url: embedded.html
   - title: Beispiele
     path: /examples/
