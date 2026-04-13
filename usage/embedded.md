@@ -13,8 +13,8 @@ Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann der LibRML-Co
 In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
 
 ```xml
-<mets:mets[...]>
-  <mets:metsHdr[...]/>
+<mets:mets […]>
+  <mets:metsHdr […]/>
   <mets:amdSec>
     <mets:rightsMD ID="LibRML">
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
@@ -46,8 +46,8 @@ In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
 In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
 
 ```xml
-<mets:mets[...]>
-  <mets:metsHdr[...]/>
+<mets:mets[…]>
+  <mets:metsHdr[…]/>
   <mets:amdSec>
     <mets:rightsMD ID="LibRML">
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
@@ -97,7 +97,7 @@ In MODS wird der XML-Code im Element `<accessCondition type="LibRML">` eingetrag
 
 ### Beispiel
 
-In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
+Im folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. Campusnetz)](../examples/location) angewendet.
 
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
@@ -121,4 +121,3 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
   </mods:accessCondition>
 </mods:mods>
 ```
-

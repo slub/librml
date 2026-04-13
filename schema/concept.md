@@ -9,7 +9,7 @@ LibRML kann grundsätzlich in zwei Anwendungsszenarien eingesetzt werden:
 
 Weitere Informationen finden Sie unter [Anwendungsszenarien](../usage/usage.md).
 
-Während im vorangegangenen EFRE-Projekt die Verwaltung in zentralen Rechteverwaltungssystemen im Fokus stand, liegt der Schwerpunkt des DFG-Projekts auf der Einbettung der LibRML-Beschreibung in die Metadatendateien (siehe Rechtebeschreibung mit LibRML). 
+Während im vorangegangenen EFRE-Projekt die Verwaltung in zentralen Rechteverwaltungssystemen im Fokus stand, liegt der Schwerpunkt des DFG-Projekts auf der Einbettung der LibRML-Beschreibung in die Metadatendateien (siehe Rechtebeschreibung mit LibRML).
 
 Je nach gewähltem Szenario kommen die im Folgenden erläuterten Elemente unterschiedlich zum Einsatz.
 

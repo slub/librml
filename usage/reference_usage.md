@@ -6,7 +6,7 @@ Es können standardisierte Zugriffs- und Nutzungsbeschränkungen definiert werde
 
 Jede Einrichtung kann spezifische Elemente oder Felder in den jeweiligen Metadatenstandards nutzen, um die Lizenz- und Rechtehinweise einzutragen und auszuwerten. Es sollten jedoch die [Empfehlungen für Rechteinformationen in Metadaten (3.0)](https://wiki.dnb.de/pages/viewpage.action?pageId=217533652) oder andere Empfehlungen/Standards berücksichtigt werden. Einige standardisierte Lizenz- und Rechtehinweise wurden mit LibRML beschrieben und stehen unter [Vorlagen](.. /templates/templates.md) zur Verfügung.
 
-Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann die URL zu dem LibRML-Code daraus abgeleitet und in die Metadaten eingetragen werden, wie zum Beispiel in METS durch [XSLT](https://github.com/slub/librml/discussions/32#discussioncomment-15959992).
+Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann die URL zum LibRML-Code daraus abgeleitet und in die Metadaten eingetragen werden, wie zum Beispiel in METS durch [XSLT](https://github.com/slub/librml/discussions/32#discussioncomment-15959992).
 
 ## Beispiele
 
@@ -14,7 +14,7 @@ Folgende Beispiele zeigen in ausgewählten Metadatenstandards die mögliche Erfa
 
 ### Dublin Core Metadata Element Set - DCMES
 
-In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
+In DCMES wird die URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
 
 ```xml
 <dc:rights>https://librml.org/examples/metadataonly.html</dc:rights>
@@ -22,7 +22,7 @@ In DCMES wird der URI der standardisierten Rechteinformation im Element `<dc:rig
 
 ### Metadata Encoding and Transmission Standard - METS
 
-In METS wird der URI der standardisierten Rechteinformation im Element `<mets:mdRef>` eingetragen:
+In METS wird die URI der standardisierten Rechteinformation im Element `<mets:mdRef>` eingetragen:
 
 ```xml
 <mets:amdSec>
@@ -34,7 +34,7 @@ In METS wird der URI der standardisierten Rechteinformation im Element `<mets:md
 
 ### Metadata Object Description Schema - MODS
 
-In MODS wird der URI der standardisierten Rechteinformation im Element `<mods:accessCondition>` eingetragen:
+In MODS wird die URI der standardisierten Rechteinformation im Element `<mods:accessCondition>` eingetragen:
 
 ```xml
 <mods:accessCondition type="LibRML" xlink:href="https://librml.org/examples/metadataonly.html">
