@@ -1,4 +1,4 @@
-# Das Konzept von LibRML
+# Konzept
 
 ## Allgemeine Informationen
 

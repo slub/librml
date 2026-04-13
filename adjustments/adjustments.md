@@ -1,4 +1,6 @@
-# Allgemeine Informationen
+# Erweiterungen
+
+## Allgemeine Informationen
 
 In diesem Bereich werden Erweiterungen von LibRML für Retrodigitalisate im Rahmen des [DFG-Projekts](https://schutzrechte.hypotheses.org/1261) dokumentiert.
 

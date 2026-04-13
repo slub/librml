@@ -45,45 +45,6 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 
 ## Beispiele
 
-### Parts
-
-```xml
-  <action type="download" permission="true">
-    <restriction type="parts" parts="1" />
-  </action>
-```
-
-```json
-  "type": "download",
-  "permission": true,
-  "restrictions": [
-    {
-      "type": "parts",
-      "parts": "1"
-    },
-```
-
-### Group
-
-```xml
-  <action type="print" permission="true">
-    <restriction type="group" groups="registered employee" />
-  </action>
-```
-
-```json
-  "type": "print",
-  "permission": true,
-  "restrictions": [
-    {
-      "type": "group",
-      "groups": [
-        "registered",
-        "employee",
-      ]
-    },
-```
-
 ### Age
 
 ```xml
@@ -102,21 +63,57 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     },
 ```
 
-### Location
+### Agreement
 
 ```xml
-  <action type="download" permission="true">
-    <restriction type="location" inside="library" />
+  <action type="read" permission="true">
+    <restriction type="agreement" required="true" />
   </action>
 ```
 
 ```json
-  "type": "download",
+  "type": "read",
   "permission": true,
   "restrictions": [
     {
-      "type": "location",
-      "inside": "library"
+      "type": "agreement",
+      "required": true
+    },
+```
+
+### Concurrent
+
+```xml
+  <action type="lend" permission="true">
+    <restriction type="concurrent" sessions="4" />
+  </action>
+```
+
+```json
+  "type": "lend",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "concurrent",
+      "sessions": 4
+    },
+```
+
+### Count
+
+```xml
+  <action type="print" permission="true">
+    <restriction type="count" count="10" />
+  </action>
+```
+
+```json
+  "type": "print",
+  "permission": true,
+  "restrictions": [
+    {
+      "type": "count",
+      "count": 10
     },
 ```
 
@@ -156,11 +153,11 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     },
 ```
 
-### Count
+### Group
 
 ```xml
   <action type="print" permission="true">
-    <restriction type="count" count="10" />
+    <restriction type="group" groups="registered employee" />
   </action>
 ```
 
@@ -169,44 +166,47 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
   "permission": true,
   "restrictions": [
     {
-      "type": "count",
-      "count": 10
+      "type": "group",
+      "groups": [
+        "registered",
+        "employee",
+      ]
     },
 ```
 
-### Concurrent
+### Location
 
 ```xml
-  <action type="lend" permission="true">
-    <restriction type="concurrent" sessions="4" />
+  <action type="download" permission="true">
+    <restriction type="location" inside="library" />
   </action>
 ```
 
 ```json
-  "type": "lend",
+  "type": "download",
   "permission": true,
   "restrictions": [
     {
-      "type": "concurrent",
-      "sessions": 4
+      "type": "location",
+      "inside": "library"
     },
 ```
 
-### Watermark
+### Parts
 
 ```xml
-  <action type="distribute" permission="true">
-    <restriction type="watermark" watermarkvalue="https://domain/watermark.png" />
+  <action type="download" permission="true">
+    <restriction type="parts" parts="1" />
   </action>
 ```
 
 ```json
-  "type": "distribute",
+  "type": "download",
   "permission": true,
   "restrictions": [
     {
-      "type": "watermark",
-      "watermarkvalue": "https://domain/watermark.png"
+      "type": "parts",
+      "parts": "1"
     },
 ```
 
@@ -228,20 +228,20 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     },
 ```
 
-### Agreement
+### Watermark
 
 ```xml
-  <action type="read" permission="true">
-    <restriction type="agreement" required="true" />
+  <action type="distribute" permission="true">
+    <restriction type="watermark" watermarkvalue="https://domain/watermark.png" />
   </action>
 ```
 
 ```json
-  "type": "read",
+  "type": "distribute",
   "permission": true,
   "restrictions": [
     {
-      "type": "agreement",
-      "required": true
+      "type": "watermark",
+      "watermarkvalue": "https://domain/watermark.png"
     },
 ```

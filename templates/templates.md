@@ -1,8 +1,4 @@
-# Was sind Vorlagen?
-
-Vorlagen (sogenannte ''Templates''') werden bereitgestellt, um die Erfassung von Nutzungsrechten in LibRML zu vereinfachen. Diese Vorlagen können in einem projektierten Eingabeassistenten ausgewählt werden, wodruch sich die Erfassung von einzelnen [**Actions**](../schema/actions.md) und [**Constraints**](../schema/constraints.md) erübrigt. Anschließend können einzelne Beschränkungen angepasst oder hinzugefügt werden.
-
-## Vorlagen für gebräuchliche Lizenzen
+# Vorlagen
 
 | Name / Link | Beschreibung | Typ |
 | :----- | :---- | :---: |
