@@ -28,7 +28,7 @@ In einer LibRML-Beschreibung muss jede erlaubte `action` ausdrücklich aufgefüh
 
 ## Liste
 
-In LibRML stehen die folgenden Nutzungsarten zur Verfügung. es wird zwischen technisch durchsetzbaren Nutzungsarten (Download, Zugang, ... ) und informativen Nutzungsarten (Nachnutzung in anderen Veröffentlichungen, ...) unterschieden.
+In LibRML stehen die folgenden Nutzungsarten zur Verfügung. Es wird zwischen technisch durchsetzbaren Nutzungsarten (Download, Zugang, etc.) und informativen Nutzungsarten (Nachnutzung in anderen Veröffentlichungen, tec.) unterschieden.
 
 | Action-Name | Übersetzung | Beschreibung |
 | :---------- | :--------- | :----------- |
