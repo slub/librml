@@ -10,7 +10,7 @@ Der Copyright-Status eines Objektes kann in der Präsentationsebene abhängig vo
 
 | **true** | **false** | ohne Angabe |
 | ---- | ---- | ---- |
-| ![mit Copyright][InC] | ![ohne Copyright][NoC] | ![keine Angabe][Other] |
+| ![mit Copyright][InC] "Urheberrechtsschutz" | ![ohne Copyright][NoC] "Kein Urheberrechtsschutz" | ![keine Angabe][Other] "Andere" |
 
 ## Creative Commons
 
