@@ -6,7 +6,7 @@ welche die Eigenschaften des Objektes repräsentieren.
 
 ## Copyright
 
-Der Copyright-Status eines Objektes kann in der Präsentationsebene abhängig vom gesetzten Wert durch die gängigen Symbole von [RightsStatements.org](RightsStatements.org) dargestellt werden.
+Der Copyright-Status eines Objektes kann in der Präsentationsebene abhängig vom gesetzten Wert durch die gängigen Symbole von [RightsStatements.org](https://rightsstatements.org/de/) dargestellt werden.
 
 | **true** | **false** | ohne Angabe |
 | ---- | ---- | ---- |
