@@ -36,19 +36,21 @@ Die Werte können zur Steuerung der Anzeige oder des Download des Objekts (Metad
 
 Werte:
 
-* METS-Anwendungsprofil
+* [METS-Anwendungsprofil](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf)
   * DEFAULT
   * DOWNLOAD
-  * FULLTEXT
   * THUMBS
-* SLUB-spezifisch
+  * TEASER
   * AUDIO
+  * FULLTEXT
+* SLUB-spezifisch
   * ORIGINAL
   * VIDEO
   * WAVEFORM
 * früheres METS-Anwendungsprofil
   * MIN
   * MAX
+  * SPECIAL
 
 Anwendungsbeispiel SLUB
 
