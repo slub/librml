@@ -30,7 +30,9 @@ Ist die Prüfung positiv, werden die zugehörigen gültigen Beschränkungen im L
 <libRML:libRML xmlns:libRML="http://librml.org/schema">
     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am-pr/1.0/">
         <libRML:action type="displaymetadata" permission="true"/>
-        <libRML:action type="index" permission="true"/>
+        <libRML:action type="index" permission="true">
+            <libRML:restriction type="location" inside="Lesesaal(Sammlungen)"/>
+        </libRML:action>
         <libRML:action type="read" permission="true">
             <libRML:restriction type="location" inside="Lesesaal(Sammlungen)"/>
         </libRML:action>
@@ -68,7 +70,9 @@ Ist die Prüfung positiv, werden die zugehörigen gültigen Beschränkungen im L
 <libRML:libRML xmlns:libRML="http://librml.org/schema">
     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am/1.0/">
         <libRML:action type="displaymetadata" permission="true"/>
-        <libRML:action type="index" permission="true"/>
+        <libRML:action type="index" permission="true">
+            <libRML:restriction type="location" inside="SLUB-Arbeitsplätze"/>
+        </libRML:action>
         <libRML:action type="read" permission="true">
             <libRML:restriction type="location" inside="SLUB-Arbeitsplätze"/>
         </libRML:action>

@@ -54,8 +54,10 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
         <libRML:libRML version="0.4" xmlns:libRML="http://librml.org/schema">
           <libRML:item commercialuse="false">
             <libRML:action type="displaymetadata" permission="true"/>
-            <libRML:action type="index" permission="true"/>
             <libRML:action type="archive" permission="true"/>
+            <libRML:action type="index" permission="true">
+              <libRML:restriction type="location" inside="SLUB"/>
+            </libRML:action>
             <libRML:action type="read" permission="true">
               <libRML:restriction type="location" inside="SLUB"/>
             </libRML:action>
@@ -105,8 +107,10 @@ Im folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. C
     <libRML:libRML version="0.4" xmlns:libRML="http://librml.org/schema">
       <libRML:item commercialuse="false">
         <libRML:action type="displaymetadata" permission="true"/>
-        <libRML:action type="index" permission="true"/>
         <libRML:action type="archive" permission="true"/>
+        <libRML:action type="index" permission="true">
+          <libRML:restriction type="location" inside="SLUB"/>
+        </libRML:action>
         <libRML:action type="read" permission="true">
           <libRML:restriction type="location" inside="SLUB"/>
         </libRML:action>
