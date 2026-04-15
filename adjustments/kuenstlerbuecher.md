@@ -63,7 +63,6 @@ Umsetzung mit einem angepassten LibRML-Modell
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze"/>
-                            <libRML:restriction type="mets" filegroups="DEFAULT FULLTEXT THUMBS"/>
                         </libRML:action>
                     </libRML:item>
                 </libRML:libRML>

@@ -45,9 +45,7 @@ Umsetzung mit einem angepassten LibRML-Modell
                         <libRML:action type="publish" permission="true">
                             <libRML:restriction type="interface" OAI-PMH="internal"/>
                         </libRML:action>
-                        <libRML:action type="read" permission="true">
-                            <libRML:restriction type="mets" filegroups="AUDIO DEFAULT VIDEO"/>
-                        </libRML:action>
+                        <libRML:action type="read" permission="true"/>
                     </libRML:item>
                 </libRML:libRML>
             </mets:mdWrap>
