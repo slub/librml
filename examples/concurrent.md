@@ -5,11 +5,11 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
 - archive (Archivieren)
 
 **Eingeschränkte Nutzungsarten**:
 
+- index (Indexnutzung)
 - read (Lesen)
 - download (Herunterladen)
 - print (Ausdrucken)
@@ -23,8 +23,10 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item commercialuse="true" id="concuracc-440" template="ConcurrentAccess" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
+    <action type="index" permission="true">
+      <restriction type="concurrent" sessions="5"/>
+    </action>
     <action type="read" permission="true">
       <restriction type="concurrent" sessions="5"/>
     </action>
@@ -50,12 +52,18 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
       "permission": true
     },
     {
-      "type": "index",
+      "type": "archive",
       "permission": true
     },
     {
-      "type": "archive",
-      "permission": true
+      "type": "index",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "concurrent",
+          "sessions": 5
+        }
+      ]
     },
     {
       "type": "read",

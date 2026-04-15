@@ -5,7 +5,6 @@ Zugang nur zu Metadaten, eine weitere Nutzung (z.B. Ansicht und Download) des di
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
 
 **Eingeschränkte Nutzungsarten**:
 
@@ -16,7 +15,6 @@ Zugang nur zu Metadaten, eine weitere Nutzung (z.B. Ansicht und Download) des di
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item id="metaonly-441" template="Metadata access only" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
   </item>
 </libRML>
 ```
@@ -29,10 +27,6 @@ Zugang nur zu Metadaten, eine weitere Nutzung (z.B. Ansicht und Download) des di
   "actions": [
     {
       "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "index",
       "permission": true
     }
   ]

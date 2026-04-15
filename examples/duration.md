@@ -5,7 +5,6 @@ Die Wiedergabe der Audio-/Videodatei ist ausschnittsweise erlaubt, jedoch maxima
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
 - archive (Archivieren)
 
 **Eingeschränkte Nutzungsarten**:
@@ -18,7 +17,6 @@ Die Wiedergabe der Audio-/Videodatei ist ausschnittsweise erlaubt, jedoch maxima
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item id="readonly-449" template="Read only" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
     <action type="read" permission="true">
       <restriction type="duration" percentage="10"/>
@@ -40,10 +38,6 @@ Die Wiedergabe der Audio-/Videodatei ist ausschnittsweise erlaubt, jedoch maxima
   "actions": [
     {
       "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "index",
       "permission": true
     },
     {

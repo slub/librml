@@ -5,7 +5,7 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
+- index (Indexnutzung)
 - read (Lesen)
 - archive (Archivieren)
 - distribute ((Ver)teilen)

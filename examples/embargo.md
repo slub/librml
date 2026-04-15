@@ -7,7 +7,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
+- index (Indexnutzung)
 - archive (Archivieren)
 
 **Eingeschränkte Nutzungsarten**:

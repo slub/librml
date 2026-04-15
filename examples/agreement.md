@@ -5,11 +5,11 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
 - archive (Archivieren)
 
 **Eingeschränkte Nutzungsarten**:
 
+- index (Indexnutzung)
 - read (Lesen)
 - download (Herunterladen)
 - print (Ausdrucken)
@@ -29,12 +29,14 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item commercialuse="true" id="agreement-DE-447" template="Agreement" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
     <action type="read" permission="true">
       <restriction type="agreement" required="true"/>
     </action>
     <action type="download" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="index" permission="true">
       <restriction type="agreement" required="true"/>
     </action>
     <action type="print" permission="true">
@@ -74,12 +76,18 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
       "permission": true
     },
     {
-      "type": "index",
+      "type": "archive",
       "permission": true
     },
     {
-      "type": "archive",
-      "permission": true
+      "type": "index",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "agreement",
+          "required": true
+        }
+      ]
     },
     {
       "type": "read",
