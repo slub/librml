@@ -36,8 +36,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
 * **index**
   * **Relevanz:** Ja
   * **Bemerkung:**
-    * Die Metadaten der digitalen Objekte können gesucht und angezeigt werden.
-    * Wenn die Metadaten nicht indexiert werden dürfen, ist eine Aufnahme des digitalen Objekts in die Digitalen Sammlungen nicht notwendig.
+    * Volltexte (und verwandte Derivate) der digitalen Objekte werden indexiert und können durchsucht werden.
   * **Beispiele:**
     * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)

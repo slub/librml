@@ -20,7 +20,9 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                         <libRML:action type="download" permission="true">
                             <libRML:restriction type="group" groups="SLUB-Nutzende"/>
                         </libRML:action>
-                        <libRML:action type="index" permission="true"/>
+                        <libRML:action type="index" permission="true">
+                            <libRML:restriction type="group" groups="SLUB-Nutzende"/>
+                        </libRML:action>
                         <libRML:action type="publish" permission="false"/>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="group" groups="SLUB-Nutzende"/>
