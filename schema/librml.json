@@ -76,8 +76,8 @@
             "type": "integer"
           },
           "maxresolution": {
-            "minimum": 1,
-            "type": "integer"
+            "pattern": "[1-9]\\d*(dpi|i|p)?",
+            "type": "string"
           },
           "minage": {
             "minimum": 1,

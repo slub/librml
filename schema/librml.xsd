@@ -4,7 +4,7 @@
     xmlns:libRML="http://librml.org/schema"
     attributeFormDefault="unqualified"
     elementFormDefault="qualified"
-    version="0.5.0">
+    version="0.6.0">
     <xs:element name="libRML" type="libRML:libRMLType" />
 
     <!-- libRMLType - Container for all -->
@@ -116,7 +116,15 @@
         </xs:attribute>
     </xs:attributeGroup>
     <xs:attributeGroup name="qltattr">
-        <xs:attribute type="xs:positiveInteger" name="maxresolution" />
+        <xs:attribute name="maxresolution">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <!-- Regex for image and video resolution -->
+                    <xs:pattern
+                        value="[1-9]\d*(dpi|i|p)?" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
         <xs:attribute type="xs:positiveInteger" name="maxbitrate" />
     </xs:attributeGroup>
 </xs:schema>
