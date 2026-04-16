@@ -77,7 +77,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
       "restrictions": [
         {
           "type": "quality",
-          "maxresolution": 72
+          "maxresolution": "72"
         },
         {
           "type": "date",
@@ -101,7 +101,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
       "restrictions": [
         {
           "type": "quality",
-          "maxresolution": 72
+          "maxresolution": "72"
         },
         {
           "type": "date",
@@ -125,7 +125,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
       "restrictions": [
         {
           "type": "quality",
-          "maxresolution": 72
+          "maxresolution": "72"
         },
         {
           "type": "date",
