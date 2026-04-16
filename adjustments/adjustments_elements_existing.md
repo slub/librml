@@ -171,8 +171,8 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Unklar
   * **Bemerkung:** Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
 * **maxresolution**
-  * **Relevanz:** Nein
-  * **Bemerkung:** Die Verwaltung der Qualität wird mit den METS-Dateigruppen realisiert, um technische Anpassungen an Kitodo.Presentation zu vermeiden.
+  * **Relevanz:** Unklar
+  * **Bemerkung:** Die Verwaltung der Qualität kann auch durch die METS-Dateigruppen realisiert werden.
 * **minage**
   * **Relevanz:** Nein
   * **Bemerkung:** Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
