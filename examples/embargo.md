@@ -22,7 +22,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
 
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.4" xmlns="http://librml.org/schema">
+<libRML version="0.6" xmlns="http://librml.org/schema">
   <item commercialuse="false" id="embargo-28" template="IP" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>

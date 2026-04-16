@@ -43,7 +43,7 @@ Ein urheberrechtlich geschütztes digitales Objekt der SLUB Dresden erfordert ei
 Diesem Objekt würde folgender LibRML-Header zugewiesen:
 
 ```xml
-<libRML version="0.4" xmlns="http://librml.org/schema">
+<libRML version="0.6" xmlns="http://librml.org/schema">
   <item copyright="true" id="id-123456" mention="true" sharealike="true" tenant="https://www.slub-dresden.de/">
   </item>
 </libRML>

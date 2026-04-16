@@ -34,7 +34,7 @@ Ein urheberrechtlich geschütztes digitales Objekt der [SLUB Dresden](https://ww
 Diesem digitalen Objekt würde folgende LibRML-Beschreibung zugewiesen werden.
 
 ```xml
-<libRML version="0.4" xmlns="http://librml.org/schema">
+<libRML version="0.6" xmlns="http://librml.org/schema">
   <item commercialuse="false" copyright="true" id="access-0815" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true" />
     <action type="index" permission="true" />

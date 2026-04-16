@@ -20,7 +20,7 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
 
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.4" xmlns="http://librml.org/schema">
+<libRML version="0.6" xmlns="http://librml.org/schema">
   <item commercialuse="true" id="auth-DE-442" template="Authentification" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>

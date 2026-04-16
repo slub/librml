@@ -9,7 +9,7 @@ In einer LibRML-Beschreibung muss jede erlaubte `action` ausdrücklich aufgefüh
 `action` können durch Einschränkungen [(siehe `Constraints`)](constraints.md) und Eigenschaften [(siehe `Attributes`)](attributes.md) spezifiziert werden.
 
 ```xml
-<libRML version="0.4" xmlns="http://librml.org/schema">
+<libRML version="0.6" xmlns="http://librml.org/schema">
   <item id="ID-NAME">
     <action type="ACTION-NAME" permission="true" />
   </item>

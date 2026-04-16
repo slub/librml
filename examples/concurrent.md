@@ -20,7 +20,7 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
 
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.4" xmlns="http://librml.org/schema">
+<libRML version="0.6" xmlns="http://librml.org/schema">
   <item commercialuse="true" id="concuracc-440" template="ConcurrentAccess" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
     <action type="index" permission="true"/>
