@@ -24,6 +24,97 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
 {% include_relative embargo.xml %}
 {% endhighlight %}
 
-{% highlight json %}
-{% include_relative embargo.json %}
-{% endhighlight %}
+```json
+{
+  "commercialuse": false,
+  "id": "embargo-28",
+  "template": "IP",
+  "tenant": "https://www.slub-dresden.de/",
+  "actions": [
+    {
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "index",
+      "permission": true
+    },
+    {
+      "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "quality",
+          "maxresolution": "72"
+        },
+        {
+          "type": "date",
+          "todate": "2028-12-31"
+        }
+      ]
+    },
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "date",
+          "fromdate": "2029-01-01"
+        }
+      ]
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "quality",
+          "maxresolution": "72"
+        },
+        {
+          "type": "date",
+          "todate": "2028-12-31"
+        }
+      ]
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "date",
+          "fromdate": "2029-01-01"
+        }
+      ]
+    },
+    {
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "quality",
+          "maxresolution": "72"
+        },
+        {
+          "type": "date",
+          "todate": "2028-12-31"
+        }
+      ]
+    },
+    {
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "date",
+          "fromdate": "2029-01-01"
+        }
+      ]
+    }
+  ]
+}
+```
