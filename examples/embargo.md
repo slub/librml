@@ -28,21 +28,21 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
     <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
     <action type="read" permission="true">
-      <restriction type="quality" maxresolution="72"/>
+      <restriction type="quality" maxresolution="300"/>
       <restriction type="date" todate="2028-12-31"/>
     </action>
     <action type="read" permission="true">
       <restriction type="date" fromdate="2029-01-01"/>
     </action>
     <action type="download" permission="true">
-      <restriction type="quality" maxresolution="72"/>
+      <restriction type="quality" maxresolution="300"/>
       <restriction type="date" todate="2028-12-31"/>
     </action>
     <action type="download" permission="true">
       <restriction type="date" fromdate="2029-01-01"/>
     </action>
     <action type="print" permission="true">
-      <restriction type="quality" maxresolution="72"/>
+      <restriction type="quality" maxresolution="300"/>
       <restriction type="date" todate="2028-12-31"/>
     </action>
     <action type="print" permission="true">
@@ -77,7 +77,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
       "restrictions": [
         {
           "type": "quality",
-          "maxresolution": 72
+          "maxresolution": 300
         },
         {
           "type": "date",
@@ -101,7 +101,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
       "restrictions": [
         {
           "type": "quality",
-          "maxresolution": 72
+          "maxresolution": 300
         },
         {
           "type": "date",
@@ -125,7 +125,7 @@ Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
       "restrictions": [
         {
           "type": "quality",
-          "maxresolution": 72
+          "maxresolution": 300
         },
         {
           "type": "date",

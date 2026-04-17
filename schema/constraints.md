@@ -214,7 +214,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 
 ```xml
   <action type="print" permission="true">
-    <restriction type="quality" maxresolution="300" />
+    <restriction type="quality" maxresolution="1080" />
   </action>
 ```
 
@@ -224,7 +224,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
   "restrictions": [
     {
       "type": "quality",
-      "maxresolution": 300
+      "maxresolution": 1080
     },
 ```
 

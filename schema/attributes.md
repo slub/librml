@@ -30,7 +30,7 @@ In LibRML stehen folgende Eigenschaften zur Verfügung.
 | maxage | Maximalalter für eine Action. Zum Beispiel in Einrichtungen genutzt, die Kinderbücher für Erwachsene unzugänglich machen. | positive integer | **Einheit**: Jahre |
 | maxbitrate | Maximal erlaubte Bitrate für den Download eines digitalen Objekts | positive integer | **Einheit**: Bit |
 | maxduration | Maximale Dauer eines Constraints | positive integer | **Einheit**: Sekunden |
-| maxresolution | Maximal erlaubte Auflösung für den Download eines digitalen Objekts | positive integer | **Einheit**: DPI |
+| maxresolution | Maximal erlaubte Auflösung für die Anzeige und den Download eines digitalen Objekts, bestimmt durch die Anzahl der Pixel einer Seitenlänge | positive integer | **Einheit**: px |
 | minage | Mindestalter für eine Action. Zum Beispiel zur Beschreibung des Jugendschutzes genutzt. | positive integer | **Einheit**: Jahre |
 | outside | Nutzung außerhalb eines geographischen Gebiets oder außerhalb einer Institution | Name | |
 | percentage | Teile des digitalen Objekts in Prozent. | nicht-negative integer | |
