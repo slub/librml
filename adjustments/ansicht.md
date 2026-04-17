@@ -39,19 +39,13 @@ Umsetzung mit einem angepassten LibRML-Modell
             <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/en-ma/1.0/">
-                        <libRML:action type="displaymetadata" permission="true">
-                            <libRML:restriction type="mets" sections="amdSec dmdSec structMap"/>
-                        </libRML:action>
+                        <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="false"/>
-                        <libRML:action type="index" permission="true">
-                            <libRML:restriction type="mets" sections="dmdSec"/>
-                        </libRML:action>
+                        <libRML:action type="index" permission="true"/>
                         <libRML:action type="publish" permission="true">
                             <libRML:restriction type="interface" OAI-PMH="internal"/>
                         </libRML:action>
-                        <libRML:action type="read" permission="true">
-                            <libRML:restriction type="mets" filegroups="AUDIO DEFAULT VIDEO"/>
-                        </libRML:action>
+                        <libRML:action type="read" permission="true"/>
                     </libRML:item>
                 </libRML:libRML>
             </mets:mdWrap>

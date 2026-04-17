@@ -5,11 +5,11 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
 - archive (Archivieren)
 
 **Eingeschränkte Nutzungsarten**:
 
+- index (Indexnutzung)
 - read (Lesen)
 - download (Ausdrucken)
 - print (Herunterladen)
@@ -23,8 +23,10 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item commercialuse="false" id="iprestricted-444" template="IP" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
+    <action type="index" permission="true">
+      <restriction type="location" subnet="192.168.10.0/24"/>
+    </action>
     <action type="read" permission="true">
       <restriction type="location" subnet="192.168.10.0/24"/>
     </action>

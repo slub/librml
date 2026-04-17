@@ -5,11 +5,11 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
 **Uneingeschränkte Nutzungsarten**:
 
 - displaymetadata (Anzeigen der Metadaten)
-- index (Indexieren)
 - archive (Archivieren)
 
 **Eingeschränkte Nutzungsarten**:
 
+- index (Indexnutzung)
 - read (Lesen)
 - download (Herunterladen)
 - print (Ausdrucken)
@@ -23,8 +23,10 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
 <libRML version="0.4" xmlns="http://librml.org/schema">
   <item commercialuse="true" id="auth-DE-442" template="Authentification" tenant="https://www.slub-dresden.de/">
     <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
     <action type="archive" permission="true"/>
+    <action type="index" permission="true">
+      <restriction type="group" groups="registered"/>
+    </action>
     <action type="read" permission="true">
       <restriction type="group" groups="registered"/>
     </action>
@@ -50,12 +52,20 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
       "permission": true
     },
     {
-      "type": "index",
+      "type": "archive",
       "permission": true
     },
     {
-      "type": "archive",
-      "permission": true
+      "type": "index",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
+        }
+      ]
     },
     {
       "type": "read",
