@@ -71,6 +71,10 @@
             "minimum": 1,
             "type": "integer"
           },
+          "maxdimension": {
+            "minimum": 1,
+            "type": "integer"
+          },
           "maxduration": {
             "minimum": 1,
             "type": "integer"

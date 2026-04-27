@@ -116,7 +116,8 @@
         </xs:attribute>
     </xs:attributeGroup>
     <xs:attributeGroup name="qltattr">
-        <xs:attribute type="xs:positiveInteger" name="maxresolution" />
         <xs:attribute type="xs:positiveInteger" name="maxbitrate" />
+        <xs:attribute type="xs:positiveInteger" name="maxdimension" />
+        <xs:attribute type="xs:positiveInteger" name="maxresolution" />
     </xs:attributeGroup>
 </xs:schema>
