@@ -63,7 +63,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
 * **publish**
   * **Relevanz:** Ja
   * **Bemerkung:**
-    * Die Bereitstellung über Schnittstellen kannbeschrieben werden (Interface-IIIF, Interface-OAI-PMH).
+    * Die Bereitstellung über Schnittstellen kann beschrieben werden (Interface-IIIF, Interface-OAI-PMH).
     * Die Veröffentlichung als Verlagsveröffentlichung wird nicht mit/in Kitodo.Presentation gesteuert.
   * **Beispiele:**
     * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
