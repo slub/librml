@@ -14,7 +14,6 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
             <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/kr-bu/1.0/">
-                        <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="true">
                             <libRML:restriction type="parts" percentage="10"/>
                         </libRML:action>
@@ -47,7 +46,6 @@ Umsetzung mit einem angepassten LibRML-Modell
             <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
                 <libRML:libRML xmlns:libRML="http://librml.org/schema">
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/kr-bu/1.0/">
-                        <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="true">
                             <libRML:restriction type="mets" filegroups="DOWNLOAD"/>
                             <libRML:restriction type="mets" fileformats="FULLDOWNLOAD-PDF FULLTEXT-TXT FULLTEXT-XML IIIF-JSON"/>

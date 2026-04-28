@@ -12,14 +12,10 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Bemerkung:**
   * Dies wird in der SLUB Dresden nicht mit/in Kitodo.Presentation gesteuert und muss nicht mit LibRML beschrieben werden.
 * **displaymetadata**
-  * **Relevanz:** Ja
+  * **Relevanz:** Nein
   * **Bemerkung:**
     * Metadaten einschließlich der Nutzungshinweise werden in den Digitalen Sammlungen angezeigt, auch wenn die Objekte nicht frei zugänglich sind.
-    * Dies betrifft die Listenansicht und Werkansicht.
-  * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)
-    * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
+    * Kann in Systemen, die zwischen Katalogebene und Präsentationsebene unterscheiden, nicht sinnvoll eingesetzt werden.
 * **distribute**
   * **Relevanz:** Nein
   * **Bemerkung:**
