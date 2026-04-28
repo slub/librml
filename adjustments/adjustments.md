@@ -18,3 +18,5 @@ Aspekte der Prüfung sind:
 * [Beispiele](adjustments_examples.md)
 * [Bestehende Elemente für Retrodigitalisate](adjustments_elements_existing)
 * [Neue Elemente für Retrodigitalisate](adjustments_elements_new.md)
+
+Angepasste Versionen der Schema-Dateien stehen auf GitHub in einem gesonderten [Branch](https://github.com/slub/librml/tree/schema-extension/schema) bereit.
