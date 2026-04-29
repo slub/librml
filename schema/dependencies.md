@@ -15,5 +15,5 @@ In der folgendenden Tabelle sind die erlaubten Kombinationen von Einschränkunge
 | group | groups | alle außer `archive` `displaymetadata` `move` |
 | location | inside <br> outside <br> subnet | alle |
 | parts | percentage | alle außer `displaymetadata` `index` |
-| quality | maxbitrate <br> maxresolution | alle außer `archive` `displaymetadata` `index` `move` |
+| quality | maxbitrate <br> maxdimension <br> maxresolution | alle außer `archive` `displaymetadata` `index` `move` |
 | watermark | watermarkvalue | alle außer `displaymetadata` |
