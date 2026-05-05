@@ -13,7 +13,6 @@ Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRM
 
 Anwendbar in den folgenden [Actions](/schema/actions.md):
 
-* `displaymetadata`
 * `download`
 * `index`
 * `read`
