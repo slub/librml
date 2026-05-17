@@ -87,6 +87,8 @@ toc:
         url: copyright_restrictedaccess.html
       - title: Nicht-kommerzielle Nutzung
         url: digitization.html
+      - title: Blockiertes Objekt
+        url: minimal.html
   - title: Vorlagen
     path: /templates/
     url: templates.html
