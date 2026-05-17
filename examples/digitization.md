@@ -16,7 +16,7 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
 - Keine
 
 ```xml
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="ASCII"?>
 <libRML version="0.4" xmlns="http://librml.org/schema">
     <item commercialuse="false" copyright="true" id="DE-611-HS-3665348" tenant="https://www.slub-dresden.de/">
         <action type="displaymetadata" permission="true"/>
