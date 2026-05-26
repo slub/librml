@@ -49,7 +49,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 
 ```xml
   <action type="read" permission="true">
-    <restriction type="age" suminagebnet="18" />
+    <restriction type="age" minage="18" />
   </action>
 ```
 
