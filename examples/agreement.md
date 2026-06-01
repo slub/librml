@@ -80,16 +80,6 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
       "permission": true
     },
     {
-      "type": "index",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "agreement",
-          "required": true
-        }
-      ]
-    },
-    {
       "type": "read",
       "permission": true,
       "restrictions": [
@@ -101,6 +91,16 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
     },
     {
       "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "agreement",
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "index",
       "permission": true,
       "restrictions": [
         {
