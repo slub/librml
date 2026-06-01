@@ -17,6 +17,6 @@ Die folgenden Beispiele enthalten die Beschreibung ausgewählter Anwendungsfäll
 * [Copyright - Restricted Access](copyright_restrictedaccess.md)
 * [Nicht-kommerzielle Nutzung](digitization.md)
 
-Das folgende Beispiel enthält die Beschreibung ohne Berechtigungen. 
+Das folgende Beispiel enthält die Beschreibung ohne Berechtigungen.
 
 * [Blockiertes Objekt](minimal.md)

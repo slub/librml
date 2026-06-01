@@ -63,4 +63,3 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
     </mets:amdSec>
 </mets:mets>
 ```
-
