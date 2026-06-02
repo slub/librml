@@ -2,6 +2,7 @@
 
 Aufgrund eines Embargos ist der Zugang zum Digitalisat bis zum 31. Dezember 2028 nur eingeschränkt, d.h. in verminderter Auflösung, möglich.
 
+
 Ab dem 1. Januar 2029 ist der Zugang dann uneingeschränkt möglich.
 
 **Uneingeschränkte Nutzungsarten**:

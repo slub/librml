@@ -5,7 +5,9 @@
 ## XML Schema
 
 {% highlight xml %}
+
 {% include_relative librml.xsd %}
+
 {% endhighlight %}
 
 ## JSON Schema
