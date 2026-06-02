@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <libRML version="0.4" xmlns="http://librml.org/schema">
-  <item commercialuse="true" id="demo-mit-DL-DE-BY-2.0" mention="true" sharealike="true" template="DL-DE-BY-2.0" usageguide="https://www.govdata.de/dl-de/by-2-0">
+  <item commercialuse="true" id="demo-mit-DL-DE-BY-2.0" mention="true" template="DL-DE-BY-2.0" usageguide="https://www.govdata.de/dl-de/by-2-0">
     <action type="archive" permission="true"/>
     <action type="displaymetadata" permission="true"/>
     <action type="distribute" permission="true"/>
