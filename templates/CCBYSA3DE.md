@@ -2,83 +2,10 @@
 
 ## Creative Commons – Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland
 
-```xml
-<?xml version="1.0" encoding="UTF-8" ?>
-<libRML version="0.4" xmlns="http://librml.org/schema">
-  <item commercialuse="true" id="demo-mit-CCBYSADE" mention="true" sharealike="true" template="CC-BY-SA-4.0" usageguide="https://creativecommons.org/licenses/by-sa/4.0/">
-    <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
-    <action type="read" permission="true"/>
-    <action type="download" permission="true"/>
-    <action type="print" permission="true"/>
-    <action type="reproduce" permission="true"/>
-    <action type="modify" permission="true"/>
-    <action type="reuse" permission="true"/>
-    <action type="distribute" permission="true"/>
-    <action type="publish" permission="true"/>
-    <action type="archive" permission="true"/>
-    <action type="move" permission="true"/>
-  </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative CCBYSA3DE.xml %}
+{% endhighlight %}
 
-```json
-{
-  "commercialuse": true,
-  "id": "demo-mit-CCBYSADE",
-  "mention": true,
-  "sharealike": true,
-  "template": "CC-BY-SA-3.0-DE",
-  "usageguide": "https://creativecommons.org/licenses/by-sa/3.0/de/",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true
-    },
-    {
-      "type": "read",
-      "permission": true
-    },
-    {
-      "type": "download",
-      "permission": true
-    },
-    {
-      "type": "print",
-      "permission": true
-    },
-    {
-      "type": "reproduce",
-      "permission": true
-    },
-    {
-      "type": "modify",
-      "permission": true
-    },
-    {
-      "type": "reuse",
-      "permission": true
-    },
-    {
-      "type": "distribute",
-      "permission": true
-    },
-    {
-      "type": "publish",
-      "permission": true
-    },
-    {
-      "type": "archive",
-      "permission": true
-    },
-    {
-      "type": "move",
-      "permission": true
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative CCBYSA3DE.json %}
+{% endhighlight %}
