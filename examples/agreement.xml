@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libRML version="0.4" xmlns="http://librml.org/schema">
+  <item commercialuse="true" id="agreement-DE-447" template="Agreement" tenant="https://www.slub-dresden.de/">
+    <action type="displaymetadata" permission="true"/>
+    <action type="archive" permission="true"/>
+    <action type="read" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="download" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="index" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="print" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="reproduce" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="modify" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="reuse" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="distribute" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="publish" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+    <action type="move" permission="true">
+      <restriction type="agreement" required="true"/>
+    </action>
+  </item>
+</libRML>
