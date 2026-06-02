@@ -8,7 +8,7 @@ Wird die LibRML-Beschreibung in die Metadaten-Datei des digitalen Objekts einget
 
 Wird die LibRML-Beschreibung in einem „Rechtemangement-System“ mit LibRML-Beschreibungen aus unterschiedlichen Einrichtungen verwaltet, ist die Information über den `tenant` verpflichtend. Zusätzlich kann die LibRML-Beschreibung ohne eindeutige ID nicht in den zugehörigen digitalen Objekten referenziert werden.
 
-Somit sind im letztgenannten Anwendungsfall einige Informationen im **Header** verpflichtend anzuwenden, auch wenn deren Verpflichtungsgrad generell optional ist.
+Somit sind im letztgenannten Anwendungsfall einige Informationen im **Header** verpflichtend anzuwenden, auch wenn deren Verpflichtungsgrad im Schema optional ist.
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
@@ -27,7 +27,7 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 Diese Angaben können beispielsweise dazu verwendet werden auf der Präsentationsebene entsprechende [Symbole](icons.md) anzuzeigen.
 
 Im Falle einer Standardlizenz kann über das Feld `template` auf die verwendete [Vorlage](../templates/templates.md) verwiesen werden.
-Im Falle nicht standardisierter Nutzungshinweise kann über das Feld `usageguide` auf weiterführende Informationen verwiesen werden.
+Über das Feld `usageguide` sollte auf weiterführende Informationen wie Nutzungs- oder Rechtehinweise verwiesen werden.
 
 | Feld | Beschreibung | Wert | Verpflichtungsgrad |
 | :--- | :----------- | :--- | :----------------- |
