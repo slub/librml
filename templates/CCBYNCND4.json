@@ -2,27 +2,11 @@
   "actions": [
     {
       "permission": true,
+      "type": "archive"
+    },
+    {
+      "permission": true,
       "type": "displaymetadata"
-    },
-    {
-      "permission": true,
-      "type": "index"
-    },
-    {
-      "permission": true,
-      "type": "read"
-    },
-    {
-      "permission": true,
-      "type": "download"
-    },
-    {
-      "permission": true,
-      "type": "print"
-    },
-    {
-      "permission": true,
-      "type": "reproduce"
     },
     {
       "permission": true,
@@ -30,15 +14,43 @@
     },
     {
       "permission": true,
-      "type": "publish"
+      "type": "download"
     },
     {
       "permission": true,
-      "type": "archive"
+      "type": "index"
+    },
+    {
+      "permission": true,
+      "type": "lend"
     },
     {
       "permission": true,
       "type": "move"
+    },
+    {
+      "permission": true,
+      "type": "print"
+    },
+    {
+      "permission": true,
+      "type": "publish"
+    },
+    {
+      "permission": true,
+      "type": "read"
+    },
+    {
+      "permission": true,
+      "type": "reproduce"
+    },
+    {
+      "permission": true,
+      "type": "reuse"
+    },
+    {
+      "permission": true,
+      "type": "run"
     }
   ],
   "commercialuse": false,
