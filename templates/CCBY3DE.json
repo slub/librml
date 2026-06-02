@@ -1,65 +1,65 @@
 {
-  "actions": [
-    {
-      "permission": true,
-      "type": "archive"
-    },
-    {
-      "permission": true,
-      "type": "displaymetadata"
-    },
-    {
-      "permission": true,
-      "type": "distribute"
-    },
-    {
-      "permission": true,
-      "type": "download"
-    },
-    {
-      "permission": true,
-      "type": "index"
-    },
-    {
-      "permission": true,
-      "type": "lend"
-    },
-    {
-      "permission": true,
-      "type": "modify"
-    },
-    {
-      "permission": true,
-      "type": "move"
-    },
-    {
-      "permission": true,
-      "type": "print"
-    },
-    {
-      "permission": true,
-      "type": "publish"
-    },
-    {
-      "permission": true,
-      "type": "read"
-    },
-    {
-      "permission": true,
-      "type": "reproduce"
-    },
-    {
-      "permission": true,
-      "type": "reuse"
-    },
-    {
-      "permission": true,
-      "type": "run"
-    }
-  ],
   "commercialuse": true,
   "id": "demo-mit-CCBYDE",
   "mention": true,
   "template": "CC-BY-3.0-DE",
-  "usageguide": "https://creativecommons.org/licenses/by/3.0/de/"
+  "usageguide": "https://creativecommons.org/licenses/by/3.0/de/",
+  "actions": [
+    {
+      "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "distribute",
+      "permission": true
+    },
+    {
+      "type": "download",
+      "permission": true
+    },
+    {
+      "type": "index",
+      "permission": true
+    },
+    {
+      "type": "lend",
+      "permission": true
+    },
+    {
+      "type": "modify",
+      "permission": true
+    },
+    {
+      "type": "move",
+      "permission": true
+    },
+    {
+      "type": "print",
+      "permission": true
+    },
+    {
+      "type": "publish",
+      "permission": true
+    },
+    {
+      "type": "read",
+      "permission": true
+    },
+    {
+      "type": "reproduce",
+      "permission": true
+    },
+    {
+      "type": "reuse",
+      "permission": true
+    },
+    {
+      "type": "run",
+      "permission": true
+    }
+  ]
 }
