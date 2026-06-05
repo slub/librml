@@ -52,12 +52,18 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
       "permission": true
     },
     {
-      "type": "index",
+      "type": "archive",
       "permission": true
     },
     {
-      "type": "archive",
-      "permission": true
+      "type": "index",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
     },
     {
       "type": "read",
@@ -65,9 +71,7 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
       "restrictions": [
         {
           "type": "location",
-          "inside": [
-            "library"
-          ]
+          "subnet": "192.168.10.0/24"
         }
       ]
     },
@@ -77,9 +81,7 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
       "restrictions": [
         {
           "type": "location",
-          "inside": [
-            "library"
-          ]
+          "subnet": "192.168.10.0/24"
         }
       ]
     },
@@ -89,9 +91,7 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
       "restrictions": [
         {
           "type": "location",
-          "inside": [
-            "library"
-          ]
+          "subnet": "192.168.10.0/24"
         }
       ]
     }

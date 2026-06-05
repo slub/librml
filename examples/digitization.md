@@ -33,7 +33,7 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
 {
   "commercialuse": false,
   "copyright": true,
-  "id": "digitisation-500",
+  "id": "DE-611-HS-3665348",
   "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
@@ -46,11 +46,11 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
     },
     {
       "type": "read",
-      "permission": true,
+      "permission": true
     },
     {
       "type": "archive",
-      "permission": true,
+      "permission": true
     },
     {
       "type": "distribute",
@@ -59,7 +59,7 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
     {
       "type": "move",
       "permission": true
-    },
+    }
   ]
 }
 ```

@@ -33,7 +33,7 @@ Die Wiedergabe der Audio-/Videodatei ist ausschnittsweise erlaubt, jedoch maxima
 ```json
 {
   "id": "readonly-449",
-  "template": "Read Only",
+  "template": "Read only",
   "tenant": "https://www.slub-dresden.de/",
   "actions": [
     {
@@ -50,25 +50,25 @@ Die Wiedergabe der Audio-/Videodatei ist ausschnittsweise erlaubt, jedoch maxima
       "restrictions": [
         {
           "type": "duration",
-          "percentage": "10"
+          "percentage": 10
         },
         {
           "type": "duration",
-          "maxduration": "120"
+          "maxduration": 120
         }
       ]
-    }
+    },
     {
       "type": "run",
       "permission": true,
       "restrictions": [
         {
           "type": "duration",
-          "percentage": "10"
+          "percentage": 10
         },
         {
           "type": "duration",
-          "maxduration": "120"
+          "maxduration": 120
         }
       ]
     }

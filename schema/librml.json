@@ -101,7 +101,7 @@
           "permission": {
             "type": "boolean"
           },
-          "property": {
+          "required": {
             "type": "boolean"
           },
           "sessions": {
