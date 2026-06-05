@@ -11,7 +11,7 @@ Ziel ist unter anderem die Anpassung des LibRML-Modells und die Erstellung eines
 
 Bestandteile der METS-Dateien, die zur Beschreibung der Beschränkungen in LibRML benötigt sind, werden in dem constraint `mets` beschrieben und in Attributen spezifiziert.
 
-Anwendbar in den folgenden [Actions](/schema/actions.md):
+Anwendbar in den folgenden [Actions](../schema/actions.md):
 
 * `download`
 * `index`
@@ -21,7 +21,7 @@ Anwendbar in den folgenden [Actions](/schema/actions.md):
 
 Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.
 
-Anwendbar in den folgenden [Actions](/schema/actions.md):
+Anwendbar in den folgenden [Actions](../schema/actions.md):
 
 * `publish`
 
@@ -64,7 +64,7 @@ In der SLUB Dresden werden spezifische Vorgaben definiert, die von Kitodo.Presen
   * Anzeige der Derivate DEFAULT und FULLTEXT in der Vollansicht
   * ORIGINAL: Anzeige
 
-Anwendbar in den folgenden [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `mets`
 
@@ -96,7 +96,7 @@ Weitere Informationen:
   * FULLTEXT-TXT
   * FULLTEXT-XML
 
-Anwendbar in den folgenden [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `mets`
 
@@ -116,7 +116,7 @@ Weitere Informationen:
 * external =
   Bereitstellung ohne Einschränkung.
 
-Anwendbar in den folgenden [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `interface`
 
@@ -138,6 +138,6 @@ Weitere Informationen:
 * external =
   Bereitstellung ohne Einschränkung.
 
-Anwendbar in den folgenden [Constraints](/schema/constraints.md):
+Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `interface`
