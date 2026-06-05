@@ -1,11 +1,10 @@
 # Transformationen
 
-Für einige Anwendungsfälle kann es nützlich sein eine LibRML-Datei zu transformieren.
-Hier werden entsprechende Szenarien und Hilfmittel präsentiert.
-
 ## XML nach JSON
 
-Eine gängige Praxis ist es, nicht die XML-Repräsentation des LibRML direkt zu verarbeiten, sondern das entsprechende JSON. Hier ist ein Skript (XSLT 1.0), das diese Transformation durchführt.
+Im Rahmen des [DFG-Projekts](/adjustments/adjustments.md) wird LibRML im XML-Format bereitgestellt, um eine Integration in METS-Dateien zu ermöglichen.
+
+Sollte anstelle der XML-Repräsentation eine JSON-Repräsentation benötigt werden, kann die Konvertierung über das folgende XSLT-1.0-Skript durchgeführt werden.
 
 {% highlight xml %}
 {% include_relative librml.xsl %}
