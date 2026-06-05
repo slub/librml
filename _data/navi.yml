@@ -20,6 +20,8 @@ toc:
         url: dependencies.html
       - title: Schemata
         url: schemas.html
+      - title: Transformationen
+        url: transformations.html
   - title: Erweiterungen
     path: /adjustments/
     url: adjustments.html
