@@ -18,7 +18,7 @@
 
     <!-- itemType - has many actions and some attributes -->
     <xs:complexType name="ItemType">
-        <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
             <xs:element type="libRML:ActionType" name="action" />
         </xs:sequence>
         <xs:attribute type="xs:NMTOKEN" name="id" />
