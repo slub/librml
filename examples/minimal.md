@@ -12,7 +12,7 @@ Zugang zum Objekt verboten.
 
 ```xml
 <?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.4" xmlns="http://librml.org/schema">
+<libRML version="0.5.0" xmlns="http://librml.org/schema">
   <item usageguide="https://nutzungshinweis.slub-dresden.de/unknown/1.0/"/>
 </libRML>
 ```
