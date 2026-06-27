@@ -9,3 +9,7 @@
 {% highlight json %}
 {% include_relative PDM1.json %}
 {% endhighlight %}
+
+{% highlight yaml %}
+{% include_relative PDM1.yaml %}
+{% endhighlight %}

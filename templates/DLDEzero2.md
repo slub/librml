@@ -9,3 +9,7 @@
 {% highlight json %}
 {% include_relative DLDEzero2.json %}
 {% endhighlight %}
+
+{% highlight yaml %}
+{% include_relative DLDEzero2.yaml %}
+{% endhighlight %}

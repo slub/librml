@@ -34,3 +34,12 @@ Dies ist die Minimalvorgabe für jedes LibRML, andernfalls wäre das Objekt für
   ]
 }
 ```
+
+```yaml
+id: metaonly-441
+template: Metadata access only
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+```

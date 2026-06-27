@@ -9,3 +9,7 @@
 {% highlight json %}
 {% include_relative CCBYNCND4.json %}
 {% endhighlight %}
+
+{% highlight yaml %}
+{% include_relative CCBYNCND4.yaml %}
+{% endhighlight %}

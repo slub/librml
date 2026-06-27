@@ -182,3 +182,65 @@ Zugang und Nutzung nur nach Einwilligung, zum Beispiel durch Abschluss eines Nut
   ]
 }
 ```
+
+```yaml
+commercialuse: true
+id: agreement-DE-447
+template: Agreement
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+- type: archive
+  permission: true
+- type: read
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: download
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: index
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: print
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: reproduce
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: modify
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: reuse
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: distribute
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: publish
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+- type: move
+  permission: true
+  restrictions:
+  - type: agreement
+    required: true
+```

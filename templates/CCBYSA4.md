@@ -9,3 +9,7 @@
 {% highlight json %}
 {% include_relative CCBYSA4.json %}
 {% endhighlight %}
+
+{% highlight yaml %}
+{% include_relative CCBYSA4.yaml %}
+{% endhighlight %}

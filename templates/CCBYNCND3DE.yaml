@@ -1,0 +1,32 @@
+commercialuse: false
+id: demo-mit-CCBYNCNDDE
+mention: true
+template: CC-BY-NC-ND-3.0-DE
+usageguide: https://creativecommons.org/licenses/by-nc-nd/3.0/de/
+actions:
+- type: archive
+  permission: true
+- type: displaymetadata
+  permission: true
+- type: distribute
+  permission: true
+- type: download
+  permission: true
+- type: index
+  permission: true
+- type: lend
+  permission: true
+- type: move
+  permission: true
+- type: print
+  permission: true
+- type: publish
+  permission: true
+- type: read
+  permission: true
+- type: reproduce
+  permission: true
+- type: reuse
+  permission: true
+- type: run
+  permission: true

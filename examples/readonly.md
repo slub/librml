@@ -44,3 +44,16 @@ Zugang zum Objekt zur Ansicht ohne weitere Nutzungsmöglichkeiten, wie Speichern
   ]
 }
 ```
+
+```yaml
+id: readonly-449
+template: Read only
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+- type: read
+  permission: true
+- type: archive
+  permission: true
+```

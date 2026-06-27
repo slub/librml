@@ -9,3 +9,7 @@
 {% highlight json %}
 {% include_relative CCBYNCND3DE.json %}
 {% endhighlight %}
+
+{% highlight yaml %}
+{% include_relative CCBYNCND3DE.yaml %}
+{% endhighlight %}

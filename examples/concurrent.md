@@ -98,3 +98,35 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
   ]
 }
 ```
+
+```yaml
+commercialuse: true
+id: concuracc-440
+template: ConcurrentAccess
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+- type: archive
+  permission: true
+- type: index
+  permission: true
+  restrictions:
+  - type: concurrent
+    sessions: 5
+- type: read
+  permission: true
+  restrictions:
+  - type: concurrent
+    sessions: 5
+- type: download
+  permission: true
+  restrictions:
+  - type: concurrent
+    sessions: 5
+- type: print
+  permission: true
+  restrictions:
+  - type: concurrent
+    sessions: 5
+```

@@ -22,3 +22,7 @@ Zugang zum Objekt verboten.
   "usageguide": "https://nutzungshinweis.slub-dresden.de/unknown/1.0/"
 }
 ```
+
+```yaml
+usageguide: https://nutzungshinweis.slub-dresden.de/unknown/1.0/
+```

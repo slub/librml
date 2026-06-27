@@ -63,3 +63,23 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
   ]
 }
 ```
+
+```yaml
+commercialuse: false
+copyright: true
+id: DE-611-HS-3665348
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+- type: index
+  permission: true
+- type: read
+  permission: true
+- type: archive
+  permission: true
+- type: distribute
+  permission: true
+- type: move
+  permission: true
+```

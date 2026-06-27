@@ -75,3 +75,28 @@ Die Wiedergabe der Audio-/Videodatei ist ausschnittsweise erlaubt, jedoch maxima
   ]
 }
 ```
+
+```yaml
+id: readonly-449
+template: Read only
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+- type: archive
+  permission: true
+- type: read
+  permission: true
+  restrictions:
+  - type: duration
+    percentage: 10
+  - type: duration
+    maxduration: 120
+- type: run
+  permission: true
+  restrictions:
+  - type: duration
+    percentage: 10
+  - type: duration
+    maxduration: 120
+```

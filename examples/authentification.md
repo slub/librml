@@ -106,3 +106,39 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
   ]
 }
 ```
+
+```yaml
+commercialuse: true
+id: auth-DE-442
+template: Authentification
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+- type: archive
+  permission: true
+- type: index
+  permission: true
+  restrictions:
+  - type: group
+    groups:
+    - registered
+- type: read
+  permission: true
+  restrictions:
+  - type: group
+    groups:
+    - registered
+- type: download
+  permission: true
+  restrictions:
+  - type: group
+    groups:
+    - registered
+- type: print
+  permission: true
+  restrictions:
+  - type: group
+    groups:
+    - registered
+```

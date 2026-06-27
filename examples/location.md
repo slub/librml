@@ -98,3 +98,35 @@ Zugang und Nutzung nur innerhalb eines IP-Adressbereichs, wie zum Beispiel Campu
   ]
 }
 ```
+
+```yaml
+commercialuse: false
+id: iprestricted-444
+template: IP
+tenant: https://www.slub-dresden.de/
+actions:
+- type: displaymetadata
+  permission: true
+- type: archive
+  permission: true
+- type: index
+  permission: true
+  restrictions:
+  - type: location
+    subnet: 192.168.10.0/24
+- type: read
+  permission: true
+  restrictions:
+  - type: location
+    subnet: 192.168.10.0/24
+- type: download
+  permission: true
+  restrictions:
+  - type: location
+    subnet: 192.168.10.0/24
+- type: print
+  permission: true
+  restrictions:
+  - type: location
+    subnet: 192.168.10.0/24
+```
