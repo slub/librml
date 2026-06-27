@@ -8,3 +8,13 @@ Gemfile.lock
 .dccache
 .DS_Store
 .vscode
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
