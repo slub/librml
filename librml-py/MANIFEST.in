@@ -1,0 +1,3 @@
+include librml/schemas/*.xsd
+include librml/schemas/*.json
+recursive-include tests/data *.xml
