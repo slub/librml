@@ -3,9 +3,10 @@ import warnings
 from pathlib import Path
 from typing import Optional, Union
 
-from lxml import etree
 from jsonschema import validate as validate_json_schema
 from jsonschema.exceptions import ValidationError as JSONValidationError
+from lxml import etree
+
 
 class LibRMLValidator:
     def __init__(self):
@@ -27,7 +28,9 @@ class LibRMLValidator:
         with open(self.json_schema_path, "r") as f:
             self.json_schema = json.load(f)
 
-    def validate_xml(self, xml_content: Union[str, bytes, Path]) -> tuple[bool, Optional[str]]:
+    def validate_xml(
+        self, xml_content: Union[str, bytes, Path]
+    ) -> tuple[bool, Optional[str]]:
         try:
             if isinstance(xml_content, Path):
                 doc = etree.parse(str(xml_content))
@@ -53,7 +56,9 @@ class LibRMLValidator:
         except Exception as e:
             return False, f"XML Parsing Error: {str(e)}"
 
-    def validate_json(self, json_data: Union[dict, str, Path]) -> tuple[bool, Optional[str]]:
+    def validate_json(
+        self, json_data: Union[dict, str, Path]
+    ) -> tuple[bool, Optional[str]]:
         try:
             if isinstance(json_data, Path):
                 with open(json_data, "r") as f:

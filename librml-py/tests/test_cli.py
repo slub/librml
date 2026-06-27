@@ -10,9 +10,10 @@ def run_cli(*args):
         [sys.executable, "-m", "librml"] + list(args),
         capture_output=True,
         text=True,
-        env=env
+        env=env,
     )
     return result
+
 
 def test_cli_validate_xml(tmp_path):
     xml_file = tmp_path / "test.xml"
@@ -29,6 +30,7 @@ def test_cli_validate_xml(tmp_path):
     assert result.returncode == 0
     assert "is valid" in result.stdout
 
+
 def test_cli_convert_xml_to_json(tmp_path):
     xml_file = tmp_path / "test.xml"
     xml_file.write_text("""<?xml version="1.0" encoding="UTF-8"?>
@@ -39,6 +41,7 @@ def test_cli_convert_xml_to_json(tmp_path):
     result = run_cli("convert", str(xml_file))
     assert result.returncode == 0
     assert '"id": "test-cli-conv"' in result.stdout
+
 
 def test_cli_convert_json_to_xml(tmp_path):
     json_file = tmp_path / "test.json"

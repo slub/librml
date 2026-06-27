@@ -23,6 +23,7 @@ def test_xml_to_json_conversion():
     assert restriction["type"] == "age"
     assert restriction["minage"] == 18
 
+
 def test_json_to_xml_conversion():
     data = {
         "id": "test-2",
@@ -31,11 +32,9 @@ def test_json_to_xml_conversion():
             {
                 "type": "download",
                 "permission": True,
-                "restrictions": [
-                    {"type": "location", "inside": "Germany"}
-                ]
+                "restrictions": [{"type": "location", "inside": "Germany"}],
             }
-        ]
+        ],
     }
     xml_bytes = json_to_xml(data)
     assert b'id="test-2"' in xml_bytes
@@ -45,6 +44,7 @@ def test_json_to_xml_conversion():
     assert b'type="location"' in xml_bytes
     assert b'inside="Germany"' in xml_bytes
 
+
 def test_bidirectional_consistency():
     original_json = {
         "id": "test-3",
@@ -52,11 +52,9 @@ def test_bidirectional_consistency():
             {
                 "type": "print",
                 "permission": True,
-                "restrictions": [
-                    {"type": "count", "count": 5}
-                ]
+                "restrictions": [{"type": "count", "count": 5}],
             }
-        ]
+        ],
     }
     xml_bytes = json_to_xml(original_json)
     converted_json = xml_to_json(xml_bytes)

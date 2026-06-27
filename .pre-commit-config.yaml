@@ -14,3 +14,9 @@ repos:
     -   id: markdownlint
         files: \.(md)$
         args: [-r,'MD003,MD004,MD005,MD006,MD009,MD010,MD011,MD012,MD014,MD018,MD019,MD020,MD021,MD022,MD023,MD025,MD027,MD028,MD029,MD030,MD031,MD032,MD034,MD035,MD037,MD038,MD057']
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.0
+    hooks:
+    -   id: ruff
+        args: [ --fix ]
+    -   id: ruff-format

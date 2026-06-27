@@ -1,26 +1,39 @@
-from lxml import etree
 from typing import Any, Dict
+
+from lxml import etree
 
 NS = "http://librml.org/schema"
 NS_MAP = {None: NS}
 
 BOOLEAN_FIELDS = {
-    "mention", "sharealike", "commercialuse", "copyright",
-    "permission", "required"
+    "mention",
+    "sharealike",
+    "commercialuse",
+    "copyright",
+    "permission",
+    "required",
 }
 INTEGER_FIELDS = {
-    "minage", "maxage", "maxbitrate", "maxdimension", "maxresolution",
-    "count", "maxduration", "percentage", "sessions"
+    "minage",
+    "maxage",
+    "maxbitrate",
+    "maxdimension",
+    "maxresolution",
+    "count",
+    "maxduration",
+    "percentage",
+    "sessions",
 }
-LIST_FIELDS = {
-    "groups", "inside", "outside"
-}
+LIST_FIELDS = {"groups", "inside", "outside"}
+
 
 def _to_bool(value: str) -> bool:
     return value.lower() in ("true", "1")
 
+
 def _from_bool(value: bool) -> str:
     return "true" if value else "false"
+
 
 def xml_to_json(xml_content: bytes) -> Dict[str, Any]:
     root = etree.fromstring(xml_content)
@@ -76,6 +89,7 @@ def xml_to_json(xml_content: bytes) -> Dict[str, Any]:
 
     return result
 
+
 def json_to_xml(json_data: Dict[str, Any], version: str = "0.5.0") -> bytes:
     root = etree.Element(f"{{{NS}}}libRML", version=version, nsmap=NS_MAP)
     item_el = etree.SubElement(root, f"{{{NS}}}item")
@@ -122,4 +136,6 @@ def json_to_xml(json_data: Dict[str, Any], version: str = "0.5.0") -> bytes:
                         else:
                             rest_el.set(rkey, str(rvalue))
 
-    return etree.tostring(root, pretty_print=True, xml_declaration=True, encoding="UTF-8")
+    return etree.tostring(
+        root, pretty_print=True, xml_declaration=True, encoding="UTF-8"
+    )

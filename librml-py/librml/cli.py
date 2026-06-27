@@ -3,8 +3,9 @@ import json
 import sys
 from pathlib import Path
 
+from librml.converter import json_to_xml, xml_to_json
 from librml.validator import LibRMLValidator
-from librml.converter import xml_to_json, json_to_xml
+
 
 def main():
     parser = argparse.ArgumentParser(description="LibRML Validator and Converter")
@@ -12,12 +13,20 @@ def main():
 
     # Validate command
     validate_parser = subparsers.add_parser("validate", help="Validate a LibRML file")
-    validate_parser.add_argument("file", type=Path, help="Path to the file (XML or JSON)")
+    validate_parser.add_argument(
+        "file", type=Path, help="Path to the file (XML or JSON)"
+    )
 
     # Convert command
-    convert_parser = subparsers.add_parser("convert", help="Convert between XML and JSON")
+    convert_parser = subparsers.add_parser(
+        "convert", help="Convert between XML and JSON"
+    )
     convert_parser.add_argument("file", type=Path, help="Path to the input file")
-    convert_parser.add_argument("--to", choices=["xml", "json"], help="Target format (optional, inferred if not provided)")
+    convert_parser.add_argument(
+        "--to",
+        choices=["xml", "json"],
+        help="Target format (optional, inferred if not provided)",
+    )
     convert_parser.add_argument("-o", "--output", type=Path, help="Output file path")
 
     args = parser.parse_args()
@@ -50,7 +59,9 @@ def main():
             elif suffix == ".json":
                 target_format = "xml"
             else:
-                print("Could not infer target format. Please use --to.", file=sys.stderr)
+                print(
+                    "Could not infer target format. Please use --to.", file=sys.stderr
+                )
                 sys.exit(1)
 
         if target_format == "json":
@@ -71,8 +82,11 @@ def main():
                     with open(args.file, "rb") as f:
                         data = xml_to_json(f.read())
                 else:
-                     print(f"Unsupported input for XML conversion: {suffix}", file=sys.stderr)
-                     sys.exit(1)
+                    print(
+                        f"Unsupported input for XML conversion: {suffix}",
+                        file=sys.stderr,
+                    )
+                    sys.exit(1)
 
             output_bytes = json_to_xml(data)
             output_str = output_bytes.decode("utf-8")
@@ -85,6 +99,7 @@ def main():
 
     else:
         parser.print_help()
+
 
 if __name__ == "__main__":
     main()

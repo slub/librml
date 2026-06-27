@@ -1,4 +1,4 @@
+from librml.converter import json_to_xml, xml_to_json
 from librml.validator import LibRMLValidator
-from librml.converter import xml_to_json, json_to_xml
 
 __all__ = ["LibRMLValidator", "xml_to_json", "json_to_xml"]
