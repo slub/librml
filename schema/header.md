@@ -21,6 +21,7 @@ Zudem können generelle Einschränkungen und/oder Eigenschaften definiert werden
 | :--- | :----------- | :--- | :----------------- |
 | **commercialuse** | Kommerzielle Nutzung erlaubt | true/false | optional |
 | **copyright** | Urheberrechtsschutz vorhanden | true/false | optional |
+| **derivatives** | Bearbeitungen erlaubt | true/false | optional |
 | **mention** | Ist eine Namensnennung notwendig | true/false | optional |
 | **sharealike** | Verpflichtung, alle Derivate des digitalen Objektes unter denselben Bedingungen zu veröffentlichen | true/false | optional |
 
