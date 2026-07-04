@@ -69,6 +69,13 @@
             },
             "type": "array"
           },
+          "IIIF": {
+            "enum": [
+              "external",
+              "internal"
+            ],
+            "type": "string"
+          },
           "inside": {
             "items": {
               "type": "string"
@@ -98,6 +105,13 @@
           "minage": {
             "minimum": 1,
             "type": "integer"
+          },
+          "OAI-PHM": {
+            "enum": [
+              "external",
+              "internal"
+            ],
+            "type": "string"
           },
           "outside": {
             "items": {
@@ -138,18 +152,19 @@
           },
           "type": {
             "enum": [
-              "parts",
-              "group",
               "age",
-              "location",
+              "agreement",
+              "concurrent",
+              "count",
               "date",
               "duration",
-              "count",
-              "concurrent",
+              "group",
+              "interface",
+              "location",
               "mets",
-              "watermark",
+              "parts",
               "quality",
-              "agreement"
+              "watermark"
             ],
             "type": "string"
           },

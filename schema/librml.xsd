@@ -81,6 +81,7 @@
         </xs:attribute>
         <xs:attributeGroup ref="libRML:ageattr" />
         <xs:attributeGroup ref="libRML:datattr" />
+        <xs:attributeGroup ref="libRML:interfaceattr" />
         <xs:attributeGroup ref="libRML:locattr" />
         <xs:attributeGroup ref="libRML:metsattr" />
         <xs:attributeGroup ref="libRML:qltattr" />
@@ -99,6 +100,24 @@
     <xs:attributeGroup name="datattr">
         <xs:attribute type="xs:date" name="fromdate" />
         <xs:attribute type="xs:date" name="todate" />
+    </xs:attributeGroup>
+    <xs:attributeGroup name="interfaceattr">
+        <xs:attribute name="IIIF">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="external" />
+                    <xs:enumeration value="internal" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="OAI-PHM">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="external" />
+                    <xs:enumeration value="internal" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
     </xs:attributeGroup>
     <xs:attributeGroup name="locattr">
         <xs:attribute type="xs:Name" name="inside" />
