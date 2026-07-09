@@ -1,66 +1,67 @@
 {
-  "commercialuse": false,
-  "id": "demo-mit-CCBYNCSADE",
-  "mention": true,
-  "sharealike": true,
-  "template": "CC-BY-NC-SA-3.0-DE",
-  "usageguide": "https://creativecommons.org/licenses/by-nc-sa/3.0/de/",
-  "actions": [
-    {
-      "type": "archive",
-      "permission": true
-    },
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "distribute",
-      "permission": true
-    },
-    {
-      "type": "download",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true
-    },
-    {
-      "type": "lend",
-      "permission": true
-    },
-    {
-      "type": "modify",
-      "permission": true
-    },
-    {
-      "type": "move",
-      "permission": true
-    },
-    {
-      "type": "print",
-      "permission": true
-    },
-    {
-      "type": "publish",
-      "permission": true
-    },
-    {
-      "type": "read",
-      "permission": true
-    },
-    {
-      "type": "reproduce",
-      "permission": true
-    },
-    {
-      "type": "reuse",
-      "permission": true
-    },
-    {
-      "type": "run",
-      "permission": true
-    }
-  ]
+    "id": "demo-mit-CCBYNCSADE",
+    "copyright": true,
+    "commercialuse": false,
+    "mention": true,
+    "sharealike": true,
+    "template": "CC-BY-NC-SA-3.0-DE",
+    "usageguide": "https://creativecommons.org/licenses/by-nc-sa/3.0/de/",
+    "actions": [
+        {
+            "type": "archive",
+            "permission": true
+        },
+        {
+            "type": "displaymetadata",
+            "permission": true
+        },
+        {
+            "type": "distribute",
+            "permission": true
+        },
+        {
+            "type": "download",
+            "permission": true
+        },
+        {
+            "type": "index",
+            "permission": true
+        },
+        {
+            "type": "lend",
+            "permission": true
+        },
+        {
+            "type": "modify",
+            "permission": true
+        },
+        {
+            "type": "move",
+            "permission": true
+        },
+        {
+            "type": "print",
+            "permission": true
+        },
+        {
+            "type": "publish",
+            "permission": true
+        },
+        {
+            "type": "read",
+            "permission": true
+        },
+        {
+            "type": "reproduce",
+            "permission": true
+        },
+        {
+            "type": "reuse",
+            "permission": true
+        },
+        {
+            "type": "run",
+            "permission": true
+        }
+    ]
 }
