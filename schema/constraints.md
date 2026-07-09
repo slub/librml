@@ -196,7 +196,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 
 ```xml
   <action type="download" permission="true">
-    <restriction type="parts" parts="1" />
+    <restriction type="parts" percentage="10" />
   </action>
 ```
 
@@ -206,7 +206,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
   "restrictions": [
     {
       "type": "parts",
-      "parts": "1"
+      "percentage": "10"
     },
 ```
 
