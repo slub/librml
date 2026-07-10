@@ -1,32 +1,32 @@
 {
-    "id": "DE-611-HS-3665348",
-    "tenant": "https://www.slub-dresden.de/",
-    "copyright": true,
-    "commercialuse": false,
-    "actions": [
-        {
-            "type": "displaymetadata",
-            "permission": true
-        },
-        {
-            "type": "index",
-            "permission": true
-        },
-        {
-            "type": "read",
-            "permission": true
-        },
-        {
-            "type": "archive",
-            "permission": true
-        },
-        {
-            "type": "distribute",
-            "permission": true
-        },
-        {
-            "type": "move",
-            "permission": true
-        }
-    ]
+  "id": "DE-611-HS-3665348",
+  "tenant": "https://www.slub-dresden.de/",
+  "copyright": true,
+  "commercialuse": false,
+  "actions": [
+    {
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "index",
+      "permission": true
+    },
+    {
+      "type": "read",
+      "permission": true
+    },
+    {
+      "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "distribute",
+      "permission": true
+    },
+    {
+      "type": "move",
+      "permission": true
+    }
+  ]
 }

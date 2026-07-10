@@ -1,12 +1,12 @@
 {
-    "id": "metaonly-441",
-    "tenant": "https://www.slub-dresden.de/",
-    "copyright": true,
-    "template": "Metadata access only",
-    "actions": [
-        {
-            "type": "displaymetadata",
-            "permission": true
-        }
-    ]
+  "id": "metaonly-441",
+  "tenant": "https://www.slub-dresden.de/",
+  "copyright": true,
+  "template": "Metadata access only",
+  "actions": [
+    {
+      "type": "displaymetadata",
+      "permission": true
+    }
+  ]
 }

@@ -1,57 +1,57 @@
 {
-    "id": "iprestricted-444",
-    "tenant": "https://www.slub-dresden.de/",
-    "copyright": true,
-    "commercialuse": false,
-    "template": "IP",
-    "actions": [
+  "id": "iprestricted-444",
+  "tenant": "https://www.slub-dresden.de/",
+  "copyright": true,
+  "commercialuse": false,
+  "template": "IP",
+  "actions": [
+    {
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "index",
+      "permission": true,
+      "restrictions": [
         {
-            "type": "displaymetadata",
-            "permission": true
-        },
-        {
-            "type": "archive",
-            "permission": true
-        },
-        {
-            "type": "index",
-            "permission": true,
-            "restrictions": [
-                {
-                    "type": "location",
-                    "subnet": "192.168.10.0/24"
-                }
-            ]
-        },
-        {
-            "type": "read",
-            "permission": true,
-            "restrictions": [
-                {
-                    "type": "location",
-                    "subnet": "192.168.10.0/24"
-                }
-            ]
-        },
-        {
-            "type": "download",
-            "permission": true,
-            "restrictions": [
-                {
-                    "type": "location",
-                    "subnet": "192.168.10.0/24"
-                }
-            ]
-        },
-        {
-            "type": "print",
-            "permission": true,
-            "restrictions": [
-                {
-                    "type": "location",
-                    "subnet": "192.168.10.0/24"
-                }
-            ]
+          "type": "location",
+          "subnet": "192.168.10.0/24"
         }
-    ]
+      ]
+    },
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
+    },
+    {
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
+    }
+  ]
 }
