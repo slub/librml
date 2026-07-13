@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item commercialuse="true" id="demo-mit-CCBYNDDE" mention="true" template="CC-BY-ND-3.0-DE" usageguide="https://creativecommons.org/licenses/by-nd/3.0/de/">
+  <item commercialuse="true" copyright="true" id="demo-mit-CCBYNDDE" mention="true" template="CC-BY-ND-3.0-DE" usageguide="https://creativecommons.org/licenses/by-nd/3.0/de/">
     <action type="archive" permission="true"/>
     <action type="displaymetadata" permission="true"/>
     <action type="distribute" permission="true"/>
