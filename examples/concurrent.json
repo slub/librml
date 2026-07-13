@@ -1,0 +1,57 @@
+{
+  "id": "concuracc-440",
+  "tenant": "https://www.slub-dresden.de/",
+  "template": "ConcurrentAccess",
+  "copyright": true,
+  "commercialuse": true,
+  "actions": [
+    {
+      "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "concurrent",
+          "sessions": 5
+        }
+      ]
+    },
+    {
+      "type": "index",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "concurrent",
+          "sessions": 5
+        }
+      ]
+    },
+    {
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "concurrent",
+          "sessions": 5
+        }
+      ]
+    },
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "concurrent",
+          "sessions": 5
+        }
+      ]
+    }
+  ]
+}

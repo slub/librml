@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <libRML version="0.5.0" xmlns="http://librml.org/schema">
   <item commercialuse="false" id="embargo-28" template="IP" tenant="https://www.slub-dresden.de/">
-    <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
-    <action type="archive" permission="true"/>
-    <action type="read" permission="true">
-      <restriction type="quality" maxresolution="300"/>
-      <restriction type="date" todate="2028-12-31"/>
-    </action>
-    <action type="read" permission="true">
-      <restriction type="date" fromdate="2029-01-01"/>
+    <action type="archive" permission="true" />
+    <action type="displaymetadata" permission="true" />
+    <action type="download" permission="true">
+      <restriction type="quality" maxresolution="300" />
+      <restriction type="date" todate="2028-12-31" />
     </action>
     <action type="download" permission="true">
-      <restriction type="quality" maxresolution="300"/>
-      <restriction type="date" todate="2028-12-31"/>
+      <restriction type="date" fromdate="2029-01-01" />
     </action>
-    <action type="download" permission="true">
-      <restriction type="date" fromdate="2029-01-01"/>
+    <action type="index" permission="true" />
+    <action type="print" permission="true">
+      <restriction type="quality" maxresolution="300" />
+      <restriction type="date" todate="2028-12-31" />
     </action>
     <action type="print" permission="true">
-      <restriction type="quality" maxresolution="300"/>
-      <restriction type="date" todate="2028-12-31"/>
+      <restriction type="date" fromdate="2029-01-01" />
     </action>
-    <action type="print" permission="true">
-      <restriction type="date" fromdate="2029-01-01"/>
+    <action type="read" permission="true">
+      <restriction type="quality" maxresolution="300" />
+      <restriction type="date" todate="2028-12-31" />
+    </action>
+    <action type="read" permission="true">
+      <restriction type="date" fromdate="2029-01-01" />
     </action>
   </item>
 </libRML>

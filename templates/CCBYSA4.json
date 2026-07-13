@@ -1,6 +1,7 @@
 {
-  "commercialuse": true,
   "id": "demo-mit-CCBYSA",
+  "copyright": true,
+  "commercialuse": true,
   "mention": true,
   "sharealike": true,
   "template": "CC-BY-SA-4.0",

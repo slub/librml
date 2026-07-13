@@ -1,0 +1,57 @@
+{
+  "id": "iprestricted-444",
+  "tenant": "https://www.slub-dresden.de/",
+  "template": "IP",
+  "copyright": true,
+  "commercialuse": false,
+  "actions": [
+    {
+      "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
+    },
+    {
+      "type": "index",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
+    },
+    {
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
+    },
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "subnet": "192.168.10.0/24"
+        }
+      ]
+    }
+  ]
+}

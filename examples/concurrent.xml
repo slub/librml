@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item commercialuse="true" id="concuracc-440" template="ConcurrentAccess" tenant="https://www.slub-dresden.de/">
-    <action type="displaymetadata" permission="true"/>
-    <action type="archive" permission="true"/>
-    <action type="index" permission="true">
-      <restriction type="concurrent" sessions="5"/>
-    </action>
-    <action type="read" permission="true">
-      <restriction type="concurrent" sessions="5"/>
-    </action>
+  <item commercialuse="true" id="concuracc-440" template="ConcurrentAccess"
+    tenant="https://www.slub-dresden.de/">
+    <action type="archive" permission="true" />
+    <action type="displaymetadata" permission="true" />
     <action type="download" permission="true">
-      <restriction type="concurrent" sessions="5"/>
+      <restriction type="concurrent" sessions="5" />
+    </action>
+    <action type="index" permission="true">
+      <restriction type="concurrent" sessions="5" />
     </action>
     <action type="print" permission="true">
-      <restriction type="concurrent" sessions="5"/>
+      <restriction type="concurrent" sessions="5" />
+    </action>
+    <action type="read" permission="true">
+      <restriction type="concurrent" sessions="5" />
     </action>
   </item>
 </libRML>

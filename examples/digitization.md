@@ -15,51 +15,10 @@ Ein urheberrechtsbehaftetes digitales Objekt der [SLUB Dresden](https://www.slub
 
 - Keine
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-    <item commercialuse="false" copyright="true" id="DE-611-HS-3665348" tenant="https://www.slub-dresden.de/">
-        <action type="displaymetadata" permission="true"/>
-        <action type="index" permission="true"/>
-        <action type="read" permission="true"/>
-        <action type="archive" permission="true"/>
-        <action type="distribute" permission="true"/>
-        <action type="move" permission="true"/>
-    </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative digitization.xml %}
+{% endhighlight %}
 
-```json
-{
-  "commercialuse": false,
-  "copyright": true,
-  "id": "DE-611-HS-3665348",
-  "tenant": "https://www.slub-dresden.de/",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true
-    },
-    {
-      "type": "read",
-      "permission": true
-    },
-    {
-      "type": "archive",
-      "permission": true
-    },
-    {
-      "type": "distribute",
-      "permission": true
-    },
-    {
-      "type": "move",
-      "permission": true
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative digitization.json %}
+{% endhighlight %}

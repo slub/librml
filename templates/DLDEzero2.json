@@ -1,6 +1,7 @@
 {
-  "commercialuse": true,
   "id": "demo-mit-DL-DE-Zero-2.0",
+  "copyright": true,
+  "commercialuse": true,
   "template": "DL-DE-ZERO-2.0",
   "usageguide": "https://www.govdata.de/dl-de/zero-2-0",
   "actions": [

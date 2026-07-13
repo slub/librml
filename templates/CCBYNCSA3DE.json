@@ -1,6 +1,7 @@
 {
-  "commercialuse": false,
   "id": "demo-mit-CCBYNCSADE",
+  "copyright": true,
+  "commercialuse": false,
   "mention": true,
   "sharealike": true,
   "template": "CC-BY-NC-SA-3.0-DE",

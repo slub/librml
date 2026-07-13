@@ -1,0 +1,65 @@
+{
+  "id": "auth-DE-442",
+  "tenant": "https://www.slub-dresden.de/",
+  "template": "Authentification",
+  "copyright": true,
+  "commercialuse": true,
+  "actions": [
+    {
+      "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "index",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "group",
+          "groups": [
+            "registered"
+          ]
+        }
+      ]
+    }
+  ]
+}

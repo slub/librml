@@ -12,25 +12,10 @@ Dies ist die Minimalvorgabe für jedes LibRML, andernfalls wäre das Objekt für
 
 - Keine
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item id="metaonly-441" template="Metadata access only" tenant="https://www.slub-dresden.de/">
-    <action type="displaymetadata" permission="true"/>
-  </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative metadataonly.xml %}
+{% endhighlight %}
 
-```json
-{
-  "id": "metaonly-441",
-  "template": "Metadata access only",
-  "tenant": "https://www.slub-dresden.de/",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative metadataonly.json %}
+{% endhighlight %}

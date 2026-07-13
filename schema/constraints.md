@@ -60,7 +60,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "age",
       "minage": "18"
-    },
+    }
+  ]
 ```
 
 ### Agreement
@@ -78,7 +79,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "agreement",
       "required": true
-    },
+    }
+  ]
 ```
 
 ### Concurrent
@@ -96,7 +98,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "concurrent",
       "sessions": 4
-    },
+    }
+  ]
 ```
 
 ### Count
@@ -114,7 +117,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "count",
       "count": 10
-    },
+    }
+  ]
 ```
 
 ### Date
@@ -132,7 +136,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "date",
       "fromdate": "2035-01-01"
-    },
+    }
+  ]
 ```
 
 ### Duration
@@ -150,7 +155,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "duration",
       "maxduration": 86400
-    },
+    }
+  ]
 ```
 
 ### Group
@@ -171,7 +177,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
         "registered",
         "employee",
       ]
-    },
+    }
+  ]
 ```
 
 ### Location
@@ -189,7 +196,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "location",
       "inside": "library"
-    },
+    }
+  ]
 ```
 
 ### Parts
@@ -207,7 +215,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "parts",
       "percentage": "10"
-    },
+    }
+  ]
 ```
 
 ### Quality
@@ -225,7 +234,8 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "quality",
       "maxresolution": 1080
-    },
+    }
+  ]
 ```
 
 ### Watermark
@@ -243,5 +253,6 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
     {
       "type": "watermark",
       "watermarkvalue": "https://domain/watermark.png"
-    },
+    }
+  ]
 ```

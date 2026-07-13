@@ -1,6 +1,7 @@
 {
-  "commercialuse": true,
   "id": "demo-mit-DL-DE-BY-2.0",
+  "copyright": true,
+  "commercialuse": true,
   "mention": true,
   "template": "DL-DE-BY-2.0",
   "usageguide": "https://www.govdata.de/dl-de/by-2-0",

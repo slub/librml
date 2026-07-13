@@ -12,35 +12,10 @@ Zugang zum Objekt zur Ansicht ohne weitere Nutzungsmöglichkeiten, wie Speichern
 
 - Keine
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item id="readonly-449" template="Read only" tenant="https://www.slub-dresden.de/">
-    <action type="displaymetadata" permission="true"/>
-    <action type="read" permission="true"/>
-    <action type="archive" permission="true"/>
-  </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative readonly.xml %}
+{% endhighlight %}
 
-```json
-{
-  "id": "readonly-449",
-  "template": "Read only",
-  "tenant": "https://www.slub-dresden.de/",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "read",
-      "permission": true
-    },
-    {
-      "type": "archive",
-      "permission": true
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative readonly.json %}
+{% endhighlight %}
