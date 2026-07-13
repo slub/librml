@@ -1,19 +1,19 @@
 {
   "id": "readonly-449",
   "tenant": "https://www.slub-dresden.de/",
-  "copyright": true,
   "template": "Read only",
+  "copyright": true,
   "actions": [
+    {
+      "type": "archive",
+      "permission": true
+    },
     {
       "type": "displaymetadata",
       "permission": true
     },
     {
       "type": "read",
-      "permission": true
-    },
-    {
-      "type": "archive",
       "permission": true
     }
   ]

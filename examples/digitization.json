@@ -5,19 +5,11 @@
   "commercialuse": false,
   "actions": [
     {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true
-    },
-    {
-      "type": "read",
-      "permission": true
-    },
-    {
       "type": "archive",
+      "permission": true
+    },
+    {
+      "type": "displaymetadata",
       "permission": true
     },
     {
@@ -25,7 +17,15 @@
       "permission": true
     },
     {
+      "type": "index",
+      "permission": true
+    },
+    {
       "type": "move",
+      "permission": true
+    },
+    {
+      "type": "read",
       "permission": true
     }
   ]

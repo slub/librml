@@ -1,21 +1,69 @@
 {
   "id": "embargo-28",
   "tenant": "https://www.slub-dresden.de/",
+  "template": "IP",
   "copyright": true,
   "commercialuse": false,
-  "template": "IP",
   "actions": [
+    {
+      "type": "archive",
+      "permission": true
+    },
     {
       "type": "displaymetadata",
       "permission": true
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "quality",
+          "maxresolution": 300
+        },
+        {
+          "type": "date",
+          "todate": "2028-12-31"
+        }
+      ]
+    },
+    {
+      "type": "download",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "date",
+          "fromdate": "2029-01-01"
+        }
+      ]
     },
     {
       "type": "index",
       "permission": true
     },
     {
-      "type": "archive",
-      "permission": true
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "quality",
+          "maxresolution": 300
+        },
+        {
+          "type": "date",
+          "todate": "2028-12-31"
+        }
+      ]
+    },
+    {
+      "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "date",
+          "fromdate": "2029-01-01"
+        }
+      ]
     },
     {
       "type": "read",
@@ -33,54 +81,6 @@
     },
     {
       "type": "read",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "date",
-          "fromdate": "2029-01-01"
-        }
-      ]
-    },
-    {
-      "type": "download",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "quality",
-          "maxresolution": 300
-        },
-        {
-          "type": "date",
-          "todate": "2028-12-31"
-        }
-      ]
-    },
-    {
-      "type": "download",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "date",
-          "fromdate": "2029-01-01"
-        }
-      ]
-    },
-    {
-      "type": "print",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "quality",
-          "maxresolution": 300
-        },
-        {
-          "type": "date",
-          "todate": "2028-12-31"
-        }
-      ]
-    },
-    {
-      "type": "print",
       "permission": true,
       "restrictions": [
         {

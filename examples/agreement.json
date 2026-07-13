@@ -1,20 +1,20 @@
 {
   "id": "agreement-DE-447",
   "tenant": "https://www.slub-dresden.de/",
+  "template": "Agreement",
   "copyright": true,
   "commercialuse": true,
-  "template": "Agreement",
   "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
     {
       "type": "archive",
       "permission": true
     },
     {
-      "type": "read",
+      "type": "displaymetadata",
+      "permission": true
+    },
+    {
+      "type": "distribute",
       "permission": true,
       "restrictions": [
         {
@@ -44,7 +44,37 @@
       ]
     },
     {
+      "type": "modify",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "agreement",
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "move",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "agreement",
+          "required": true
+        }
+      ]
+    },
+    {
       "type": "print",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "agreement",
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": "read",
       "permission": true,
       "restrictions": [
         {
@@ -64,16 +94,6 @@
       ]
     },
     {
-      "type": "modify",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "agreement",
-          "required": true
-        }
-      ]
-    },
-    {
       "type": "reuse",
       "permission": true,
       "restrictions": [
@@ -84,27 +104,7 @@
       ]
     },
     {
-      "type": "distribute",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "agreement",
-          "required": true
-        }
-      ]
-    },
-    {
       "type": "publish",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "agreement",
-          "required": true
-        }
-      ]
-    },
-    {
-      "type": "move",
       "permission": true,
       "restrictions": [
         {

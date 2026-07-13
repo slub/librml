@@ -1,10 +1,14 @@
 {
   "id": "copyright-ra-100",
   "tenant": "https://www.slub-dresden.de/",
-  "copyright": true,
-  "template": "LibRML Copyright - Restricted Access",
   "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
+  "template": "LibRML Copyright - Restricted Access",
+  "copyright": true,
   "actions": [
+    {
+      "type": "archive",
+      "permission": true
+    },
     {
       "type": "displaymetadata",
       "permission": true
@@ -22,10 +26,6 @@
           "inside": "library"
         }
       ]
-    },
-    {
-      "type": "archive",
-      "permission": true
     }
   ]
 }
