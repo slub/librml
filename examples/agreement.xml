@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item commercialuse="true" id="agreement-DE-447" template="Agreement"
+  <item commercialuse="true" id="agreement-DE-447"
     tenant="https://www.slub-dresden.de/">
     <action type="archive" permission="true" />
     <action type="displaymetadata" permission="true" />

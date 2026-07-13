@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item id="readonly-449" template="Read only" tenant="https://www.slub-dresden.de/">
+  <item id="readonly-449" tenant="https://www.slub-dresden.de/">
     <action type="archive" permission="true" />
     <action type="displaymetadata" permission="true" />
     <action type="read" permission="true" />
