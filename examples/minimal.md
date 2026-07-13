@@ -10,15 +10,10 @@ Zugang zum Objekt verboten.
 
 - Alle
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item usageguide="https://nutzungshinweis.slub-dresden.de/unknown/1.0/"/>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative minimal.xml %}
+{% endhighlight %}
 
-```json
-{
-  "usageguide": "https://nutzungshinweis.slub-dresden.de/unknown/1.0/"
-}
-```
+{% highlight json %}
+{% include_relative minimal.json %}
+{% endhighlight %}

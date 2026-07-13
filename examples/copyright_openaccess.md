@@ -12,52 +12,10 @@ Hinweis:
 - Es wird eine Bereitstellung des Objekts in einem Open Access-Repositorium angenommen, die frei zugänglich und speicherbar ist. Die Weiterverwendung und Anpassung ist nur in Abstimmung mit dem Urheber oder der Urheberin möglich. Schranken des Urheberechts werden nicht berücksichtigt.
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item copyright="true" id="copyright-oa-100" template="LibRML Copyright - Open Access" tenant="https://www.slub-dresden.de/" usageguide="https://librml.org/examples/copyright_openaccess">
-    <action type="displaymetadata" permission="true"/>
-    <action type="index" permission="true"/>
-    <action type="read" permission="true"/>
-    <action type="download" permission="true"/>
-    <action type="print" permission="true"/>
-    <action type="archive" permission="true"/>
-  </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative copyright_openaccess.xml %}
+{% endhighlight %}
 
-```json
-{
-  "copyright": true,
-  "id": "copyright-oa-100",
-  "template": "LibRML Copyright - Open Access",
-  "tenant": "https://www.slub-dresden.de/",
-  "usageguide": "https://librml.org/examples/copyright_openaccess",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true
-    },
-    {
-      "type": "read",
-      "permission": true
-    },
-    {
-      "type": "download",
-      "permission": true
-    },
-    {
-      "type": "print",
-      "permission": true
-    },
-    {
-      "type": "archive",
-      "permission": true
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative copyright_openaccess.json %}
+{% endhighlight %}

@@ -18,83 +18,10 @@ Zugang und Nutzung ist auf eine bestimmte Menge gleichzeitiger Zugriffe beschrä
 
 - concurrent (Gleichzeitig)
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item commercialuse="true" id="concuracc-440" template="ConcurrentAccess" tenant="https://www.slub-dresden.de/">
-    <action type="displaymetadata" permission="true"/>
-    <action type="archive" permission="true"/>
-    <action type="index" permission="true">
-      <restriction type="concurrent" sessions="5"/>
-    </action>
-    <action type="read" permission="true">
-      <restriction type="concurrent" sessions="5"/>
-    </action>
-    <action type="download" permission="true">
-      <restriction type="concurrent" sessions="5"/>
-    </action>
-    <action type="print" permission="true">
-      <restriction type="concurrent" sessions="5"/>
-    </action>
-  </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative concurrent.xml %}
+{% endhighlight %}
 
-```json
-{
-  "commercialuse": true,
-  "id": "concuracc-440",
-  "template": "ConcurrentAccess",
-  "tenant": "https://www.slub-dresden.de/",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "archive",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "concurrent",
-          "sessions": 5
-        }
-      ]
-    },
-    {
-      "type": "read",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "concurrent",
-          "sessions": 5
-        }
-      ]
-    },
-    {
-      "type": "download",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "concurrent",
-          "sessions": 5
-        }
-      ]
-    },
-    {
-      "type": "print",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "concurrent",
-          "sessions": 5
-        }
-      ]
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative concurrent.json %}
+{% endhighlight %}

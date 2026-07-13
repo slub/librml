@@ -18,91 +18,10 @@ Zugang und Nutzung nur nach Authentifizierung. In LibRML wird dies durch Zugehö
 
 - group (Gruppe)
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-  <item commercialuse="true" id="auth-DE-442" template="Authentification" tenant="https://www.slub-dresden.de/">
-    <action type="displaymetadata" permission="true"/>
-    <action type="archive" permission="true"/>
-    <action type="index" permission="true">
-      <restriction type="group" groups="registered"/>
-    </action>
-    <action type="read" permission="true">
-      <restriction type="group" groups="registered"/>
-    </action>
-    <action type="download" permission="true">
-      <restriction type="group" groups="registered"/>
-    </action>
-    <action type="print" permission="true">
-      <restriction type="group" groups="registered"/>
-    </action>
-  </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative authentification.xml %}
+{% endhighlight %}
 
-```json
-{
-  "commercialuse": true,
-  "id": "auth-DE-442",
-  "template": "Authentification",
-  "tenant": "https://www.slub-dresden.de/",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "archive",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "group",
-          "groups": [
-            "registered"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "read",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "group",
-          "groups": [
-            "registered"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "download",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "group",
-          "groups": [
-            "registered"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "print",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "group",
-          "groups": [
-            "registered"
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative authentification.json %}
+{% endhighlight %}

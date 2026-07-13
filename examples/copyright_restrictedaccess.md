@@ -12,52 +12,10 @@ Hinweis:
 - Es wird eine Bereitstellung des Objekts entsprechend [Bereitstellung digitaler Dokumente, die dem Urheberrecht unterliegen](https://wiki.dnb.de/pages/viewpage.action?pageId=212780202) beschrieben.
 - Es wird keine Garantie für die juristische Korrektheit gegeben.
 
-```xml
-<?xml version="1.0" encoding="ASCII"?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
-    <item copyright="true" id="copyright-ra-100" template="LibRML Copyright - Restricted Access" tenant="https://www.slub-dresden.de/" usageguide="https://librml.org/examples/copyright_restrictedaccess">
-        <action type="displaymetadata" permission="true"/>
-        <action type="index" permission="true"/>
-        <action type="read" permission="true">
-          <restriction type="location" inside="library"/>
-        </action>
-        <action type="archive" permission="true"/>
-    </item>
-</libRML>
-```
+{% highlight xml %}
+{% include_relative copyright_restrictedaccess.xml %}
+{% endhighlight %}
 
-```json
-{
-  "copyright": true,
-  "id": "copyright-ra-100",
-  "template": "LibRML Copyright - Restricted Access",
-  "tenant": "https://www.slub-dresden.de/",
-  "usageguide": "https://librml.org/examples/copyright_restrictedaccess",
-  "actions": [
-    {
-      "type": "displaymetadata",
-      "permission": true
-    },
-    {
-      "type": "index",
-      "permission": true
-    },
-    {
-      "type": "read",
-      "permission": true,
-      "restrictions": [
-        {
-          "type": "location",
-          "inside": [
-            "library"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "archive",
-      "permission": true
-    }
-  ]
-}
-```
+{% highlight json %}
+{% include_relative copyright_restrictedaccess.json %}
+{% endhighlight %}
