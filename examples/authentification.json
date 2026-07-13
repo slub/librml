@@ -1,9 +1,8 @@
 {
   "id": "auth-DE-442",
   "tenant": "https://www.slub-dresden.de/",
-  "template": "Authentification",
-  "copyright": true,
   "commercialuse": true,
+  "template": "Authentification",
   "actions": [
     {
       "type": "archive",

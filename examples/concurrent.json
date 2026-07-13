@@ -1,9 +1,8 @@
 {
   "id": "concuracc-440",
   "tenant": "https://www.slub-dresden.de/",
-  "template": "ConcurrentAccess",
-  "copyright": true,
   "commercialuse": true,
+  "template": "ConcurrentAccess",
   "actions": [
     {
       "type": "archive",

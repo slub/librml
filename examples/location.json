@@ -1,9 +1,8 @@
 {
   "id": "iprestricted-444",
   "tenant": "https://www.slub-dresden.de/",
-  "template": "IP",
-  "copyright": true,
   "commercialuse": false,
+  "template": "IP",
   "actions": [
     {
       "type": "archive",

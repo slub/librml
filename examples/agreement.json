@@ -1,9 +1,8 @@
 {
   "id": "agreement-DE-447",
   "tenant": "https://www.slub-dresden.de/",
-  "template": "Agreement",
-  "copyright": true,
   "commercialuse": true,
+  "template": "Agreement",
   "actions": [
     {
       "type": "archive",
