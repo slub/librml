@@ -145,6 +145,7 @@ Weitere Informationen:
 Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `interface`
+
 </s>
 
 Zurückgezogen wegen unter anderem: <https://github.com/slub/librml/issues/178>.
