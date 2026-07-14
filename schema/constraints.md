@@ -36,11 +36,11 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 | concurrent | gleichzeitig | Einschränkung auf eine bestimmte Anzahl an gleichzeitigen Ausführungen, Benutzungen, o. Ä. | [→&nbsp;Concurrent](#concurrent) |
 | count | Anzahl | Einschränkung auf eine bestimmte Anzahl an Ausführungen, Benutzungen, o. Ä. | [→&nbsp;Count](#count) |
 | date | Zeitpunkt | Einschränkung ab oder bis zu einem bestimmten Zeitpunkt (Embargo). | [→&nbsp;Date](#date) |
-| duration | Dauer | Einschränkung auf eine bestimmte Zeitdauer. | [→&nbsp;Duration](#duration) |
+| duration | Dauer | Einschränkung der Wiedergabe auf eine bestimmte Zeitdauer des digitalen Objekts. | [→&nbsp;Duration](#duration) |
 | group | Gruppe | Einschränkung auf bestimmte Personen oder Personengruppen. | [→&nbsp;Group](#group) |
 | location | Ort | Einschränkung auf ein bestimmtes Gebiet (z. B. `Deutschland`) oder auf eine bestimmte Einrichtung (z. B. `SLUB`). | [→&nbsp;Location](#location) |
-| parts | Teile | Einschränkung auf bestimmte Teile des digitalen Objekts. | [→&nbsp;Parts](#parts) |
-| quality | Qualität | Einschränkung auf eine maximale Qualität. | [→&nbsp;Quality](#quality) |
+| parts | Teile | Einschränkung der Wiedergabe auf bestimmte Teile des digitalen Objekts. | [→&nbsp;Parts](#parts) |
+| quality | Qualität | Einschränkung der Wiedergabe auf eine maximale Qualität. | [→&nbsp;Quality](#quality) |
 | watermark | Wasserzeichen | Einschränkung auf eine Kennzeichnung des digitalen Objekts mit einem Wasserzeichen oder einer anderen Markierung. | [→&nbsp;Watermark](#watermark) |
 
 ## Beispiele

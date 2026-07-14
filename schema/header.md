@@ -53,8 +53,8 @@ Diesem Objekt würde folgender LibRML-Header zugewiesen:
 {
   "id": "id-123456",
   "tenant": "https://www.slub-dresden.de/",
+  "copyright": true,
   "mention": true,
-  "sharealike": true,
-  "copyright": true
+  "sharealike": true
 }
 ```
