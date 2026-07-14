@@ -2,7 +2,6 @@
   "id": "copyright-oa-100",
   "tenant": "https://www.slub-dresden.de/",
   "copyright": true,
-  "template": "LibRML Copyright - Open Access",
   "usageguide": "https://librml.org/examples/copyright_openaccess",
   "actions": [
     {

@@ -1,7 +1,6 @@
 {
   "id": "metaonly-441",
   "tenant": "https://www.slub-dresden.de/",
-  "template": "Metadata access only",
   "actions": [
     {
       "type": "displaymetadata",
