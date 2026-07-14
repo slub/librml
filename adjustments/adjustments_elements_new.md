@@ -19,11 +19,13 @@ Anwendbar in den folgenden [Actions](../schema/actions.md):
 
 ### interface
 
-Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.
+~~Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.~~
 
-Anwendbar in den folgenden [Actions](../schema/actions.md):
+~~Anwendbar in den folgenden [Actions](../schema/actions.md):~~
 
-* `publish`
+~~* `publish`~~
+
+Zurückgezogen wegen unter anderem: <https://github.com/slub/librml/issues/178>.
 
 ## Attributes
 
@@ -100,6 +102,7 @@ Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `mets`
 
+<s>
 ### OAI-PMH
 
 Verfügbarkeit der Objekte an der OAI-Schnittstelle.
@@ -141,3 +144,7 @@ Weitere Informationen:
 Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `interface`
+
+</s>
+
+Zurückgezogen wegen unter anderem: <https://github.com/slub/librml/issues/178>.
