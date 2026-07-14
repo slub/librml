@@ -27,7 +27,6 @@ Anwendbar in den folgenden [Actions](../schema/actions.md):
 
 Zurückgezogen wegen unter anderem: <https://github.com/slub/librml/issues/178>.
 
-
 ## Attributes
 
 ### filegroups
