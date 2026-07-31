@@ -17,9 +17,6 @@ Umsetzung mit einem angepassten LibRML-Modell
                         <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="false"/>
                         <libRML:action type="index" permission="true"/>
-                        <libRML:action type="publish" permission="true">
-                            <libRML:restriction type="interface" OAI-PMH="internal"/>
-                        </libRML:action>
                         <libRML:action type="read" permission="true"/>
                     </libRML:item>
                 </libRML:libRML>
@@ -44,7 +41,6 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                         <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="false"/>
                         <libRML:action type="index" permission="true"/>
-                        <libRML:action type="publish" permission="false"/>
                         <libRML:action type="read" permission="true"/>
                     </libRML:item>
                 </libRML:libRML>
