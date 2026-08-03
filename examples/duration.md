@@ -1,6 +1,6 @@
 # Begrenztes Abspielen des Objekts
 
-Die Wiedergabe der Audio-/Videodatei ist ausschnittsweise erlaubt, jedoch maximal auf zwei Minuten beschränkt.
+Die Wiedergabe der Audio-/Videodatei ist in Ausschnitten von maximal 10 % der Gesamtlänge, höchstens jedoch bis zu zwei Minuten, gestattet.
 
 **Uneingeschränkte Nutzungsarten**:
 
