@@ -22,9 +22,6 @@ Umsetzung mit einem angepassten LibRML-Modell
                             <libRML:restriction type="agreement" required="true"/><!-- Unter Aufsicht -->
                         </libRML:action>
                         </libRML:action>
-                        <libRML:action type="publish" permission="true">
-                            <libRML:restriction type="interface" OAI-PMH="internal"/>
-                        </libRML:action>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Lesesaal(Sammlungen)"/>
@@ -52,7 +49,6 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                     <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am-pr/1.0/">
                         <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="false"/>
-                        <libRML:action type="publish" permission="false"/>
                         <libRML:action type="index" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Lesesaal-Sammlungen"/>

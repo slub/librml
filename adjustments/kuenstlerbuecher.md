@@ -24,9 +24,6 @@ Umsetzung mit einem angepassten LibRML-Modell
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze"/>
                         </libRML:action>
-                        <libRML:action type="publish" permission="true">
-                            <libRML:restriction type="interface" OAI-PMH="internal"/>
-                        </libRML:action>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze"/>
@@ -59,7 +56,6 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze"/>
                         </libRML:action>
-                        <libRML:action type="publish" permission="false"/>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze"/>
