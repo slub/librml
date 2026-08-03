@@ -21,7 +21,6 @@ Umsetzung mit einem angepassten LibRML-Modell
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Lesesaal(Sammlungen)"/>
                             <libRML:restriction type="agreement" required="true"/><!-- Unter Aufsicht -->
                         </libRML:action>
-                        </libRML:action>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
                             <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Lesesaal(Sammlungen)"/>
