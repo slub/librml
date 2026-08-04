@@ -28,7 +28,7 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
   ]
 ```
 
-## Disjuktion (Oder-Verknüpfung)
+## Disjunktion (Oder-Verknüpfung)
 
 Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/sie als Benutzende(r) angemeldet ist _oder_ sich innerhalb der Bibliothek aufhält.
 
