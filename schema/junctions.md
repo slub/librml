@@ -18,7 +18,7 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
   "permission": true,
   "restrictions": [
     {
-      "type": "groups",
+      "type": "group",
       "groups": "user"
     },
     {
