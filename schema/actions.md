@@ -6,7 +6,9 @@ Nutzungsarten (`actions`) beschreiben die Nutzungsmöglichkeiten eines digitalen
 
 In einer LibRML-Beschreibung muss jede erlaubte `action` ausdrücklich aufgeführt werden [(siehe LibRML Konzept)](concept.md). Jede `action`, die nicht enthalten ist, wird vom System als untersagt interpretiert. Jede `action` wird über das Attribut `type` eindeutig identifiziert. Das Attribut `permission="true"` kennzeichnet die `action` formal als erlaubt.
 
-`action` können durch Einschränkungen [(siehe `Constraints`)](constraints.md) und Eigenschaften [(siehe `Attributes`)](attributes.md) spezifiziert werden.
+Jede `action` kann durch Einschränkungen [(siehe `Constraints`)](constraints.md) und Eigenschaften [(siehe `Attributes`)](attributes.md) genauer spezifiziert werden.
+
+Eine `action` desgleichen Typs kann mehrfach aufgeführt werden, wodurch die jeweiligen Einschränkungen disjunkt (nicht exklusiv) zueinander werden.
 
 ```xml
 <libRML version="0.5.0" xmlns="http://librml.org/schema">

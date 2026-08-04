@@ -6,6 +6,8 @@ Einschränkungen (`constraints`) spezifizieren die Zugangs- und Nutzungsbeschrä
 
 Eine Einschränkung gilt ausdrücklich nur für die `action`, der sie direkt zugewiesen ist. Sollen Einschränkungen für mehrere Nutzungsarten gelten, müssen sie jeder betroffenen `action` individuell zugewiesen werden.
 
+Zugleich gelten alle Einschränkungen einer `action` gleichzeitig, das heißt, eine Nutzungart ist nur zulässig, wenn alle ihre Einschränkungen für den Benutzenden erfüllt sind.
+
 Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weiter spezifiziert werden.
 
 ```xml
