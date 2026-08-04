@@ -18,7 +18,7 @@ toc:
         url: attributes.html
       - title: Abhängigkeiten
         url: dependencies.html
-      - title: Verküpfungen
+      - title: Verknüpfungen
         url: junctions.html
       - title: Schemata
         url: schemas.html
