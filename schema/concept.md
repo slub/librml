@@ -27,7 +27,7 @@ Eine LibRML-Beschreibung ist hierarchisch strukturiert und besteht aus folgenden
   - Eigenschaften ([**Attributes**](attributes.md))
 
 Im [**Header**](header.md) werden Metadaten zur Beschreibung selbst sowie allgemeine Eigenschaften des Objekts definiert. Darauf folgen die [**Nutzungsarten**](actions.md), die durch [**Einschränkungen**](constraints.md) und [**Eigenschaften**](attributes.md) präzisiert werden können.
-In LibRML gilt das Prinzip der Exklusivität: Es werden ausschließlich erlaubte Nutzungsarten ausdrücklich beschrieben. Jede Nutzungsart, die nicht ausdrücklich in der LibRML-Beschreibung aufgeführt ist, gilt als verboten.
+In LibRML gilt das Prinzip der Exklusivität: Es werden ausschließlich erlaubte Nutzungsarten ausdrücklich beschrieben. Jede Nutzungsart, die nicht ausdrücklich in der LibRML-Beschreibung aufgeführt ist, gilt als verboten. Nutzungsarten sind _nicht exklusiv_, das heißt, dass dieselbe Nutzungsart mit unterschiedlichen Einschränkungen mehrfach aufgeführt werden kann. Verschiedene Einschränkungen einer Nutzungsart hingegen gelten alle gleichzeitig.
 
 Die aktuellen Schemata für die XML- und JSON-Repräsentationen können [hier](schemas.md) eingesehen werden.
 
