@@ -2,7 +2,7 @@
 
 Die Einschränkungen (`constraints`) können logisch miteinander verbunden werden.
 
-## Konjuktion (Und-Verknüpfung)
+## Konjunktion (Und-Verknüpfung)
 
 Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/sie als Benutzende(r) angemeldet ist _und_ sich innerhalb der Bibliothek aufhält.
 
