@@ -8,7 +8,7 @@ In einer LibRML-Beschreibung muss jede erlaubte `action` ausdrücklich aufgefüh
 
 Jede `action` kann durch Einschränkungen [(siehe `Constraints`)](constraints.md) und Eigenschaften [(siehe `Attributes`)](attributes.md) genauer spezifiziert werden.
 
-Eine `action` desgleichen Typs kann mehrfach aufgeführt werden, wodurch die jeweiligen Einschränkungen disjunkt (nicht exklusiv) zueinander werden.
+Eine `action` desgleichen Typs kann mehrfach aufgeführt werden, wodurch die jeweiligen Einschränkungen disjunkt (nicht exklusiv) zueinander werden [(siehe _Verküpfungen_)](junctions.md).
 
 ```xml
 <libRML version="0.5.0" xmlns="http://librml.org/schema">
