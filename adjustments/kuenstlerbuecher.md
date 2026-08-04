@@ -22,11 +22,11 @@ Umsetzung mit einem angepassten LibRML-Modell
                         </libRML:action>
                         <libRML:action type="index" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze"/>
                         </libRML:action>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze"/>
                         </libRML:action>
                     </libRML:item>
                 </libRML:libRML>
