@@ -8,7 +8,7 @@ host: 0.0.0.0
 
 title: "LibRML"
 tagline: "Library Rights Machine-readable Language"
-description: "LibRML ist ein schlankes, auf Kulturerbeeinrichtungen zugeschnittenes Modell zur maschinellen Beschreibung von Berechtigungen und Nutzungsrechten digitaler Objekte."
+description: "LibRML ist ein an Kulturerbeeinrichtungen angepasstes Modell zur Beschreibung maschineninterpretierbarer Berechtigungen und Beschränkungen digitaler Objekte."
 url: "https://librml.org"
 
 lang: "de"
