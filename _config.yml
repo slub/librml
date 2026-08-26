@@ -6,9 +6,19 @@
 
 host: 0.0.0.0
 
-title: LibRML
+title: "LibRML"
+tagline: "Library Rights Machine-readable Language"
+description: "LibRML ist ein schlankes, auf Kulturerbeeinrichtungen zugeschnittenes Modell zur maschinellen Beschreibung von Berechtigungen und Nutzungsrechten digitaler Objekte."
+url: "https://librml.org"
+
+lang: "de"
+timezone: "Europe/Berlin"
+
 email: librml@slub-dresden.de
-description: Library Rights Machine-readable Language
+
+author:
+  name: "SLUB Dresden"
+  type: "Organization"
 
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
