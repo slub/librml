@@ -102,7 +102,11 @@ Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `mets`
 
-<s>
+{% comment %}
+_Folgender Abschnitt wurde zurückgezogen_
+
+Vegleiche: <https://github.com/slub/librml/issues/178>.
+
 ### OAI-PMH
 
 Verfügbarkeit der Objekte an der OAI-Schnittstelle.
@@ -145,6 +149,4 @@ Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `interface`
 
-</s>
-
-Zurückgezogen wegen unter anderem: <https://github.com/slub/librml/issues/178>.
+{% endcomment %}
