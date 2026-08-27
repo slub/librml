@@ -15,7 +15,7 @@ Für die Beschreibung konkreter technischer Berechtigungen oder Beschränkungen,
 
 ## LibRML
 
-Die Library Rights Machine-readable Language (LibRML) ist ein Modell zur formalen Beschreibung von Berechtigungen und Beschränkungen für digitale Objekte. Sie ordnet sich in die Gruppe der Rights Expression Languages (REL) wie [ODRL](https://www.w3.org/TR/odrl-model/) oder [MPEG-21](https://de.wikipedia.org/wiki/MPEG-21) ein, weist jedoch eine deutlich geringere Komplexität auf und ist auf Kulturerbeeinrichtungen zugeschnitten.
+Die Library Rights Machine-readable Language (LibRML) ist ein auf Kulturerbeeinrichtungen angepasstes Modell zur Beschreibung maschineninterpretierbarer Berechtigungen und Beschränkungen für spezifische Nutzungsarten digitaler Objekte. Sie ordnet sich in die Gruppe der Rights Expression Languages (REL) wie [ODRL](https://www.w3.org/TR/odrl-model/) oder [MPEG-21](https://de.wikipedia.org/wiki/MPEG-21) ein, weist jedoch eine deutlich geringere Komplexität auf und ist auf Kulturerbeeinrichtungen zugeschnitten.
 
 Obwohl die Begriffe _**Rights** Expression Languages_ oder _Library **Rights** Machine-readable Language_ das Wort „Rechte“ im Namen tragen, liegt der Fokus der LibRML auf der technischen Abbildung von Berechtigungen, die innerhalb eines Systems maschinell durchgesetzt werden können.
 Während Creative Commons oder Rights Statements den rechtlichen Status oder die Lizenz beschreiben, definiert LibRML die sich daraus ergebenden funktionalen Spielräume (zum Beispiel das Drucken, den Download oder die Beschränkung auf spezifische Arbeitsplätze).
