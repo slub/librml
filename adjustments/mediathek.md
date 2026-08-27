@@ -48,11 +48,11 @@ Umsetzung mit dem derzeit gültigen LibRML-Modell
                         <libRML:action type="download" permission="false"/>
                         <libRML:action type="index" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Mediathek"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze-Mediathek"/>
                         </libRML:action>
                         <libRML:action type="read" permission="true">
                             <libRML:restriction type="concurrent" sessions="1"/>
-                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplätze-Mediathek"/>
+                            <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze-Mediathek"/>
                         </libRML:action>
                     </libRML:item>
                 </libRML:libRML>
