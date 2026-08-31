@@ -27,18 +27,18 @@
       <!-- {{ page.url }} -->
         {% for entry in site.data.navi.toc %}
           {% if parts.size < 3 and entry.path == "/"  %}
-            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path }}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
               {% assign subnav = entry.subnav %}
             {% endif %}
           {% elsif parts.size >= 3 and page.url contains entry.path and entry.path != "/" %}
-            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path }}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
               {% assign subtitle = entry.title %}
               {% assign subnav = entry.subnav %}
             {% endif %}
           {% else %}
-            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path }}{{ entry.url }}" class="btn">{{ entry.title }}</a>
           {% endif %}
         {% endfor %}
       </nav>
