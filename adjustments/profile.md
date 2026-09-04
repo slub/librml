@@ -27,3 +27,5 @@ Ein technisch durchsetzbares Anwendunsprofil von LibRML für [Kitodo](https://ww
   NB: Aktuell in Kitodo.Presentation noch nicht umsetzbar.
 - **group**
 - **location**
+
+Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
