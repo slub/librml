@@ -18,6 +18,7 @@ email: librml@slub-dresden.de
 
 author:
   name: "SLUB Dresden"
+  url: "https://www.slub-dresden.de"
   type: "Organization"
 
 remote_theme: pages-themes/cayman@v0.2.0

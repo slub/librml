@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#990000">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.svg' | relative_url }}">
@@ -27,18 +27,18 @@
       <!-- {{ page.url }} -->
         {% for entry in site.data.navi.toc %}
           {% if parts.size < 3 and entry.path == "/"  %}
-            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path }}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
               {% assign subnav = entry.subnav %}
             {% endif %}
           {% elsif parts.size >= 3 and page.url contains entry.path and entry.path != "/" %}
-            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path }}{{ entry.url }}" class="btn active">{{ entry.title }}</a>
             {% if entry.subnav %}
               {% assign subtitle = entry.title %}
               {% assign subnav = entry.subnav %}
             {% endif %}
           {% else %}
-            <a href="{{ site.baseurl }}{{ entry.path}}{{ entry.url }}" class="btn">{{ entry.title }}</a>
+            <a href="{{ site.baseurl }}{{ entry.path }}{{ entry.url }}" class="btn">{{ entry.title }}</a>
           {% endif %}
         {% endfor %}
       </nav>
@@ -67,9 +67,9 @@
             Wenn Sie Fragen zum Projekt haben, schreiben Sie uns eine E-Mail: <SCRIPT LANGUAGE="JavaScript">user = 'librml';site = 'slub-dresden.de';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT><br>
             Sie können sich auch über <a target="_blank" href="https://github.com/slub/librml/discussions">GitHub</a> an der Diskussion beteiligen.</span>
           <span class="site-footer-credits">
-            <a href="{{ site.github.repository_url }}">LibRML</a> ist ein Projekt der <a href="{{ site.github.owner_url }}">SLUB - Sächsische Landesbibliothek — Staats- und Universitätsbibliothek Dresden</a>.</span>
+            <a href="{{ site.github.repository_url }}">LibRML</a> ist ein Projekt der <a href="{{ site.author.url }}">SLUB - Sächsische Landesbibliothek — Staats- und Universitätsbibliothek Dresden</a>.</span>
           <span class="logo_box">
-            <a href="https://www.slub-dresden.de/"><img src="{{ site.baseurl }}/assets/images/logo_slub.jpg" alt="Logo Slub"/></a>
+            <a href="{{ site.author.url }}"><img src="{{ site.baseurl }}/assets/images/logo_slub.jpg" alt="Logo Slub"/></a>
             <img src="{{ site.baseurl }}/assets/images/logo_efre.svg" alt="Logo EFRE"/>
             <a href="https://www.dfg.de/"><img src="{{ site.baseurl }}/assets/images/logo_dfg.png" alt="Logo DFG"/></a>
           </span>
