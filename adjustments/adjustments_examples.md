@@ -8,4 +8,3 @@
 * [Klemperer](klemperer.md)
 * [Künstlerbücher](kuenstlerbuecher.md)
 * [Sächsische Zeitung](saechsischezeitung.md)
-* [Unbekannt](unknown.md)
