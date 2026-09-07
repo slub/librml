@@ -1,6 +1,6 @@
 # Anwendungsprofil für Kitodo (Entwurf)
 
-Ein technisch durchsetzbares Anwendunsprofil von LibRML für [Kitodo](https://www.kitodo.org/) beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel). Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen.
+Ein technisch durchsetzbares Anwendunsprofil von LibRML für [Kitodo.Production](https://www.kitodo.org/software/kitodoproduction) beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel). Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen.
 
 ## Verpflichtende Nutzungsarten (Actions)
 
