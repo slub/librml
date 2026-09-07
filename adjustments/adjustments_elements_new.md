@@ -17,15 +17,20 @@ Anwendbar in den folgenden [Actions](../schema/actions.md):
 * `index`
 * `read`
 
+{% comment %}
+_Folgender Abschnit wurde zurückgezogen_
+
+* <https://github.com/slub/librml/issues/178>
+
 ### interface
 
-~~Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.~~
+Die Verfügbarkeit des Objekts an Schnittstellen wird in dem constraint `interface` beschrieben.
 
-~~Anwendbar in den folgenden [Actions](../schema/actions.md):~~
+Anwendbar in den folgenden [Actions](../schema/actions.md):
 
-~~* `publish`~~
+* `publish`
 
-Zurückgezogen wegen unter anderem: <https://github.com/slub/librml/issues/178>.
+{% endcomment %}
 
 ## Attributes
 
@@ -71,7 +76,10 @@ Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 * `mets`
 
 {% comment %}
-_Folgender Abschnitt wurde zurückgezogen_
+_Folgende Abschnitte wurden zurückgezogen_
+
+* <https://github.com/slub/librml/issues/199>
+* <https://github.com/slub/librml/issues/178>
 
 ### fileformats
 
