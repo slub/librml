@@ -1,6 +1,6 @@
 # Unbekannt
 
-Diese Beispiele werden als Fallback genutzt, wenn LibRML aus bestehenden Rechteinformationen abgeleitet wird, wie zum Beispiel im Fall ungültiger Kombinationen (https://github.com/slub/librml/discussions/32) oder Werte (https://github.com/slub/librml/discussions/192). Dies schützt vor unberechtigtem Zugang sowie unbefugter Nutzung digitaler Objekte, weil keine [Nutzungsart](../schema/actions.md) erlaubt ist.
+Diese Beispiele werden als Fallback genutzt, wenn LibRML aus bestehenden Rechteinformationen abgeleitet wird, wie zum Beispiel im Fall ungültiger Kombinationen (<https://github.com/slub/librml/discussions/32>) oder Werte (<https://github.com/slub/librml/discussions/192>). Dies schützt vor unberechtigtem Zugang sowie unbefugter Nutzung digitaler Objekte, weil keine [Nutzungsart](../schema/actions.md) erlaubt ist.
 
 Der Beschreibungstext ist auf <https://nutzungshinweis.slub-dresden.de/unknown/1.0/> verfügbar.
 
