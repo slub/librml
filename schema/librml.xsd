@@ -118,7 +118,6 @@
         </xs:attribute>
     </xs:attributeGroup>
     <xs:attributeGroup name="metsattr">
-        <xs:attribute type="xs:NMTOKENS" name="fileformats" />
         <xs:attribute type="xs:NMTOKENS" name="filegroups" />
     </xs:attributeGroup>
     <xs:attributeGroup name="qltattr">
