@@ -18,7 +18,6 @@ Umsetzung mit einem angepassten LibRML-Modell
                         <libRML:action type="download" permission="true">
                             <libRML:restriction type="group" groups="SLUB-Nutzende"/>
                             <libRML:restriction type="mets" filegroups="DOWNLOAD ORIGINAL"/>
-                            <libRML:restriction type="mets" fileformats="FULLDOWNLOAD-PDF FULLTEXT-TXT FULLTEXT-XML IIIF-JSON"/>
                         </libRML:action>
                         <libRML:action type="index" permission="true">
                             <libRML:restriction type="group" groups="SLUB-Nutzende"/>

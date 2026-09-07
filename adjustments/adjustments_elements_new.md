@@ -68,6 +68,9 @@ In der SLUB Dresden werden spezifische Vorgaben definiert, die von Kitodo.Presen
 
 Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
+{% comment %}
+_Folgender Abschnitt wurde zurückgezogen_
+
 * `mets`
 
 ### fileformats
@@ -101,9 +104,6 @@ Weitere Informationen:
 Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `mets`
-
-{% comment %}
-_Folgender Abschnitt wurde zurückgezogen_
 
 Vegleiche: <https://github.com/slub/librml/issues/178>.
 

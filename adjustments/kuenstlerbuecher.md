@@ -17,7 +17,6 @@ Umsetzung mit einem angepassten LibRML-Modell
                         <libRML:action type="displaymetadata" permission="true"/>
                         <libRML:action type="download" permission="true">
                             <libRML:restriction type="mets" filegroups="DOWNLOAD"/>
-                            <libRML:restriction type="mets" fileformats="FULLDOWNLOAD-PDF FULLTEXT-TXT FULLTEXT-XML IIIF-JSON"/>
                             <libRML:restriction type="parts" percentage="10"/>
                         </libRML:action>
                         <libRML:action type="index" permission="true">
