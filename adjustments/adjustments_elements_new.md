@@ -70,6 +70,9 @@ Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `mets`
 
+{% comment %}
+_Folgender Abschnitt wurde zurückgezogen_
+
 ### fileformats
 
 Werte, die in der METS-Datei enthalten sind oder davon abgeleitet werden, um Präsentation-Funktionen zu ermöglichen.
@@ -101,9 +104,6 @@ Weitere Informationen:
 Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 * `mets`
-
-{% comment %}
-_Folgender Abschnitt wurde zurückgezogen_
 
 Vegleiche: <https://github.com/slub/librml/issues/178>.
 

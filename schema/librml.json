@@ -47,12 +47,6 @@
             "minimum": 1,
             "type": "integer"
           },
-          "fileformats": {
-            "items": {
-              "type": "string"
-            },
-            "type": "array"
-          },
           "filegroups": {
             "items": {
               "type": "string"
