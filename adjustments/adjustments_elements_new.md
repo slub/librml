@@ -19,7 +19,7 @@ Anwendbar in den folgenden [Actions](../schema/actions.md):
 
 {% comment %}
 _Folgender Abschnit wurde zurückgezogen_
-* https://github.com/slub/librml/issues/178
+* <https://github.com/slub/librml/issues/178>
 
 ### interface
 
@@ -76,8 +76,8 @@ Anwendbar in den folgenden [Constraints](../schema/constraints.md):
 
 {% comment %}
 _Folgende Abschnitte wurden zurückgezogen_
-* https://github.com/slub/librml/issues/199
-* https://github.com/slub/librml/issues/178
+* <https://github.com/slub/librml/issues/199>
+* <https://github.com/slub/librml/issues/178>
 
 ### fileformats
 
