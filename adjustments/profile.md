@@ -4,15 +4,12 @@ Ein technisch durchsetzbares Anwendunsprofil von LibRML für [Kitodo.Production]
 
 Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) zugeschnitten.
 
-## Verpflichtende Nutzungsarten (Actions)
+## Nutzungsarten (Actions)
 
-- **displaymetadata**
+- **displaymetadata**\
   Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, wo üblicheweise Katalog und Präsentationsebene getrennt sind, lässt sich diese Nutzungsart anders nicht vernünftig einsetzen.\
   Wiederholbar: nein\
   Verpflichtungsgrad: Verpflichtend
-
-## Empfohlene Nutzungsarten (Actions)
-
 - **download**\
   Wiederholbar: ja\
   Verpflichtungsgrad: optional
@@ -28,7 +25,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
   Wiederholbar: ja\
   Verpflichtungsgrad: optional
 
-## Empfohlene Einschränkungen (Constraints)
+## Einschränkungen (Constraints)
 
 - **age**
 - **agreement**

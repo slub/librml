@@ -43,7 +43,7 @@ In LibRML stehen die folgenden Nutzungsarten zur Verfügung. Es wird zwischen te
 | **modify** | Bearbeiten | Erlaubt jede Art der Bearbeitung, Übersetzung, Umarbeitung.<br/> _technisch nicht durchsetzbar_ |
 | **move** | Übertragen der Daten | Erlaubt die Übertragung des digitalen Objekts zwischen Datenbanken, oder das interne Speichern eines digitalen Objekts, die in einer externen Datenbank des Anbieters verfügbar ist.<br/> _einrichtungsinterne Nutzungsart_ |
 | **print** | Ausdrucken | Erlaubt das Ausdrucken des Werkes. |
-| **publish** | Veröffentlichen oder vorführen | Erlaubt das öffentliche Verbreiten oder Vorführen des digitalen Objekts, wie zum Beispiel durch eine Verlagsveröffentlichung oder eine öffentliche Vorlesung.<br/> _technisch nicht durchsetzbar_ <br/> Öffentliches Verbreiten des Objektes, beispielsweise über entsprechende Schnittstellen. |
+| **publish** | Veröffentlichen oder vorführen | Erlaubt das öffentliche Verbreiten oder Vorführen des digitalen Objekts, wie zum Beispiel durch eine Verlagsveröffentlichung oder eine öffentliche Vorlesung.<br/> _technisch nicht durchsetzbar_ |
 | **read** | „Lesen“ der Datei | Erlaubt das Öffnen und Lesen des digitalen Objekts. |
 | **reproduce** | Vervielfältigen | Erlaubt die private und öffentliche Vervielfältigung des digitalen Objekts, unabhängig davon, ob sie verbreitet wird oder nicht.<br/> _technisch nicht durchsetzbar_ |
 | **reuse** | Wiederverwenden | Erlaubt die Wiederverwendung des ganzen Werkes oder Teile des Werkes.<br/> _technisch nicht durchsetzbar_ |
