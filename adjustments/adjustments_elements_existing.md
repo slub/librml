@@ -57,10 +57,10 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
     * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
     * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **publish**
-  * **Relevanz:** Ja
+  * **Relevanz:** Nein
   * **Bemerkung:**
-    * Die Bereitstellung über Schnittstellen kann beschrieben werden (Interface-IIIF, Interface-OAI-PMH).
     * Die Veröffentlichung als Verlagsveröffentlichung wird nicht mit/in Kitodo.Presentation gesteuert.
+    * Vgl. auch <https://github.com/slub/librml/issues/178>
   * **Beispiele:**
     * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)

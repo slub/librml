@@ -51,6 +51,8 @@ toc:
         url: adjustments_elements_existing.html
       - title: Neue Elemente für Retrodigitalisate
         url: adjustments_elements_new.html
+      - title: Anwendungsprofil
+        url: profile.html
   - title: Anwendung
     path: /usage/
     url: usage.html
