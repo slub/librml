@@ -20,13 +20,11 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
   Kommentar: Bezieht sich für den Benutzer auf die Durchsuchbarkeit eines Volltextes; kann auch ohne vorhandenen Volltext gesetzt sein.\
   Wiederholbar: ja\
   Verpflichtungsgrad: optional
-- **print**\
-  Wiederholbar: ja\
-  Verpflichtungsgrad: optional
 - **read**\
   Wiederholbar: ja\
   Verpflichtungsgrad: Verpflichtend
 - **run**\
+  Kommentar: Aktuell in Kitodo.Presentation noch nicht umsetzbar.
   Wiederholbar: ja\
   Verpflichtungsgrad: optional
 
