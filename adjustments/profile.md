@@ -6,34 +6,40 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
 
 ## Verpflichtende Nutzungsarten (Actions)
 
-- **displaymetadata** muss immer auf `true` gesetzt sein.\
-  Wiederholbar: nein
-
-In nicht-integrierten Umgebungen, wo üblicheweise Katalog und Präsentationsebene getrennt sind, lässt sich diese Nutzungsart nicht vernünftig einsetzen.
+- **displaymetadata**
+  Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, wo üblicheweise Katalog und Präsentationsebene getrennt sind, lässt sich diese Nutzungsart anders nicht vernünftig einsetzen.\
+  Wiederholbar: nein\
+  Verpflichtungsgrad: Verpflichtend
 
 ## Empfohlene Nutzungsarten (Actions)
 
 - **download**\
-  Wiederholbar: ja
+  Wiederholbar: ja\
+  Verpflichtungsgrad: optional
 - **index**\
-  Wiederholbar: ja
+  Kommentar: Bezieht sich für den Benutzer auf die Durchsuchbarkeit eines Volltextes; kann auch ohne vorhandenen Volltext gesetzt sein.\
+  Wiederholbar: ja\
+  Verpflichtungsgrad: optional
 - **print**\
-  Wiederholbar: ja
+  Wiederholbar: ja\
+  Verpflichtungsgrad: optional
 - **read**\
-  Wiederholbar: ja
+  Wiederholbar: ja\
+  Verpflichtungsgrad: Verpflichtend
 - **run**\
-  Wiederholbar: ja
+  Wiederholbar: ja\
+  Verpflichtungsgrad: optional
 
 ## Empfohlene Einschränkungen (Constraints)
 
 - **age**
 - **agreement**
 - **mets**\
-  NB: In der METS-Datei sind die Maße eines Objektes nicht hinterlegt, daher würde die Einschränkung - - **quality** höchstens implizit greifen.
+  Kommentar: In der METS-Datei sind die Maße eines Objektes nicht hinterlegt, daher würde die Einschränkung - - **quality** höchstens implizit greifen.
 - **concurrent**
 - **date**
 - **duration**\
-  NB: Aktuell in Kitodo.Presentation noch nicht umsetzbar.
+  Kommentar: Aktuell in Kitodo.Presentation noch nicht umsetzbar.
 - **group**
 - **location**
 
