@@ -1,6 +1,8 @@
 # Anwendungsprofil für Kitodo (Entwurf)
 
-Ein Anwendunsprofil von LibRML für [Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation) beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel). Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen.
+Ein Anwendunsprofil von LibRML für _[Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation)_ beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
+Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter ([**Actions**](actions.md)) als _technisch nicht durchsetzbar_ gekennzeichnet.
+Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksichtigt. 
 
 Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) zugeschnitten.
 
