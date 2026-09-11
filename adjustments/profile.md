@@ -22,7 +22,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
 - **read**\
   Wiederholbar: ja\
   Verpflichtungsgrad: verpflichtend
-  Kommentar: ...
+  Kommentar: Diese Nutzungart muss – unter Umständen mit entsprechenden Einschränkungen – immer angegeben werden.
 - **run**\
   Kommentar: Aktuell in Kitodo.Presentation noch nicht umsetzbar.
   Wiederholbar: ja\
