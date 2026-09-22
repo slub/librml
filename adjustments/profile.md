@@ -9,7 +9,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
 ## Nutzungsarten (Actions)
 
 - **displaymetadata**\
-  Kommentar: Empfehlung: `true`, weil das Objekt ansonsten nicht such- und auffindbar ist.\
+  Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\```
   Wiederholbar: nein\
   Verpflichtungsgrad: verpflichtend
 - **download**\
