@@ -36,7 +36,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
   Kommentar: Es werden die auswertbaren Dateigruppen in der METS-Datei des Objekts bestimmt.
 - **concurrent**
 - **date**\
-  Kommntar: wird zur Bestimmung eventueller Embargofristen benötigt 
+  Kommentar: Wird zur Bestimmung von Embargofristen verwendet. 
 - **duration**\
   Kommentar: Aktuell in Kitodo.Presentation noch nicht umsetzbar.
 - **group**
