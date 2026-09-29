@@ -6,6 +6,12 @@ Zudem werden in _Kitodo.Presentation_ noch fehlende Funktionen nicht berücksich
 
 Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) zugeschnitten.
 
+## Header
+
+- **usageguide**\
+  Kommentar: Verweist auf die Nutzungshinweise, die die Beschränkungen beschreiben oder begründen.\
+  Verpflichtungsgrad: verpflichtend
+
 ## Nutzungsarten (Actions)
 
 - **displaymetadata**\
