@@ -9,7 +9,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
 ## Header
 
 - **copyright**\
-  Kommentar: Das METS-Anwendungsprofil sieht vor, das hierfür `dv:license` zu verwenden ist.
+  Kommentar: Das METS-Anwendungsprofil sieht vor, dass hierfür `dv:license` zu verwenden ist. Zur Vermeidung redundanter Informationen wird das Attribut in dem LibRML-Anwendungsprofil nicht berücksichtigt.
 - **usageguide**\
   Kommentar: Verweist auf die Nutzungshinweise, die die Beschränkungen beschreiben oder begründen.\
   Verpflichtungsgrad: verpflichtend
