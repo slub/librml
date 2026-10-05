@@ -57,7 +57,7 @@ Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
 Wird LibRML in die METS-Datei eingebettet, muss berücksichtigt werden, dass zwei METS-Elemente <mets:rightsMD ID="LibRML"> eingetragen werden. 
 Grund ist _2.6.2.3 Rechtedeklaration – mets:rightsMD_ ff. des [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), in dem bereits ein <mets:rightsMD> verpflichtend in der METS-Datei enthalten sein muss. 
 
-Beispiele sind in https://github.com/slub/librml/discussions/192 enthalten
+Weitere Beispiele sind in https://github.com/slub/librml/discussions/192 enthalten oder können mit dem XSLT erstellt werden. 
 
 ### Anwendung
 
