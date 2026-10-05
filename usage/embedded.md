@@ -51,16 +51,7 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
 <mets:mets[…]>
   <mets:metsHdr[…]/>
   <mets:amdSec>
-    <mets:rightsMD ID="dvrightsid" >
-      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS" >
-        <mets:xmlData>
-          <dv:rights>
-            …
-          </dv:rights>
-        </mets:xmlData>
-      </mets:mdWrap>
-    </mets:rightsMD>
-    <mets:rightsMD ID="librmlid">
+    <mets:rightsMD>
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
         <mets:xmlData>
           <libRML:libRML version="0.5.0" xmlns:libRML="http://librml.org/schema">
