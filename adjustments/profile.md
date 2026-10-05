@@ -74,7 +74,7 @@ Weitere Beispiele sind in https://github.com/slub/librml/discussions/192 enthalt
         </mets:xmlData>
       </mets:mdWrap>
     </mets:rightsMD>
-    <mets:rightsMD ID="librmlid">
+    <mets:rightsMD ID="LibRML">
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
         <mets:xmlData>
           <libRML:libRML xmlns:libRML="http://librml.org/schema">
