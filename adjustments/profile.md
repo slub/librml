@@ -64,7 +64,7 @@ Weitere Beispiele sind in https://github.com/slub/librml/discussions/192 enthalt
 ```xml
 <mets:mets[…]>
   <mets:metsHdr[…]/>
-  <mets:amdSec>
+  <mets:amdSec ID="AMD">
     <mets:rightsMD ID="dvrightsid" >
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS" >
         <mets:xmlData>
