@@ -55,14 +55,47 @@ Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
 ### Allgemeine Informationen
 
 Wird LibRML in die METS-Datei eingebettet, muss berücksichtigt werden, dass zwei METS-Elemente <mets:rightsMD ID="LibRML"> eingetragen werden. 
-Grund ist das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), in dem bereits ein <mets:rightsMD> verpflichtend in der METS-Datei enthalten sein muss. 
+Grund ist _2.6.2.3 Rechtedeklaration – mets:rightsMD_ ff. des [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), in dem bereits ein <mets:rightsMD> verpflichtend in der METS-Datei enthalten sein muss. 
 
-Beispiele sind in https://github.com/slub/librml/discussions/192 enthalten.
-
+Beispiele sind in https://github.com/slub/librml/discussions/192 enthalten
 
 ### Anwendung
 
-
+```xml
+<mets:mets[…]>
+  <mets:metsHdr[…]/>
+  <mets:amdSec>
+    <mets:rightsMD ID="dvrightsid" >
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS" >
+        <mets:xmlData>
+          <dv:rights>
+            …
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:rightsMD ID="librmlid">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
+        <mets:xmlData>
+          <libRML:libRML xmlns:libRML="http://librml.org/schema">
+            <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am/1.0/">
+                <libRML:action type="displaymetadata" permission="true"/>
+                <libRML:action type="download" permission="false"/>
+                <libRML:action type="index" permission="true">
+                    <libRML:restriction type="concurrent" sessions="1"/>
+                    <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze-Mediathek"/>
+                </libRML:action>
+                <libRML:action type="read" permission="true">
+                    <libRML:restriction type="concurrent" sessions="1"/>
+                    <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze-Mediathek"/>
+                </libRML:action>
+            </libRML:item>
+          </libRML:libRML>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+  </mets:amdSec>
+```
 
 
 
