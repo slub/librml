@@ -10,7 +10,7 @@ Sind bereits Rechtehinweise oder Nutzungshinweise verfügbar, kann der LibRML-Co
 
 ### Elemente
 
-In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
+In METS wird der XML-Code im Element `<rightsMD>` eingebettet.
 
 ```xml
 <mets:mets […]>
@@ -18,7 +18,9 @@ In METS wird der XML-Code im Element `<rightsMD>` eingetragen.
   <mets:amdSec>
     <mets:rightsMD ID="LibRML">
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
-        <!--Here, LibRML can be embedded.-->
+        <mets:xmlData>
+          <!--Here, LibRML can be embedded.-->
+        </mets:xmlData>
       </mets:mdWrap>
     </mets:rightsMD>
   </mets:amdSec>
@@ -49,26 +51,28 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
 <mets:mets[…]>
   <mets:metsHdr[…]/>
   <mets:amdSec>
-    <mets:rightsMD ID="LibRML">
+    <mets:rightsMD>
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
-        <libRML:libRML version="0.5.0" xmlns:libRML="http://librml.org/schema">
-          <libRML:item commercialuse="false">
-            <libRML:action type="displaymetadata" permission="true"/>
-            <libRML:action type="archive" permission="true"/>
-            <libRML:action type="index" permission="true">
-              <libRML:restriction type="location" inside="SLUB"/>
-            </libRML:action>
-            <libRML:action type="read" permission="true">
-              <libRML:restriction type="location" inside="SLUB"/>
-            </libRML:action>
-            <libRML:action type="download" permission="true">
-              <libRML:restriction type="location" inside="SLUB"/>
-            </libRML:action>
-            <libRML:action type="print" permission="true">
-              <libRML:restriction type="location" inside="SLUB"/>
-            </libRML:action>
-          </libRML:item>
-        </libRML:libRML>
+        <mets:xmlData>
+          <libRML:libRML version="0.5.0" xmlns:libRML="http://librml.org/schema">
+            <libRML:item commercialuse="false">
+              <libRML:action type="displaymetadata" permission="true"/>
+              <libRML:action type="archive" permission="true"/>
+              <libRML:action type="index" permission="true">
+                <libRML:restriction type="location" inside="SLUB"/>
+              </libRML:action>
+              <libRML:action type="read" permission="true">
+                <libRML:restriction type="location" inside="SLUB"/>
+              </libRML:action>
+              <libRML:action type="download" permission="true">
+                <libRML:restriction type="location" inside="SLUB"/>
+              </libRML:action>
+              <libRML:action type="print" permission="true">
+                <libRML:restriction type="location" inside="SLUB"/>
+              </libRML:action>
+            </libRML:item>
+          </libRML:libRML>
+        </mets:xmlData>
       </mets:mdWrap>
     </mets:rightsMD>
   </mets:amdSec>
