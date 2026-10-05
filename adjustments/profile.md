@@ -1,12 +1,18 @@
 # Anwendungsprofil für Kitodo (Entwurf)
 
-Ein Anwendunsprofil von LibRML für _[Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation)_ beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
+## Allgemeine Informationen
+
+Das folgende LibRML-Anwendungsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) sowie auf die Anwendung mit _[Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation)_ zugeschnitten.
+
+## LibRML-Elemente
+
+### Allgemeine Informationen
+
+Das Anwendunsprofil beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
 Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter ([**Actions**](../schema/actions.md)) als _technisch nicht durchsetzbar_ gekennzeichnet.
 Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksichtigt.
 
-Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) zugeschnitten.
-
-## Nutzungsarten (Actions)
+### Nutzungsarten (Actions)
 
 - **displaymetadata**\
   Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\```
@@ -28,7 +34,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
   Wiederholbar: ja\
   Verpflichtungsgrad: optional
 
-## Einschränkungen (Constraints)
+### Einschränkungen (Constraints)
 
 - **age**
 - **agreement**
@@ -43,3 +49,22 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
 - **location**
 
 Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
+
+## Anwendung in METS
+
+### Allgemeine Informationen
+
+Wird LibRML in die METS-Datei eingebettet, muss berücksichtigt werden, dass zwei METS-Elemente <mets:rightsMD ID="LibRML"> eingetragen werden. 
+Grund ist das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), in dem bereits ein <mets:rightsMD> verpflichtend in der METS-Datei enthalten sein muss. 
+
+Beispiele sind in https://github.com/slub/librml/discussions/192 enthalten.
+
+
+### Anwendung
+
+
+
+
+
+
+
