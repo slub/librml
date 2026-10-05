@@ -1,15 +1,23 @@
 # Anwendungsprofil für Kitodo (Entwurf)
 
-Ein Anwendunsprofil von LibRML für _[Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation)_ beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
-Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter ([**Actions**](../schema/actions.md)) als _technisch nicht durchsetzbar_ gekennzeichnet.
-Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksichtigt.
+Ein Anwendungsprofil von LibRML für _[Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation)_ beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
+Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter [**Actions**](../schema/actions.md) als _technisch nicht durchsetzbar_ gekennzeichnet.
+Zudem werden in _Kitodo.Presentation_ noch fehlende Funktionen nicht berücksichtigt.
 
 Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) zugeschnitten.
+
+## Header
+
+- **copyright**\
+  Kommentar: Das METS-Anwendungsprofil sieht vor, dass hierfür `dv:license` zu verwenden ist. Zur Vermeidung redundanter Informationen wird das Attribut in dem LibRML-Anwendungsprofil nicht berücksichtigt.
+- **usageguide**\
+  Kommentar: Verweist auf die Nutzungshinweise, die die Beschränkungen beschreiben oder begründen.\
+  Verpflichtungsgrad: verpflichtend
 
 ## Nutzungsarten (Actions)
 
 - **displaymetadata**\
-  Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\```
+  Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\
   Wiederholbar: nein\
   Verpflichtungsgrad: verpflichtend
 - **download**\
