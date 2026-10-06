@@ -12,10 +12,18 @@ Das Anwendunsprofil beschränkt sich auf Nutzungsarten und Einschränkungen, die
 Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter ([**Actions**](../schema/actions.md)) als _technisch nicht durchsetzbar_ gekennzeichnet.
 Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksichtigt.
 
-### Nutzungsarten (Actions)
+## Header
+
+- **copyright**\
+  Kommentar: Das METS-Anwendungsprofil sieht vor, dass hierfür `dv:license` zu verwenden ist. Zur Vermeidung redundanter Informationen wird das Attribut in dem LibRML-Anwendungsprofil nicht berücksichtigt.
+- **usageguide**\
+  Kommentar: Verweist auf die Nutzungshinweise, die die Beschränkungen beschreiben oder begründen.\
+  Verpflichtungsgrad: verpflichtend
+
+## Nutzungsarten (Actions)
 
 - **displaymetadata**\
-  Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\```
+  Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\
   Wiederholbar: nein\
   Verpflichtungsgrad: verpflichtend
 - **download**\
