@@ -77,7 +77,7 @@ Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in eine `<mets:amdSec
         </mets:xmlData>
       </mets:mdWrap>
     </mets:rightsMD>
-    <mets:rightsMD ID="LibRML">
+    <mets:rightsMD>
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
         <mets:xmlData>
           <libRML:libRML xmlns:libRML="http://librml.org/schema">
