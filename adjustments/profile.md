@@ -67,7 +67,7 @@ Grund ist _2.6.2.1 Rechtedeklaration – mets:rightsMD_ ff. des [METS-Anwendungs
 
 Weitere Beispiele sind in der Diskussion <https://github.com/slub/librml/discussions/192> enthalten oder können mit dem XSLT erstellt werden.
 
-In dem Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das vollständige Objekt gelten. 
+In dem Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das vollständige Objekt gelten.
 Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in eine `<mets:amdSec>` eingetragen.
 
 ### Anwendung
