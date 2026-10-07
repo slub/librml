@@ -106,9 +106,3 @@ Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in eine `<mets:amdSec
       </mets:mdWrap>
     </mets:rightsMD>
   </mets:amdSec>
-```
-
-
-
-
-
