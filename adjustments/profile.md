@@ -73,8 +73,8 @@ Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in eine `<mets:amdSec
 ### Anwendung
 
 ```xml
-<mets:mets[…]>
-  <mets:metsHdr[…]/>
+<mets:mets […]>
+  <mets:metsHdr […]/>
   <mets:amdSec ID="AMD">
     <mets:rightsMD ID="dvrightsid" >
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS" >
