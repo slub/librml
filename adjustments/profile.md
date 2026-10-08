@@ -12,7 +12,7 @@ Das Anwendunsprofil beschränkt sich auf Nutzungsarten und Einschränkungen, die
 Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter ([**Actions**](../schema/actions.md)) als _technisch nicht durchsetzbar_ gekennzeichnet.
 Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksichtigt.
 
-## Header
+### Header
 
 - **copyright**\
   Kommentar: Das METS-Anwendungsprofil sieht vor, dass hierfür `dv:license` zu verwenden ist. Zur Vermeidung redundanter Informationen wird das Attribut in dem LibRML-Anwendungsprofil nicht berücksichtigt.
