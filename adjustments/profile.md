@@ -76,7 +76,7 @@ Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in eine `<mets:amdSec
 <mets:mets […]>
   <mets:metsHdr […]/>
   <mets:amdSec ID="AMD">
-    <mets:rightsMD ID="dvrightsid" >
+    <mets:rightsMD ID="{dvrightsid}" >
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS" >
         <mets:xmlData>
           <dv:rights>
