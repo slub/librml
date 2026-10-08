@@ -20,7 +20,7 @@ Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksich
   Kommentar: Verweist auf die Nutzungshinweise, die die Beschränkungen beschreiben oder begründen.\
   Verpflichtungsgrad: verpflichtend
 
-## Nutzungsarten (Actions)
+### Nutzungsarten (Actions)
 
 - **displaymetadata**\
   Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\
