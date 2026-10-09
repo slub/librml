@@ -104,3 +104,4 @@ Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in die erste `<mets:a
       </mets:mdWrap>
     </mets:rightsMD>
   </mets:amdSec>
+```
