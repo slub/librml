@@ -59,7 +59,7 @@ Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
 ## Anwendung in METS
 
 Nach [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), ist ein `<dv:rights>`-Element verpflichtend in einen `<mets:rightsMD>`-Block einzutragen.
-Ein weiterer `<mets:rightsMD>`-Block trägt den entsprechenden LibRML-Code.
+Ein weiterer `<mets:rightsMD>`-Block enthält den entsprechenden LibRML-Code.
 
 Im Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das gesamte Objekt gelten. Daher werden die `<mets:rightsMD>`-Elemente nur in die erste `<mets:amdSec>` eingetragen.
 
