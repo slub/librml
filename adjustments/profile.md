@@ -62,8 +62,8 @@ Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
 
 ### Allgemeine Informationen
 
-Wird LibRML in die METS-Datei eingebettet, muss berücksichtigt werden, dass zwei METS-Elemente `<mets:rightsMD>` eingetragen werden.
-Grund ist _2.6.2.1 Rechtedeklaration – mets:rightsMD_ ff. des [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), in dem bereits ein `<mets:rightsMD>` verpflichtend in der METS-Datei enthalten sein muss.
+Nach [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), ist ein `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" >` verpflichtend in ein `<mets:rightsMD>` Element einzutragen.
+Für LibRML wird ein weiteres `<mets:rightsMD>` Element für `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML" >` eingetragen. 
 
 In dem Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das gesamte Objekt gelten.
 Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in die erste `<mets:amdSec>` eingetragen.
