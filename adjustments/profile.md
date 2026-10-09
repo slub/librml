@@ -58,11 +58,10 @@ Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
 
 ## Anwendung in METS
 
-Nach [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), ist ein `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" >` verpflichtend in ein `<mets:rightsMD>` Element einzutragen.
-Für LibRML wird ein weiteres `<mets:rightsMD>` Element für `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML" >` eingetragen.
+Nach [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), ist ein `<dv:rights>`-Element verpflichtend in einen `<mets:rightsMD>`-Block einzutragen.
+Ein weiterer `<mets:rightsMD>`-Block enthält den entsprechenden LibRML-Code.
 
-In dem Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das gesamte Objekt gelten.
-Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in die erste `<mets:amdSec>` eingetragen.
+Im Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das gesamte Objekt gelten. Daher werden die `<mets:rightsMD>`-Elemente nur in die erste `<mets:amdSec>` eingetragen.
 
 ### Anwendung
 
