@@ -1,12 +1,18 @@
 # Anwendungsprofil für Kitodo (Entwurf)
 
-Ein Anwendungsprofil von LibRML für _[Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation)_ beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
-Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter [**Actions**](../schema/actions.md) als _technisch nicht durchsetzbar_ gekennzeichnet.
-Zudem werden in _Kitodo.Presentation_ noch fehlende Funktionen nicht berücksichtigt.
+## Allgemeine Informationen
 
-Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) zugeschnitten.
+Das folgende LibRML-Anwendungsprofil ist auf das [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) sowie auf die Anwendung mit _[Kitodo.Presentation](https://www.kitodo.org/software/kitodopresentation)_ zugeschnitten.
 
-## Header
+## LibRML-Elemente
+
+### Allgemeine Informationen
+
+Das Anwendunsprofil beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
+Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter ([**Actions**](../schema/actions.md)) als _technisch nicht durchsetzbar_ gekennzeichnet.
+Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksichtigt.
+
+### Header
 
 - **copyright**\
   Kommentar: Das METS-Anwendungsprofil sieht vor, dass hierfür `dv:license` zu verwenden ist. Zur Vermeidung redundanter Informationen wird das Attribut in dem LibRML-Anwendungsprofil nicht berücksichtigt.
@@ -14,7 +20,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
   Kommentar: Verweist auf die Nutzungshinweise, die die Beschränkungen beschreiben oder begründen.\
   Verpflichtungsgrad: verpflichtend
 
-## Nutzungsarten (Actions)
+### Nutzungsarten (Actions)
 
 - **displaymetadata**\
   Kommentar: Muss immer auf `true` gesetzt sein. In nicht-integrierten Umgebungen, bei denen üblicherweise Katalog und Präsentationsebene getrennt sind, wie bei Kitodo.Presentation, lässt sich diese Nutzungsart nicht anders einsetzen.\
@@ -36,7 +42,7 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
   Wiederholbar: ja\
   Verpflichtungsgrad: optional
 
-## Einschränkungen (Constraints)
+### Einschränkungen (Constraints)
 
 - **age**
 - **agreement**
@@ -51,3 +57,50 @@ Das LibRML-Anwendunsprofil ist auf das [METS-Anwendungsprofil für digitalisiert
 - **location**
 
 Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
+
+## Anwendung in METS
+
+### Allgemeine Informationen
+
+Nach [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), ist ein `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" >` verpflichtend in ein `<mets:rightsMD>` Element einzutragen.
+Für LibRML wird ein weiteres `<mets:rightsMD>` Element für `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML" >` eingetragen.
+
+In dem Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das gesamte Objekt gelten.
+Aus diesem Grund werden die `<mets:rightsMD>`-Elemente nur in die erste `<mets:amdSec>` eingetragen.
+
+### Anwendung
+
+```xml
+<mets:mets […]>
+  <mets:metsHdr […]/>
+  <mets:amdSec ID="AMD">
+    <mets:rightsMD ID="{dvrightsid}" >
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS" >
+        <mets:xmlData>
+          <dv:rights>
+            …
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:rightsMD>
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
+        <mets:xmlData>
+          <libRML:libRML xmlns:libRML="http://librml.org/schema">
+            <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/ez-am/1.0/">
+                <libRML:action type="displaymetadata" permission="true"/>
+                <libRML:action type="download" permission="false"/>
+                <libRML:action type="index" permission="true">
+                    <libRML:restriction type="concurrent" sessions="1"/>
+                    <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze-Mediathek"/>
+                </libRML:action>
+                <libRML:action type="read" permission="true">
+                    <libRML:restriction type="concurrent" sessions="1"/>
+                    <libRML:restriction type="location" inside="SLUB-PC-Arbeitsplaetze-Mediathek"/>
+                </libRML:action>
+            </libRML:item>
+          </libRML:libRML>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+  </mets:amdSec>
