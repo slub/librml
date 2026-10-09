@@ -6,8 +6,6 @@ Das folgende LibRML-Anwendungsprofil ist auf das [METS-Anwendungsprofil für dig
 
 ## LibRML-Elemente
 
-### Allgemeine Informationen
-
 Das Anwendunsprofil beschränkt sich auf Nutzungsarten und Einschränkungen, die auf Präsentationsebene direkt maschinell geprüft und erzwungen werden können (z. B. über IP-Filter, Authentifizierung oder Zeitstempel).
 Rein moralische oder nicht-technisch überprüfbare Appelle (wie „Nicht-kommerzielle Nutzung“) entfallen; diese Nutzungsarten sind im Konzept unter ([**Actions**](../schema/actions.md)) als _technisch nicht durchsetzbar_ gekennzeichnet.
 Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksichtigt.
@@ -59,8 +57,6 @@ Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksich
 Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
 
 ## Anwendung in METS
-
-### Allgemeine Informationen
 
 Nach [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf), ist ein `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" >` verpflichtend in ein `<mets:rightsMD>` Element einzutragen.
 Für LibRML wird ein weiteres `<mets:rightsMD>` Element für `<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="LibRML" >` eingetragen.
