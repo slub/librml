@@ -1,6 +1,6 @@
-# Eingeschränkte Nutzung - Mediathek - Nur Ansicht
+# Eingeschränkte Nutzung - Nur Ansicht
 
-Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/en-ma/1.0/> zusammengefasst sind.
+Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die bislang unter <https://nutzungshinweis.slub-dresden.de/en-ma/1.0/> zusammengefasst sind.
 
 ## Angepasstes LibRML
 
