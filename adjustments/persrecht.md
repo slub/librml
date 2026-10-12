@@ -2,7 +2,7 @@
 
 Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/ez-am-pr/1.0/> zusammengefasst sind.
 
-Der Nutzungshinweis https://nutzungshinweis.slub-dresden.de/ez-am-pr/1.0/ wird nicht mehr angewendet.
+Der Nutzungshinweis <https://nutzungshinweis.slub-dresden.de/ez-am-pr/1.0/> wird nicht mehr angewendet.
 Die Seite wird nicht gelöscht, aber nicht nicht mehr angepasst (Stand: Oktober 2026).
 
 ## Angepasstes LibRML
