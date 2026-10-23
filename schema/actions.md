@@ -11,7 +11,7 @@ Jede `action` kann durch Einschränkungen [(siehe `Constraints`)](constraints.md
 Eine `action` des gleichen Typs kann mehrfach aufgeführt werden, wodurch die jeweiligen Einschränkungen disjunkt (nicht exklusiv) zueinander werden [(siehe _Verküpfungen_)](junctions.md).
 
 ```xml
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
+<libRML version="0.6.0" xmlns="http://librml.org/schema">
   <item id="ID-NAME">
     <action type="ACTION-NAME" permission="true" />
   </item>

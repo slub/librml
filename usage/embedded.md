@@ -54,7 +54,7 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
     <mets:rightsMD>
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
         <mets:xmlData>
-          <libRML:libRML version="0.5.0" xmlns:libRML="http://librml.org/schema">
+          <libRML:libRML version="0.6.0" xmlns:libRML="http://librml.org/schema">
             <libRML:item commercialuse="false">
               <libRML:action type="displaymetadata" permission="true"/>
               <libRML:action type="archive" permission="true"/>
@@ -108,7 +108,7 @@ Im folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.B. C
 ```xml
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
   <mods:accessCondition type="LibRML">
-    <libRML:libRML version="0.5.0" xmlns:libRML="http://librml.org/schema">
+    <libRML:libRML version="0.6.0" xmlns:libRML="http://librml.org/schema">
       <libRML:item commercialuse="false">
         <libRML:action type="displaymetadata" permission="true"/>
         <libRML:action type="archive" permission="true"/>
