@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<libRML version="0.5.0" xmlns="http://librml.org/schema">
+<libRML version="0.6.0" xmlns="http://librml.org/schema">
   <item commercialuse="true" copyright="false" id="ID-PD.M1" template="CC-PDM-1.0" usageguide="https://creativecommons.org/publicdomain/mark/1.0/">
     <action type="archive" permission="true"/>
     <action type="displaymetadata" permission="true"/>
