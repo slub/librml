@@ -16,7 +16,7 @@ Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksich
   Kommentar: Das METS-Anwendungsprofil sieht vor, dass hierfür `dv:license` zu verwenden ist. Zur Vermeidung redundanter Informationen wird das Attribut in dem LibRML-Anwendungsprofil nicht berücksichtigt.
 - **usageguide**\
   Kommentar: Verweist auf die Nutzungshinweise, die die Beschränkungen beschreiben oder begründen.\
-  Verpflichtungsgrad: verpflichtend
+  Verpflichtungsgrad: verpflichtend, in Verbindung mit **agreement**
 
 ### Nutzungsarten (Actions)
 
@@ -43,7 +43,8 @@ Zudem werden in _Kitodo.Presemtation_ noch fehlende Funktionen nicht berücksich
 ### Einschränkungen (Constraints)
 
 - **age**
-- **agreement**
+- **agreement**\
+  Kommentar: Es muss zwingend ein Verweis zu den geltenden Nutzungsbedingungen vorhanden sein.
 - **mets**\
   Kommentar: Es werden die auswertbaren Dateigruppen in der METS-Datei des Objekts bestimmt.
 - **concurrent**
