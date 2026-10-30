@@ -175,6 +175,9 @@
     "copyright": {
       "type": "boolean"
     },
+    "derivatives": {
+      "type": "boolean"
+    },
     "id": {
       "type": "string"
     },
