@@ -113,4 +113,3 @@ Das Einbetten von LibRML in METS-Dateien bietet Vorteile f체r die Datenintegrit�
 - Beim Systemwechsel muss nur eine einzige XML-Datei exportiert und validiert werden, statt komplexe Abh채ngigkeiten zu pr체fen.
 
 Das Einbetten im METS ist insbesondere dann sinnvoll, wenn zeitliche Beschr채nkungen objektspezifisch beschrieben werden, da ansonsten eine un체berschaubare Anzahl an verschiedenen LibRML-Vorlagen bereitgestellt werden m체ssten.
-
