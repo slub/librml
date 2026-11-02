@@ -100,3 +100,16 @@ Im Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieb
     </mets:rightsMD>
   </mets:amdSec>
 ```
+
+### Vorteile der Einbettung
+
+Prinzipiell kann _Kitodo.Presentation_ sowohl [eingebettetes](../usage/embedded.md) als auch [verlinktes](../usage/reference_usage.md) LibRML verarbeiten.
+
+Das Einbetten von LibRML in METS-Dateien bietet Vorteile für die Datenintegrität, wegen der Unabhängigkeit von externen Systemen und Vorlagen. Aus diesem Grund wird diese Option im Anwendungsprofil ausführlich beschrieben.
+
+- Eingebettetes LibRML kann nicht durch verschobene Pfade oder Offline-Server verloren gehen.
+- Das Dokument bleibt nach OAIS-Standard _self-contained_.
+- Das Mapping entspricht exakt dem Stand der Objekterstellung; nachträgliche, globale Änderungen zerstören die historische Interpretation nicht.
+- Beim Systemwechsel muss nur eine einzige XML-Datei exportiert und validiert werden, statt komplexe Abhängigkeiten zu prüfen.
+
+Das Einbetten im METS ist insbesondere dann sinnvoll, wenn zeitliche Beschränkungen objektspezifisch beschrieben werden, da ansonsten eine unüberschaubare Anzahl an verschiedenen LibRML-Vorlagen bereitgestellt werden müssten.
