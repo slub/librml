@@ -11,8 +11,8 @@ Umsetzung mit einem angepassten LibRML-Modell
     <mets:metsHdr CREATEDATE="2023-05-15T14:10:06.000+02:00" LASTMODDATE="2025-11-06T07:20:31.561+01:00"/>
     <mets:amdSec ID="AMD">
         <mets:rightsMD ID="LibRML">
-            <mets:xmlData>
-                <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
+            <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
+                <mets:xmlData>
                     <libRML:libRML xmlns:libRML="http://librml.org/schema">
                         <libRML:item usageguide="https://nutzungshinweis.slub-dresden.de/na-vk/2.0/">
                             <libRML:action type="displaymetadata" permission="true"/>
@@ -29,8 +29,8 @@ Umsetzung mit einem angepassten LibRML-Modell
                             </libRML:action>
                         </libRML:item>
                     </libRML:libRML>
-                </mets:mdWrap>
-            </mets:xmlData>
+                </mets:xmlData>
+            </mets:mdWrap>
         </mets:rightsMD>
     </mets:amdSec>
 </mets:mets>
