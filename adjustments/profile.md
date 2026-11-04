@@ -59,7 +59,7 @@ Alle anderen Nutzungsarten und Einschränkungen sind nicht verfügbar.
 ## Anwendung in METS
 
 Nach [METS-Anwendungsprofil für digitalisierte Medien](https://dfg-viewer.de/fileadmin/groups/dfgviewer/METS-Anwendungsprofil_2.3.1.pdf) ist ein `<dv:rights>`-Element verpflichtend in einen `<mets:rightsMD>`-Block einzutragen.
-Ein weiterer `<mets:rightsMD>`-Block enthält den entsprechenden LibRML-Code. Eine ID muss nicht gesetzt sein, da sich die Beschränkungen, die im LibRML beschrieben sind, im Rahmen des Anwendungsprofils auf das gesamte METS beziehen und nicht referenziert werden müssen.
+Ein weiterer `<mets:rightsMD>`-Block enthält den entsprechenden LibRML-Code. Die erforderliche ID kann statisch sein, da sich die Beschränkungen, die im LibRML beschrieben sind, im Rahmen des Anwendungsprofils auf das gesamte METS beziehen und nicht referenziert werden müssen.
 
 Im Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieben, die für das gesamte Objekt gelten. Daher werden die `<mets:rightsMD>`-Elemente nur in die erste `<mets:amdSec>` eingetragen.
 
@@ -69,8 +69,8 @@ Im Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieb
 <mets:mets […]>
   <mets:metsHdr […]/>
   <mets:amdSec ID="AMD">
-    <mets:rightsMD ID="{dvrightsid}" >
-      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS" >
+    <mets:rightsMD ID="{dvrightsid}">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
         <mets:xmlData>
           <dv:rights>
             …
@@ -78,7 +78,7 @@ Im Anwendungsprofil werden nur Rechteinformationen und Beschränkungen beschrieb
         </mets:xmlData>
       </mets:mdWrap>
     </mets:rightsMD>
-    <mets:rightsMD>
+    <mets:rightsMD ID="LibRML">
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
         <mets:xmlData>
           <libRML:libRML xmlns:libRML="http://librml.org/schema">
