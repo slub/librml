@@ -27,19 +27,19 @@ In METS wird der XML-Code im Element `<rightsMD>` eingebettet.
 </mets:mets>
 ```
 
-`<mets:rightsMD>`
+`<rightsMD>`
 
 - LibRML wird in das METS-Element `<mets:rightsMD>` eingetragen.
 
-`<mets:mdWrap>`
+`<mdWrap>`
 
 - LibRML wird in das METS-Element `<mets:mdWrap>` eingetragen.
 
-`<mets:mdWrap MDTYPE>`
+`<mdWrap MDTYPE>`
 
 - In das METS-Attribut @MDTYPE wird immer "OTHER" eingetragen.
 
-`<mets:mdWrap OTHERMDTYPE>`
+`<mdWrap OTHERMDTYPE>`
 
 - In das METS-Attribut @OTHERMDTYPE wird immer "LibRML" eingetragen.
 
@@ -51,7 +51,7 @@ In dem folgenden Beispiel wird [Zugang nur innerhalb eines IP-Adressbereichs (z.
 <mets:mets[…]>
   <mets:metsHdr[…]/>
   <mets:amdSec>
-    <mets:rightsMD>
+    <mets:rightsMD ID="LibRML">
       <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML">
         <mets:xmlData>
           <libRML:libRML version="0.6.0" xmlns:libRML="http://librml.org/schema">
