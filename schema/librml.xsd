@@ -13,7 +13,7 @@
         <xs:sequence>
             <xs:element type="libRML:ItemType" name="item" minOccurs="1" maxOccurs="1" />
         </xs:sequence>
-        <xs:attribute type="xs:string" name="version" />
+        <xs:attribute type="xs:string" name="version" fixed="0.6.0" use="optional" />
     </xs:complexType>
 
     <!-- itemType - has many actions and some attributes -->
