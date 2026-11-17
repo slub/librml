@@ -17,7 +17,7 @@ Folgende Beispiele zeigen in ausgewählten Metadatenstandards die mögliche Erfa
 In DCMES wird die URI der standardisierten Rechteinformation im Element `<dc:rights>` eingetragen:
 
 ```xml
-<dc:rights>https://librml.org/examples/metadataonly.html</dc:rights>
+<dc:rights>https://librml.org/examples/metadataonly.xml</dc:rights>
 ```
 
 ### Metadata Encoding and Transmission Standard - METS
@@ -27,7 +27,7 @@ In METS wird die URI der standardisierten Rechteinformation im Element `<mets:md
 ```xml
 <mets:amdSec>
   <mets:rightsMD ID="LibRML">
-    <mets:mdRef LABEL="Zugang nur zu Metadaten" xlink:href="https://librml.org/examples/metadataonly.html" LOCTYPE="PURL" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML"/>
+    <mets:mdRef LABEL="Zugang nur zu Metadaten" xlink:href="https://librml.org/examples/metadataonly.xml" LOCTYPE="PURL" MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="LibRML"/>
   </mets:rightsMD>
 </mets:amdSec>
 ```
@@ -37,7 +37,7 @@ In METS wird die URI der standardisierten Rechteinformation im Element `<mets:md
 In MODS wird die URI der standardisierten Rechteinformation im Element `<mods:accessCondition>` eingetragen:
 
 ```xml
-<mods:accessCondition type="LibRML" xlink:href="https://librml.org/examples/metadataonly.html">
+<mods:accessCondition type="LibRML" xlink:href="https://librml.org/examples/metadataonly.xml">
   Zugang nur zu Metadaten
 </mods:accessCondition>
 ```
