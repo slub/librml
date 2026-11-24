@@ -59,3 +59,5 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
     }
   ]
 ```
+
+Bei Teoken-Listen (wie z.B. in `groups) greift wiederum eine Oder-Verknüpfung.
