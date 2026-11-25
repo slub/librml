@@ -59,3 +59,12 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
     }
   ]
 ```
+
+Bei Token-Listen (wie z.B. in `groups`) greift ebenfalls eine Oder-Verknüpfung.
+Im folgenden Beispiel kann die nutzende Person das Objekt nur ausdrucken, wenn sie sich auf dem "Campus" _oder_ sich innerhalb der "Bibliothek" aufhält.
+
+```xml
+  <action type="print" permission="true">
+    <restriction type="location" groups="Campus Bibliothek" />
+  </action>
+```
