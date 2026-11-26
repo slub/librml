@@ -33,20 +33,18 @@ toc:
       - title: Beispiele
         url: adjustments_examples.html
         subnav:
-        - title: Mediathek - Nur Ansicht
+        - title: Eingeschränkte Nutzung – Nur Ansicht
           url: ansicht.html
-        - title: Arbeitsplätze Mediathek
+        - title: Eingeschränkte Nutzung – Anmeldung
+          url: saechsischezeitung.html
+        - title: Eingeschränkter Zugang – Arbeitsplätze Mediathek
           url: mediathek.html
-        - title: Arbeitsplätze Mediathek - Persönlichkeitsrecht
-          url: persrecht.html
-        - title: Arbeitsplätze Mediathek - Unter Aufsicht
+        - title: Eingeschränkter Zugang – Arbeitsplätze Mediathek - Unter Aufsicht
           url: aufsicht.html
         - title: Gebrauchs- und Reklamegrafik
           url: grafik.html
-        - title: Künstlerbücher
+        - title: Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)
           url: kuenstlerbuecher.html
-        - title: Sächsische Zeitung
-          url: saechsischezeitung.html
       - title: Bestehende Elemente für Retrodigitalisate
         url: adjustments_elements_existing.html
       - title: Neue Elemente für Retrodigitalisate
