@@ -14,18 +14,24 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
 ```
 
 ```json
-  "type": "read",
-  "permission": true,
-  "restrictions": [
-    {
-      "type": "group",
-      "groups": "user"
-    },
-    {
-      "type": "location",
-      "inside": "library"
-    },
-  ]
+{
+  "actions": [{
+    "type": "read",
+    "permission": true,
+    "restrictions": [
+      {
+        "type": "group",
+        "groups": [
+          "user"
+        ]
+      },
+      {
+        "type": "location",
+        "inside": "library"
+      },
+    ]
+  }]
+}
 ```
 
 ## Disjunktion (Oder-Verknüpfung)
@@ -42,22 +48,28 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
 ```
 
 ```json
-  "type": "read",
-  "permission": true,
-  "restrictions": [
-    {
-      "type": "group",
-      "groups": "user"
-    }
-  ],
-  "type": "read",
-  "permission": true,
-  "restrictions": [
-    {
-      "type": "location",
-      "inside": "library"
-    }
-  ]
+{
+  "actions": [{
+    "type": "read",
+    "permission": true,
+    "restrictions": [
+      {
+        "type": "group",
+        "groups": [
+          "user"
+        ]
+      }
+    ],
+    "type": "read",
+    "permission": true,
+    "restrictions": [
+      {
+        "type": "location",
+        "inside": "library"
+      }
+    ]
+  }]
+}
 ```
 
 Bei Token-Listen (wie z.B. in `groups`) greift ebenfalls eine Oder-Verknüpfung.

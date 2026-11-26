@@ -11,10 +11,12 @@ Jeder Eigenschaft **muss** ein Wert zugewiesen werden. Eine Einschränkung kann 
 ```
 
 ```json
-"restrictions": [{
+{
+  "restrictions": [{
     "type": "CONSTRAINT-NAME",
     "ATTRIBUT-NAME": "WERT",
- }]
+  }]
+}
 ```
 
 ## Liste

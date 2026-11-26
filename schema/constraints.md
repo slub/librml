@@ -17,6 +17,7 @@ Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weite
 ```
 
 ```json
+{
   "actions": [{
     "type": "ACTION-NAME",
     "permission": true,
@@ -25,6 +26,7 @@ Einschränkungen können durch [Attributes (Eigenschaften)](attributes.md) weite
         "ATTRIBUT-NAME": "WERT"
      }]
   }]
+}
 ```
 
 ## Liste
@@ -56,6 +58,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "read",
   "permission": true,
   "restrictions": [
@@ -64,6 +67,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "minage": "18"
     }
   ]
+}
 ```
 
 ### Agreement
@@ -75,6 +79,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "read",
   "permission": true,
   "restrictions": [
@@ -83,6 +88,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "required": true
     }
   ]
+}
 ```
 
 ### Concurrent
@@ -94,6 +100,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "lend",
   "permission": true,
   "restrictions": [
@@ -102,6 +109,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "sessions": 4
     }
   ]
+}
 ```
 
 ### Count
@@ -113,6 +121,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -121,6 +130,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "count": 10
     }
   ]
+}
 ```
 
 ### Date
@@ -132,6 +142,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "distribute",
   "permission": true,
   "restrictions": [
@@ -140,6 +151,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "fromdate": "2035-01-01"
     }
   ]
+}
 ```
 
 ### Duration
@@ -151,6 +163,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "run",
   "permission": true,
   "restrictions": [
@@ -159,6 +172,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "maxduration": 86400
     }
   ]
+}
 ```
 
 ### Group
@@ -170,6 +184,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -181,6 +196,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       ]
     }
   ]
+}
 ```
 
 ### Location
@@ -192,6 +208,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "download",
   "permission": true,
   "restrictions": [
@@ -200,6 +217,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "inside": "library"
     }
   ]
+}
 ```
 
 ### Parts
@@ -211,6 +229,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "download",
   "permission": true,
   "restrictions": [
@@ -219,6 +238,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "percentage": "10"
     }
   ]
+}
 ```
 
 ### Quality
@@ -230,6 +250,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "print",
   "permission": true,
   "restrictions": [
@@ -238,6 +259,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "maxresolution": 1080
     }
   ]
+}
 ```
 
 ### Watermark
@@ -249,6 +271,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
 ```
 
 ```json
+{
   "type": "distribute",
   "permission": true,
   "restrictions": [
@@ -257,4 +280,5 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "watermarkvalue": "https://domain/watermark.png"
     }
   ]
+}
 ```
