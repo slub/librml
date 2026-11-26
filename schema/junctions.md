@@ -80,3 +80,21 @@ Im folgenden Beispiel kann die nutzende Person das Objekt nur ausdrucken, wenn s
     <restriction type="location" groups="Campus Bibliothek" />
   </action>
 ```
+
+```json
+{
+  "actions": [{
+    "type": "print",
+    "permission": true,
+    "restrictions": [
+      {
+        "type": "group",
+        "groups": [
+          "Campus",
+          "Bibliothek"
+        ]
+      }
+    ]
+  }]
+}
+```
