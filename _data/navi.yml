@@ -37,14 +37,14 @@ toc:
           url: ansicht.html
         - title: Eingeschränkte Nutzung – Anmeldung
           url: saechsischezeitung.html
+        - title: Eingeschränkte Nutzung – PC-Arbeitsplätze (SLUB)
+          url: kuenstlerbuecher.html
         - title: Eingeschränkter Zugang – Arbeitsplätze Mediathek
           url: mediathek.html
         - title: Eingeschränkter Zugang – Arbeitsplätze Mediathek - Unter Aufsicht
           url: aufsicht.html
         - title: Gebrauchs- und Reklamegrafik
           url: grafik.html
-        - title: Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)
-          url: kuenstlerbuecher.html
       - title: Bestehende Elemente für Retrodigitalisate
         url: adjustments_elements_existing.html
       - title: Neue Elemente für Retrodigitalisate

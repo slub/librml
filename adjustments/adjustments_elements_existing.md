@@ -27,16 +27,16 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
     * Bestimmte Elemente des digitalen Objekts können flexibel heruntergeladen werden, wie zum Beispiel: Dateigruppen, IIIF-Manifeste, METS-Datei.
   * **Beispiele:**
     * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](/adjustments/kuenstlerbuecher.md)
-    * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
+    * [Eingeschränkte Nutzung – PC-Arbeitsplätze (SLUB)](/adjustments/kuenstlerbuecher.md)
+    * [Eingeschränkte Nutzung – Anmeldung](/adjustments/saechsischezeitung.md)
 * **index**
   * **Relevanz:** Ja
   * **Bemerkung:**
     * Volltexte (und verwandte Derivate) der digitalen Objekte werden indexiert und können durchsucht werden.
   * **Beispiele:**
     * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](/adjustments/kuenstlerbuecher.md)
-    * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
+    * [Eingeschränkte Nutzung – PC-Arbeitsplätze (SLUB)](/adjustments/kuenstlerbuecher.md)
+    * [Eingeschränkte Nutzung – Anmeldung](/adjustments/saechsischezeitung.md)
 * **lend**
   * **Relevanz:** Nein
   * **Bemerkung:**
@@ -63,8 +63,8 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
     * Vgl. auch <https://github.com/slub/librml/issues/178>
   * **Beispiele:**
     * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](kuenstlerbuecher.md)
-    * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
+    * [Eingeschränkte Nutzung – PC-Arbeitsplätze (SLUB)](kuenstlerbuecher.md)
+    * [Eingeschränkte Nutzung – Anmeldung](/adjustments/saechsischezeitung.md)
 * **read**
   * **Relevanz:** Ja
   * **Bemerkung:**
@@ -74,8 +74,8 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
       * _Listenansicht_: Thumbnail-Anzeige erlaubt – jedoch keine Ansicht des digitalen Objekts in höherer Qualität in der Vollansicht
   * **Beispiele:**
     * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](kuenstlerbuecher.md)
-    * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
+    * [Eingeschränkte Nutzung – PC-Arbeitsplätze (SLUB)](kuenstlerbuecher.md)
+    * [Eingeschränkte Nutzung – Anmeldung](/adjustments/saechsischezeitung.md)
 * **reproduce**
   * **Relevanz:** Nein
   * **Bemerkung:**
@@ -120,7 +120,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Ja
   * **Bemerkung:** Kann für zwei Anwendungsfälle genutzt werden: Nutzergruppen (wissenschaftliche Nutzende, SLUB-Nutzende) oder IP-Adressenbereiche (Arbeitsplätze Mediathek/Lesesaal), um IP-Erfassung in METS zu vermeiden.
   * **Beispiele:**
-    * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
+    * [Eingeschränkte Nutzung – Anmeldung](/adjustments/saechsischezeitung.md)
 * **location**
   * **Relevanz:** ja
   * **Bemerkung:** Einschränkung auf IP-Adressen oder auf textlich formulierte Arbeitsplätze.
@@ -149,7 +149,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Ja
   * **Bemerkung:** -
   * **Beispiele:**
-    * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
+    * [Eingeschränkte Nutzung – Anmeldung](/adjustments/saechsischezeitung.md)
 * **inside**
   * **Relevanz:** Ja
   * **Bemerkung:** Beschreibung der Arbeitsplätze
