@@ -20,33 +20,33 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Nein
   * **Bemerkung:**
     * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
-    * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
+    * Dies kann in einem Nutzungshinweis beschrieben werden – insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann – wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **download**
   * **Relevanz:** Ja
   * **Bemerkung:**
     * Bestimmte Elemente des digitalen Objekts können flexibel heruntergeladen werden, wie zum Beispiel: Dateigruppen, IIIF-Manifeste, METS-Datei.
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](/adjustments/kuenstlerbuecher.md)
     * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **index**
   * **Relevanz:** Ja
   * **Bemerkung:**
     * Volltexte (und verwandte Derivate) der digitalen Objekte werden indexiert und können durchsucht werden.
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](/adjustments/kuenstlerbuecher.md)
     * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **lend**
   * **Relevanz:** Nein
   * **Bemerkung:**
     * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
-    * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
+    * Dies kann in einem Nutzungshinweis beschrieben werden – insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann – wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **modify**
   * **Relevanz:** Nein
   * **Bemerkung:**
     * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
-    * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
+    * Dies kann in einem Nutzungshinweis beschrieben werden – insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann – wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **move**
   * **Relevanz:** Nein
   * **Bemerkung:**
@@ -55,15 +55,15 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Nein
   * **Bemerkung:**
     * Dies wird nicht mit/in Kitodo.Presentation gesteuert und muss nicht maschinenlesbar beschrieben werden.
-    * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
+    * Dies kann in einem Nutzungshinweis beschrieben werden – insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann – wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **publish**
   * **Relevanz:** Nein
   * **Bemerkung:**
     * Die Veröffentlichung als Verlagsveröffentlichung wird nicht mit/in Kitodo.Presentation gesteuert.
     * Vgl. auch <https://github.com/slub/librml/issues/178>
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](kuenstlerbuecher.md)
     * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **read**
   * **Relevanz:** Ja
@@ -71,21 +71,21 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
     * Anzeige der Bestandteile des digitalen Objekts. Bestimmte Elemente werden flexibel angezeigt
       * _Werkansicht_: Qualität der Bilddaten in der Vollansicht
       * _Werkansicht_: Anzeige der Volltexte (falls Volltexte in einigen Fällen nur für die Indexierung angewendet werden dürfen)
-      * _Listenansicht_: Thumbnail-Anzeige erlaubt - jedoch keine Ansicht des digitalen Objekts in höherer Qualität in der Vollansicht
+      * _Listenansicht_: Thumbnail-Anzeige erlaubt – jedoch keine Ansicht des digitalen Objekts in höherer Qualität in der Vollansicht
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
-    * [Künstlerbücher](/adjustments/kuenstlerbuecher.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Kein Download – Einzelnutzung – PC-Arbeitsplätze (SLUB)](kuenstlerbuecher.md)
     * [Sächsische Zeitung](/adjustments/saechsischezeitung.md)
 * **reproduce**
   * **Relevanz:** Nein
   * **Bemerkung:**
     * Dies wird nicht mit/in Kitodo.Presentation gesteuert.
-    * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
+    * Dies kann in einem Nutzungshinweis beschrieben werden – insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann – wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **reuse**
   * **Relevanz:** Nein
   * **Bemerkung:**
     * Dies wird nicht mit/in Kitodo.Presentation gesteuert.
-      * Dies kann in einem Nutzungshinweis beschrieben werden - insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann - wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
+      * Dies kann in einem Nutzungshinweis beschrieben werden – insbesondere auch, was nicht erlaubt ist, falls das digitale Objekt heruntergeladen werden kann – wie zum Beispiel in [SLUB VE-WE 1.0](https://nutzungshinweis.slub-dresden.de/ve-we/1.0/) oder [SLUB FO-ZW 1.0](https://nutzungshinweis.slub-dresden.de/fo-zw/1.0/).
 * **run**
   * **Relevanz:** Nein
   * **Bemerkung:**
@@ -100,12 +100,12 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Ja
   * **Bemerkung:** Zum Beispiel ist ein wissenschaftliches Interesse für die Nutzung/Ansicht des digitalen Objekts zu bestätigen.
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
 * **concurrent**
   * **Relevanz:** Ja
   * **Bemerkung:** Ein digitales Objekt wird nur für eine bestimmte Anzahl gleichzeitiger Zugriffe angeboten (z. B. Durchsetzung "Einzelplatz").
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher)
 * **count**
   * **Relevanz:** Nein
@@ -125,7 +125,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** ja
   * **Bemerkung:** Einschränkung auf IP-Adressen oder auf textlich formulierte Arbeitsplätze.
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher)
 * **parts**
   * **Relevanz:** Ja
@@ -154,7 +154,7 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Ja
   * **Bemerkung:** Beschreibung der Arbeitsplätze
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher)
 * **maxage**
   * **Relevanz:** Nein
@@ -183,12 +183,12 @@ Ziel ist unter anderem die Erstellung eines Anwendungsprofils für Retrodigitali
   * **Relevanz:** Ja
   * **Bemerkung:** Bestätigung des wissenschaftlichen Interesses oder anderen spezifischen Anforderungen.
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Persönlichkeitsrecht](/adjustments/persrecht.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Persönlichkeitsrecht](/adjustments/persrecht.md)
 * **sessions**
   * **Relevanz:** Ja
   * **Bemerkung:** Anzahl der erlaubten parallelen Zugriffe auf eine Ressource.
   * **Beispiele:**
-    * [Eingeschränkter Zugang - Arbeitsplätze Mediathek - Unter Aufsicht](/adjustments/aufsicht.md)
+    * [Eingeschränkter Zugang – Arbeitsplätze Mediathek – Unter Aufsicht](/adjustments/aufsicht.md)
     * [Künstlerbücher](/adjustments/kuenstlerbuecher)
 * **subnet**
   * **Relevanz:** Nein
