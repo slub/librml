@@ -1,6 +1,8 @@
-# Klemperer Tagebücher
+# Eingeschränkter Zugang – Arbeitsplätze Lesesaal Sammlungen
 
 Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/na-vk/2.0/> zusammengefasst sind.
+
+Die Digitalisate können nur an Arbeitsplätzen im [Lesesaal Sammlungen](https://www.slub-dresden.de/besuchen/oeffnungszeiten-und-standorte/zentralbibliothek/lesesaal-sammlungen) benutzt werden.
 
 ## Angepasstes LibRML
 
