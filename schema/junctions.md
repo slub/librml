@@ -14,18 +14,24 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
 ```
 
 ```json
-  "type": "read",
-  "permission": true,
-  "restrictions": [
-    {
-      "type": "group",
-      "groups": "user"
-    },
-    {
-      "type": "location",
-      "inside": "library"
-    },
-  ]
+{
+  "actions": [{
+    "type": "read",
+    "permission": true,
+    "restrictions": [
+      {
+        "type": "group",
+        "groups": [
+          "user"
+        ]
+      },
+      {
+        "type": "location",
+        "inside": "library"
+      }
+    ]
+  }]
+}
 ```
 
 ## Disjunktion (Oder-Verknüpfung)
@@ -42,22 +48,32 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
 ```
 
 ```json
-  "type": "read",
-  "permission": true,
-  "restrictions": [
+{
+  "actions": [
     {
-      "type": "group",
-      "groups": "user"
-    }
-  ],
-  "type": "read",
-  "permission": true,
-  "restrictions": [
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "group",
+          "groups": [
+            "user"
+          ]
+        }
+      ]
+    },
     {
-      "type": "location",
-      "inside": "library"
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "inside": "library"
+        }
+      ]
     }
   ]
+}
 ```
 
 Bei Token-Listen (wie z.B. in `groups`) greift ebenfalls eine Oder-Verknüpfung.
@@ -67,4 +83,22 @@ Im folgenden Beispiel kann die nutzende Person das Objekt nur ausdrucken, wenn s
   <action type="print" permission="true">
     <restriction type="location" groups="Campus Bibliothek" />
   </action>
+```
+
+```json
+{
+  "actions": [{
+    "type": "print",
+    "permission": true,
+    "restrictions": [
+      {
+        "type": "group",
+        "groups": [
+          "Campus",
+          "Bibliothek"
+        ]
+      }
+    ]
+  }]
+}
 ```
