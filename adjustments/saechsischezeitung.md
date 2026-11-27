@@ -1,4 +1,4 @@
-# Sächsische Zeitung
+# Eingeschränkte Nutzung – Anmeldung
 
 Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/sc-zt/1.0/> zusammengefasst sind.
 

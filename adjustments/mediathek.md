@@ -1,6 +1,8 @@
-# Eingeschränkter Zugang - Arbeitsplätze Mediathek
+# Eingeschränkter Zugang - Arbeitsplätze Lesesaal Sammlungen
 
 Diese LibRML-Beispiele reflektieren die Rechte- und Nutzungshinweise, die unter <https://nutzungshinweis.slub-dresden.de/ez-am/1.0/> zusammengefasst sind.
+
+Die Digitalisate können nur an Arbeitsplätzen in der [SLUB Mediathek](https://www.slub-dresden.de/besuchen/arbeitsplaetze-arbeitsraeume/slub-mediathek) benutzt werden.
 
 ## Angepasstes LibRML
 
