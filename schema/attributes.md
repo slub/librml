@@ -14,7 +14,7 @@ Jeder Eigenschaft **muss** ein Wert zugewiesen werden. Eine Einschränkung kann 
 {
   "restrictions": [{
     "type": "CONSTRAINT-NAME",
-    "ATTRIBUT-NAME": "WERT",
+    "ATTRIBUT-NAME": "WERT"
   }]
 }
 ```

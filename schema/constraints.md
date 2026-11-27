@@ -192,7 +192,7 @@ In LibRML stehen folgende Einschränkungen zur Verfügung.
       "type": "group",
       "groups": [
         "registered",
-        "employee",
+        "employee"
       ]
     }
   ]
