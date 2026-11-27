@@ -49,26 +49,30 @@ Im folgenden Beispiel wird das Objekt dem/der Nutzenden nur angezeigt, wenn er/s
 
 ```json
 {
-  "actions": [{
-    "type": "read",
-    "permission": true,
-    "restrictions": [
-      {
-        "type": "group",
-        "groups": [
-          "user"
-        ]
-      }
-    ],
-    "type": "read",
-    "permission": true,
-    "restrictions": [
-      {
-        "type": "location",
-        "inside": "library"
-      }
-    ]
-  }]
+  "actions": [
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "group",
+          "groups": [
+            "user"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "read",
+      "permission": true,
+      "restrictions": [
+        {
+          "type": "location",
+          "inside": "library"
+        }
+      ]
+    }
+  ]
 }
 ```
 
